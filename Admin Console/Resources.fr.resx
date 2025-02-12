@@ -645,4 +645,10 @@
   <data name="RunTest" xml:space="preserve">
     <value>Exécuter le test</value>
   </data>
+  <data name="Tests" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="TestsDescription" xml:space="preserve">
+    <value>Exécutez des tests Pester et suivez les résultats.</value>
+  </data>
 </root>
