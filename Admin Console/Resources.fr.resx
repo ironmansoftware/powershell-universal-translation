@@ -651,4 +651,7 @@
   <data name="TestsDescription" xml:space="preserve">
     <value>Exécutez des tests Pester et suivez les résultats.</value>
   </data>
+  <data name="RunAllTests" xml:space="preserve">
+    <value>Exécuter tous les tests</value>
+  </data>
 </root>
