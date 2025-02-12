@@ -1,0 +1,644 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Home" xml:space="preserve">
+        <value>Page d'accueil</value>
+    </data>
+    <data name="HomeDescription" xml:space="preserve">
+        <value>Informations sur votre environnement PowerShell Universal.</value>
+    </data>
+    <data name="Edit" xml:space="preserve">
+        <value>Éditer</value>
+    </data>
+    <data name="SystemLoadFailed" xml:space="preserve">
+        <value>PowerShell Universal n'a pas pu démarrer. Consultez les journaux pour plus d'informations.</value>
+    </data>
+    <data name="SystemLoading" xml:space="preserve">
+        <value>PowerShell Universal démarre...</value>
+    </data>
+    <data name="Authentication" xml:space="preserve">
+        <value>Authentification</value>
+    </data>
+    <data name="EndpointDocumentation" xml:space="preserve">
+        <value>Documentation sur les points de terminaison</value>
+    </data>
+    <data name="EndpointDocumentationDescription" xml:space="preserve">
+        <value>Documentation OpenAPI pour vos points de terminaison d'API.</value>
+    </data>
+    <data name="EndpointsDescription" xml:space="preserve">
+        <value>Points de terminaison de l'API HTTP qui exécutent des scripts PowerShell.</value>
+    </data>
+    <data name="Environment" xml:space="preserve">
+        <value>Environnement</value>
+    </data>
+    <data name="EventHubDescription" xml:space="preserve">
+        <value>Envoyez des événements aux clients connectés aux hubs.</value>
+    </data>
+    <data name="Environments" xml:space="preserve">
+        <value>Environnements</value>
+    </data>
+    <data name="ExecutionTime" xml:space="preserve">
+        <value>Temps d'exécution</value>
+    </data>
+    <data name="Job" xml:space="preserve">
+        <value>Tâche</value>
+    </data>
+    <data name="Jobs" xml:space="preserve">
+        <value>Tâches</value>
+    </data>
+    <data name="JobsDescription" xml:space="preserve">
+        <value>Les tâches s'exécutent dans PowerShell Universal.</value>
+    </data>
+    <data name="Log" xml:space="preserve">
+        <value>Historique</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>Introuvable</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Rôle</value>
+    </data>
+    <data name="Roles" xml:space="preserve">
+        <value>Rôles</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Statut</value>
+    </data>
+    <data name="Tag" xml:space="preserve">
+        <value>Jour</value>
+    </data>
+    <data name="Tags" xml:space="preserve">
+        <value>Étiquettes</value>
+    </data>
+    <data name="ViewJob" xml:space="preserve">
+        <value>Voir l'offre d'emploi</value>
+    </data>
+    <data name="UserName" xml:space="preserve">
+        <value>Nom d'utilisateur</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Mot de passe</value>
+    </data>
+    <data name="ProductDescription" xml:space="preserve">
+        <value>PowerShell Universal vous permet d'exécuter des tâches, de planifier des scripts, de créer des pages Web et des API, et de contrôler l'accès; le tout sous une seule vitre magnifique.</value>
+    </data>
+    <data name="LoginDescription" xml:space="preserve">
+        <value>Connectez-vous à votre compte</value>
+    </data>
+    <data name="Login" xml:space="preserve">
+        <value>Connectez-vous</value>
+    </data>
+    <data name="Methods" xml:space="preserve">
+        <value>Méthodes</value>
+    </data>
+    <data name="AppsDescription" xml:space="preserve">
+        <value>Applications Web créées avec PowerShell.</value>
+    </data>
+    <data name="ComputerGroup" xml:space="preserve">
+        <value>Groupe d'ordinateurs</value>
+    </data>
+    <data name="DisableAutoStart" xml:space="preserve">
+        <value>Désactiver le démarrage automatique</value>
+    </data>
+    <data name="DisableErrorToast" xml:space="preserve">
+        <value>Désactiver le toast d'erreur</value>
+    </data>
+    <data name="DisableInteractiveHost" xml:space="preserve">
+        <value>Désactiver l'hôte interactif</value>
+    </data>
+    <data name="DisableStartupLog" xml:space="preserve">
+        <value>Désactiver l'historique de démarrage</value>
+    </data>
+    <data name="GrantAppToken" xml:space="preserve">
+        <value>Accorder un jeton d'application</value>
+    </data>
+    <data name="IdleTimeout" xml:space="preserve">
+        <value>Délai d'inactivité</value>
+    </data>
+    <data name="SessionTimeout" xml:space="preserve">
+        <value>Délai d'expiration de la session</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Nom</value>
+    </data>
+    <data name="Save" xml:space="preserve">
+        <value>Sauvegarder</value>
+    </data>
+    <data name="Light" xml:space="preserve">
+        <value>Clair</value>
+    </data>
+    <data name="Unlicensed" xml:space="preserve">
+        <value>Non autorisée</value>
+    </data>
+    <data name="Paused" xml:space="preserve">
+        <value>En pause</value>
+    </data>
+    <data name="Enabled" xml:space="preserve">
+        <value>Activé</value>
+    </data>
+    <data name="GitSyncPausedDescription" xml:space="preserve">
+        <value>La synchronisation Git est actuellement suspendue et n'extrait pas les modifications.</value>
+    </data>
+    <data name="CreateResource" xml:space="preserve">
+        <value>Créer {0}</value>
+    </data>
+    <data name="EditProperties" xml:space="preserve">
+        <value>Modifier les propriétés</value>
+    </data>
+    <data name="ViewResource" xml:space="preserve">
+        <value>Voir {0}</value>
+    </data>
+    <data name="ViewProperties" xml:space="preserve">
+        <value>Voir les propriétés</value>
+    </data>
+    <data name="AdminConsoleReadOnly" xml:space="preserve">
+        <value>La console d'administration est en lecture seule.</value>
+    </data>
+    <data name="Computers" xml:space="preserve">
+        <value>Ordinateurs</value>
+    </data>
+    <data name="ComputerDescription" xml:space="preserve">
+        <value>Ordinateurs disponibles sur la plateforme PowerShell Universal.</value>
+    </data>
+    <data name="Dark" xml:space="preserve">
+        <value>Sombre</value>
+    </data>
+    <data name="AddTag" xml:space="preserve">
+        <value>Ajouter une balise</value>
+    </data>
+    <data name="Search" xml:space="preserve">
+        <value>Rechercher</value>
+    </data>
+    <data name="Portal" xml:space="preserve">
+        <value>Portail</value>
+    </data>
+    <data name="Submit" xml:space="preserve">
+        <value>Envoyer</value>
+    </data>
+    <data name="ScriptsDescription" xml:space="preserve">
+        <value>Scripts PowerShell qui peuvent être exécutés manuellement ou planifiés.</value>
+    </data>
+    <data name="Actions" xml:space="preserve">
+        <value>Actions</value>
+    </data>
+    <data name="AddFile" xml:space="preserve">
+        <value>Ajouter une fichier</value>
+    </data>
+    <data name="AddFolder" xml:space="preserve">
+        <value>Ajouter un dossier</value>
+    </data>
+    <data name="ClearNotifications" xml:space="preserve">
+        <value>Effacer notifications</value>
+    </data>
+    <data name="CurrentPassword" xml:space="preserve">
+        <value>Mot de passe actuel</value>
+    </data>
+    <data name="Data" xml:space="preserve">
+        <value>Données</value>
+    </data>
+    <data name="EditResource" xml:space="preserve">
+        <value>Éditer {0}</value>
+    </data>
+    <data name="ExternalAccount" xml:space="preserve">
+        <value>Compte externe</value>
+    </data>
+    <data name="HideEnvironment" xml:space="preserve">
+        <value>Cacher l'environnement</value>
+    </data>
+    <data name="IdentitiesDescription" xml:space="preserve">
+        <value>Utilisateurs et applications qui se sont connecté à PowerShell Universal</value>
+    </data>
+    <data name="EventType" xml:space="preserve">
+        <value>type d'évenement</value>
+    </data>
+    <data name="ErrorInConfigScript" xml:space="preserve">
+        <value>Il y a une erreur dans le script de configuration pour cette ressource</value>
+    </data>
+    <data name="EveryHour" xml:space="preserve">
+        <value>Chaque heure</value>
+    </data>
+    <data name="EveryDay" xml:space="preserve">
+        <value>Tous les jours</value>
+    </data>
+    <data name="Every15Minutes" xml:space="preserve">
+        <value>Tous les dix minutes</value>
+    </data>
+    <data name="ExternalAccountDescription" xml:space="preserve">
+        <value>Comptes externes sont le résultats de connexions aux méthodes d'authentication externe</value>
+    </data>
+    <data name="ApiDocumentation" xml:space="preserve">
+        <value>Documentation d'interface de programmation d'application</value>
+    </data>
+    <data name="APIEnvironment" xml:space="preserve">
+        <value>Environnement d'interface de programmation d'application</value>
+    </data>
+    <data name="APIEnvironmentDescription" xml:space="preserve">
+        <value>L'environnement à utiliser par défaut pour les points de terminaisons d'API qui n'en ont pas un déjà déterminé</value>
+    </data>
+    <data name="ApplicationTokens" xml:space="preserve">
+        <value>Jetons d'application</value>
+    </data>
+    <data name="ApplicationTokensDescription" xml:space="preserve">
+        <value>Jetons Web JSON utilisés à accéder aux APIs de PowerShell Universal</value>
+    </data>
+    <data name="AppNotRunningDescription" xml:space="preserve">
+        <value>L'application n'exécute pas la description</value>
+    </data>
+    <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
+        <value>La description à montrer à un utilisateur quand ils tentent de voir une application qui n'exécute pas</value>
+    </data>
+    <data name="AuthenticationMethods" xml:space="preserve">
+        <value>Méthodes d'authentification</value>
+    </data>
+    <data name="AuthenticationMethodsDescription" xml:space="preserve">
+        <value>Méthodes d'authentification que les utilisateurs peuvent employer pour se connecter à PowerShell Universal</value>
+    </data>
+    <data name="Automation" xml:space="preserve">
+        <value>Automatisation</value>
+    </data>
+    <data name="Branding" xml:space="preserve">
+        <value>Stylisation</value>
+    </data>
+    <data name="ClaimType" xml:space="preserve">
+        <value>Type d'affirmation</value>
+    </data>
+    <data name="ClaimValue" xml:space="preserve">
+        <value>Valeur d'affirmation</value>
+    </data>
+    <data name="AddAuthenticationMethod" xml:space="preserve">
+        <value>Ajouter une méthode d'authentication</value>
+    </data>
+    <data name="ConcurrentJobLimit" xml:space="preserve">
+        <value>Limite de tâches simultanées</value>
+    </data>
+    <data name="ConcurrentJobLimitDescription" xml:space="preserve">
+        <value>Le numéro maximum de tâches à exécuter simultanément</value>
+    </data>
+    <data name="ConfigurationFileSplatting" xml:space="preserve">
+        <value>Splatting du fichier de configuration </value>
+    </data>
+    <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
+        <value>Le système de configuration PowerShell utilisera du splatting en écrivant les fichiers de configuration</value>
+    </data>
+    <data name="ContentSecurityPolicy" xml:space="preserve">
+        <value>Politique de sécurité du contenu</value>
+    </data>
+    <data name="ContentSecurityPolicyDescription" xml:space="preserve">
+        <value>La politique de sécurité du contenu est une couche supplémentaire de sécurité qui aide à détecter et mitiguer certains types d'attaques, y compris le scripting à travers les sites et les attaques d'injection de données</value>
+    </data>
+    <data name="Console" xml:space="preserve">
+        <value>Console</value>
+    </data>
+    <data name="ConsoleLogo" xml:space="preserve">
+        <value>Logo de la console administrative</value>
+    </data>
+    <data name="ConsoleLogoDescription" xml:space="preserve">
+        <value>Le logo montré dans le titre de la console administrative</value>
+    </data>
+    <data name="ConsoleTitle" xml:space="preserve">
+        <value>Titre de la console administrative</value>
+    </data>
+    <data name="ConsoleTitleDescription" xml:space="preserve">
+        <value>Le titre montré dans la console administrative</value>
+    </data>
+    <data name="CurrentlyRunningJobs" xml:space="preserve">
+        <value>Tâches en train de s'exécuter</value>
+    </data>
+    <data name="AdminConsoleDisabled" xml:space="preserve">
+        <value>Console administrative désactivée</value>
+    </data>
+    <data name="DatabaseLogRetention" xml:space="preserve">
+        <value>Rétention de l'historique de la base de données</value>
+    </data>
+    <data name="DatabaseLogRetentionDescription" xml:space="preserve">
+        <value>Numéro de jours à garder les historiques enregistrées dans la base de données</value>
+    </data>
+    <data name="DataGroomInterval" xml:space="preserve">
+        <value>Intervalle à damer les données</value>
+    </data>
+    <data name="DataGroomIntervalDescription" xml:space="preserve">
+        <value>Avec quelle fréquence, en minutes, les données sont damées de PowerShell Universal</value>
+    </data>
+    <data name="DataRetention" xml:space="preserve">
+        <value>Rétention des données</value>
+    </data>
+    <data name="DataRetentionDescription" xml:space="preserve">
+        <value>Numéro de jours à garder les données telles que les tâches, l'histoire du terminal et les séances d'utilisateur</value>
+    </data>
+    <data name="DefaultAppsTheme" xml:space="preserve">
+        <value>Thème défaut de l'application</value>
+    </data>
+    <data name="DefaultAppsThemeDescription" xml:space="preserve">
+        <value>Le thème à utiliser par défaut pour les applications quand aucun n'est précisé</value>
+    </data>
+    <data name="DefaultDarkTheme" xml:space="preserve">
+        <value>Thème défaut sombre</value>
+    </data>
+    <data name="DefaultDarkThemeDescription" xml:space="preserve">
+        <value>Le thème défaut pour les nouveaux utilisateurs</value>
+    </data>
+    <data name="DefaultEnvironment" xml:space="preserve">
+        <value>Environnement défaut</value>
+    </data>
+    <data name="DefaultEnvironmentDescription" xml:space="preserve">
+        <value>L'environnement défaut à utiliser quand une fonction n'en a pas précisé</value>
+    </data>
+    <data name="DelaySeconds" xml:space="preserve">
+        <value>Retard (secondes)</value>
+    </data>
+    <data name="DeleteFileConfirm" xml:space="preserve">
+        <value>Êtes-vous certain.e que vous voulez supprimer ce fichier ou ce dossier ?</value>
+    </data>
+    <data name="Description" xml:space="preserve">
+        <value>Description</value>
+    </data>
+    <data name="DisableAutoReload" xml:space="preserve">
+        <value>Désactiver actualisation automatique</value>
+    </data>
+    <data name="DisableAutoReloadDescription" xml:space="preserve">
+        <value>Désactive le moniteur du système de fichier utilisé à charger les fichiers du disque en PowerShell Universal</value>
+    </data>
+    <data name="Disabled" xml:space="preserve">
+        <value>Désactivé</value>
+    </data>
+    <data name="DisableFormatOnSave" xml:space="preserve">
+        <value>Désactiver le format en sauvegardant</value>
+    </data>
+    <data name="DisableFormatOnSaveDescription" xml:space="preserve">
+        <value>Empêche PowerShell Universal d'exécuter l'Invoke-Formatter de PSScriptAnalyzer en sauvegardant</value>
+    </data>
+    <data name="DisableUpdateCheck" xml:space="preserve">
+        <value>Désactiver la vérification d'actualisation</value>
+    </data>
+    <data name="DisableUpdateCheckDescription" xml:space="preserve">
+        <value>Empêche PowerShell Universal de vérifier des actualisations</value>
+    </data>
+    <data name="DontLoadRunAsProfiles" xml:space="preserve">
+        <value>Ne charge pas l'exécution comme profil</value>
+    </data>
+    <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
+        <value>Ne charge pas de profils en démarrant des environnements externes. Ne s'applique qu'à Windows</value>
+    </data>
+    <data name="EnhancedAppTokenSecurity" xml:space="preserve">
+        <value>Sécurité de jetons d'application supplémentaire</value>
+    </data>
+    <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
+        <value>Quand activés, les jetons d'application sont enregistrés dans la base de données comme hachages plutôt que comme valeurs de jeton. Activer cette fonction invalide tous les jetons d'application existants.</value>
+    </data>
+    <data name="EnvironmentsDescription" xml:space="preserve">
+        <value>Environnemnets d'exécution pour les fonctions de PowerShell Universal</value>
+    </data>
+    <data name="FallbackLanguageID" xml:space="preserve">
+        <value>Identité de langue de repli</value>
+    </data>
+    <data name="FallbackLanguageIDDescription" xml:space="preserve">
+        <value>La langue vers laquelle replier quand aucune langue est disponible pour la région de l'utilisateur.</value>
+    </data>
+    <data name="FavoriteIcon" xml:space="preserve">
+        <value>Icône préférée</value>
+    </data>
+    <data name="FavoriteIconDescription" xml:space="preserve">
+        <value>L'icône à montrer dans l'onglet du navigateur</value>
+    </data>
+    <data name="FileEncoding" xml:space="preserve">
+        <value>Encodage de fichier</value>
+    </data>
+    <data name="FileEncodingDescription" xml:space="preserve">
+        <value>L'encodage de fichier à utiliser en écrivant des fichiers de configuration</value>
+    </data>
+    <data name="GeneralDescription" xml:space="preserve">
+        <value>Paramètres généraux de PowerShell Universal</value>
+    </data>
+    <data name="GitDescription" xml:space="preserve">
+        <value>Synchronisation Git pour PowerShell Universal</value>
+    </data>
+    <data name="GitNotConfigured" xml:space="preserve">
+        <value>Synchronisation de git n'est pas configurée</value>
+    </data>
+    <data name="HealthChecks" xml:space="preserve">
+        <value>Vérifications de santé</value>
+    </data>
+    <data name="HelloWorld" xml:space="preserve">
+        <value>Bonjour, tout le monde !</value>
+    </data>
+    <data name="Hide Environment" xml:space="preserve">
+        <value>Cache le sélectuer d'environnement en exécutant ou planifiant les tâches.</value>
+    </data>
+    <data name="HideAPIFeatures" xml:space="preserve">
+        <value>Cacher les fonctions de API</value>
+    </data>
+    <data name="HideAutomationFeatures" xml:space="preserve">
+        <value>Cacher les fonctions d'automatisation</value>
+    </data>
+    <data name="HideEnvironmentDescription" xml:space="preserve">
+        <value>Cache le sélecteur d'environnement en exécutant ou planifiant les tâches.</value>
+    </data>
+    <data name="HideHomePage" xml:space="preserve">
+        <value>Cacher la page d'accueil</value>
+    </data>
+    <data name="HideRevoked" xml:space="preserve">
+        <value>Cacher révoqué</value>
+    </data>
+    <data name="HideRunAs" xml:space="preserve">
+        <value>Cacher Exécuter comme</value>
+    </data>
+    <data name="HideRunAsDescription" xml:space="preserve">
+        <value>Cache le sélecteur Exécuter comme en exécutant ou planifiant les tâches.</value>
+    </data>
+    <data name="HideRunOn" xml:space="preserve">
+        <value>Cache Exécute sur</value>
+    </data>
+    <data name="HideRunOnDescription" xml:space="preserve">
+        <value>Cache le sélecteur Exécute sur en exécutant ou planifianat les tâches.</value>
+    </data>
+    <data name="HideUserInterfaceFeatures" xml:space="preserve">
+        <value>Cacher les fonctions d'interface utilisateur</value>
+    </data>
+    <data name="Identities" xml:space="preserve">
+        <value>Identités</value>
+    </data>
+    <data name="InvalidPasswordSpecified" xml:space="preserve">
+        <value>Mot de passe invalid saisi</value>
+    </data>
+    <data name="JobHandshakeTimeout" xml:space="preserve">
+        <value>Expiration d'un établissement de liaison de la tâche</value>
+    </data>
+    <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
+        <value>Le nombre de secondes à s'attendre jusqu'à ce qu'une tâche commence</value>
+    </data>
+    <data name="JobRunId" xml:space="preserve">
+        <value>Identité d'exécution d'une tâche</value>
+    </data>
+    <data name="JobRunIdDescription" xml:space="preserve">
+        <value>Les tâches ne sont accessibles que basées sur un GUID arbitraire, plutôt que sur une identité séquentielle de tâche.</value>
+    </data>
+    <data name="JobsFailedToday" xml:space="preserve">
+        <value>Tâches échouées aujourd'hui</value>
+    </data>
+    <data name="JobsRunToday" xml:space="preserve">
+        <value>Tâches exécutées aujourd'hui</value>
+    </data>
+    <data name="JobsWaitingFeedback" xml:space="preserve">
+        <value>Tâches qui s'attendent à une réponse</value>
+    </data>
+    <data name="LastUsed" xml:space="preserve">
+        <value>Dernièrement utilisé</value>
+    </data>
+    <data name="Licensed" xml:space="preserve">
+        <value>Sous license</value>
+    </data>
+    <data name="LicenseDescription" xml:space="preserve">
+        <value>Licences pour PowerShell Universal</value>
+    </data>
+    <data name="LicenseStatus" xml:space="preserve">
+        <value>Statut de licence</value>
+    </data>
+    <data name="LicenseText" xml:space="preserve">
+        <value>Texte de licence</value>
+    </data>
+    <data name="LicenseWarning" xml:space="preserve">
+        <value>Vous avez plus d'ordinateurs que licences. Veuillez d'acheter plus de licences.</value>
+    </data>
+    <data name="LimitIdentities" xml:space="preserve">
+        <value>Limiter les identités</value>
+    </data>
+    <data name="LimitIdentitiesDescription" xml:space="preserve">
+        <value>Empêche les utilisateurs de se connecter à PowerShell Universal qui n'ont pas été ajoutés à la page d'identités.</value>
+    </data>
+    <data name="LoadingPageDescription" xml:space="preserve">
+        <value>En cours de charger la description de la page</value>
+    </data>
+    <data name="LoadingPageDescriptionDescription" xml:space="preserve">
+        <value>La description à montrer quand PowerShell Universal est en train de charger</value>
+    </data>
+    <data name="LoadingPageTitle" xml:space="preserve">
+        <value>En cours de charger le titre de la page</value>
+    </data>
+    <data name="LoadingPageTitleDescription" xml:space="preserve">
+        <value>Le titre à montrer quand PowerShell Universal charge</value>
+    </data>
+    <data name="Local" xml:space="preserve">
+        <value>Local</value>
+    </data>
+    <data name="LocalAccount" xml:space="preserve">
+        <value>Compte local</value>
+    </data>
+    <data name="LocalAccountDescription" xml:space="preserve">
+        <value>Comptes locals sont enregistrés dans la base de données de PowerShell Universal</value>
+    </data>
+    <data name="LocalModulesDescription" xml:space="preserve">
+        <value>Modules qui sont installés dans vos environnements PowerShell</value>
+    </data>
+    <data name="LoggingDescription" xml:space="preserve">
+        <value>Historique diagnostique de PowerShell Universal</value>
+    </data>
+    <data name="MaintenanceMode" xml:space="preserve">
+        <value>Mode maintenance</value>
+    </data>
+    <data name="ModuleDiscoveryFrequency" xml:space="preserve">
+        <value>Fréquence de découvertes de modules</value>
+    </data>
+    <data name="ModuleDiscoveryFrequencyDescription" xml:space="preserve">
+        <value>La fréquence à laquelle nouveaux modules PowerShell seront découverts dans le système local</value>
+    </data>
+    <data name="Modules" xml:space="preserve">
+        <value>Modules</value>
+    </data>
+    <data name="ModulesDescription" xml:space="preserve">
+        <value>Gérer les modules PowerShell dans votre environnement PowerShell Universal</value>
+    </data>
+    <data name="MyJobs" xml:space="preserve">
+        <value>Mes tâches</value>
+    </data>
+    <data name="MyJobsDescription" xml:space="preserve">
+        <value>Tâches exécutées par vous</value>
+    </data>
+    <data name="NotAuthorizedDescription" xml:space="preserve">
+        <value>Description Pas authorisé.e</value>
+    </data>
+    <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
+        <value>La description à montrer quand un utilisateur n'est pas authorisé à accéder à une page.</value>
+    </data>
+    <data name="NotificationsDescription" xml:space="preserve">
+        <value>Notiifcations produites par PowerShell Universal</value>
+    </data>
+    <data name="OpenIDConnect" xml:space="preserve">
+        <value>OpenID Connect</value>
+    </data>
+    <data name="PageNotFoundDescription" xml:space="preserve">
+        <value>Description Page introuvable</value>
+    </data>
+    <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
+        <value>La description à montrer quand une page est introuvable.</value>
+    </data>
+    <data name="PageNotFoundTitle" xml:space="preserve">
+        <value>Titre Page introuvable</value>
+    </data>
+    <data name="PageNotFoundTitleDescription" xml:space="preserve">
+        <value>Le titre à montrer quand une page est introuvable.</value>
+    </data>
+    <data name="Pages" xml:space="preserve">
+        <value>Pages</value>
+    </data>
+    <data name="PagesDescription" xml:space="preserve">
+        <value>Interfaces dynamiques configurées avec PSBlazor</value>
+    </data>
+    <data name="PasswordsDoNotMatch" xml:space="preserve">
+        <value>Mots de passe ne correspondent pas</value>
+    </data>
+    <data name="Platform" xml:space="preserve">
+        <value>Plateforme</value>
+    </data>
+    <data name="PowerShellUniversal" xml:space="preserve">
+        <value>PowerShell Universal</value>
+    </data>
+    <data name="PowerShellUniversalModules" xml:space="preserve">
+        <value>Modules disponibles dans le Marché PowerShell Universal qui étendent la plateforme</value>
+    </data>
+    <data name="PreformattedJobOutput" xml:space="preserve">
+        <value>Données de sortie pré-formatées de la tâche</value>
+    </data>
+    <data name="PreformattedJobOutputDescription" xml:space="preserve">
+        <value>Données de sortie pré-formatées  de la tâche en exécutant une tâche. Améliore la performance mais ne permet pas de cacher les horodatages.</value>
+    </data>
+    <data name="ProductTitle" xml:space="preserve">
+        <value>PowerShell Universal</value>
+    </data>
+    <data name="ProxyCredential" xml:space="preserve">
+        <value>Identifiant mandataire</value>
+    </data>
+    <data name="ProxyCredentialDescription" xml:space="preserve">
+        <value>Le nom de la variable, qui doit être un PSCredential, utilisé à accéder au serveur mandataire.</value>
+    </data>
+    <data name="ProxyURL" xml:space="preserve">
+        <value>Proxy URL</value>
+    </data>
+    <data name="ProxyURLDescription" xml:space="preserve">
+        <value>Défine l'URL du serveur mandataire à utiliser en communiquant avec les services externes comme Git et le service d'actualisation.</value>
+    </data>
+    <data name="PublishedFolders" xml:space="preserve">
+        <value>Dossiers publiés</value>
+    </data>
+    <data name="PublishedFoldersDescription" xml:space="preserve">
+        <value>Partager les fichiers avec HTTP de PowerShell Universal</value>
+    </data>
+    <data name="ReleaseDate" xml:space="preserve">
+        <value>Date de sortie</value>
+    </data>
+    <data name="ReleaseNotes" xml:space="preserve">
+        <value>Notes de sortie</value>
+    </data>
+    <data name="Repositories" xml:space="preserve">
+        <value>Dépôts</value>
+    </data>
+</root>
