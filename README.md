@@ -13,3 +13,8 @@ A new tag and release will be created with each PowerShell Universal release. RE
 ## Licensing
 
 The license for this project does not apply to the core PowerShell Universal product and only the translated strings themselves. 
+
+## Languages
+
+- [English - Base](https://hosted.weblate.org/projects/powershell-universal/admin-console/en/)
+- [French](https://hosted.weblate.org/projects/powershell-universal/admin-console/fr/)
