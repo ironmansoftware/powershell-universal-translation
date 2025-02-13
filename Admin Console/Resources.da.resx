@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,805 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Suggestions" xml:space="preserve">
+    <value>Forslag</value>
+  </data>
+  <data name="PortalTitle" xml:space="preserve">
+    <value>Portal titel</value>
+  </data>
+  <data name="DisableAnalyzer" xml:space="preserve">
+    <value>Deaktiver PSScriptAnalyzer</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priotitet</value>
+  </data>
+  <data name="NestedRoles" xml:space="preserve">
+    <value>Nestede roller</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Kontakt navn</value>
+  </data>
+  <data name="OpenApiLicenseNameHelp" xml:space="preserve">
+    <value>Navnet på licensen til denne API-dokumentation.</value>
+  </data>
+  <data name="IPAddress" xml:space="preserve">
+    <value>IP Addresse</value>
+  </data>
+  <data name="StartupScriptHelp" xml:space="preserve">
+    <value>Scripts, der køres hver gang et nyt runspace oprettes i dette miljø.</value>
+  </data>
+  <data name="Tests" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="TestFiles" xml:space="preserve">
+    <value>Test filer</value>
+  </data>
+  <data name="TestsDescription" xml:space="preserve">
+    <value>Kør Pester tests og hold øje med resultater.</value>
+  </data>
+  <data name="RunAllTests" xml:space="preserve">
+    <value>Kør alle test</value>
+  </data>
+  <data name="NotRun" xml:space="preserve">
+    <value>Ikke kørt</value>
+  </data>
+  <data name="LoadMetaData" xml:space="preserve">
+    <value>Indlæs metadata</value>
+  </data>
+  <data name="RunTest" xml:space="preserve">
+    <value>Kør test</value>
+  </data>
+  <data name="TestResults" xml:space="preserve">
+    <value>Test resultater</value>
+  </data>
+  <data name="TotalTests" xml:space="preserve">
+    <value>Total antal tests</value>
+  </data>
+  <data name="TestCases" xml:space="preserve">
+    <value>Test Cases</value>
+  </data>
+  <data name="TestSuites" xml:space="preserve">
+    <value>Test suiter</value>
+  </data>
+  <data name="TestSuite" xml:space="preserve">
+    <value>Test suite</value>
+  </data>
+  <data name="TestSuiteDescription" xml:space="preserve">
+    <value>Resultater af en testkørsel.</value>
+  </data>
+  <data name="ProcessesDescription" xml:space="preserve">
+    <value>Processer, der er startet direkte af PowerShell Universal-tjenesten.</value>
+  </data>
+  <data name="SystemIdentityHelp" xml:space="preserve">
+    <value>Denne app-token skal bruges af en automatiseret systemproces og ikke associeres med en bruger.</value>
+  </data>
+  <data name="UserIdentity" xml:space="preserve">
+    <value>Brugeridentitet</value>
+  </data>
+  <data name="SystemIdentity" xml:space="preserve">
+    <value>Systemidentitet</value>
+  </data>
+  <data name="NameIdFormat" xml:space="preserve">
+    <value>Navn ID-format</value>
+  </data>
+  <data name="PeriodHelp" xml:space="preserve">
+    <value>Den periode, hvori anmodningerne tæller, håndhæves.</value>
+  </data>
+  <data name="LimitHelp" xml:space="preserve">
+    <value>Det maksimale antal anmodninger pr. periode.</value>
+  </data>
+  <data name="RateLimitUrlHelp" xml:space="preserve">
+    <value>Webadressen for at håndhæve denne satsgrænse på. Understøtter jokertegn (*).</value>
+  </data>
+  <data name="RateLimitMethodHelp" xml:space="preserve">
+    <value>HTTP-metoden til at håndhæve denne hastighedsgrænse på.</value>
+  </data>
+  <data name="RateLimitsDescription" xml:space="preserve">
+    <value>Begræns antallet af anmodninger til API'er over en bestemt periode.</value>
+  </data>
+  <data name="HomeModule" xml:space="preserve">
+    <value>Kom godt i gang med moduler</value>
+  </data>
+  <data name="ViewModules" xml:space="preserve">
+    <value>Gennemse moduler</value>
+  </data>
+  <data name="AccountLicenseKeyHelp" xml:space="preserve">
+    <value>Denne licens er knyttet til en bruger- eller organisationskonto og vil fortsat blive fornyet automatisk.</value>
+  </data>
+  <data name="CallbackPath" xml:space="preserve">
+    <value>Tilbagekaldssti</value>
+  </data>
+  <data name="CallbackPathDescription" xml:space="preserve">
+    <value>Stien, som SAML2-identitetsudbyderen vil omdirigere tilbage til PowerShell Universal.</value>
+  </data>
+  <data name="MetadataAddressDescription" xml:space="preserve">
+    <value>URL'en for SAML2-metadatadokumentet.</value>
+  </data>
+  <data name="SigningKey" xml:space="preserve">
+    <value>Signeringsnøgle</value>
+  </data>
+  <data name="IdentityProviderEntityId" xml:space="preserve">
+    <value>Identitetsudbyderens enheds-id</value>
+  </data>
+  <data name="SingleSignOnServiceUrl" xml:space="preserve">
+    <value>Single Sign-On Service URL</value>
+  </data>
+  <data name="SingleSignOnServiceUrlDescription" xml:space="preserve">
+    <value>IdP's webadresse for single sign-on-tjeneste.</value>
+  </data>
+  <data name="DefaultRunOnDescription" xml:space="preserve">
+    <value>Standardcomputeren eller computergruppen at køre scripts imod, når ingen er valgt.</value>
+  </data>
+  <data name="DefaultRunOn" xml:space="preserve">
+    <value>Standard kør på</value>
+  </data>
+  <data name="ListSourceCode" xml:space="preserve">
+    <value>Liste over kildekode</value>
+  </data>
+  <data name="VaultsDescription" xml:space="preserve">
+    <value>Secret Vaults konfigureret i PowerShell Secret Management.</value>
+  </data>
+  <data name="ViewPage" xml:space="preserve">
+    <value>Se side</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>PowerShell Universal</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="HomeDescription" xml:space="preserve">
+    <value>Oplysninger om dit PowerShell Universal-miljø.</value>
+  </data>
+  <data name="SystemLoading" xml:space="preserve">
+    <value>PowerShell Universal starter...</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Ikke fundet</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="JobsDescription" xml:space="preserve">
+    <value>Jobs der er kørt i PowerShell Universal.</value>
+  </data>
+  <data name="ViewJob" xml:space="preserve">
+    <value>Vis job</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="ExecutionTime" xml:space="preserve">
+    <value>Udførelsestid</value>
+  </data>
+  <data name="EndpointDocumentation" xml:space="preserve">
+    <value>Endpoint dokumentation</value>
+  </data>
+  <data name="Authentication" xml:space="preserve">
+    <value>Autentificering</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="EndpointsDescription" xml:space="preserve">
+    <value>HTTP API-endepunkter, der udfører PowerShell-scripts.</value>
+  </data>
+  <data name="Methods" xml:space="preserve">
+    <value>Metoder</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="EventHubDescription" xml:space="preserve">
+    <value>Send begivenheder til klienter, der er tilsluttet hubs.</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="LoginDescription" xml:space="preserve">
+    <value>Log ind på din konto</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Sider</value>
+  </data>
+  <data name="AppsDescription" xml:space="preserve">
+    <value>Webapplikationer bygget med PowerShell.</value>
+  </data>
+  <data name="ComputerGroup" xml:space="preserve">
+    <value>Computergruppe</value>
+  </data>
+  <data name="DisableAutoStart" xml:space="preserve">
+    <value>Deaktiver automatisk start</value>
+  </data>
+  <data name="DisableErrorToast" xml:space="preserve">
+    <value>Deaktiver Error Toast</value>
+  </data>
+  <data name="DisableInteractiveHost" xml:space="preserve">
+    <value>Deaktiver interaktiv vært</value>
+  </data>
+  <data name="DisableStartupLog" xml:space="preserve">
+    <value>Deaktiver opstartslog</value>
+  </data>
+  <data name="GrantAppToken" xml:space="preserve">
+    <value>Giv app-token</value>
+  </data>
+  <data name="IdleTimeout" xml:space="preserve">
+    <value>Inaktiv timeout</value>
+  </data>
+  <data name="SessionTimeout" xml:space="preserve">
+    <value>Session timeout</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="Licensed" xml:space="preserve">
+    <value>Licenseret</value>
+  </data>
+  <data name="Unlicensed" xml:space="preserve">
+    <value>Uden licens</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="EditResource" xml:space="preserve">
+    <value>Rediger {0}</value>
+  </data>
+  <data name="CreateResource" xml:space="preserve">
+    <value>Opret {0}</value>
+  </data>
+  <data name="EditProperties" xml:space="preserve">
+    <value>Rediger egenskaber</value>
+  </data>
+  <data name="ViewProperties" xml:space="preserve">
+    <value>Se egenskaber</value>
+  </data>
+  <data name="Computers" xml:space="preserve">
+    <value>Computere</value>
+  </data>
+  <data name="ComputerDescription" xml:space="preserve">
+    <value>Computere tilgængelige på hele PowerShell Universal-platformen.</value>
+  </data>
+  <data name="AddTag" xml:space="preserve">
+    <value>Tilføj tag</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="Portal" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Indsend</value>
+  </data>
+  <data name="ApiDocumentation" xml:space="preserve">
+    <value>API dokumentation</value>
+  </data>
+  <data name="PagesDescription" xml:space="preserve">
+    <value>Dynamiske grænseflader bygget med PSBlazor</value>
+  </data>
+  <data name="PublishedFolders" xml:space="preserve">
+    <value>Publiserede foldere</value>
+  </data>
+  <data name="PublishedFoldersDescription" xml:space="preserve">
+    <value>Del filer over HTTP fra PowerShell Universal.</value>
+  </data>
+  <data name="RequestPath" xml:space="preserve">
+    <value>Anmodningssti</value>
+  </data>
+  <data name="Local" xml:space="preserve">
+    <value>Lokal</value>
+  </data>
+  <data name="PowerShellUniversal" xml:space="preserve">
+    <value>PowerShell Universal</value>
+  </data>
+  <data name="Repositories" xml:space="preserve">
+    <value>Depoter</value>
+  </data>
+  <data name="LocalModulesDescription" xml:space="preserve">
+    <value>Moduler, der er installeret i dine PowerShell-miljøer.</value>
+  </data>
+  <data name="PowerShellUniversalModules" xml:space="preserve">
+    <value>Moduler tilgængelige på PowerShell Universal Marketplace, der udvider platformen.</value>
+  </data>
+  <data name="LoggingDescription" xml:space="preserve">
+    <value>PowerShell Universal diagnostisk logning.</value>
+  </data>
+  <data name="VariablesDescription" xml:space="preserve">
+    <value>Variabler defineret i PowerShell Universal-miljøer.</value>
+  </data>
+  <data name="GeneralDescription" xml:space="preserve">
+    <value>Generelle PowerShell Universal-indstillinger.</value>
+  </data>
+  <data name="Console" xml:space="preserve">
+    <value>Konsol</value>
+  </data>
+  <data name="ConsoleTitle" xml:space="preserve">
+    <value>Admin konsol titel</value>
+  </data>
+  <data name="ConsoleTitleDescription" xml:space="preserve">
+    <value>Titlen, der vises i administrationskonsollen.</value>
+  </data>
+  <data name="ConsoleLogo" xml:space="preserve">
+    <value>Admin konsol logo</value>
+  </data>
+  <data name="UseLogoSize" xml:space="preserve">
+    <value>Brug logostørrelse</value>
+  </data>
+  <data name="UseLogoSizeDescription" xml:space="preserve">
+    <value>Bruger konfigureret administrationskonsollogo uden at ændre størrelsen på det.</value>
+  </data>
+  <data name="FavoriteIcon" xml:space="preserve">
+    <value>Favorit ikon</value>
+  </data>
+  <data name="FavoriteIconDescription" xml:space="preserve">
+    <value>Ikonet, der skal vises på browserfanen.</value>
+  </data>
+  <data name="HideAPIFeatures" xml:space="preserve">
+    <value>Skjul API-funktioner</value>
+  </data>
+  <data name="HideAutomationFeatures" xml:space="preserve">
+    <value>Skjul automatiseringsfunktioner</value>
+  </data>
+  <data name="HideUserInterfaceFeatures" xml:space="preserve">
+    <value>Skjul brugergrænsefladefunktioner</value>
+  </data>
+  <data name="HideHomePage" xml:space="preserve">
+    <value>Skjul hjemmeside</value>
+  </data>
+  <data name="DefaultDarkTheme" xml:space="preserve">
+    <value>Standard mørkt tema</value>
+  </data>
+  <data name="DefaultDarkThemeDescription" xml:space="preserve">
+    <value>Standardtemaet for nye brugere.</value>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>Automatisering</value>
+  </data>
+  <data name="JobHandshakeTimeout" xml:space="preserve">
+    <value>Timeout for jobhåndtryk</value>
+  </data>
+  <data name="HideEnvironment" xml:space="preserve">
+    <value>Skjul miljø</value>
+  </data>
+  <data name="HideRunAs" xml:space="preserve">
+    <value>Skjul kør som</value>
+  </data>
+  <data name="HideRunOn" xml:space="preserve">
+    <value>Skjul kør på</value>
+  </data>
+  <data name="ConcurrentJobLimitDescription" xml:space="preserve">
+    <value>Det maksimale antal job der kan køres på én gang.</value>
+  </data>
+  <data name="HideRunAsDescription" xml:space="preserve">
+    <value>Skjuler kør som vælgeren, når der køres eller planlægges job.</value>
+  </data>
+  <data name="HideRunOnDescription" xml:space="preserve">
+    <value>Skjuler kør på vælgeren, når der køres eller planlægges job.</value>
+  </data>
+  <data name="DefaultAppsTheme" xml:space="preserve">
+    <value>Standard app-tema</value>
+  </data>
+  <data name="Branding" xml:space="preserve">
+    <value>Branding</value>
+  </data>
+  <data name="LoadingPageTitle" xml:space="preserve">
+    <value>Indlæser sidetitel</value>
+  </data>
+  <data name="LoadingPageTitleDescription" xml:space="preserve">
+    <value>Titlen, der skal vises, når PowerShell Universal indlæses.</value>
+  </data>
+  <data name="LoadingPageDescription" xml:space="preserve">
+    <value>Indlæser sidebeskrivelse</value>
+  </data>
+  <data name="PageNotFoundTitle" xml:space="preserve">
+    <value>Side ikke fundet titel</value>
+  </data>
+  <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
+    <value>Beskrivelsen, der skal vises, når en side ikke findes.</value>
+  </data>
+  <data name="NotAuthorizedDescription" xml:space="preserve">
+    <value>Ikke autoriseret beskrivelse</value>
+  </data>
+  <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
+    <value>Beskrivelsen, der skal vises, når en bruger ikke er autoriseret til at se en side.</value>
+  </data>
+  <data name="AppNotRunningDescription" xml:space="preserve">
+    <value>App'en kører ikke beskrivelse</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="RepositoryPath" xml:space="preserve">
+    <value>Depotsti</value>
+  </data>
+  <data name="ScriptBaseFolder" xml:space="preserve">
+    <value>Script-grundmappe</value>
+  </data>
+  <data name="ScriptBaseFolderDescription" xml:space="preserve">
+    <value>En mappe i depotet til at gemme scripts. Ændring af denne indstilling kræver genstart af PowerShell Universal-tjenesten.</value>
+  </data>
+  <data name="DatabaseLogRetentionDescription" xml:space="preserve">
+    <value>Antallet af dage til at opbevare logfiler i databasen.</value>
+  </data>
+  <data name="DataGroomInterval" xml:space="preserve">
+    <value>Data Groom Interval</value>
+  </data>
+  <data name="APIEnvironmentDescription" xml:space="preserve">
+    <value>Standardmiljøet, der skal bruges til API-endepunkter, der ikke har ét sæt. </value>
+  </data>
+  <data name="SecurityEnvironmentDescription" xml:space="preserve">
+    <value>Det miljø, der skal bruges til formulargodkendelsesscripts og autorisationspolitikker.</value>
+  </data>
+  <data name="DontLoadRunAsProfiles" xml:space="preserve">
+    <value>Indlæs ikke kør som profil</value>
+  </data>
+  <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
+    <value>Indlæser ikke profiler ved start af eksterne miljøer. Gælder kun for Windows.</value>
+  </data>
+  <data name="Platform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="ContentSecurityPolicy" xml:space="preserve">
+    <value>Indholdssikkerhedspolitik</value>
+  </data>
+  <data name="ContentSecurityPolicyDescription" xml:space="preserve">
+    <value>Indholdssikkerhedspolitik er et ekstra lag af sikkerhed, der hjælper med at opdage og afbøde visse typer angreb, herunder Cross-Site Scripting (XSS) og datainjektionsangreb.</value>
+  </data>
+  <data name="DisableAutoReload" xml:space="preserve">
+    <value>Deaktiver automatisk genindlæsning</value>
+  </data>
+  <data name="DisableAutoReloadDescription" xml:space="preserve">
+    <value>Deaktiverer filsystemovervågningen, der bruges til at indlæse filer fra disken i PowerShell Universal.</value>
+  </data>
+  <data name="DisableFormatOnSave" xml:space="preserve">
+    <value>Deaktiver formater ved gem</value>
+  </data>
+  <data name="EnhancedAppTokenSecurity" xml:space="preserve">
+    <value>Forbedret App Token Security</value>
+  </data>
+  <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
+    <value>Når det er aktiveret, gemmes app-tokens i databasen som hashs i stedet for token-værdier. Aktivering af denne indstilling ugyldiggør alle eksisterende app-tokens.</value>
+  </data>
+  <data name="LimitIdentities" xml:space="preserve">
+    <value>Begræns identiteter</value>
+  </data>
+  <data name="LimitIdentitiesDescription" xml:space="preserve">
+    <value>Forhindrer brugere i at logge på PowerShell Universal, som ikke er blevet tilføjet til siden med identiteter. </value>
+  </data>
+  <data name="DisableUpdateCheck" xml:space="preserve">
+    <value>Deaktiver opdateringscheck</value>
+  </data>
+  <data name="ProxyURL" xml:space="preserve">
+    <value>Proxy URL</value>
+  </data>
+  <data name="ProxyURLDescription" xml:space="preserve">
+    <value>Indstiller URL'en på proxyserveren, der skal bruges, når der kommunikeres med eksterne tjenester som git og opdateringstjenesten.</value>
+  </data>
+  <data name="ProxyCredential" xml:space="preserve">
+    <value>Proxy-legitimationsoplysninger</value>
+  </data>
+  <data name="ProxyCredentialDescription" xml:space="preserve">
+    <value>Navnet på variablen, som skal være en PSCredential, der bruges til at få adgang til proxyserveren.</value>
+  </data>
+  <data name="FallbackLanguageID" xml:space="preserve">
+    <value>Reservesprog-id</value>
+  </data>
+  <data name="FallbackLanguageIDDescription" xml:space="preserve">
+    <value>Det sprog, der skal gå tilbage til, når der ikke er noget sprog tilgængeligt for brugerens lokalitet.</value>
+  </data>
+  <data name="ConfigurationFileSplatting" xml:space="preserve">
+    <value>Konfigurationsfilsplatting</value>
+  </data>
+  <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
+    <value>PowerShell Universal-konfigurationssystemet vil bruge splatting, når du skriver konfigurationsfiler.</value>
+  </data>
+  <data name="ModuleDiscoveryFrequency" xml:space="preserve">
+    <value>Modulopdagelsesfrekvens</value>
+  </data>
+  <data name="ModuleDiscoveryFrequencyDescription" xml:space="preserve">
+    <value>Den frekvens, hvormed nye PowerShell-moduler vil blive opdaget på det lokale system</value>
+  </data>
+  <data name="FileEncoding" xml:space="preserve">
+    <value>Filkodning</value>
+  </data>
+  <data name="FileEncodingDescription" xml:space="preserve">
+    <value>Den filkodning, der skal bruges ved skrivning af konfigurationsfiler.</value>
+  </data>
+  <data name="Every15Minutes" xml:space="preserve">
+    <value>Hvert 15. minut</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deaktiveret</value>
+  </data>
+  <data name="EveryHour" xml:space="preserve">
+    <value>Hver time</value>
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>Hver dag</value>
+  </data>
+  <data name="HideEnvironmentDescription" xml:space="preserve">
+    <value>Skjuler miljøvælgeren, når der køres eller planlægges job.</value>
+  </data>
+  <data name="DisableUpdateCheckDescription" xml:space="preserve">
+    <value>Forhindrer PowerShell Universal i at søge efter opdateringer.</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Vælg en fil for at se og redigere dens indhold.</value>
+  </data>
+  <data name="EnvironmentsDescription" xml:space="preserve">
+    <value>Eksekveringsmiljøer for PowerShell Unviersal-funktioner.</value>
+  </data>
+  <data name="GitDescription" xml:space="preserve">
+    <value>Git-synkronisering til Powershell Universal</value>
+  </data>
+  <data name="GitNotConfigured" xml:space="preserve">
+    <value>Git-synkronisering er ikke konfigureret.</value>
+  </data>
+  <data name="LicenseDescription" xml:space="preserve">
+    <value>Licenser til PowerShell Universal.</value>
+  </data>
+  <data name="TagsDescription" xml:space="preserve">
+    <value>Tags til PowerShell Universal ressourcer.</value>
+  </data>
+  <data name="AuthenticationMethods" xml:space="preserve">
+    <value>Autentificeringsmetoder</value>
+  </data>
+  <data name="AuthenticationMethodsDescription" xml:space="preserve">
+    <value>Godkendelsesmetoder, som brugere kan bruge til at logge på PowerShell Universal.</value>
+  </data>
+  <data name="OpenIDConnect" xml:space="preserve">
+    <value>OpenID Connect</value>
+  </data>
+  <data name="Identities" xml:space="preserve">
+    <value>Identiteter</value>
+  </data>
+  <data name="IdentitiesDescription" xml:space="preserve">
+    <value>Brugere og apps, der har logget på PowerShell Universal.</value>
+  </data>
+  <data name="RolesDescription" xml:space="preserve">
+    <value>Roller, der kan anvendes på apps og brugere, der logger på PowerShell Universal.</value>
+  </data>
+  <data name="ApplicationTokens" xml:space="preserve">
+    <value>Applikationstokens</value>
+  </data>
+  <data name="ApplicationTokensDescription" xml:space="preserve">
+    <value>JSON web tokens, der bruges til at få adgang til PowerShell Universal API'er.</value>
+  </data>
+  <data name="RevocationDate" xml:space="preserve">
+    <value>Tilbagekaldelsesdato</value>
+  </data>
+  <data name="LastUsed" xml:space="preserve">
+    <value>Sidst brugt</value>
+  </data>
+  <data name="HideRevoked" xml:space="preserve">
+    <value>Skjul tilbagekaldt</value>
+  </data>
+  <data name="ShowRevoked" xml:space="preserve">
+    <value>Vis tilbagekaldt</value>
+  </data>
+  <data name="TriggersDescription" xml:space="preserve">
+    <value>Udfør scripts, når begivenheder finder sted i PowerShell Universal.</value>
+  </data>
+  <data name="TriggerType" xml:space="preserve">
+    <value>Trigger type</value>
+  </data>
+  <data name="TriggerScript" xml:space="preserve">
+    <value>Trigger Script</value>
+  </data>
+  <data name="ShowHelp" xml:space="preserve">
+    <value>Vis hjælp</value>
+  </data>
+  <data name="ShowLineNumbers" xml:space="preserve">
+    <value>Vis linjenumre</value>
+  </data>
+  <data name="ShowMinimap" xml:space="preserve">
+    <value>Vis minikort</value>
+  </data>
+  <data name="LicenseName" xml:space="preserve">
+    <value>Licens navn</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="ViewAdminTerminal" xml:space="preserve">
+    <value>Vis admin terminal</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Kontakt email</value>
+  </data>
+  <data name="VirtualMemory" xml:space="preserve">
+    <value>Virtuel hukommelse</value>
+  </data>
+  <data name="EditorSettingsSaved" xml:space="preserve">
+    <value>Gemt. Genindlæs siden for at se ændringer.</value>
+  </data>
+  <data name="LoadingPageDescriptionDescription" xml:space="preserve">
+    <value>Beskrivelsen, der skal vises, når PowerShell Universal indlæses. </value>
+  </data>
+  <data name="MetadataAddress" xml:space="preserve">
+    <value>Metadata adresse</value>
+  </data>
+  <data name="EntityId" xml:space="preserve">
+    <value>Enheds-id</value>
+  </data>
+  <data name="HomeModuleDescription" xml:space="preserve">
+    <value>Gennemse PowerShell Universal Gallery for en række moduler, som du kan bruge til at bygge apps, API'er og automatiseringsscripts. </value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>Miljø</value>
+  </data>
+  <data name="MaxVirtualMemoryHelp" xml:space="preserve">
+    <value>Den maksimale virtuel hukommelse (i megabyte) processer i dette miljø tillades, før de afsluttes.</value>
+  </data>
+  <data name="LoadMetaDataDescription" xml:space="preserve">
+    <value>Indlæs metadata om SAML2-konfigurationen fra metadatadokumentets URL.</value>
+  </data>
+  <data name="NameIdFormatDescription" xml:space="preserve">
+    <value>Navne-id-formatet, der skal anmodes om fra identitetsudbyderen. Hvis det ikke er angivet, kan et hvilket som helst navn-id-format bruges.</value>
+  </data>
+  <data name="Environments" xml:space="preserve">
+    <value>Miljøer</value>
+  </data>
+  <data name="AllowUnsolicitedAuthnResponse" xml:space="preserve">
+    <value>Tillad uopfordret godkendelsessvar.</value>
+  </data>
+  <data name="AccountLicenseDescription" xml:space="preserve">
+    <value>Indtast din brugers eller organisations kontolicens. Hvis du har en licensfil, kan du indtaste den i administrationskonsollen, når du har fuldført denne guide.</value>
+  </data>
+  <data name="SigningKeyDescription" xml:space="preserve">
+    <value>Filstien på serveren til certifikatsigneringsnøglen.</value>
+  </data>
+  <data name="EntityIdDescription" xml:space="preserve">
+    <value>SAML-enheds-id'et.</value>
+  </data>
+  <data name="IdentityProviderEntityIdDescription" xml:space="preserve">
+    <value>SAML Identity Provider (IdP) enheds-id</value>
+  </data>
+  <data name="ServiceCertificateDescription" xml:space="preserve">
+    <value>Filstien på serveren til servercertifikatet.</value>
+  </data>
+  <data name="ServiceCertificate" xml:space="preserve">
+    <value>Servicecertifikat</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="AllowUnsolicitedAuthnResponseDescription" xml:space="preserve">
+    <value>Tillader uopfordrede godkendelsessvar for IdP-initieret godkendelse.</value>
+  </data>
+  <data name="SystemLoadFailed" xml:space="preserve">
+    <value>PowerShell Universal kunne ikke starte. Tjek logfilerne for mere information.</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="DefaultSecurityDescription" xml:space="preserve">
+    <value>Standard sikkerhedsindstillinger. Brug denne værdi, hvis du vil synkronisere med et eksisterende git-lager. Du kan altid ændre disse værdier senere.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>Hej verden!</value>
+  </data>
+  <data name="EndpointDocumentationDescription" xml:space="preserve">
+    <value>OpenAPI-dokumentation til dine API-endepunkter.</value>
+  </data>
+  <data name="AdminConsoleReadOnly" xml:space="preserve">
+    <value>Admin konsollen er skrivebeskyttet.</value>
+  </data>
+  <data name="ConcurrentJobLimit" xml:space="preserve">
+    <value>Samtidig jobgrænse</value>
+  </data>
+  <data name="ScriptsDescription" xml:space="preserve">
+    <value>PowerShell-scripts, der kan udføres manuelt eller planlægges.</value>
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
+    <value>PowerShell Universal giver dig mulighed for at køre job, planlægge scripts, bygge websider og API'er samt kontrollere adgangen; alt sammen under et enkelt system.</value>
+  </data>
+  <data name="GitSyncPausedDescription" xml:space="preserve">
+    <value>Git-synkronisering er i øjeblikket sat på pause og henter ikke ændringer.</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Vedligeholdelsestilstand</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Mørk</value>
+  </data>
+  <data name="ViewResource" xml:space="preserve">
+    <value>Vis {0}</value>
+  </data>
+  <data name="Modules" xml:space="preserve">
+    <value>Moduler</value>
+  </data>
+  <data name="ModulesDescription" xml:space="preserve">
+    <value>Administrer PowerShell-moduler i dit PowerShell Universal-miljø</value>
+  </data>
+  <data name="RepositoryModules" xml:space="preserve">
+    <value>Moduler tilgængelige i PowerShell-gallerier (ressourcerepositories).</value>
+  </data>
+  <data name="ConsoleLogoDescription" xml:space="preserve">
+    <value>Logoet, der vises i overskriften på administrationskonsollen.</value>
+  </data>
+  <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
+    <value>Beskrivelsen, der skal vises for en bruger, når de forsøger at se en app, der ikke kører.</value>
+  </data>
+  <data name="Hide Environment" xml:space="preserve">
+    <value>Skjuler miljøvælgeren, når der køres eller planlægges job.</value>
+  </data>
+  <data name="DataRetentionDescription" xml:space="preserve">
+    <value>Antallet af dage, der skal opbevares data såsom job, terminalhistorik og brugersessioner.</value>
+  </data>
+  <data name="DisableFormatOnSaveDescription" xml:space="preserve">
+    <value>Forhindrer PowerShell Universal i at køre PSScriptAnalyzer's Invoke-Formatter på scripts, når du gemmer.</value>
+  </data>
+  <data name="PreformattedJobOutputDescription" xml:space="preserve">
+    <value>Forformateret joboutput ved kørsel af et job. Forbedrer ydeevnen, men tillader ikke at skjule tidsstempler.</value>
+  </data>
+  <data name="PreformattedJobOutput" xml:space="preserve">
+    <value>Forformateret joboutput</value>
+  </data>
+  <data name="PageNotFoundTitleDescription" xml:space="preserve">
+    <value>Titlen, der skal vises, når en side ikke findes.</value>
+  </data>
+  <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
+    <value>Antallet af sekunder at vente på, at et job starter.</value>
+  </data>
+  <data name="DefaultAppsThemeDescription" xml:space="preserve">
+    <value>Standardtemaet, der skal bruges til apps, når ingen er indstillet. </value>
+  </data>
+  <data name="PageNotFoundDescription" xml:space="preserve">
+    <value>Side ikke fundet beskrivelse</value>
+  </data>
+  <data name="SecurityEnvironment" xml:space="preserve">
+    <value>Sikkerhedsmiljø</value>
+  </data>
+  <data name="APIEnvironment" xml:space="preserve">
+    <value>API miljø</value>
+  </data>
+  <data name="DataRetention" xml:space="preserve">
+    <value>Dataopbevaring</value>
+  </data>
+  <data name="DatabaseLogRetention" xml:space="preserve">
+    <value>Opbevaring af databaselog</value>
+  </data>
+  <data name="DefaultEnvironment" xml:space="preserve">
+    <value>Standardmiljø</value>
+  </data>
+  <data name="DataGroomIntervalDescription" xml:space="preserve">
+    <value>Hvor ofte, i minutter, behandles data fra PowerShell Universal.</value>
+  </data>
+  <data name="DefaultEnvironmentDescription" xml:space="preserve">
+    <value>Standardmiljøet, der skal bruges, når en funktion ikke har et miljø indstillet. </value>
+  </data>
 </root>
