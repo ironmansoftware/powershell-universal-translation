@@ -859,4 +859,553 @@
   <data name="DefaultEnvironmentDescription" xml:space="preserve">
     <value>Standardmiljøet, der skal bruges, når en funktion ikke har et miljø indstillet. </value>
   </data>
+  <data name="RunIn" xml:space="preserve">
+    <value>Kør i</value>
+  </data>
+  <data name="RunOn" xml:space="preserve">
+    <value>Kør på</value>
+  </data>
+  <data name="JobsRunToday" xml:space="preserve">
+    <value>Jobs kørt i dag</value>
+  </data>
+  <data name="CurrentlyRunningJobs" xml:space="preserve">
+    <value>Nuværende kørende jobs</value>
+  </data>
+  <data name="JobsWaitingFeedback" xml:space="preserve">
+    <value>Jobs der venter på feedback</value>
+  </data>
+  <data name="ScheduledJobs" xml:space="preserve">
+    <value>Planlagte jobs</value>
+  </data>
+  <data name="HealthChecks" xml:space="preserve">
+    <value>Sundhedstjeks</value>
+  </data>
+  <data name="LicenseStatus" xml:space="preserve">
+    <value>License status</value>
+  </data>
+  <data name="NotificationsDescription" xml:space="preserve">
+    <value>Meddelelser produceret af PowerShell Universal.</value>
+  </data>
+  <data name="TimeStamp" xml:space="preserve">
+    <value>Tidsstempel</value>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>Tilføj fil</value>
+  </data>
+  <data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne fil eller mappe?</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Nulstil adgangskode</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Nuværende adgangskode</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Adgangskoder stemmer ikke overens</value>
+  </data>
+  <data name="InvalidPasswordSpecified" xml:space="preserve">
+    <value>Ugyldig adgangskode angivet</value>
+  </data>
+  <data name="LocalAccount" xml:space="preserve">
+    <value>Lokal konto</value>
+  </data>
+  <data name="ExternalAccount" xml:space="preserve">
+    <value>Ekstern konto</value>
+  </data>
+  <data name="MyJobs" xml:space="preserve">
+    <value>Mine job</value>
+  </data>
+  <data name="MyJobsDescription" xml:space="preserve">
+    <value>Jobs, der blev udført af dig.</value>
+  </data>
+  <data name="AdminConsoleDisabled" xml:space="preserve">
+    <value>Administrationskonsol deaktiveret</value>
+  </data>
+  <data name="ViewJobs" xml:space="preserve">
+    <value>Vis jobs</value>
+  </data>
+  <data name="JobRunId" xml:space="preserve">
+    <value>Job kør ID</value>
+  </data>
+  <data name="ReleaseNotes" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="ReleaseDate" xml:space="preserve">
+    <value>Udgivelsesdato</value>
+  </data>
+  <data name="ClaimType" xml:space="preserve">
+    <value>Krav type</value>
+  </data>
+  <data name="ClaimValue" xml:space="preserve">
+    <value>Krav værdi</value>
+  </data>
+  <data name="LicenseWarning" xml:space="preserve">
+    <value>Du har flere computere, end du har licens til. Køb venligst flere licenser. </value>
+  </data>
+  <data name="LicenseText" xml:space="preserve">
+    <value>Licenstekst</value>
+  </data>
+  <data name="AddAuthenticationMethod" xml:space="preserve">
+    <value>Tilføj godkendelsesmetode</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Opdateret</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Oprettet</value>
+  </data>
+  <data name="LastRead" xml:space="preserve">
+    <value>Sidst læst</value>
+  </data>
+  <data name="AbsoluteExpirationRelativeToNow" xml:space="preserve">
+    <value>Absolut udløb i forhold til nu</value>
+  </data>
+  <data name="ImportFromLibrary" xml:space="preserve">
+    <value>Importer fra Galleri</value>
+  </data>
+  <data name="UserSessions" xml:space="preserve">
+    <value>Brugersession</value>
+  </data>
+  <data name="BlazorDescription" xml:space="preserve">
+    <value>Byg apps med Blazor og PowerShell.</value>
+  </data>
+  <data name="RunLater" xml:space="preserve">
+    <value>Kør senere</value>
+  </data>
+  <data name="ScriptStarted" xml:space="preserve">
+    <value>Script startet</value>
+  </data>
+  <data name="FailedToStartScript" xml:space="preserve">
+    <value>Kunne ikke starte scriptet.</value>
+  </data>
+  <data name="ScriptScheduled" xml:space="preserve">
+    <value>Script planlagt</value>
+  </data>
+  <data name="DayOfTheWeek" xml:space="preserve">
+    <value>Ugedag</value>
+  </data>
+  <data name="DayOfTheMonth" xml:space="preserve">
+    <value>Dag i måneden</value>
+  </data>
+  <data name="SimpleSchedule" xml:space="preserve">
+    <value>Enkelt skema</value>
+  </data>
+  <data name="SpecificDay" xml:space="preserve">
+    <value>På bestemte dage i ugen</value>
+  </data>
+  <data name="SpecificMonth" xml:space="preserve">
+    <value>På bestemte måneder af året</value>
+  </data>
+  <data name="ApiError" xml:space="preserve">
+    <value>API fejl</value>
+  </data>
+  <data name="DashboardStarted" xml:space="preserve">
+    <value>PowerShell-appen er startet</value>
+  </data>
+  <data name="JobFailed" xml:space="preserve">
+    <value>Job fejlede</value>
+  </data>
+  <data name="JobStarted" xml:space="preserve">
+    <value>Job startet</value>
+  </data>
+  <data name="JobCompleted" xml:space="preserve">
+    <value>Job afsluttet</value>
+  </data>
+  <data name="JobCanceled" xml:space="preserve">
+    <value>Job annulleret</value>
+  </data>
+  <data name="JobTimedOut" xml:space="preserve">
+    <value>Job timede ud</value>
+  </data>
+  <data name="Job Failed" xml:space="preserve">
+    <value>Job fejlet</value>
+  </data>
+  <data name="PasteLicense" xml:space="preserve">
+    <value>Indsæt licens</value>
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>Licens er udløbet</value>
+  </data>
+  <data name="LicenseExpiring" xml:space="preserve">
+    <value>Licens udløber</value>
+  </data>
+  <data name="LoginPageTheme" xml:space="preserve">
+    <value>Login side tema</value>
+  </data>
+  <data name="ExpiringLicenseInfo" xml:space="preserve">
+    <value>En licens udløber snart.</value>
+  </data>
+  <data name="ServerStarted" xml:space="preserve">
+    <value>Server startet</value>
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
+    <value>Server stoppet</value>
+  </data>
+  <data name="HealthCheckFailed" xml:space="preserve">
+    <value>Sundhedstjek mislykkedes</value>
+  </data>
+  <data name="DashboardSessionExpired" xml:space="preserve">
+    <value>Dashboard-session udløbet</value>
+  </data>
+  <data name="JobFeedbackRequested" xml:space="preserve">
+    <value>Jobfeedback anmodet</value>
+  </data>
+  <data name="NewUserLogin" xml:space="preserve">
+    <value>Nyt brugerlogin</value>
+  </data>
+  <data name="BrandingDescription" xml:space="preserve">
+    <value>Tilpas teksten og farverne i PowerShell Universal.</value>
+  </data>
+  <data name="AdminConsoleTitle" xml:space="preserve">
+    <value>Administratorkonsol titel</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value>Login side titel</value>
+  </data>
+  <data name="LoginPageText" xml:space="preserve">
+    <value>Log ind side tekst</value>
+  </data>
+  <data name="LoginPageDescription" xml:space="preserve">
+    <value>Loginsidebeskrivelse</value>
+  </data>
+  <data name="NotAuthorizedTitle" xml:space="preserve">
+    <value>Ikke autoriseret titel</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Logget ud</value>
+  </data>
+  <data name="LoggedOutDescription" xml:space="preserve">
+    <value>Du er blevet logget ud. Klik på login for at logge ind igen.</value>
+  </data>
+  <data name="HeaderColor" xml:space="preserve">
+    <value>Overskriftsfarve</value>
+  </data>
+  <data name="PrimaryColor" xml:space="preserve">
+    <value>Primær farve</value>
+  </data>
+  <data name="PrimaryFontColor" xml:space="preserve">
+    <value>Primær skriftfarve</value>
+  </data>
+  <data name="SecondaryColor" xml:space="preserve">
+    <value>Sekundær farve</value>
+  </data>
+  <data name="HeaderFontColor" xml:space="preserve">
+    <value>Overskriftsskriftfarve</value>
+  </data>
+  <data name="SecondaryFontColor" xml:space="preserve">
+    <value>Sekundær skriftfarve</value>
+  </data>
+  <data name="AppBarLogo" xml:space="preserve">
+    <value>App Bar-logo</value>
+  </data>
+  <data name="FavIcon" xml:space="preserve">
+    <value>Favicon</value>
+  </data>
+  <data name="LoginPageImage" xml:space="preserve">
+    <value>Login side billede</value>
+  </data>
+  <data name="PersistenceSettings" xml:space="preserve">
+    <value>Persistensindstillinger</value>
+  </data>
+  <data name="PersistenceSettingsDescription" xml:space="preserve">
+    <value>Konfigurer hvilke konfigurationsfiler der skrives til filsystemet.</value>
+  </data>
+  <data name="PersistenceSetting" xml:space="preserve">
+    <value>Vedholdenhedsindstilling</value>
+  </data>
+  <data name="FileSystem" xml:space="preserve">
+    <value>Filsystem</value>
+  </data>
+  <data name="FormAuthentication" xml:space="preserve">
+    <value>Formulargodkendelse</value>
+  </data>
+  <data name="FileSystemAndDatabase" xml:space="preserve">
+    <value>Filsystem og database</value>
+  </data>
+  <data name="DatabaseOnly" xml:space="preserve">
+    <value>Kun database</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Sprog-id</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Kun læse</value>
+  </data>
+  <data name="KeepHistory" xml:space="preserve">
+    <value>Bevar historik</value>
+  </data>
+  <data name="PassingHealthChecks" xml:space="preserve">
+    <value>Bestået sundhedstjeks</value>
+  </data>
+  <data name="HealthChecksWithErrors" xml:space="preserve">
+    <value>Sundhedstjeks med fejl</value>
+  </data>
+  <data name="RepositoryVersion" xml:space="preserve">
+    <value>Repository version</value>
+  </data>
+  <data name="CheckForModuleUpdates" xml:space="preserve">
+    <value>Tjek for modulopdateringer</value>
+  </data>
+  <data name="ComputerGroups" xml:space="preserve">
+    <value>Computer grupper</value>
+  </data>
+  <data name="TerminalInstances" xml:space="preserve">
+    <value>Terminalforekomster</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Starttid</value>
+  </data>
+  <data name="IdleTime" xml:space="preserve">
+    <value>Inaktiv tid</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>Se historik</value>
+  </data>
+  <data name="OpenTerminal" xml:space="preserve">
+    <value>Åbn terminal</value>
+  </data>
+  <data name="TerminalHistory" xml:space="preserve">
+    <value>Terminal historik</value>
+  </data>
+  <data name="StopTerminal" xml:space="preserve">
+    <value>Stop terminal</value>
+  </data>
+  <data name="BlazorApps" xml:space="preserve">
+    <value>Blazor Apps</value>
+  </data>
+  <data name="QueryString" xml:space="preserve">
+    <value>Forespørgselsstreng</value>
+  </data>
+  <data name="ApplicationToken" xml:space="preserve">
+    <value>Applikations token</value>
+  </data>
+  <data name="30Days" xml:space="preserve">
+    <value>30 dage</value>
+  </data>
+  <data name="60Days" xml:space="preserve">
+    <value>60 dage</value>
+  </data>
+  <data name="1Year" xml:space="preserve">
+    <value>1 år</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="NameHelp" xml:space="preserve">
+    <value>Et venligt navn for denne ressource. </value>
+  </data>
+  <data name="DescriptionHelp" xml:space="preserve">
+    <value>En beskrivelse af denne ressource.</value>
+  </data>
+  <data name="EndpointUrlHelp" xml:space="preserve">
+    <value>URL'en for dette slutpunkt. Det skal være unikt.</value>
+  </data>
+  <data name="RoleHelp" xml:space="preserve">
+    <value>De roller, der har adgang til denne ressource.</value>
+  </data>
+  <data name="MethodHelp" xml:space="preserve">
+    <value>HTTP-metoden(-erne), der bruges til at få adgang til dette slutpunkt.</value>
+  </data>
+  <data name="EndpointDocumentationHelp" xml:space="preserve">
+    <value>OpenAPI-dokumentet til at inkludere dette endepunkt i.</value>
+  </data>
+  <data name="RegExHelp" xml:space="preserve">
+    <value>Hvis det er aktiveret, behandles URL'en som et regulært udtryk.</value>
+  </data>
+  <data name="EndpointTimeoutHelp" xml:space="preserve">
+    <value>Antallet af sekunder før dette slutpunkts timeout. Hvis det ikke er angivet, er der ingen timeout. </value>
+  </data>
+  <data name="TagsHelp" xml:space="preserve">
+    <value>Tags anvendt på denne ressource.</value>
+  </data>
+  <data name="PowerShellAppUrlHelp" xml:space="preserve">
+    <value>URL'en for at få adgang til denne app. Dette skal være unikt.</value>
+  </data>
+  <data name="ComputerGroupHelp" xml:space="preserve">
+    <value>Computergruppen, som denne ressource skal køres på. Hvis det ikke er angivet, vil det køre på alle computere.</value>
+  </data>
+  <data name="DisableErrorOnToastHelp" xml:space="preserve">
+    <value>Om en toast notifikation vises i appen, når der opstår en PowerShell-fejl.</value>
+  </data>
+  <data name="DisableInteractiveHostHelp" xml:space="preserve">
+    <value>Om kommandoer som Read-Host og Write-Progress forårsager interaktive funktioner i en app.</value>
+  </data>
+  <data name="FaviconHelp" xml:space="preserve">
+    <value>Ikonet, der skal vises på browserfanen.</value>
+  </data>
+  <data name="IdleTimeoutHelp" xml:space="preserve">
+    <value>Antallet af minutter før en session bliver inaktiv.</value>
+  </data>
+  <data name="AppMaintenanceModeHelp" xml:space="preserve">
+    <value>Når det er aktiveret, kan kun administratorer få adgang til appen.</value>
+  </data>
+  <data name="SessionTimeoutHelp" xml:space="preserve">
+    <value>Antallet af minutter før sessionen går i timeout.</value>
+  </data>
+  <data name="BlazorAppUrlHelp" xml:space="preserve">
+    <value>Den URL, der bruges til at få adgang til denne app. Dette skal være unikt.</value>
+  </data>
+  <data name="ScheduleScriptHelp" xml:space="preserve">
+    <value>Scriptet udført af denne tidsplan.</value>
+  </data>
+  <data name="ScheduleDelayHelp" xml:space="preserve">
+    <value>Antallet af sekunder, der skal forsinkes at køre denne tidsplan.</value>
+  </data>
+  <data name="ScheduleTimeoutHelp" xml:space="preserve">
+    <value>Antallet af minutter før det planlagte script laver timeout.</value>
+  </data>
+  <data name="SchedulePausedHelp" xml:space="preserve">
+    <value>Om denne tidsplan er sat på pause. Når den er sat på pause, kører den ikke.</value>
+  </data>
+  <data name="RandomDelay" xml:space="preserve">
+    <value>Tilfældig forsinkelse</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Tilføj folder</value>
+  </data>
+  <data name="ClearNotifications" xml:space="preserve">
+    <value>Ryd meddelelser</value>
+  </data>
+  <data name="VerifyPassword" xml:space="preserve">
+    <value>Bekræft adgangskoden</value>
+  </data>
+  <data name="LocalAccountDescription" xml:space="preserve">
+    <value>Lokale konti gemmes i PowerShell Universal-databasen.</value>
+  </data>
+  <data name="ExternalAccountDescription" xml:space="preserve">
+    <value>Eksterne konti er resultatet af logins til eksterne autentificeringsmetoder.</value>
+  </data>
+  <data name="ViewTaggedResources" xml:space="preserve">
+    <value>Se taggede ressourcer</value>
+  </data>
+  <data name="SlidingExpiration" xml:space="preserve">
+    <value>Glidende udløb</value>
+  </data>
+  <data name="TaggedResourcesDescription" xml:space="preserve">
+    <value>Ressourcer med dette tag tildelt.</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>Begivenhedstype</value>
+  </data>
+  <data name="DelaySeconds" xml:space="preserve">
+    <value>Forsinkelse (sekunder)</value>
+  </data>
+  <data name="RunningApps" xml:space="preserve">
+    <value>Kørende Apps</value>
+  </data>
+  <data name="JobRunIdDescription" xml:space="preserve">
+    <value>Job er kun tilgængelige baseret på et tilfældigt GUID snarere end et sekventielt job-id.</value>
+  </data>
+  <data name="JobsFailedToday" xml:space="preserve">
+    <value>Jobs fejlet i dag</value>
+  </data>
+  <data name="ErrorInConfigScript" xml:space="preserve">
+    <value>Der er en fejl i konfigurationsscriptet for denne ressource.</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Udløb</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="HealthChecksDescription" xml:space="preserve">
+    <value>Sundhedstjeks for PowerShell Universal.</value>
+  </data>
+  <data name="CacheDescription" xml:space="preserve">
+    <value>Data, der er blevet cachelagret i PowerShell Universal.</value>
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
+    <value>Filen blev uploadet!</value>
+  </data>
+  <data name="ProvidedByModule" xml:space="preserve">
+    <value>Leveret af modulet {0}.</value>
+  </data>
+  <data name="UploadFailure" xml:space="preserve">
+    <value>Filupload mislykkedes!</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>Bruger login</value>
+  </data>
+  <data name="LibraryDescription" xml:space="preserve">
+    <value>Moduler designet til at fungere med PowerShell Universal.</value>
+  </data>
+  <data name="EditOnGitHub" xml:space="preserve">
+    <value>Rediger på GitHub</value>
+  </data>
+  <data name="Contribute" xml:space="preserve">
+    <value>Bidrag</value>
+  </data>
+  <data name="ChildJobs" xml:space="preserve">
+    <value>Under jobs</value>
+  </data>
+  <data name="LibraryResources" xml:space="preserve">
+    <value>Galleri moduler</value>
+  </data>
+  <data name="CredentialHelp" xml:space="preserve">
+    <value>Brugerkontoen til at køre denne ressource som. Dette understøttes ikke med det integrerede miljø.</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Kør script</value>
+  </data>
+  <data name="TimeOfDay" xml:space="preserve">
+    <value>Tid på dagen</value>
+  </data>
+  <data name="ApiAuthenticationFailed" xml:space="preserve">
+    <value>API-godkendelse mislykkedes</value>
+  </data>
+  <data name="RevokedAppTokenUsage" xml:space="preserve">
+    <value>Tilbagekaldt brug af apptoken</value>
+  </data>
+  <data name="TerminalsDescription" xml:space="preserve">
+    <value>PowerShell-terminaler i browseren.</value>
+  </data>
+  <data name="DashboardStopped" xml:space="preserve">
+    <value>PowerShell-appen er stoppet</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Skriftfarve</value>
+  </data>
+  <data name="FormAuthenticationDescription" xml:space="preserve">
+    <value>Login-brugere med et brugerdefineret login-script.</value>
+  </data>
+  <data name="DisableAutoStartHelp" xml:space="preserve">
+    <value>Om denne app starter, når serveren starter.</value>
+  </data>
+  <data name="AuthenticationHelp" xml:space="preserve">
+    <value>Om der kræves godkendelse for at få adgang til denne ressource.</value>
+  </data>
+  <data name="CheckForModuleUpdatesDescription" xml:space="preserve">
+    <value>Kontrollerer modullageret for at se, om der er opdaterede versioner af moduler.</value>
+  </data>
+  <data name="EndpointPathHelp" xml:space="preserve">
+    <value>Filstien til en PS1-fil til at gemme implementeringen af dette endepunkt i. Hvis den ikke er angivet, vil den blive gemt i endpoints.ps1.</value>
+  </data>
+  <data name="90Days" xml:space="preserve">
+    <value>90 dage</value>
+  </data>
+  <data name="TranslationsDescription" xml:space="preserve">
+    <value>Tilføj oversatte strenge til brug med oversættelsesudbyderen.</value>
+  </data>
+  <data name="StringCount" xml:space="preserve">
+    <value>Strengtælling</value>
+  </data>
+  <data name="ComputerGroupDescription" xml:space="preserve">
+    <value>Grupper af computere at tildele ressourcer til.</value>
+  </data>
+  <data name="TerminalInstancesDescription" xml:space="preserve">
+    <value>Aktive og historiske forekomster af en terminal.</value>
+  </data>
+  <data name="ConcurrentJobs" xml:space="preserve">
+    <value>Samtidige jobs</value>
+  </data>
+  <data name="StoreInDatabase" xml:space="preserve">
+    <value>Gem i database</value>
+  </data>
+  <data name="EnvironmentHelp" xml:space="preserve">
+    <value>Det miljø, som disse ressourcer kører i. Hvis det ikke er angivet, vil det bruge standardmiljøet, der findes i indstillingerne.</value>
+  </data>
 </root>
