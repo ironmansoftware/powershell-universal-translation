@@ -18,3 +18,4 @@ The license for this project does not apply to the core PowerShell Universal pro
 
 - [English - Base](https://hosted.weblate.org/projects/powershell-universal/admin-console/en/)
 - [French](https://hosted.weblate.org/projects/powershell-universal/admin-console/fr/)
+- [Danish](https://hosted.weblate.org/projects/powershell-universal/admin-console/da/)
