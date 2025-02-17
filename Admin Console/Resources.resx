@@ -2397,4 +2397,7 @@
   <data name="EnvironmentTypeHelp" xml:space="preserve">
     <value>The type of environment that this configuration will use.</value>
   </data>
+  <data name="ImportWindowsGroups" xml:space="preserve">
+    <value>Import Windows Groups</value>
+  </data>
 </root>
