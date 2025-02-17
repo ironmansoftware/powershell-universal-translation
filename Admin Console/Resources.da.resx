@@ -1408,4 +1408,1024 @@
   <data name="EnvironmentHelp" xml:space="preserve">
     <value>Det miljø, som disse ressourcer kører i. Hvis det ikke er angivet, vil det bruge standardmiljøet, der findes i indstillingerne.</value>
   </data>
+  <data name="RandomDelayHelp" xml:space="preserve">
+    <value>Når markeret, vil tidsplanen forsinkes mellem 0 og 60 sekunder før start. </value>
+  </data>
+  <data name="RunAsHelp" xml:space="preserve">
+    <value>Brugerens legitimationsoplysninger, der skal køres som.</value>
+  </data>
+  <data name="RunAs" xml:space="preserve">
+    <value>Kør som</value>
+  </data>
+  <data name="RunOnHelp" xml:space="preserve">
+    <value>Computeren eller computergruppen, som jobbet skal køres på.</value>
+  </data>
+  <data name="RunInHelp" xml:space="preserve">
+    <value>Miljøet der skal køres i.</value>
+  </data>
+  <data name="Cron" xml:space="preserve">
+    <value>CRON</value>
+  </data>
+  <data name="CronHelp" xml:space="preserve">
+    <value>Et CRON-udtryk for denne tidsplan.</value>
+  </data>
+  <data name="Telemetry" xml:space="preserve">
+    <value>Telemetry</value>
+  </data>
+  <data name="SimpleScheduleHelp" xml:space="preserve">
+    <value>Ofte brugte skemaer.</value>
+  </data>
+  <data name="TerminalIdleTimeoutHelp" xml:space="preserve">
+    <value>Antallet af minutter før ledige terminaler afsluttes.</value>
+  </data>
+  <data name="TriggerScriptHelp" xml:space="preserve">
+    <value>Det script, der køres, når denne hændelsestype udløses.</value>
+  </data>
+  <data name="EventTypeHelp" xml:space="preserve">
+    <value>Den type hændelse i PowerShell Universal, der får triggeren til at køre.</value>
+  </data>
+  <data name="TriggerAppHelp" xml:space="preserve">
+    <value>Den app, som denne udløser, får scriptet til at køre.</value>
+  </data>
+  <data name="TriggerScriptScriptHelp" xml:space="preserve">
+    <value>Det script, der får denne trigger til at køre.</value>
+  </data>
+  <data name="SecretTypeHelp" xml:space="preserve">
+    <value>Datatypen for denne hemmelighed.</value>
+  </data>
+  <data name="LanguageIDHelp" xml:space="preserve">
+    <value>Sprogmærket for denne oversættelse. For eksempel: en-US</value>
+  </data>
+  <data name="VariableScopeHelp" xml:space="preserve">
+    <value>Globale omfangsvariabler oprettes, når ressourcer startes som API'er og apps. Script-omfangsvariabler læses under kørsel.</value>
+  </data>
+  <data name="LocalAccountHelp" xml:space="preserve">
+    <value>Lokale konti gemmes med deres legitimationsoplysninger i databasen.</value>
+  </data>
+  <data name="IdentityHelp" xml:space="preserve">
+    <value>Identiteten af dette app-token.</value>
+  </data>
+  <data name="EnvironmentPathHelp" xml:space="preserve">
+    <value>Den absolutte eller relative vej til en eksekverbar fil, der skal lanceres for dette miljø. For eksempel: pwsh.exe</value>
+  </data>
+  <data name="EnvironmentArgsHelp" xml:space="preserve">
+    <value>Argumenter, der skal overføres til den eksekverbare fil, når dette miljø startes.</value>
+  </data>
+  <data name="MinimalHelp" xml:space="preserve">
+    <value>Minimale miljøer indlæser ikke PowerShell Universal-samlinger og kan understøtte andre sprog. De er kun støttet med jobs.</value>
+  </data>
+  <data name="DisableImplicitWindowsCompatibilityHelp" xml:space="preserve">
+    <value>Deaktiver implicit Windows-kompatibilitet i PowerShell 7.</value>
+  </data>
+  <data name="MaxRunspacesHelp" xml:space="preserve">
+    <value>Det maksimale antal runspaces til at starte i et multi-runspace-miljø som PowerShell Apps og API'er.</value>
+  </data>
+  <data name="CustomModules" xml:space="preserve">
+    <value>Depotmoduler</value>
+  </data>
+  <data name="ShowTimestamp" xml:space="preserve">
+    <value>Vis tidsstempel</value>
+  </data>
+  <data name="ShowStreams" xml:space="preserve">
+    <value>Vis streams</value>
+  </data>
+  <data name="MyIdentity" xml:space="preserve">
+    <value>Min identitet</value>
+  </data>
+  <data name="MyIdentityDescription" xml:space="preserve">
+    <value>Oplysninger om din identitet, roller og tilladelser.</value>
+  </data>
+  <data name="AuthenticationMethod" xml:space="preserve">
+    <value>Autentificeringsmetode</value>
+  </data>
+  <data name="GitCommit" xml:space="preserve">
+    <value>Git Commit</value>
+  </data>
+  <data name="CommitMessage" xml:space="preserve">
+    <value>Commit besked</value>
+  </data>
+  <data name="NoChanges" xml:space="preserve">
+    <value>Ingen ændringer</value>
+  </data>
+  <data name="NoChangesDescription" xml:space="preserve">
+    <value>Der er ingen ændringer, men platformen er indstillet til redigeringstilstand. PowerShell Universal vil ikke skubbe og trække fra git, når en redigering er i gang.</value>
+  </data>
+  <data name="HideRunLater" xml:space="preserve">
+    <value>Skjul kør senere</value>
+  </data>
+  <data name="QuickRunDisabled" xml:space="preserve">
+    <value>Dette script har obligatoriske parametre og kan ikke køres hurtigt.</value>
+  </data>
+  <data name="DiscoverEnvironments" xml:space="preserve">
+    <value>Opdag miljøer</value>
+  </data>
+  <data name="GenerateDeveloperLicense" xml:space="preserve">
+    <value>Generer udviklerlicens</value>
+  </data>
+  <data name="PortalScriptSuccess" xml:space="preserve">
+    <value>Scriptet blev kørt.</value>
+  </data>
+  <data name="PortalOutputType" xml:space="preserve">
+    <value>Portal outputtype</value>
+  </data>
+  <data name="PortalOutputTypeHelp" xml:space="preserve">
+    <value>Måden at vise output fra dette script i portalen.</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Time Out</value>
+  </data>
+  <data name="Execution" xml:space="preserve">
+    <value>Udførelse</value>
+  </data>
+  <data name="PortalNoServices" xml:space="preserve">
+    <value>Ingen tjenester er blevet anvendt på din rolle. Kontakt din administrator for at få flere oplysninger.</value>
+  </data>
+  <data name="DisableErrorToastHelp" xml:space="preserve">
+    <value>Deaktiverer fejlmeddelelsen, der vises, når PowerShell skriver til fejlstrømmen.</value>
+  </data>
+  <data name="ApiBaseFolder" xml:space="preserve">
+    <value>API-basismappe</value>
+  </data>
+  <data name="ApiBaseFolderDescription" xml:space="preserve">
+    <value>Mappen, i forhold til lagerstien, til at gemme slutpunktsfiler.</value>
+  </data>
+  <data name="LoggingTarget" xml:space="preserve">
+    <value>Logningsmål</value>
+  </data>
+  <data name="LoggingTargets" xml:space="preserve">
+    <value>Logningsmål</value>
+  </data>
+  <data name="LoggingTargetsDescription" xml:space="preserve">
+    <value>Logningsmål styrer hvor, hvornår og hvordan logning finder sted. </value>
+  </data>
+  <data name="LoggingType" xml:space="preserve">
+    <value>Logningstype</value>
+  </data>
+  <data name="LoggingTargetTypeHelp" xml:space="preserve">
+    <value>Den type logning, der skal produceres.</value>
+  </data>
+  <data name="MinimumLevel" xml:space="preserve">
+    <value>Minimum niveau</value>
+  </data>
+  <data name="LoggingMinimumLevelHelp" xml:space="preserve">
+    <value>Det mindste logniveau, som dette mål vil logge.</value>
+  </data>
+  <data name="Scope" xml:space="preserve">
+    <value>Omfang</value>
+  </data>
+  <data name="Feature" xml:space="preserve">
+    <value>Feature</value>
+  </data>
+  <data name="LoggingFeatureHelp" xml:space="preserve">
+    <value>Feature-gruppen, som dette loggemål vil modtage. </value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ressource</value>
+  </data>
+  <data name="LoggingResourceHelp" xml:space="preserve">
+    <value>En specifik ressourceidentifikator (f.eks. ID eller sti), som dette logningsmål vil producere for.</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Filsti</value>
+  </data>
+  <data name="LoggingFilePathHelp" xml:space="preserve">
+    <value>Filstien der skal logges til. Miljøvariabler understøttes.</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="LoggingFileFormatHelp" xml:space="preserve">
+    <value>Logmeddelelsesformatet. Se Serilog-dokumentationen for mere information.</value>
+  </data>
+  <data name="RetentionPeriod" xml:space="preserve">
+    <value>Opbevaringsperiode</value>
+  </data>
+  <data name="LoggingFileRetentionPeriodHelp" xml:space="preserve">
+    <value>Antallet af dage at opbevare logfiler i.</value>
+  </data>
+  <data name="LoggingScriptBlockHelp" xml:space="preserve">
+    <value>En PowerShell-scriptblok der skal kaldes, når logmeddelelser genereres.</value>
+  </data>
+  <data name="LoggingPortHelp" xml:space="preserve">
+    <value>Porten for tjenesten, der skal logges på.</value>
+  </data>
+  <data name="LoggingUrlHelp" xml:space="preserve">
+    <value>URL'en til at sende logmeddelelser til.</value>
+  </data>
+  <data name="LogFiles" xml:space="preserve">
+    <value>Logfiler</value>
+  </data>
+  <data name="LogFilesDescription" xml:space="preserve">
+    <value>Logfiler, der er til stede på denne PowerShell Universal-node.</value>
+  </data>
+  <data name="ClearHealthChecks" xml:space="preserve">
+    <value>Ryd sundhedstjeks</value>
+  </data>
+  <data name="AvailableInBranchesHelp" xml:space="preserve">
+    <value>De branches, som denne ressource er tilgængelig i. Hvis den ikke er angivet, er denne ressource tilgængelig i alle branches. </value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>Brugerindstillinger</value>
+  </data>
+  <data name="UserSettingsDescription" xml:space="preserve">
+    <value>Brugerkonfigurationsindstillinger.</value>
+  </data>
+  <data name="DefaultRoute" xml:space="preserve">
+    <value>Standardrute</value>
+  </data>
+  <data name="DefaultRouteHelp" xml:space="preserve">
+    <value>Ruten, som brugere i denne rolle vil blive omdirigeret efter login.</value>
+  </data>
+  <data name="DisplayInPortal" xml:space="preserve">
+    <value>Vis i portal</value>
+  </data>
+  <data name="DisplayInPortalHelp" xml:space="preserve">
+    <value>Tilføjer et link til dette tag i portalen. Portalen vil derefter vise de taggede ressourcer.</value>
+  </data>
+  <data name="ManuallyStarted" xml:space="preserve">
+    <value>Startet manuelt</value>
+  </data>
+  <data name="NotificationLevelDescription" xml:space="preserve">
+    <value>Meddelelser på dette niveau og derover vil blive genereret.</value>
+  </data>
+  <data name="SendToSupport" xml:space="preserve">
+    <value>Send til support</value>
+  </data>
+  <data name="NoChangesSelected" xml:space="preserve">
+    <value>Der er ikke valgt nogen ændringer.</value>
+  </data>
+  <data name="ModuleVariables" xml:space="preserve">
+    <value>Modulvariabler</value>
+  </data>
+  <data name="DebuggerEnvironment" xml:space="preserve">
+    <value>Debugger miljø</value>
+  </data>
+  <data name="PortalWidgets" xml:space="preserve">
+    <value>Portal-widgets</value>
+  </data>
+  <data name="PortalWidget" xml:space="preserve">
+    <value>Portal-widget</value>
+  </data>
+  <data name="PortalPages" xml:space="preserve">
+    <value>Portal sider</value>
+  </data>
+  <data name="PortalPagesDescription" xml:space="preserve">
+    <value>Portalsider består af en samling widgets, som du kan præsentere for dine slutbrugere og tildele via roller.</value>
+  </data>
+  <data name="PortalPage" xml:space="preserve">
+    <value>Portal side</value>
+  </data>
+  <data name="WidgetHeightHelp" xml:space="preserve">
+    <value>Antallet af pixels højt vil denne widget være. Indstilling til 0 vil få widgetten til automatisk at indstille sin højde baseret på indholdet.</value>
+  </data>
+  <data name="WidgetDimensionInfo" xml:space="preserve">
+    <value>Widget-dimensioner er midlertidige i widget-editoren. Når du placerer widgets på en side, er de vedvarende.</value>
+  </data>
+  <data name="PermissionDescription" xml:space="preserve">
+    <value>Giv detaljerede tilladelser til identiteter.</value>
+  </data>
+  <data name="ValidateNewPassword" xml:space="preserve">
+    <value>Valider ny adgangskode</value>
+  </data>
+  <data name="GitPushOnlyDescription" xml:space="preserve">
+    <value>PowerShell Universal skubber ændringer, men vil ikke trække ændringer.</value>
+  </data>
+  <data name="GitSyncRunning" xml:space="preserve">
+    <value>Git-synkronisering kører i øjeblikket</value>
+  </data>
+  <data name="SyncNow" xml:space="preserve">
+    <value>Synkroniser nu</value>
+  </data>
+  <data name="GitSettingsReadonly" xml:space="preserve">
+    <value>Git konfigureres via applikationsindstillinger og skrivebeskyttet i administrationskonsollen.</value>
+  </data>
+  <data name="PauseGitSync" xml:space="preserve">
+    <value>Sæt git-synkronisering på pause</value>
+  </data>
+  <data name="BranchHelp" xml:space="preserve">
+    <value>Navnet på den git-branch, der skal foretages ændringer til.</value>
+  </data>
+  <data name="RemoteHelp" xml:space="preserve">
+    <value>Hvis det er angivet, vil Git Sync skubbe og/eller trække fra denne git-remote.</value>
+  </data>
+  <data name="SyncBehavior" xml:space="preserve">
+    <value>Synkroniseringsadfærd</value>
+  </data>
+  <data name="SyncBehaviorHelp" xml:space="preserve">
+    <value>Definerer hvilken retning git sync vil push eller pull commits.</value>
+  </data>
+  <data name="GitUserNameHelp" xml:space="preserve">
+    <value>Brugernavnet, der kræves for at logge ind på git-remote.</value>
+  </data>
+  <data name="GitPasswordHelp" xml:space="preserve">
+    <value>Adgangskoden eller tokenet, der bruges til at få adgang til git-remote.</value>
+  </data>
+  <data name="EditMode" xml:space="preserve">
+    <value>Redigeringstilstand</value>
+  </data>
+  <data name="EditModeHelp" xml:space="preserve">
+    <value>Definerer, hvordan redigeringer udføres, når git-synkronisering er aktiveret.</value>
+  </data>
+  <data name="ExternalGitClient" xml:space="preserve">
+    <value>Ekstern Git-klient</value>
+  </data>
+  <data name="ExternalGitClientHelp" xml:space="preserve">
+    <value>Git sync vil køre kommandolinjen git executable i stedet for de integrerede binære filer.</value>
+  </data>
+  <data name="InvalidGitRemote" xml:space="preserve">
+    <value>Remote skal være en gyldig URL.</value>
+  </data>
+  <data name="AddWidget" xml:space="preserve">
+    <value>Tilføj widget</value>
+  </data>
+  <data name="WidgetDescription" xml:space="preserve">
+    <value>Widgets er indbyggede eller brugerdefinerede UI-elementer, som du kan konfigurere og placere på din side.</value>
+  </data>
+  <data name="ConditionHelp" xml:space="preserve">
+    <value>En PowerShell-scriptblok, der kører for at bestemme, om denne tidsplan skal køre.</value>
+  </data>
+  <data name="PortalResources" xml:space="preserve">
+    <value>Portal ressourcer</value>
+  </data>
+  <data name="PortalResourcesDescription" xml:space="preserve">
+    <value>En liste over de ressourcer, der vises på portalen.</value>
+  </data>
+  <data name="ActionPreferences" xml:space="preserve">
+    <value>Handlingspræferencer</value>
+  </data>
+  <data name="PermissionHelp" xml:space="preserve">
+    <value>Tilladelsesudtryk til at give identiteten.</value>
+  </data>
+  <data name="ParentJob" xml:space="preserve">
+    <value>Forældre job</value>
+  </data>
+  <data name="SaveGit" xml:space="preserve">
+    <value>Gem ({0})</value>
+  </data>
+  <data name="DiscardingChanges" xml:space="preserve">
+    <value>Kassering af ændringer</value>
+  </data>
+  <data name="ArchiveAll" xml:space="preserve">
+    <value>Arkiver alle</value>
+  </data>
+  <data name="ArchivingJobs" xml:space="preserve">
+    <value>Arkivering af jobs...</value>
+  </data>
+  <data name="MaximumTokenLifetime" xml:space="preserve">
+    <value>Maksimal tokenlevetid</value>
+  </data>
+  <data name="MaximumTokenLifetimeDescription" xml:space="preserve">
+    <value>Det maksimale antal takes, et apptoken kan tildeles for. </value>
+  </data>
+  <data name="PermissionResource" xml:space="preserve">
+    <value>Ressource</value>
+  </data>
+  <data name="TerminalHistoryDescription" xml:space="preserve">
+    <value>Historik over kommandoer, der er kørt i denne terminalforekomst.</value>
+  </data>
+  <data name="DownloadLibrary" xml:space="preserve">
+    <value>Download Galleri</value>
+  </data>
+  <data name="UpdateLibrary" xml:space="preserve">
+    <value>Opdater Galleri</value>
+  </data>
+  <data name="LibraryDownloaded" xml:space="preserve">
+    <value>Galleri downloadet!</value>
+  </data>
+  <data name="LibraryVersion" xml:space="preserve">
+    <value>Galleri version</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>Upload mislykkedes</value>
+  </data>
+  <data name="LiveDocumentation" xml:space="preserve">
+    <value>Live dokumentation</value>
+  </data>
+  <data name="MaxRunspaces" xml:space="preserve">
+    <value>Maksimalt antal runspace</value>
+  </data>
+  <data name="PersistentRunspaces" xml:space="preserve">
+    <value>Vedvarende Runspaces</value>
+  </data>
+  <data name="DisableImplicitWindowsCompatibility" xml:space="preserve">
+    <value>Deaktiver implicit Windows-kompatibilitet</value>
+  </data>
+  <data name="ModulesToImport" xml:space="preserve">
+    <value>Moduler til import</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="LicenseRequired" xml:space="preserve">
+    <value>Der kræves en licens for at bruge denne funktion.</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Tidszone</value>
+  </data>
+  <data name="TimeZoneHelp" xml:space="preserve">
+    <value>Tidszonen som tidsplanen kører i.</value>
+  </data>
+  <data name="GitSyncInterval" xml:space="preserve">
+    <value>Synkroniseringsinterval</value>
+  </data>
+  <data name="GitSyncIntervalHelp" xml:space="preserve">
+    <value>Hvor ofte, i minutter, vil git-synkroniseringen køre.</value>
+  </data>
+  <data name="ViewClaimInformation" xml:space="preserve">
+    <value>Se kravoplysninger</value>
+  </data>
+  <data name="UploadLicense" xml:space="preserve">
+    <value>Upload licens fra fil</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Dit arbejde er ikke gemt. Er du sikker på, at du vil forlade denne side?</value>
+  </data>
+  <data name="StartupScripts" xml:space="preserve">
+    <value>Opstartsscripts</value>
+  </data>
+  <data name="StartupScriptsHelp" xml:space="preserve">
+    <value>Scripts, der køres, når der oprettes runspaces.</value>
+  </data>
+  <data name="ProcessStartupScript" xml:space="preserve">
+    <value>Process Startup Script</value>
+  </data>
+  <data name="ProcessStartupScriptHelp" xml:space="preserve">
+    <value>Et script, der kører, når miljøet er proces, startes.</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Ny version tilgængelig - {0}</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Nulstilling af adgangskode</value>
+  </data>
+  <data name="MissingSecret" xml:space="preserve">
+    <value>Værdien af denne hemmelighed findes ikke i vaulten.</value>
+  </data>
+  <data name="NewTokenMessageEnhancedSecurity" xml:space="preserve">
+    <value>Forbedret token-sikkerhed er aktiveret. Denne token vil ikke blive vist igen.</value>
+  </data>
+  <data name="NewTokenMessage" xml:space="preserve">
+    <value>Nedenfor er den nye app-token. Du kan også kopiere en app-token med kopieringsknappen i tabellen nedenfor.</value>
+  </data>
+  <data name="RolePermissionsHelp" xml:space="preserve">
+    <value>Tilladelser givet til brugere af denne rolle.</value>
+  </data>
+  <data name="DevelopmentLicenseInfo" xml:space="preserve">
+    <value>Denne PowerShell Universal-instans er licenseret til udviklingsformål og ikke til brug i produktionen.</value>
+  </data>
+  <data name="LicensedInfo" xml:space="preserve">
+    <value>Denne PowerShell Universal-instans er licenseret til produktionsbrug.</value>
+  </data>
+  <data name="UnlicensedInfo" xml:space="preserve">
+    <value>Denne PowerShell Universal-instans er uden licens, og nogle funktioner er ikke tilgængelige.</value>
+  </data>
+  <data name="ConfigurationRefreshing" xml:space="preserve">
+    <value>Konfigurationsfiler genindlæses...</value>
+  </data>
+  <data name="SupportToolWarning" xml:space="preserve">
+    <value>Dette værktøj bør kun bruges som anvist af Ironman Software-support.</value>
+  </data>
+  <data name="MergeConflict" xml:space="preserve">
+    <value>Flet konflikt</value>
+  </data>
+  <data name="SetSecretValue" xml:space="preserve">
+    <value>Indstil hemmelig værdi</value>
+  </data>
+  <data name="AutoDeploy" xml:space="preserve">
+    <value>Automatisk implementering</value>
+  </data>
+  <data name="AutoDeployHelp" xml:space="preserve">
+    <value>Implementerer ændringer til en app, når den gemmes eller opdateres i git\filsystem.</value>
+  </data>
+  <data name="TelemetryDescription" xml:space="preserve">
+    <value>Send anonyme telemetridata til Ironman Software.</value>
+  </data>
+  <data name="ReportBug" xml:space="preserve">
+    <value>Rapporter fejl</value>
+  </data>
+  <data name="MaintenanceModeHelp" xml:space="preserve">
+    <value>Computere i vedligeholdelsestilstand vil ikke køre job.</value>
+  </data>
+  <data name="ComputerReadOnlyHelp" xml:space="preserve">
+    <value>Skrivebeskyttede computere tillader ikke ændringer i administrationskonsollen.</value>
+  </data>
+  <data name="RemoteUserName" xml:space="preserve">
+    <value>Fjernbrugernavn</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>Sluttid</value>
+  </data>
+  <data name="CreatedTime" xml:space="preserve">
+    <value>Oprettet tid</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Forløbet tid</value>
+  </data>
+  <data name="SetLogLevel" xml:space="preserve">
+    <value>Indstil systemlogniveau</value>
+  </data>
+  <data name="LogLevelUpdated" xml:space="preserve">
+    <value>Systemlogniveau opdateret</value>
+  </data>
+  <data name="ResetBrandingWarning" xml:space="preserve">
+    <value>Er du sikker på, at du vil nulstille brandingindstillingerne?</value>
+  </data>
+  <data name="PersistCacheDescription" xml:space="preserve">
+    <value>Dette cache-element er gemt i databasen og tilgængeligt for alle computere.</value>
+  </data>
+  <data name="NonPersistCacheDescription" xml:space="preserve">
+    <value>Dette cacheelement er gemt i hukommelsen og er kun tilgængeligt på denne computer. Det vil ikke overleve genstart af tjenesten.</value>
+  </data>
+  <data name="ShowWhitespace" xml:space="preserve">
+    <value>Vis mellemrum</value>
+  </data>
+  <data name="PortalRolesHelp" xml:space="preserve">
+    <value>Roller, der har adgang til portalen. Hvis der ikke er angivet nogen roller, har alle roller adgang.</value>
+  </data>
+  <data name="OfflineLicenseHelp" xml:space="preserve">
+    <value>Denne licens kræver ikke en internetforbindelse, men skal opdateres, når abonnementet fornys.</value>
+  </data>
+  <data name="OpenApiContactNameHelp" xml:space="preserve">
+    <value>Kontaktnavnet for denne API-dokumentation.</value>
+  </data>
+  <data name="OpenApiContactUrlHelp" xml:space="preserve">
+    <value>Kontakt-URL'en for denne API-dokumentation.</value>
+  </data>
+  <data name="LicenseUrl" xml:space="preserve">
+    <value>Licens URL</value>
+  </data>
+  <data name="TermsOfServiceUrl" xml:space="preserve">
+    <value>Servicevilkår URL</value>
+  </data>
+  <data name="DarkAppBarLogo" xml:space="preserve">
+    <value>Mørk App Bar-logo</value>
+  </data>
+  <data name="DefaultTokenLifetimeDescription" xml:space="preserve">
+    <value>Standardantallet af dage, en apptoken er gyldigt for.</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Uberettiget</value>
+  </data>
+  <data name="UnauthorizedHelp" xml:space="preserve">
+    <value>Beklager, du er ikke autoriseret til at få adgang til denne side.</value>
+  </data>
+  <data name="NestedRolesHelp" xml:space="preserve">
+    <value>Yderligere roller tildeles brugeren, når denne rolle tildeles.</value>
+  </data>
+  <data name="UntilCanceled" xml:space="preserve">
+    <value>Indtil abonnementet opsiges</value>
+  </data>
+  <data name="ImportSecrets" xml:space="preserve">
+    <value>Importer hemmeligheder</value>
+  </data>
+  <data name="SecretAlreadyExists" xml:space="preserve">
+    <value>Variabel findes allerede. Slet variablen for at importere denne hemmelighed.</value>
+  </data>
+  <data name="SecretImported" xml:space="preserve">
+    <value>Hemmelighed importeret</value>
+  </data>
+  <data name="DeploymentsDescription" xml:space="preserve">
+    <value>Administrer og implementer uforanderlige PowerShell Universal-konfigurationer.</value>
+  </data>
+  <data name="ClearPinnedDeployment" xml:space="preserve">
+    <value>Ryd fastgjort implementering</value>
+  </data>
+  <data name="DeploymentPinHelp" xml:space="preserve">
+    <value>Fastgør denne implementering. Dette vil gøre PowerShell Universal skrivebeskyttet.</value>
+  </data>
+  <data name="DeploymentVersionHelp" xml:space="preserve">
+    <value>En semantisk version til denne implementering.</value>
+  </data>
+  <data name="PinnedDeploymentDescription" xml:space="preserve">
+    <value>Den aktuelt anvendte implementering og version. PowerShell Universal er skrivebeskyttet.</value>
+  </data>
+  <data name="MaxJobMemory" xml:space="preserve">
+    <value>Maksimal jobhukommelse</value>
+  </data>
+  <data name="MaxJobMemoryDescription" xml:space="preserve">
+    <value>Den maksimale jobhukommelse i megabyte, som en jobproces kan bruge, før den afsluttes. 0 betyder ingen grænse.</value>
+  </data>
+  <data name="SecureModuleMode" xml:space="preserve">
+    <value>Der kræves legitimationsoplysninger for at kalde PowerShell Universal-modulet eksternt mod dette system.</value>
+  </data>
+  <data name="EnhancedTokenSecurity" xml:space="preserve">
+    <value>Tokens kan kun ses, når de er oprettet og gemmes i databasen som en hash.</value>
+  </data>
+  <data name="ExcludeScripts" xml:space="preserve">
+    <value>Udelad scripts</value>
+  </data>
+  <data name="Verb" xml:space="preserve">
+    <value>Verb</value>
+  </data>
+  <data name="RolePriorityHelp" xml:space="preserve">
+    <value>Bestemmer, hvilken rute der vil blive valgt til at omdirigere. Rollen med den højeste prioritet vil definere ruten.</value>
+  </data>
+  <data name="SuccessRate" xml:space="preserve">
+    <value>Succesrate</value>
+  </data>
+  <data name="CreateBranch" xml:space="preserve">
+    <value>Opret branch</value>
+  </data>
+  <data name="EnvironmentTypeHelp" xml:space="preserve">
+    <value>Den type miljø, som denne konfiguration vil bruge.</value>
+  </data>
+  <data name="ModulesToImportHelp" xml:space="preserve">
+    <value>De moduler, der skal importeres, når der oprettes runspaces i dette miljø.</value>
+  </data>
+  <data name="PersistentRunspaceHelp" xml:space="preserve">
+    <value>Forhindrer runspaces i at nulstille tilstanden mellem påkaldelser. Denne indstilling påvirker kun langvarige funktioner som Apps og API'er. </value>
+  </data>
+  <data name="VaultsHelp" xml:space="preserve">
+    <value>Den hemmelige boks til at gemme hemmeligheden i.</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Ændret</value>
+  </data>
+  <data name="RequestPathHelp" xml:space="preserve">
+    <value>Den relative URL for at få adgang til filer i den lokale mappe.</value>
+  </data>
+  <data name="HealthChecksWithWarnings" xml:space="preserve">
+    <value>Sundhedstjeks med advarsler</value>
+  </data>
+  <data name="CachedClaimsCleared" xml:space="preserve">
+    <value>Cachelagrede krav ryddet.</value>
+  </data>
+  <data name="PermissionResourceHelp" xml:space="preserve">
+    <value>Ressourcetypen eller gruppen af ressourcer, som denne tilladelse skal anvendes på.</value>
+  </data>
+  <data name="DefaultHomePage" xml:space="preserve">
+    <value>Standardhjemmeside</value>
+  </data>
+  <data name="ConfigurationError" xml:space="preserve">
+    <value>Konfigurationsfejl</value>
+  </data>
+  <data name="RefreshConfiguration" xml:space="preserve">
+    <value>Genindlæs konfigurationsfiler</value>
+  </data>
+  <data name="IntegratedModuleMode" xml:space="preserve">
+    <value>Der anvendes ingen sikkerhed, når du kalder Universal PowerShell-modulet i PowerShell Universal. Integreret tilstand bruger backchannel til kommunikation.</value>
+  </data>
+  <data name="VerbHelp" xml:space="preserve">
+    <value>Kun gyldig på Windows. Verbet, der bruges, når du starter dette miljøs proces.</value>
+  </data>
+  <data name="RolePermissions" xml:space="preserve">
+    <value>Tilladelser</value>
+  </data>
+  <data name="OnlineLicenseHelp" xml:space="preserve">
+    <value>Denne licens kontrollerer abonnementsstatus online og kræver en internetforbindelse.</value>
+  </data>
+  <data name="ContactURL" xml:space="preserve">
+    <value>Kontakt URL</value>
+  </data>
+  <data name="OpenApiLicenseUrlHelp" xml:space="preserve">
+    <value>URL'en på licensen til denne API-dokumentation.</value>
+  </data>
+  <data name="Deployments" xml:space="preserve">
+    <value>Implementeringer</value>
+  </data>
+  <data name="LowSecurityDescription" xml:space="preserve">
+    <value>Den enkleste konfiguration med det mindste antal sikkerhedskonfigurationer. God til enkeltbrugere eller små teams uden behov for kompleks sikkerhed.</value>
+  </data>
+  <data name="SessionsDescription" xml:space="preserve">
+    <value>Aktuelle og historiske brugersessioner.</value>
+  </data>
+  <data name="OpenApiContactEmailHelp" xml:space="preserve">
+    <value>Kontakt-e-mailadressen for denne API-dokumentation.</value>
+  </data>
+  <data name="OpenApiTermsOfServiceUrlHelp" xml:space="preserve">
+    <value>Webadressen til servicevilkårene for denne API-dokumentation.</value>
+  </data>
+  <data name="ClearPinnedDeploymentWarning" xml:space="preserve">
+    <value>Løsner den aktuelle implementering og giver brugerne mulighed for at redigere konfigurationen. Er du sikker?</value>
+  </data>
+  <data name="PinnedDescription" xml:space="preserve">
+    <value>Denne implementering er i øjeblikket anvendt og PowerShell Universal er skrivebeskyttet.</value>
+  </data>
+  <data name="RevokeTokenConfirm" xml:space="preserve">
+    <value>Er du sikker på, at du vil tilbagekalde dette token? Brugere af tokenet vil ikke længere kunne få adgang til ressourcer med det.</value>
+  </data>
+  <data name="MediumSecurityDescription" xml:space="preserve">
+    <value>Aktiverer valgfri sikkerhedsindstillinger samt integreret modultilstand. Godt til teams, der leder efter kontrol over tilladelser, når de kalder scripts internt i PowerShell Universal, med mulighed for at kalde interne kommandoer uden sikkerhed.</value>
+  </data>
+  <data name="DisconnectedTime" xml:space="preserve">
+    <value>Afbrudt tid</value>
+  </data>
+  <data name="UserAgent" xml:space="preserve">
+    <value>Browserbrugeragent</value>
+  </data>
+  <data name="DeploymentWarning" xml:space="preserve">
+    <value>Anvendelse af denne implementering vil fjerne alle ændringer, du har foretaget i denne PowerShell Universal-instans, og vil anvende konfigurationen i implementeringen.</value>
+  </data>
+  <data name="HighSecurityDescription" xml:space="preserve">
+    <value>Aktiverer alle valgfri sikkerhedsindstillinger. Deaktiverer integreret modultilstand for at forhindre kald af interne PowerShell Universal-kommandoer uden sikkerhed. Godt for teams, der ønsker at kontrollere alle ændringer til PowerShell Universal.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Slettet</value>
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>Indlæs mere</value>
+  </data>
+  <data name="PermissionAccessHelp" xml:space="preserve">
+    <value>Typen af adgang til at give.</value>
+  </data>
+  <data name="CancelEdit" xml:space="preserve">
+    <value>Annuller redigering</value>
+  </data>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>Yderligere oplysninger</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Dårligt brugernavn eller adgangskode.</value>
+  </data>
+  <data name="DebuggerEnvironmentDescription" xml:space="preserve">
+    <value>Det miljø, der bruges til at være vært for PowerShell-debuggeren. Kan ikke være det integrerede miljø.</value>
+  </data>
+  <data name="StartTimeHelp" xml:space="preserve">
+    <value>Dato og tidspunkt for påbegyndelse af dette job.</value>
+  </data>
+  <data name="KeepHistoryHelp" xml:space="preserve">
+    <value>Gemmer alle input og output fra terminalbrugen.</value>
+  </data>
+  <data name="DelaySecondsHelp" xml:space="preserve">
+    <value>Antallet af sekunder, der skal ventes, før denne trigger køres.</value>
+  </data>
+  <data name="ComputerTagsHelp" xml:space="preserve">
+    <value>Computere, der har de valgte tags, vil være en del af denne computergruppe.</value>
+  </data>
+  <data name="PublishedFoldersPathHelp" xml:space="preserve">
+    <value>Den lokale filsti til at dele filer fra. Hvis denne sti er relativ, er den relativ til depotbiblioteket.</value>
+  </data>
+  <data name="SecretValueHelp" xml:space="preserve">
+    <value>Værdien af denne hemmelighed.</value>
+  </data>
+  <data name="DisableRunAsSupport" xml:space="preserve">
+    <value>Deaktiver kør som support</value>
+  </data>
+  <data name="StoreInDatabaseHelp" xml:space="preserve">
+    <value>Variabelværdien gemmes i databasen i stedet for variables.ps1</value>
+  </data>
+  <data name="ClaimTypeHelp" xml:space="preserve">
+    <value>Brugere, der matcher krav- og værditypen, får denne rolle.</value>
+  </data>
+  <data name="AppTokenRoleHelp" xml:space="preserve">
+    <value>De roller, der er tildelt denne app-token.</value>
+  </data>
+  <data name="RolesHelp" xml:space="preserve">
+    <value>Roller, der kan få adgang til denne ressource.</value>
+  </data>
+  <data name="IdentityRoleHelp" xml:space="preserve">
+    <value>Roller tildelt denne identitet. Hvis det ikke er defineret, vil roller blive anvendt af politikken.</value>
+  </data>
+  <data name="MaxVirutalMemoryHelp" xml:space="preserve">
+    <value>Den maksimale virtuelle hukommelse, et miljø kan bruge, før det tvangsmæssigt afsluttes.</value>
+  </data>
+  <data name="Changes" xml:space="preserve">
+    <value>Ændringer</value>
+  </data>
+  <data name="PowerShellLoggingWarning" xml:space="preserve">
+    <value>PowerShell-logning kan have præstationsimplikationer.</value>
+  </data>
+  <data name="DiscardCommitConfirm" xml:space="preserve">
+    <value>Er du sikker på, at du vil kassere disse ændringer?</value>
+  </data>
+  <data name="DisableRunAsSupportHelp" xml:space="preserve">
+    <value>Forhindrer PSCredential i at blive brugt til at elevere jobs. </value>
+  </data>
+  <data name="VariableTypeHelp" xml:space="preserve">
+    <value>Datatypen for denne variabel.</value>
+  </data>
+  <data name="ExpirationHelp" xml:space="preserve">
+    <value>Udløbstiden for dette app-token.</value>
+  </data>
+  <data name="CustomModulesDescription" xml:space="preserve">
+    <value>Repository-moduler gemmes i PowerShell Universal-depotet. Disse moduler er tilgængelige i alle miljøer.</value>
+  </data>
+  <data name="VersionHelp" xml:space="preserve">
+    <value>Udgaven af dette modul.</value>
+  </data>
+  <data name="HideRunLaterDescription" xml:space="preserve">
+    <value>Skjuler muligheden for kør senere, når du kører et script.</value>
+  </data>
+  <data name="QuickRunScript" xml:space="preserve">
+    <value>Hurtigt kør</value>
+  </data>
+  <data name="DiscoverEnvironmentsDescription" xml:space="preserve">
+    <value>Opdager miljøer, der er installeret på denne maskine.</value>
+  </data>
+  <data name="LoggingScopeHelp" xml:space="preserve">
+    <value>Brugeromfang logger scripts oprettet af brugere, og systemomfang er logning produceret af platformen.</value>
+  </data>
+  <data name="AvailableInBranches" xml:space="preserve">
+    <value>Tilgængelig i branches</value>
+  </data>
+  <data name="RerunScript" xml:space="preserve">
+    <value>Kør job igen</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Forhåndsvisning</value>
+  </data>
+  <data name="GitOneWayDescription" xml:space="preserve">
+    <value>PowerShell Universal kører i skrivebeskyttet tilstand og trækker ændringer fra git.</value>
+  </data>
+  <data name="PasswordsNotComplexEnough" xml:space="preserve">
+    <value>Adgangskoden opfylder ikke kompleksitetsstandarder. Adgangskoden skal indeholde et tal, symbol, bogstav og have en længde på mindst 12 tegn.</value>
+  </data>
+  <data name="StartedGitSync" xml:space="preserve">
+    <value>Git-synkronisering fuldført.</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="CreateResourceCommand" xml:space="preserve">
+    <value>Opret {0} fra kommando</value>
+  </data>
+  <data name="CommitMessageRequired" xml:space="preserve">
+    <value>Commit besked er påkrævet.</value>
+  </data>
+  <data name="BuiltInRoleDescription" xml:space="preserve">
+    <value>Dette er en indbygget rolle og kan ikke ændres.</value>
+  </data>
+  <data name="PermissionAccess" xml:space="preserve">
+    <value>Adgang</value>
+  </data>
+  <data name="ProcessId" xml:space="preserve">
+    <value>Proces ID</value>
+  </data>
+  <data name="RefreshFile" xml:space="preserve">
+    <value>Genindlæs {0}</value>
+  </data>
+  <data name="UsernameAndPasswordRequired" xml:space="preserve">
+    <value>Brugernavn og adgangskode er påkrævet.</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Vært</value>
+  </data>
+  <data name="DefaultLoginWarning" xml:space="preserve">
+    <value>Du har ikke konfigureret godkendelse. Standardbrugernavnet er 'admin' og med adgangskoden 'admin'. Vi anbefaler, at du ændrer din adgangskode.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Tilføjet</value>
+  </data>
+  <data name="EditNotInProgress" xml:space="preserve">
+    <value>Redigering er ikke i gang</value>
+  </data>
+  <data name="LicensedUntil" xml:space="preserve">
+    <value>Licenseret indtil:</value>
+  </data>
+  <data name="DemoModeLoginInfo" xml:space="preserve">
+    <value>Denne instans kører i demotilstand. Du kan logge ind med ethvert brugernavn eller adgangskode.</value>
+  </data>
+  <data name="EditNotInProgressDescription" xml:space="preserve">
+    <value>Klik nedenfor for at starte en ny redigering. PowerShell Universal vil ikke skubbe og trække fra git, når en redigering er i gang.</value>
+  </data>
+  <data name="ConfigurationErrorDescription" xml:space="preserve">
+    <value>Der er konfigurationsfejl med PowerShell Universal, som kan forårsage uventet adfærd.</value>
+  </data>
+  <data name="GitCommitDescription" xml:space="preserve">
+    <value>Disse er ændringer, der i øjeblikket er til stede på denne node, som ikke er blevet skubbet endnu.</value>
+  </data>
+  <data name="PortalScriptError" xml:space="preserve">
+    <value>Fejl ved udførelse af script.</value>
+  </data>
+  <data name="FirstRunDescription" xml:space="preserve">
+    <value>Konfigurer grundlæggende PowerShell Universal muligheder. Disse muligheder kan altid ændres senere.</value>
+  </data>
+  <data name="HideUserName" xml:space="preserve">
+    <value>Skjul brugernavn</value>
+  </data>
+  <data name="ConnectionString" xml:space="preserve">
+    <value>Forbindelsesstreng</value>
+  </data>
+  <data name="LoggingConnectionStringHelp" xml:space="preserve">
+    <value>En forbindelsesstreng for en database, der skal logges til. Hvis det ikke er angivet, vil standarden blive brugt.</value>
+  </data>
+  <data name="LoggingHostHelp" xml:space="preserve">
+    <value>Værtsnavnet på den server, der skal logges på.</value>
+  </data>
+  <data name="HealthChecksStarted" xml:space="preserve">
+    <value>Sundhedstjeks påbegyndt</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="MySettings" xml:space="preserve">
+    <value>Mine indstillinger</value>
+  </data>
+  <data name="IncludePrerelease" xml:space="preserve">
+    <value>Inkluder prerelease</value>
+  </data>
+  <data name="WidgetWidthHelp" xml:space="preserve">
+    <value>Antallet af kolonner, som denne widget optager. Dette er mellem 1 og 24.</value>
+  </data>
+  <data name="LicensesDescription" xml:space="preserve">
+    <value>Licenser til at aktivere virksomhedsfunktioner i PowerShell Universal.</value>
+  </data>
+  <data name="PipelineOutput" xml:space="preserve">
+    <value>Pipeline output</value>
+  </data>
+  <data name="NotificationLevel" xml:space="preserve">
+    <value>Notifikationsniveau</value>
+  </data>
+  <data name="ViewPortal" xml:space="preserve">
+    <value>Se portalen</value>
+  </data>
+  <data name="PortalWidgetsDescription" xml:space="preserve">
+    <value>Widgets, der kan tilføjes til portalsiderne for at levere værktøjer til slutbrugere.</value>
+  </data>
+  <data name="InvalidLoginConfiguration" xml:space="preserve">
+    <value>Godkendelseskonfigurationen er ugyldig. Kontakt venligst din administrator.</value>
+  </data>
+  <data name="DisplayBuiltInRoles" xml:space="preserve">
+    <value>Vis indbyggede roller</value>
+  </data>
+  <data name="GitTwoWayDescription" xml:space="preserve">
+    <value>PowerShell Universal skubber og trækker ændringer fra git.</value>
+  </data>
+  <data name="CustomModuleExtension" xml:space="preserve">
+    <value>Dette modul giver yderligere ressourcer til PowerShell Universal.</value>
+  </data>
+  <data name="ResourceType" xml:space="preserve">
+    <value>Ressourcetype</value>
+  </data>
+  <data name="ResetExpiredPasswordDescription" xml:space="preserve">
+    <value>Din adgangskode er udløbet. Indstil venligst en ny adgangskode.</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Ny adgangskode</value>
+  </data>
+  <data name="ModuleResourceDescription" xml:space="preserve">
+    <value>Denne ressource blev bidraget af modulet {0} og er skrivebeskyttet.</value>
+  </data>
+  <data name="ClearCachedClaims" xml:space="preserve">
+    <value>Ryd cachelagrede krav</value>
+  </data>
+  <data name="ModuleAlreadyImported" xml:space="preserve">
+    <value>Dette modul er allerede blevet importeret til dette miljø.</value>
+  </data>
+  <data name="ConfirmDeleteWidget" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne widget?</value>
+  </data>
+  <data name="ConfigurationErrors" xml:space="preserve">
+    <value>Konfigurationsfejl</value>
+  </data>
+  <data name="FirstRun" xml:space="preserve">
+    <value>Kør først opsætning</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Tilstand</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>Ingen data</value>
+  </data>
+  <data name="MaxVirtualMemory" xml:space="preserve">
+    <value>Maksimal virtuel hukommelse</value>
+  </data>
+  <data name="EnvironmentVariablesHelp" xml:space="preserve">
+    <value>Variabler til at definere i miljøet.</value>
+  </data>
+  <data name="DeploymentDescriptionHelp" xml:space="preserve">
+    <value>En beskrivelse af denne implementering.</value>
+  </data>
+  <data name="AdminPasswordComplexityWarning" xml:space="preserve">
+    <value>Adgangskoden opfylder ikke minimumskravene. Selvom det er tilladt for standardadministratorkontoen, anbefaler vi en mere kompleks adgangskode. Du kan altid ændre din adgangskode senere.</value>
+  </data>
+  <data name="CurrentlyConnected" xml:space="preserve">
+    <value>I øjeblikket tilsluttet</value>
+  </data>
+  <data name="PSModulePathHelp" xml:space="preserve">
+    <value>Yderligere PSModulePath-mapper at tilføje til miljøet.</value>
+  </data>
+  <data name="TriggerSchedule" xml:space="preserve">
+    <value>Trigger tidsplan</value>
+  </data>
+  <data name="ConfigurationErrorsDescription" xml:space="preserve">
+    <value>Konfigurationsfejl i dit miljø kan forårsage uventet adfærd.</value>
+  </data>
+  <data name="AverageExecutionTime" xml:space="preserve">
+    <value>Gennemsnitlig udførelsestid (ms)</value>
+  </data>
+  <data name="DeploymentNameHelp" xml:space="preserve">
+    <value>Et nyttigt navn for denne installation, såsom produktion eller udvikling. Bruges også ved udgivelse af implementeringen som et modul.</value>
+  </data>
+  <data name="ConnectedTime" xml:space="preserve">
+    <value>Forbundet tid</value>
+  </data>
+  <data name="ScheduleTriggered" xml:space="preserve">
+    <value>Tidsplan er blevet udløst.</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Nulstil indstillinger</value>
+  </data>
+  <data name="OpenApiVersionHelp" xml:space="preserve">
+    <value>Versionen af denne API-dokumentation.</value>
+  </data>
+  <data name="DefaultTokenLifetime" xml:space="preserve">
+    <value>Standard Token Lifetime</value>
+  </data>
+  <data name="AppPage" xml:space="preserve">
+    <value>App side</value>
+  </data>
+  <data name="MemoryWorkingSet" xml:space="preserve">
+    <value>Arbejdssæt</value>
+  </data>
 </root>
