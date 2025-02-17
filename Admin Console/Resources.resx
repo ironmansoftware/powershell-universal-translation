@@ -1,2399 +1,2403 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
-    </xsd:schema>
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>1.3</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
             PublicKeyToken=b77a5c561934e089
         </value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
             PublicKeyToken=b77a5c561934e089
         </value>
-    </resheader>
-    <data name="MaxVirtualMemoryHelp" xml:space="preserve">
+  </resheader>
+  <data name="MaxVirtualMemoryHelp" xml:space="preserve">
         <value>The maximum virtual memory (in megabytes) processes in this environment are allowed to be before they are terminated.</value>
-    </data>
-    <data name="StartupScriptHelp" xml:space="preserve">
+  </data>
+  <data name="StartupScriptHelp" xml:space="preserve">
         <value>Scripts that are run any time a new runspace is created in this environment.</value>
-    </data>
-    <data name="LoadMetaDataDescription" xml:space="preserve">
+  </data>
+  <data name="LoadMetaDataDescription" xml:space="preserve">
         <value>Load metadata about the SAML2 configuration from the metadata document URL.</value>
-    </data>
-    <data name="LoadMetaData" xml:space="preserve">
+  </data>
+  <data name="LoadMetaData" xml:space="preserve">
         <value>Load metadata</value>
-    </data>
-    <data name="RunTest" xml:space="preserve">
+  </data>
+  <data name="RunTest" xml:space="preserve">
         <value>Run Test</value>
-    </data>
-    <data name="TestResults" xml:space="preserve">
+  </data>
+  <data name="TestResults" xml:space="preserve">
         <value>Test Results</value>
-    </data>
-    <data name="TestFiles" xml:space="preserve">
+  </data>
+  <data name="TestFiles" xml:space="preserve">
         <value>Test Files</value>
-    </data>
-    <data name="TestsDescription" xml:space="preserve">
+  </data>
+  <data name="TestsDescription" xml:space="preserve">
         <value>Execute Pester tests and track results.</value>
-    </data>
-    <data name="Tests" xml:space="preserve">
+  </data>
+  <data name="Tests" xml:space="preserve">
         <value>Tests</value>
-    </data>
-    <data name="RunAllTests" xml:space="preserve">
+  </data>
+  <data name="RunAllTests" xml:space="preserve">
         <value>Run All Tests</value>
-    </data>
-    <data name="NotRun" xml:space="preserve">
+  </data>
+  <data name="NotRun" xml:space="preserve">
         <value>Not Run</value>
-    </data>
-    <data name="TotalTests" xml:space="preserve">
+  </data>
+  <data name="TotalTests" xml:space="preserve">
         <value>Total Tests</value>
-    </data>
-    <data name="TestCases" xml:space="preserve">
+  </data>
+  <data name="TestCases" xml:space="preserve">
         <value>Test Cases</value>
-    </data>
-    <data name="TestSuites" xml:space="preserve">
+  </data>
+  <data name="TestSuites" xml:space="preserve">
         <value>Test Suites</value>
-    </data>
-    <data name="TestSuite" xml:space="preserve">
+  </data>
+  <data name="TestSuite" xml:space="preserve">
         <value>Test Suite</value>
-    </data>
-    <data name="TestSuiteDescription" xml:space="preserve">
+  </data>
+  <data name="TestSuiteDescription" xml:space="preserve">
         <value>Results of a test run.</value>
-    </data>
-    <data name="ProcessesDescription" xml:space="preserve">
+  </data>
+  <data name="ProcessesDescription" xml:space="preserve">
         <value>Processes that have been started directly by the PowerShell Universal service.</value>
-    </data>
-    <data name="SystemIdentityHelp" xml:space="preserve">
+  </data>
+  <data name="SystemIdentityHelp" xml:space="preserve">
         <value>This app token is to be used by an automated system process and not associated with a user.</value>
-    </data>
-    <data name="UserIdentity" xml:space="preserve">
+  </data>
+  <data name="UserIdentity" xml:space="preserve">
         <value>User Identity</value>
-    </data>
-    <data name="SystemIdentity" xml:space="preserve">
+  </data>
+  <data name="SystemIdentity" xml:space="preserve">
         <value>System Identity</value>
-    </data>
-    <data name="NameIdFormat" xml:space="preserve">
+  </data>
+  <data name="NameIdFormat" xml:space="preserve">
         <value>Name ID Format</value>
-    </data>
-    <data name="NameIdFormatDescription" xml:space="preserve">
+  </data>
+  <data name="NameIdFormatDescription" xml:space="preserve">
         <value>The name ID format to request from the identity provider. If not specified, any name ID format can be used.</value>
-    </data>
-    <data name="PeriodHelp" xml:space="preserve">
+  </data>
+  <data name="PeriodHelp" xml:space="preserve">
         <value>The period over which the requests counts are enforced.</value>
-    </data>
-    <data name="LimitHelp" xml:space="preserve">
+  </data>
+  <data name="LimitHelp" xml:space="preserve">
         <value>The maximum number of requests per the period.</value>
-    </data>
-    <data name="RateLimitUrlHelp" xml:space="preserve">
+  </data>
+  <data name="RateLimitUrlHelp" xml:space="preserve">
         <value>The URL to enforce this rate limit on. Supports wild cards (*).</value>
-    </data>
-    <data name="RateLimitMethodHelp" xml:space="preserve">
+  </data>
+  <data name="RateLimitMethodHelp" xml:space="preserve">
         <value>The HTTP method to enforce this rate limit on.</value>
-    </data>
-    <data name="RateLimitsDescription" xml:space="preserve">
+  </data>
+  <data name="RateLimitsDescription" xml:space="preserve">
         <value>Limit the amount of requests to APIs over a set period of time.</value>
-    </data>
-    <data name="HomeModule" xml:space="preserve">
+  </data>
+  <data name="HomeModule" xml:space="preserve">
         <value>Get Started with Modules</value>
-    </data>
-    <data name="HomeModuleDescription" xml:space="preserve">
+  </data>
+  <data name="HomeModuleDescription" xml:space="preserve">
         <value>Browse the PowerShell Universal Gallery for a variety of modules that you can use to build apps, APIs, and automation scripts. </value>
-    </data>
-    <data name="ViewModules" xml:space="preserve">
+  </data>
+  <data name="ViewModules" xml:space="preserve">
         <value>Browse Modules</value>
-    </data>
-    <data name="AccountLicenseKeyHelp" xml:space="preserve">
+  </data>
+  <data name="AccountLicenseKeyHelp" xml:space="preserve">
         <value>This license is associated with a user or organizational account and will continue to renew automatically.</value>
-    </data>
-    <data name="AccountLicenseDescription" xml:space="preserve">
+  </data>
+  <data name="AccountLicenseDescription" xml:space="preserve">
         <value>Enter your user or organization's account license. If you have a license file, you can enter that in the admin console after you complete this wizard.</value>
-    </data>
-    <data name="CallbackPath" xml:space="preserve">
+  </data>
+  <data name="CallbackPath" xml:space="preserve">
         <value>Callback Path</value>
-    </data>
-    <data name="CallbackPathDescription" xml:space="preserve">
+  </data>
+  <data name="CallbackPathDescription" xml:space="preserve">
         <value>The path that the SAML2 identity provider will redirect back to PowerShell Universal.</value>
-    </data>
-    <data name="MetadataAddress" xml:space="preserve">
+  </data>
+  <data name="MetadataAddress" xml:space="preserve">
         <value>Metadata Address</value>
-    </data>
-    <data name="MetadataAddressDescription" xml:space="preserve">
+  </data>
+  <data name="MetadataAddressDescription" xml:space="preserve">
         <value>The URL of the SAML2 metadata document.</value>
-    </data>
-    <data name="SigningKey" xml:space="preserve">
+  </data>
+  <data name="SigningKey" xml:space="preserve">
         <value>Signing Key</value>
-    </data>
-    <data name="SigningKeyDescription" xml:space="preserve">
+  </data>
+  <data name="SigningKeyDescription" xml:space="preserve">
         <value>The file path, on the server, to the certificate signing key.</value>
-    </data>
-    <data name="EntityId" xml:space="preserve">
+  </data>
+  <data name="EntityId" xml:space="preserve">
         <value>Entity ID</value>
-    </data>
-    <data name="EntityIdDescription" xml:space="preserve">
+  </data>
+  <data name="EntityIdDescription" xml:space="preserve">
         <value>The SAML entity ID.</value>
-    </data>
-    <data name="IdentityProviderEntityId" xml:space="preserve">
+  </data>
+  <data name="IdentityProviderEntityId" xml:space="preserve">
         <value>Identity Provider Entity ID</value>
-    </data>
-    <data name="IdentityProviderEntityIdDescription" xml:space="preserve">
+  </data>
+  <data name="IdentityProviderEntityIdDescription" xml:space="preserve">
         <value>The SAML Identity Provider (IdP) Entity ID</value>
-    </data>
-    <data name="ServiceCertificate" xml:space="preserve">
+  </data>
+  <data name="ServiceCertificate" xml:space="preserve">
         <value>Service Certificate</value>
-    </data>
-    <data name="ServiceCertificateDescription" xml:space="preserve">
+  </data>
+  <data name="ServiceCertificateDescription" xml:space="preserve">
         <value>The file path, on the server, to the server certificate.</value>
-    </data>
-    <data name="SingleSignOnServiceUrl" xml:space="preserve">
+  </data>
+  <data name="SingleSignOnServiceUrl" xml:space="preserve">
         <value>Single Sign-On Service URL</value>
-    </data>
-    <data name="SingleSignOnServiceUrlDescription" xml:space="preserve">
+  </data>
+  <data name="SingleSignOnServiceUrlDescription" xml:space="preserve">
         <value>The IdP's single sign-on service URL.</value>
-    </data>
-    <data name="AllowUnsolicitedAuthnResponse" xml:space="preserve">
+  </data>
+  <data name="AllowUnsolicitedAuthnResponse" xml:space="preserve">
         <value>Allow Unsolicited Authn Response.</value>
-    </data>
-    <data name="AllowUnsolicitedAuthnResponseDescription" xml:space="preserve">
+  </data>
+  <data name="AllowUnsolicitedAuthnResponseDescription" xml:space="preserve">
         <value>Allows unsolicited auth responses for IdP initiated authentication.</value>
-    </data>
-    <data name="DefaultRunOnDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultRunOnDescription" xml:space="preserve">
         <value>The default computer or computer group to run scripts against when none is selected.</value>
-    </data>
-    <data name="DefaultRunOn" xml:space="preserve">
+  </data>
+  <data name="DefaultRunOn" xml:space="preserve">
         <value>Default Run On</value>
-    </data>
-    <data name="ListSourceCode" xml:space="preserve">
+  </data>
+  <data name="ListSourceCode" xml:space="preserve">
         <value>List Source Code</value>
-    </data>
-    <data name="VaultsDescription" xml:space="preserve">
+  </data>
+  <data name="VaultsDescription" xml:space="preserve">
         <value>Secret Vaults configured in PowerShell Secret Management.</value>
-    </data>
-    <data name="ViewPage" xml:space="preserve">
+  </data>
+  <data name="ViewPage" xml:space="preserve">
         <value>View Page</value>
-    </data>
-    <data name="DefaultSecurityDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultSecurityDescription" xml:space="preserve">
         <value>Default security settings. Use this value if you will be syncing with an existing git repository. You can always change these values later.</value>
-    </data>
-    <data name="ProductTitle" xml:space="preserve">
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
         <value>PowerShell Universal</value>
-    </data>
-    <data name="Home" xml:space="preserve">
+  </data>
+  <data name="Home" xml:space="preserve">
         <value>Home</value>
-    </data>
-    <data name="HomeDescription" xml:space="preserve">
+  </data>
+  <data name="HomeDescription" xml:space="preserve">
         <value>Information about your PowerShell Universal environment.</value>
-    </data>
-    <data name="SystemLoading" xml:space="preserve">
+  </data>
+  <data name="SystemLoading" xml:space="preserve">
         <value>PowerShell Universal is starting...</value>
-    </data>
-    <data name="SystemLoadFailed" xml:space="preserve">
+  </data>
+  <data name="SystemLoadFailed" xml:space="preserve">
         <value>PowerShell Universal failed to start. Check the logs for more information.</value>
-    </data>
-    <data name="Edit" xml:space="preserve">
+  </data>
+  <data name="Edit" xml:space="preserve">
         <value>Edit</value>
-    </data>
-    <data name="NotFound" xml:space="preserve">
+  </data>
+  <data name="NotFound" xml:space="preserve">
         <value>Not Found</value>
-    </data>
-    <data name="Job" xml:space="preserve">
+  </data>
+  <data name="Job" xml:space="preserve">
         <value>Job</value>
-    </data>
-    <data name="Log" xml:space="preserve">
+  </data>
+  <data name="Log" xml:space="preserve">
         <value>Log</value>
-    </data>
-    <data name="Jobs" xml:space="preserve">
+  </data>
+  <data name="Jobs" xml:space="preserve">
         <value>Jobs</value>
-    </data>
-    <data name="JobsDescription" xml:space="preserve">
+  </data>
+  <data name="JobsDescription" xml:space="preserve">
         <value>Jobs run in PowerShell Universal.</value>
-    </data>
-    <data name="Actions" xml:space="preserve">
+  </data>
+  <data name="Actions" xml:space="preserve">
         <value>Actions</value>
-    </data>
-    <data name="ViewJob" xml:space="preserve">
+  </data>
+  <data name="ViewJob" xml:space="preserve">
         <value>View Job</value>
-    </data>
-    <data name="Script" xml:space="preserve">
+  </data>
+  <data name="Script" xml:space="preserve">
         <value>Script</value>
-    </data>
-    <data name="Status" xml:space="preserve">
+  </data>
+  <data name="Status" xml:space="preserve">
         <value>Status</value>
-    </data>
-    <data name="Description" xml:space="preserve">
+  </data>
+  <data name="Description" xml:space="preserve">
         <value>Description</value>
-    </data>
-    <data name="ExecutionTime" xml:space="preserve">
+  </data>
+  <data name="ExecutionTime" xml:space="preserve">
         <value>Execution Time</value>
-    </data>
-    <data name="EndpointDocumentation" xml:space="preserve">
+  </data>
+  <data name="EndpointDocumentation" xml:space="preserve">
         <value>Endpoint Documentation</value>
-    </data>
-    <data name="Authentication" xml:space="preserve">
+  </data>
+  <data name="Authentication" xml:space="preserve">
         <value>Authentication</value>
-    </data>
-    <data name="Role" xml:space="preserve">
+  </data>
+  <data name="Role" xml:space="preserve">
         <value>Role</value>
-    </data>
-    <data name="EndpointDocumentationDescription" xml:space="preserve">
+  </data>
+  <data name="EndpointDocumentationDescription" xml:space="preserve">
         <value>OpenAPI documentation for your API endpoints.</value>
-    </data>
-    <data name="EndpointsDescription" xml:space="preserve">
+  </data>
+  <data name="EndpointsDescription" xml:space="preserve">
         <value>HTTP API endpoints that execute PowerShell Scripts.</value>
-    </data>
-    <data name="Methods" xml:space="preserve">
+  </data>
+  <data name="Methods" xml:space="preserve">
         <value>Methods</value>
-    </data>
-    <data name="Tag" xml:space="preserve">
+  </data>
+  <data name="Tag" xml:space="preserve">
         <value>Tag</value>
-    </data>
-    <data name="Tags" xml:space="preserve">
+  </data>
+  <data name="Tags" xml:space="preserve">
         <value>Tags</value>
-    </data>
-    <data name="Environment" xml:space="preserve">
+  </data>
+  <data name="Environment" xml:space="preserve">
         <value>Environment</value>
-    </data>
-    <data name="Environments" xml:space="preserve">
+  </data>
+  <data name="Environments" xml:space="preserve">
         <value>Environments</value>
-    </data>
-    <data name="Roles" xml:space="preserve">
+  </data>
+  <data name="Roles" xml:space="preserve">
         <value>Roles</value>
-    </data>
-    <data name="EventHubDescription" xml:space="preserve">
+  </data>
+  <data name="EventHubDescription" xml:space="preserve">
         <value>Send events to clients connected to hubs.</value>
-    </data>
-    <data name="Login" xml:space="preserve">
+  </data>
+  <data name="Login" xml:space="preserve">
         <value>Login</value>
-    </data>
-    <data name="LoginDescription" xml:space="preserve">
+  </data>
+  <data name="LoginDescription" xml:space="preserve">
         <value>Log in to your account</value>
-    </data>
-    <data name="UserName" xml:space="preserve">
+  </data>
+  <data name="UserName" xml:space="preserve">
         <value>User Name</value>
-    </data>
-    <data name="Password" xml:space="preserve">
+  </data>
+  <data name="Password" xml:space="preserve">
         <value>Password</value>
-    </data>
-    <data name="ProductDescription" xml:space="preserve">
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
         <value>PowerShell Universal allows you to run jobs, schedule scripts, build web pages and APIs, and control access; all under a single pane of beautiful glass.</value>
-    </data>
-    <data name="Pages" xml:space="preserve">
+  </data>
+  <data name="Pages" xml:space="preserve">
         <value>Pages</value>
-    </data>
-    <data name="AppsDescription" xml:space="preserve">
+  </data>
+  <data name="AppsDescription" xml:space="preserve">
         <value>Web applications built with PowerShell.</value>
-    </data>
-    <data name="ComputerGroup" xml:space="preserve">
+  </data>
+  <data name="ComputerGroup" xml:space="preserve">
         <value>Computer Group</value>
-    </data>
-    <data name="DisableAutoStart" xml:space="preserve">
+  </data>
+  <data name="DisableAutoStart" xml:space="preserve">
         <value>Disable Auto Start</value>
-    </data>
-    <data name="DisableErrorToast" xml:space="preserve">
+  </data>
+  <data name="DisableErrorToast" xml:space="preserve">
         <value>Disable Error Toast</value>
-    </data>
-    <data name="DisableInteractiveHost" xml:space="preserve">
+  </data>
+  <data name="DisableInteractiveHost" xml:space="preserve">
         <value>Disable Interactive Host</value>
-    </data>
-    <data name="DisableStartupLog" xml:space="preserve">
+  </data>
+  <data name="DisableStartupLog" xml:space="preserve">
         <value>Disable Startup Log</value>
-    </data>
-    <data name="GrantAppToken" xml:space="preserve">
+  </data>
+  <data name="GrantAppToken" xml:space="preserve">
         <value>Grant App Token</value>
-    </data>
-    <data name="IdleTimeout" xml:space="preserve">
+  </data>
+  <data name="IdleTimeout" xml:space="preserve">
         <value>Idle Timeout</value>
-    </data>
-    <data name="MaintenanceMode" xml:space="preserve">
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
         <value>Maintenance Mode</value>
-    </data>
-    <data name="SessionTimeout" xml:space="preserve">
+  </data>
+  <data name="SessionTimeout" xml:space="preserve">
         <value>Session Timeout</value>
-    </data>
-    <data name="HelloWorld" xml:space="preserve">
+  </data>
+  <data name="HelloWorld" xml:space="preserve">
         <value>Hello, World!</value>
-    </data>
-    <data name="Name" xml:space="preserve">
+  </data>
+  <data name="Name" xml:space="preserve">
         <value>Name</value>
-    </data>
-    <data name="Save" xml:space="preserve">
+  </data>
+  <data name="Save" xml:space="preserve">
         <value>Save</value>
-    </data>
-    <data name="Dark" xml:space="preserve">
+  </data>
+  <data name="Dark" xml:space="preserve">
         <value>Dark</value>
-    </data>
-    <data name="Light" xml:space="preserve">
+  </data>
+  <data name="Light" xml:space="preserve">
         <value>Light</value>
-    </data>
-    <data name="Licensed" xml:space="preserve">
+  </data>
+  <data name="Licensed" xml:space="preserve">
         <value>Licensed</value>
-    </data>
-    <data name="Unlicensed" xml:space="preserve">
+  </data>
+  <data name="Unlicensed" xml:space="preserve">
         <value>Unlicensed</value>
-    </data>
-    <data name="Paused" xml:space="preserve">
+  </data>
+  <data name="Paused" xml:space="preserve">
         <value>Paused</value>
-    </data>
-    <data name="Enabled" xml:space="preserve">
+  </data>
+  <data name="Enabled" xml:space="preserve">
         <value>Enabled</value>
-    </data>
-    <data name="GitSyncPausedDescription" xml:space="preserve">
+  </data>
+  <data name="GitSyncPausedDescription" xml:space="preserve">
         <value>Git sync is currently paused and not pulling changes.</value>
-    </data>
-    <data name="EditResource" xml:space="preserve">
+  </data>
+  <data name="EditResource" xml:space="preserve">
         <value>Edit {0}</value>
-    </data>
-    <data name="CreateResource" xml:space="preserve">
+  </data>
+  <data name="CreateResource" xml:space="preserve">
         <value>Create {0}</value>
-    </data>
-    <data name="EditProperties" xml:space="preserve">
+  </data>
+  <data name="EditProperties" xml:space="preserve">
         <value>Edit Properties</value>
-    </data>
-    <data name="ViewResource" xml:space="preserve">
+  </data>
+  <data name="ViewResource" xml:space="preserve">
         <value>View {0}</value>
-    </data>
-    <data name="ViewProperties" xml:space="preserve">
+  </data>
+  <data name="ViewProperties" xml:space="preserve">
         <value>View Properties</value>
-    </data>
-    <data name="AdminConsoleReadOnly" xml:space="preserve">
+  </data>
+  <data name="AdminConsoleReadOnly" xml:space="preserve">
         <value>Admin Console is Read Only.</value>
-    </data>
-    <data name="Computers" xml:space="preserve">
+  </data>
+  <data name="Computers" xml:space="preserve">
         <value>Computers</value>
-    </data>
-    <data name="ComputerDescription" xml:space="preserve">
+  </data>
+  <data name="ComputerDescription" xml:space="preserve">
         <value>Computers available throughout the PowerShell Universal platform.</value>
-    </data>
-    <data name="AddTag" xml:space="preserve">
+  </data>
+  <data name="AddTag" xml:space="preserve">
         <value>Add Tag</value>
-    </data>
-    <data name="Search" xml:space="preserve">
+  </data>
+  <data name="Search" xml:space="preserve">
         <value>Search</value>
-    </data>
-    <data name="Portal" xml:space="preserve">
+  </data>
+  <data name="Portal" xml:space="preserve">
         <value>Portal</value>
-    </data>
-    <data name="Submit" xml:space="preserve">
+  </data>
+  <data name="Submit" xml:space="preserve">
         <value>Submit</value>
-    </data>
-    <data name="ScriptsDescription" xml:space="preserve">
+  </data>
+  <data name="ScriptsDescription" xml:space="preserve">
         <value>PowerShell scripts that can be manually executed or scheduled.</value>
-    </data>
-    <data name="ApiDocumentation" xml:space="preserve">
+  </data>
+  <data name="ApiDocumentation" xml:space="preserve">
         <value>API Documentation</value>
-    </data>
-    <data name="PagesDescription" xml:space="preserve">
+  </data>
+  <data name="PagesDescription" xml:space="preserve">
         <value>Dynamic interfaces built with PSBlazor</value>
-    </data>
-    <data name="PublishedFolders" xml:space="preserve">
+  </data>
+  <data name="PublishedFolders" xml:space="preserve">
         <value>Published Folders</value>
-    </data>
-    <data name="PublishedFoldersDescription" xml:space="preserve">
+  </data>
+  <data name="PublishedFoldersDescription" xml:space="preserve">
         <value>Share files over HTTP from PowerShell Universal.</value>
-    </data>
-    <data name="RequestPath" xml:space="preserve">
+  </data>
+  <data name="RequestPath" xml:space="preserve">
         <value>Request Path</value>
-    </data>
-    <data name="Modules" xml:space="preserve">
+  </data>
+  <data name="Modules" xml:space="preserve">
         <value>Modules</value>
-    </data>
-    <data name="ModulesDescription" xml:space="preserve">
+  </data>
+  <data name="ModulesDescription" xml:space="preserve">
         <value>Manage PowerShell modules in your PowerShell Universal environment</value>
-    </data>
-    <data name="Local" xml:space="preserve">
+  </data>
+  <data name="Local" xml:space="preserve">
         <value>Local</value>
-    </data>
-    <data name="PowerShellUniversal" xml:space="preserve">
+  </data>
+  <data name="PowerShellUniversal" xml:space="preserve">
         <value>PowerShell Universal</value>
-    </data>
-    <data name="Repositories" xml:space="preserve">
+  </data>
+  <data name="Repositories" xml:space="preserve">
         <value>Repositories</value>
-    </data>
-    <data name="LocalModulesDescription" xml:space="preserve">
+  </data>
+  <data name="LocalModulesDescription" xml:space="preserve">
         <value>Modules that are installed in your PowerShell environments.</value>
-    </data>
-    <data name="PowerShellUniversalModules" xml:space="preserve">
+  </data>
+  <data name="PowerShellUniversalModules" xml:space="preserve">
         <value>Modules available in the PowerShell Universal Marketplace that extend the platform.</value>
-    </data>
-    <data name="RepositoryModules" xml:space="preserve">
+  </data>
+  <data name="RepositoryModules" xml:space="preserve">
         <value>Modules available in PowerShell galleries (resource repositories).</value>
-    </data>
-    <data name="LoggingDescription" xml:space="preserve">
+  </data>
+  <data name="LoggingDescription" xml:space="preserve">
         <value>PowerShell Universal diagnostic logging.</value>
-    </data>
-    <data name="VariablesDescription" xml:space="preserve">
+  </data>
+  <data name="VariablesDescription" xml:space="preserve">
         <value>Variables defined in PowerShell Universal environments.</value>
-    </data>
-    <data name="GeneralDescription" xml:space="preserve">
+  </data>
+  <data name="GeneralDescription" xml:space="preserve">
         <value>General PowerShell Universal settings.</value>
-    </data>
-    <data name="Console" xml:space="preserve">
+  </data>
+  <data name="Console" xml:space="preserve">
         <value>Console</value>
-    </data>
-    <data name="ConsoleTitle" xml:space="preserve">
+  </data>
+  <data name="ConsoleTitle" xml:space="preserve">
         <value>Admin Console Title</value>
-    </data>
-    <data name="ConsoleTitleDescription" xml:space="preserve">
+  </data>
+  <data name="ConsoleTitleDescription" xml:space="preserve">
         <value>The title displayed in the admin console.</value>
-    </data>
-    <data name="ConsoleLogo" xml:space="preserve">
+  </data>
+  <data name="ConsoleLogo" xml:space="preserve">
         <value>Admin Console Logo</value>
-    </data>
-    <data name="ConsoleLogoDescription" xml:space="preserve">
+  </data>
+  <data name="ConsoleLogoDescription" xml:space="preserve">
         <value>The logo displayed in the admin console header.</value>
-    </data>
-    <data name="UseLogoSize" xml:space="preserve">
+  </data>
+  <data name="UseLogoSize" xml:space="preserve">
         <value>Use Logo Size</value>
-    </data>
-    <data name="UseLogoSizeDescription" xml:space="preserve">
+  </data>
+  <data name="UseLogoSizeDescription" xml:space="preserve">
         <value>Uses configured admin console logo without resizing it.</value>
-    </data>
-    <data name="FavoriteIcon" xml:space="preserve">
+  </data>
+  <data name="FavoriteIcon" xml:space="preserve">
         <value>Favorite Icon</value>
-    </data>
-    <data name="FavoriteIconDescription" xml:space="preserve">
+  </data>
+  <data name="FavoriteIconDescription" xml:space="preserve">
         <value>The icon to display in the browser tab.</value>
-    </data>
-    <data name="HideAPIFeatures" xml:space="preserve">
+  </data>
+  <data name="HideAPIFeatures" xml:space="preserve">
         <value>Hide API Features</value>
-    </data>
-    <data name="HideAutomationFeatures" xml:space="preserve">
+  </data>
+  <data name="HideAutomationFeatures" xml:space="preserve">
         <value>Hide Automation Features</value>
-    </data>
-    <data name="HideUserInterfaceFeatures" xml:space="preserve">
+  </data>
+  <data name="HideUserInterfaceFeatures" xml:space="preserve">
         <value>Hide User Interface Features</value>
-    </data>
-    <data name="HideHomePage" xml:space="preserve">
+  </data>
+  <data name="HideHomePage" xml:space="preserve">
         <value>Hide Home Page</value>
-    </data>
-    <data name="DefaultDarkTheme" xml:space="preserve">
+  </data>
+  <data name="DefaultDarkTheme" xml:space="preserve">
         <value>Default Dark Theme</value>
-    </data>
-    <data name="DefaultDarkThemeDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultDarkThemeDescription" xml:space="preserve">
         <value>The default theme for new users.</value>
-    </data>
-    <data name="Automation" xml:space="preserve">
+  </data>
+  <data name="Automation" xml:space="preserve">
         <value>Automation</value>
-    </data>
-    <data name="ConcurrentJobLimit" xml:space="preserve">
+  </data>
+  <data name="ConcurrentJobLimit" xml:space="preserve">
         <value>Concurrent Job Limit</value>
-    </data>
-    <data name="JobHandshakeTimeout" xml:space="preserve">
+  </data>
+  <data name="JobHandshakeTimeout" xml:space="preserve">
         <value>Job Handshake Timeout</value>
-    </data>
-    <data name="HideEnvironment" xml:space="preserve">
+  </data>
+  <data name="HideEnvironment" xml:space="preserve">
         <value>Hide Environment</value>
-    </data>
-    <data name="HideRunAs" xml:space="preserve">
+  </data>
+  <data name="HideRunAs" xml:space="preserve">
         <value>Hide Run As</value>
-    </data>
-    <data name="HideRunOn" xml:space="preserve">
+  </data>
+  <data name="HideRunOn" xml:space="preserve">
         <value>Hide Run On</value>
-    </data>
-    <data name="PreformattedJobOutput" xml:space="preserve">
+  </data>
+  <data name="PreformattedJobOutput" xml:space="preserve">
         <value>Preformatted Job Output</value>
-    </data>
-    <data name="ConcurrentJobLimitDescription" xml:space="preserve">
+  </data>
+  <data name="ConcurrentJobLimitDescription" xml:space="preserve">
         <value>The maximum number of jobs to run at once.</value>
-    </data>
-    <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
+  </data>
+  <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
         <value>The number of seconds to wait for a job to start.</value>
-    </data>
-    <data name="Hide Environment" xml:space="preserve">
+  </data>
+  <data name="Hide Environment" xml:space="preserve">
         <value>Hides the environment selector when running or scheduling jobs.</value>
-    </data>
-    <data name="HideRunAsDescription" xml:space="preserve">
+  </data>
+  <data name="HideRunAsDescription" xml:space="preserve">
         <value>Hides the run as selector when running or scheduling jobs.</value>
-    </data>
-    <data name="HideRunOnDescription" xml:space="preserve">
+  </data>
+  <data name="HideRunOnDescription" xml:space="preserve">
         <value>Hides the run on selector when running or scheduling jobs.</value>
-    </data>
-    <data name="PreformattedJobOutputDescription" xml:space="preserve">
+  </data>
+  <data name="PreformattedJobOutputDescription" xml:space="preserve">
         <value>Preformatted job output when running a job. Improves performance but doesn't allow for hiding timestamps.</value>
-    </data>
-    <data name="DefaultAppsTheme" xml:space="preserve">
+  </data>
+  <data name="DefaultAppsTheme" xml:space="preserve">
         <value>Default App Theme</value>
-    </data>
-    <data name="DefaultAppsThemeDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultAppsThemeDescription" xml:space="preserve">
         <value>The default theme to use for apps when none is set. </value>
-    </data>
-    <data name="Branding" xml:space="preserve">
+  </data>
+  <data name="Branding" xml:space="preserve">
         <value>Branding</value>
-    </data>
-    <data name="LoadingPageTitle" xml:space="preserve">
+  </data>
+  <data name="LoadingPageTitle" xml:space="preserve">
         <value>Loading Page Title</value>
-    </data>
-    <data name="LoadingPageTitleDescription" xml:space="preserve">
+  </data>
+  <data name="LoadingPageTitleDescription" xml:space="preserve">
         <value>The title to display when PowerShell Universal is loading.</value>
-    </data>
-    <data name="LoadingPageDescription" xml:space="preserve">
+  </data>
+  <data name="LoadingPageDescription" xml:space="preserve">
         <value>Loading Page Description</value>
-    </data>
-    <data name="LoadingPageDescriptionDescription" xml:space="preserve">
+  </data>
+  <data name="LoadingPageDescriptionDescription" xml:space="preserve">
         <value>The description to display when PowerShell Universal is loading. </value>
-    </data>
-    <data name="PageNotFoundTitle" xml:space="preserve">
+  </data>
+  <data name="PageNotFoundTitle" xml:space="preserve">
         <value>Page Not Found Title</value>
-    </data>
-    <data name="PageNotFoundTitleDescription" xml:space="preserve">
+  </data>
+  <data name="PageNotFoundTitleDescription" xml:space="preserve">
         <value>The title to display when a page is not found.</value>
-    </data>
-    <data name="PageNotFoundDescription" xml:space="preserve">
+  </data>
+  <data name="PageNotFoundDescription" xml:space="preserve">
         <value>Page Not Found Description</value>
-    </data>
-    <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
+  </data>
+  <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
         <value>The description to display when a page is not found.</value>
-    </data>
-    <data name="NotAuthorizedDescription" xml:space="preserve">
+  </data>
+  <data name="NotAuthorizedDescription" xml:space="preserve">
         <value>Not Authorized Description</value>
-    </data>
-    <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
+  </data>
+  <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
         <value>The description to display when a user is not authorized to view a page.</value>
-    </data>
-    <data name="AppNotRunningDescription" xml:space="preserve">
+  </data>
+  <data name="AppNotRunningDescription" xml:space="preserve">
         <value>App Not Running Description</value>
-    </data>
-    <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
+  </data>
+  <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
         <value>The description to display to a user when they attempt to view an app that is not running.</value>
-    </data>
-    <data name="Data" xml:space="preserve">
+  </data>
+  <data name="Data" xml:space="preserve">
         <value>Data</value>
-    </data>
-    <data name="RepositoryPath" xml:space="preserve">
+  </data>
+  <data name="RepositoryPath" xml:space="preserve">
         <value>Repository Path</value>
-    </data>
-    <data name="ScriptBaseFolder" xml:space="preserve">
+  </data>
+  <data name="ScriptBaseFolder" xml:space="preserve">
         <value>Script Base Folder</value>
-    </data>
-    <data name="ScriptBaseFolderDescription" xml:space="preserve">
+  </data>
+  <data name="ScriptBaseFolderDescription" xml:space="preserve">
         <value>A folder within the repository to store scripts. Changing this setting requires restarting the PowerShell Universal service.</value>
-    </data>
-    <data name="DataRetention" xml:space="preserve">
+  </data>
+  <data name="DataRetention" xml:space="preserve">
         <value>Data Retention</value>
-    </data>
-    <data name="DataRetentionDescription" xml:space="preserve">
+  </data>
+  <data name="DataRetentionDescription" xml:space="preserve">
         <value>The number of days to keep data such as jobs, terminal history and user sessions.</value>
-    </data>
-    <data name="DatabaseLogRetention" xml:space="preserve">
+  </data>
+  <data name="DatabaseLogRetention" xml:space="preserve">
         <value>Database Log Retention</value>
-    </data>
-    <data name="DatabaseLogRetentionDescription" xml:space="preserve">
+  </data>
+  <data name="DatabaseLogRetentionDescription" xml:space="preserve">
         <value>The number of days to keep logs stored in the database.</value>
-    </data>
-    <data name="DataGroomInterval" xml:space="preserve">
+  </data>
+  <data name="DataGroomInterval" xml:space="preserve">
         <value>Data Groom Interval</value>
-    </data>
-    <data name="DataGroomIntervalDescription" xml:space="preserve">
+  </data>
+  <data name="DataGroomIntervalDescription" xml:space="preserve">
         <value>How frequently, in minutes, data is groomed from PowerShell Universal.</value>
-    </data>
-    <data name="APIEnvironment" xml:space="preserve">
+  </data>
+  <data name="APIEnvironment" xml:space="preserve">
         <value>API Environment</value>
-    </data>
-    <data name="APIEnvironmentDescription" xml:space="preserve">
+  </data>
+  <data name="APIEnvironmentDescription" xml:space="preserve">
         <value>The default environment to use for API endpoints that do not have one set. </value>
-    </data>
-    <data name="DefaultEnvironment" xml:space="preserve">
+  </data>
+  <data name="DefaultEnvironment" xml:space="preserve">
         <value>Default Environment</value>
-    </data>
-    <data name="DefaultEnvironmentDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultEnvironmentDescription" xml:space="preserve">
         <value>The default environment to use when a feature doesn't have an environment set. </value>
-    </data>
-    <data name="SecurityEnvironment" xml:space="preserve">
+  </data>
+  <data name="SecurityEnvironment" xml:space="preserve">
         <value>Security Environment</value>
-    </data>
-    <data name="SecurityEnvironmentDescription" xml:space="preserve">
+  </data>
+  <data name="SecurityEnvironmentDescription" xml:space="preserve">
         <value>The environment to use for forms authentication scripts and authorization policies.</value>
-    </data>
-    <data name="DontLoadRunAsProfiles" xml:space="preserve">
+  </data>
+  <data name="DontLoadRunAsProfiles" xml:space="preserve">
         <value>Don't Load Run as Profile</value>
-    </data>
-    <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
+  </data>
+  <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
         <value>Doesn't load profiles when starting external environments. Only applies to Windows.</value>
-    </data>
-    <data name="Platform" xml:space="preserve">
+  </data>
+  <data name="Platform" xml:space="preserve">
         <value>Platform</value>
-    </data>
-    <data name="ContentSecurityPolicy" xml:space="preserve">
+  </data>
+  <data name="ContentSecurityPolicy" xml:space="preserve">
         <value>Content Security Policy</value>
-    </data>
-    <data name="ContentSecurityPolicyDescription" xml:space="preserve">
+  </data>
+  <data name="ContentSecurityPolicyDescription" xml:space="preserve">
         <value>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks.</value>
-    </data>
-    <data name="DisableAutoReload" xml:space="preserve">
+  </data>
+  <data name="DisableAutoReload" xml:space="preserve">
         <value>Disable Auto Reload</value>
-    </data>
-    <data name="DisableAutoReloadDescription" xml:space="preserve">
+  </data>
+  <data name="DisableAutoReloadDescription" xml:space="preserve">
         <value>Disables the file system watcher used to load files from disk in PowerShell Universal.</value>
-    </data>
-    <data name="DisableFormatOnSave" xml:space="preserve">
+  </data>
+  <data name="DisableFormatOnSave" xml:space="preserve">
         <value>Disable Format on Save</value>
-    </data>
-    <data name="DisableFormatOnSaveDescription" xml:space="preserve">
+  </data>
+  <data name="DisableFormatOnSaveDescription" xml:space="preserve">
         <value>Prevents PowerShell Universal from running PSScriptAnalyzer's Invoke-Formatter on scripts when saving.</value>
-    </data>
-    <data name="EnhancedAppTokenSecurity" xml:space="preserve">
+  </data>
+  <data name="EnhancedAppTokenSecurity" xml:space="preserve">
         <value>Enhanced App Token Security</value>
-    </data>
-    <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
+  </data>
+  <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
         <value>When enabled, app tokens are stored in the database as hashses rather than token values. Enabling this setting invalidates all existing app tokens.</value>
-    </data>
-    <data name="LimitIdentities" xml:space="preserve">
+  </data>
+  <data name="LimitIdentities" xml:space="preserve">
         <value>Limit Identities</value>
-    </data>
-    <data name="LimitIdentitiesDescription" xml:space="preserve">
+  </data>
+  <data name="LimitIdentitiesDescription" xml:space="preserve">
         <value>Prevents users from logging into PowerShell Universal that have not been added to the identities page. </value>
-    </data>
-    <data name="DisableUpdateCheck" xml:space="preserve">
+  </data>
+  <data name="DisableUpdateCheck" xml:space="preserve">
         <value>Disable Update Check</value>
-    </data>
-    <data name="ProxyURL" xml:space="preserve">
+  </data>
+  <data name="ProxyURL" xml:space="preserve">
         <value>Proxy URL</value>
-    </data>
-    <data name="ProxyURLDescription" xml:space="preserve">
+  </data>
+  <data name="ProxyURLDescription" xml:space="preserve">
         <value>Sets the URL of the proxy server to use when communicating with external services like git and the update service.</value>
-    </data>
-    <data name="ProxyCredential" xml:space="preserve">
+  </data>
+  <data name="ProxyCredential" xml:space="preserve">
         <value>Proxy Credential</value>
-    </data>
-    <data name="ProxyCredentialDescription" xml:space="preserve">
+  </data>
+  <data name="ProxyCredentialDescription" xml:space="preserve">
         <value>The name of the variable, which must be a PSCredential, used to access the proxy server.</value>
-    </data>
-    <data name="FallbackLanguageID" xml:space="preserve">
+  </data>
+  <data name="FallbackLanguageID" xml:space="preserve">
         <value>Fallback Language ID</value>
-    </data>
-    <data name="FallbackLanguageIDDescription" xml:space="preserve">
+  </data>
+  <data name="FallbackLanguageIDDescription" xml:space="preserve">
         <value>The language to fallback to when no language is available for the user's locale.</value>
-    </data>
-    <data name="ConfigurationFileSplatting" xml:space="preserve">
+  </data>
+  <data name="ConfigurationFileSplatting" xml:space="preserve">
         <value>Configuration File Splatting</value>
-    </data>
-    <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
+  </data>
+  <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
         <value>The PowerShell Universal configuration system will use splatting when writing configuration files.</value>
-    </data>
-    <data name="ModuleDiscoveryFrequency" xml:space="preserve">
+  </data>
+  <data name="ModuleDiscoveryFrequency" xml:space="preserve">
         <value>Module Discovery Frequency</value>
-    </data>
-    <data name="ModuleDiscoveryFrequencyDescription" xml:space="preserve">
+  </data>
+  <data name="ModuleDiscoveryFrequencyDescription" xml:space="preserve">
         <value>The frequency at which new PowerShell modules will be discovered on the local system</value>
-    </data>
-    <data name="FileEncoding" xml:space="preserve">
+  </data>
+  <data name="FileEncoding" xml:space="preserve">
         <value>File Encoding</value>
-    </data>
-    <data name="FileEncodingDescription" xml:space="preserve">
+  </data>
+  <data name="FileEncodingDescription" xml:space="preserve">
         <value>The file encoding to use when writing configuration files.</value>
-    </data>
-    <data name="Every15Minutes" xml:space="preserve">
+  </data>
+  <data name="Every15Minutes" xml:space="preserve">
         <value>Every 15 minutes</value>
-    </data>
-    <data name="Disabled" xml:space="preserve">
+  </data>
+  <data name="Disabled" xml:space="preserve">
         <value>Disabled</value>
-    </data>
-    <data name="EveryHour" xml:space="preserve">
+  </data>
+  <data name="EveryHour" xml:space="preserve">
         <value>Every Hour</value>
-    </data>
-    <data name="EveryDay" xml:space="preserve">
+  </data>
+  <data name="EveryDay" xml:space="preserve">
         <value>Every Day</value>
-    </data>
-    <data name="HideEnvironmentDescription" xml:space="preserve">
+  </data>
+  <data name="HideEnvironmentDescription" xml:space="preserve">
         <value>Hides the environment selector when running or scheduling jobs.</value>
-    </data>
-    <data name="DisableUpdateCheckDescription" xml:space="preserve">
+  </data>
+  <data name="DisableUpdateCheckDescription" xml:space="preserve">
         <value>Prevents PowerShell Universal from checking for updates.</value>
-    </data>
-    <data name="SelectFile" xml:space="preserve">
+  </data>
+  <data name="SelectFile" xml:space="preserve">
         <value>Select a file to view and edit its contents.</value>
-    </data>
-    <data name="EnvironmentsDescription" xml:space="preserve">
+  </data>
+  <data name="EnvironmentsDescription" xml:space="preserve">
         <value>Execution environments for PowerShell Unviersal features.</value>
-    </data>
-    <data name="GitDescription" xml:space="preserve">
+  </data>
+  <data name="GitDescription" xml:space="preserve">
         <value>Git synchronization for Powershell Universal</value>
-    </data>
-    <data name="GitNotConfigured" xml:space="preserve">
+  </data>
+  <data name="GitNotConfigured" xml:space="preserve">
         <value>Git synchronization is not configured.</value>
-    </data>
-    <data name="LicenseDescription" xml:space="preserve">
+  </data>
+  <data name="LicenseDescription" xml:space="preserve">
         <value>Licenses for PowerShell Universal.</value>
-    </data>
-    <data name="TagsDescription" xml:space="preserve">
+  </data>
+  <data name="TagsDescription" xml:space="preserve">
         <value>Tags for PowerShell Universal resources.</value>
-    </data>
-    <data name="AuthenticationMethods" xml:space="preserve">
+  </data>
+  <data name="AuthenticationMethods" xml:space="preserve">
         <value>Authentication Methods</value>
-    </data>
-    <data name="AuthenticationMethodsDescription" xml:space="preserve">
+  </data>
+  <data name="AuthenticationMethodsDescription" xml:space="preserve">
         <value>Authentication methods that users can use to login to PowerShell Universal.</value>
-    </data>
-    <data name="OpenIDConnect" xml:space="preserve">
+  </data>
+  <data name="OpenIDConnect" xml:space="preserve">
         <value>OpenID Connect</value>
-    </data>
-    <data name="Identities" xml:space="preserve">
+  </data>
+  <data name="Identities" xml:space="preserve">
         <value>Identities</value>
-    </data>
-    <data name="IdentitiesDescription" xml:space="preserve">
+  </data>
+  <data name="IdentitiesDescription" xml:space="preserve">
         <value>Users and apps that have logged into PowerShell Universal.</value>
-    </data>
-    <data name="RolesDescription" xml:space="preserve">
+  </data>
+  <data name="RolesDescription" xml:space="preserve">
         <value>Roles that can be applied to apps and users logging into PowerShell Universal.</value>
-    </data>
-    <data name="ApplicationTokens" xml:space="preserve">
+  </data>
+  <data name="ApplicationTokens" xml:space="preserve">
         <value>Application Tokens</value>
-    </data>
-    <data name="ApplicationTokensDescription" xml:space="preserve">
+  </data>
+  <data name="ApplicationTokensDescription" xml:space="preserve">
         <value>JSON Web Tokens used to access PowerShell Universal APIs.</value>
-    </data>
-    <data name="RevocationDate" xml:space="preserve">
+  </data>
+  <data name="RevocationDate" xml:space="preserve">
         <value>Revocation Date</value>
-    </data>
-    <data name="LastUsed" xml:space="preserve">
+  </data>
+  <data name="LastUsed" xml:space="preserve">
         <value>Last Used</value>
-    </data>
-    <data name="HideRevoked" xml:space="preserve">
+  </data>
+  <data name="HideRevoked" xml:space="preserve">
         <value>Hide Revoked</value>
-    </data>
-    <data name="ShowRevoked" xml:space="preserve">
+  </data>
+  <data name="ShowRevoked" xml:space="preserve">
         <value>Show Revoked</value>
-    </data>
-    <data name="TriggersDescription" xml:space="preserve">
+  </data>
+  <data name="TriggersDescription" xml:space="preserve">
         <value>Execute scripts when events take place in PowerShell Universal.</value>
-    </data>
-    <data name="TriggerType" xml:space="preserve">
+  </data>
+  <data name="TriggerType" xml:space="preserve">
         <value>Trigger Type</value>
-    </data>
-    <data name="TriggerScript" xml:space="preserve">
+  </data>
+  <data name="TriggerScript" xml:space="preserve">
         <value>Trigger Script</value>
-    </data>
-    <data name="EventType" xml:space="preserve">
+  </data>
+  <data name="EventType" xml:space="preserve">
         <value>Event Type</value>
-    </data>
-    <data name="RunIn" xml:space="preserve">
+  </data>
+  <data name="RunIn" xml:space="preserve">
         <value>Run in</value>
-    </data>
-    <data name="RunOn" xml:space="preserve">
+  </data>
+  <data name="RunOn" xml:space="preserve">
         <value>Run On</value>
-    </data>
-    <data name="DelaySeconds" xml:space="preserve">
+  </data>
+  <data name="DelaySeconds" xml:space="preserve">
         <value>Delay (Seconds)</value>
-    </data>
-    <data name="JobsRunToday" xml:space="preserve">
+  </data>
+  <data name="JobsRunToday" xml:space="preserve">
         <value>Jobs Run Today</value>
-    </data>
-    <data name="JobsFailedToday" xml:space="preserve">
+  </data>
+  <data name="JobsFailedToday" xml:space="preserve">
         <value>Jobs Failed Today</value>
-    </data>
-    <data name="CurrentlyRunningJobs" xml:space="preserve">
+  </data>
+  <data name="CurrentlyRunningJobs" xml:space="preserve">
         <value>Currently Running Jobs</value>
-    </data>
-    <data name="JobsWaitingFeedback" xml:space="preserve">
+  </data>
+  <data name="JobsWaitingFeedback" xml:space="preserve">
         <value>Jobs Waiting Feedback</value>
-    </data>
-    <data name="ScheduledJobs" xml:space="preserve">
+  </data>
+  <data name="ScheduledJobs" xml:space="preserve">
         <value>Scheduled Jobs</value>
-    </data>
-    <data name="RunningApps" xml:space="preserve">
+  </data>
+  <data name="RunningApps" xml:space="preserve">
         <value>Running Apps</value>
-    </data>
-    <data name="HealthChecks" xml:space="preserve">
+  </data>
+  <data name="HealthChecks" xml:space="preserve">
         <value>Health Checks</value>
-    </data>
-    <data name="LicenseStatus" xml:space="preserve">
+  </data>
+  <data name="LicenseStatus" xml:space="preserve">
         <value>License Status</value>
-    </data>
-    <data name="NotificationsDescription" xml:space="preserve">
+  </data>
+  <data name="NotificationsDescription" xml:space="preserve">
         <value>Notifications produced by PowerShell Universal.</value>
-    </data>
-    <data name="TimeStamp" xml:space="preserve">
+  </data>
+  <data name="TimeStamp" xml:space="preserve">
         <value>Timestamp</value>
-    </data>
-    <data name="ClearNotifications" xml:space="preserve">
+  </data>
+  <data name="ClearNotifications" xml:space="preserve">
         <value>Clear Notifications</value>
-    </data>
-    <data name="AddFile" xml:space="preserve">
+  </data>
+  <data name="AddFile" xml:space="preserve">
         <value>Add File</value>
-    </data>
-    <data name="AddFolder" xml:space="preserve">
+  </data>
+  <data name="AddFolder" xml:space="preserve">
         <value>Add Folder</value>
-    </data>
-    <data name="DeleteFileConfirm" xml:space="preserve">
+  </data>
+  <data name="DeleteFileConfirm" xml:space="preserve">
         <value>Are you sure you want to delete this file or folder?</value>
-    </data>
-    <data name="ResetPassword" xml:space="preserve">
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
         <value>Reset Password</value>
-    </data>
-    <data name="VerifyPassword" xml:space="preserve">
+  </data>
+  <data name="VerifyPassword" xml:space="preserve">
         <value>Verify Password</value>
-    </data>
-    <data name="CurrentPassword" xml:space="preserve">
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
         <value>Current Password</value>
-    </data>
-    <data name="PasswordsDoNotMatch" xml:space="preserve">
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
         <value>Passwords Do Not Match</value>
-    </data>
-    <data name="InvalidPasswordSpecified" xml:space="preserve">
+  </data>
+  <data name="InvalidPasswordSpecified" xml:space="preserve">
         <value>Invalid Password Specified</value>
-    </data>
-    <data name="LocalAccount" xml:space="preserve">
+  </data>
+  <data name="LocalAccount" xml:space="preserve">
         <value>Local Account</value>
-    </data>
-    <data name="ExternalAccount" xml:space="preserve">
+  </data>
+  <data name="ExternalAccount" xml:space="preserve">
         <value>External Account</value>
-    </data>
-    <data name="LocalAccountDescription" xml:space="preserve">
+  </data>
+  <data name="LocalAccountDescription" xml:space="preserve">
         <value>Local accounts are stored in the PowerShell Universal database.</value>
-    </data>
-    <data name="ExternalAccountDescription" xml:space="preserve">
+  </data>
+  <data name="ExternalAccountDescription" xml:space="preserve">
         <value>External accounts are the result of logins to external authentication methods.</value>
-    </data>
-    <data name="MyJobs" xml:space="preserve">
+  </data>
+  <data name="MyJobs" xml:space="preserve">
         <value>My Jobs</value>
-    </data>
-    <data name="MyJobsDescription" xml:space="preserve">
+  </data>
+  <data name="MyJobsDescription" xml:space="preserve">
         <value>Jobs that were executed by you.</value>
-    </data>
-    <data name="AdminConsoleDisabled" xml:space="preserve">
+  </data>
+  <data name="AdminConsoleDisabled" xml:space="preserve">
         <value>Admin Console Disabled</value>
-    </data>
-    <data name="ViewJobs" xml:space="preserve">
+  </data>
+  <data name="ViewJobs" xml:space="preserve">
         <value>View Jobs</value>
-    </data>
-    <data name="JobRunId" xml:space="preserve">
+  </data>
+  <data name="JobRunId" xml:space="preserve">
         <value>Job Run ID</value>
-    </data>
-    <data name="JobRunIdDescription" xml:space="preserve">
+  </data>
+  <data name="JobRunIdDescription" xml:space="preserve">
         <value>Job are only accessible based on a random GUID rather than an sequential job ID.</value>
-    </data>
-    <data name="ViewTaggedResources" xml:space="preserve">
+  </data>
+  <data name="ViewTaggedResources" xml:space="preserve">
         <value>View Tagged Resources</value>
-    </data>
-    <data name="TaggedResourcesDescription" xml:space="preserve">
+  </data>
+  <data name="TaggedResourcesDescription" xml:space="preserve">
         <value>Resources with this tag assigned.</value>
-    </data>
-    <data name="ReleaseNotes" xml:space="preserve">
+  </data>
+  <data name="ReleaseNotes" xml:space="preserve">
         <value>Release Notes</value>
-    </data>
-    <data name="ReleaseDate" xml:space="preserve">
+  </data>
+  <data name="ReleaseDate" xml:space="preserve">
         <value>Release Date</value>
-    </data>
-    <data name="ClaimType" xml:space="preserve">
+  </data>
+  <data name="ClaimType" xml:space="preserve">
         <value>Claim Type</value>
-    </data>
-    <data name="ClaimValue" xml:space="preserve">
+  </data>
+  <data name="ClaimValue" xml:space="preserve">
         <value>Claim Value</value>
-    </data>
-    <data name="LicenseWarning" xml:space="preserve">
+  </data>
+  <data name="LicenseWarning" xml:space="preserve">
         <value>You have more computers than are licensed. Please purchase more licenses. </value>
-    </data>
-    <data name="LicenseText" xml:space="preserve">
+  </data>
+  <data name="LicenseText" xml:space="preserve">
         <value>License Text</value>
-    </data>
-    <data name="AddAuthenticationMethod" xml:space="preserve">
+  </data>
+  <data name="AddAuthenticationMethod" xml:space="preserve">
         <value>Add Authentication Method</value>
-    </data>
-    <data name="ErrorInConfigScript" xml:space="preserve">
+  </data>
+  <data name="ErrorInConfigScript" xml:space="preserve">
         <value>There is an error in the configuration script for this resource.</value>
-    </data>
-    <data name="Updated" xml:space="preserve">
+  </data>
+  <data name="Updated" xml:space="preserve">
         <value>Updated</value>
-    </data>
-    <data name="Created" xml:space="preserve">
+  </data>
+  <data name="Created" xml:space="preserve">
         <value>Created</value>
-    </data>
-    <data name="LastRead" xml:space="preserve">
+  </data>
+  <data name="LastRead" xml:space="preserve">
         <value>Last Read</value>
-    </data>
-    <data name="Expiration" xml:space="preserve">
+  </data>
+  <data name="Expiration" xml:space="preserve">
         <value>Expiration</value>
-    </data>
-    <data name="SlidingExpiration" xml:space="preserve">
+  </data>
+  <data name="SlidingExpiration" xml:space="preserve">
         <value>Sliding Expiration</value>
-    </data>
-    <data name="AbsoluteExpirationRelativeToNow" xml:space="preserve">
+  </data>
+  <data name="AbsoluteExpirationRelativeToNow" xml:space="preserve">
         <value>Absolute Expiration Relative To Now</value>
-    </data>
-    <data name="Cache" xml:space="preserve">
+  </data>
+  <data name="Cache" xml:space="preserve">
         <value>Cache</value>
-    </data>
-    <data name="CacheDescription" xml:space="preserve">
+  </data>
+  <data name="CacheDescription" xml:space="preserve">
         <value>Data that has been cached in PowerShell Universal.</value>
-    </data>
-    <data name="UploadSuccess" xml:space="preserve">
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
         <value>File uploaded successfully!</value>
-    </data>
-    <data name="UploadFailure" xml:space="preserve">
+  </data>
+  <data name="UploadFailure" xml:space="preserve">
         <value>File upload failed!</value>
-    </data>
-    <data name="ProvidedByModule" xml:space="preserve">
+  </data>
+  <data name="ProvidedByModule" xml:space="preserve">
         <value>Provided by the {0} module.</value>
-    </data>
-    <data name="LibraryDescription" xml:space="preserve">
+  </data>
+  <data name="LibraryDescription" xml:space="preserve">
         <value>Modules designed to work with PowerShell Universal.</value>
-    </data>
-    <data name="ImportFromLibrary" xml:space="preserve">
+  </data>
+  <data name="ImportFromLibrary" xml:space="preserve">
         <value>Import from Gallery</value>
-    </data>
-    <data name="Contribute" xml:space="preserve">
+  </data>
+  <data name="Contribute" xml:space="preserve">
         <value>Contribute</value>
-    </data>
-    <data name="EditOnGitHub" xml:space="preserve">
+  </data>
+  <data name="EditOnGitHub" xml:space="preserve">
         <value>Edit on GitHub</value>
-    </data>
-    <data name="UserSessions" xml:space="preserve">
+  </data>
+  <data name="UserSessions" xml:space="preserve">
         <value>User Session</value>
-    </data>
-    <data name="LibraryResources" xml:space="preserve">
+  </data>
+  <data name="LibraryResources" xml:space="preserve">
         <value>Gallery Modules</value>
-    </data>
-    <data name="BlazorDescription" xml:space="preserve">
+  </data>
+  <data name="BlazorDescription" xml:space="preserve">
         <value>Build apps with Blazor and PowerShell.</value>
-    </data>
-    <data name="RunScript" xml:space="preserve">
+  </data>
+  <data name="RunScript" xml:space="preserve">
         <value>Run Script</value>
-    </data>
-    <data name="RunLater" xml:space="preserve">
+  </data>
+  <data name="RunLater" xml:space="preserve">
         <value>Run Later</value>
-    </data>
-    <data name="ScriptStarted" xml:space="preserve">
+  </data>
+  <data name="ScriptStarted" xml:space="preserve">
         <value>Script Started</value>
-    </data>
-    <data name="FailedToStartScript" xml:space="preserve">
+  </data>
+  <data name="FailedToStartScript" xml:space="preserve">
         <value>Failed to start script.</value>
-    </data>
-    <data name="ScriptScheduled" xml:space="preserve">
+  </data>
+  <data name="ScriptScheduled" xml:space="preserve">
         <value>Script Scheduled</value>
-    </data>
-    <data name="TimeOfDay" xml:space="preserve">
+  </data>
+  <data name="TimeOfDay" xml:space="preserve">
         <value>Time of Day</value>
-    </data>
-    <data name="DayOfTheWeek" xml:space="preserve">
+  </data>
+  <data name="DayOfTheWeek" xml:space="preserve">
         <value>Day of the Week</value>
-    </data>
-    <data name="DayOfTheMonth" xml:space="preserve">
+  </data>
+  <data name="DayOfTheMonth" xml:space="preserve">
         <value>Day of the Month</value>
-    </data>
-    <data name="SimpleSchedule" xml:space="preserve">
+  </data>
+  <data name="SimpleSchedule" xml:space="preserve">
         <value>Simple Schedule</value>
-    </data>
-    <data name="SpecificDay" xml:space="preserve">
+  </data>
+  <data name="SpecificDay" xml:space="preserve">
         <value>On specific days of the week</value>
-    </data>
-    <data name="SpecificMonth" xml:space="preserve">
+  </data>
+  <data name="SpecificMonth" xml:space="preserve">
         <value>On specific months of the year</value>
-    </data>
-    <data name="ApiError" xml:space="preserve">
+  </data>
+  <data name="ApiError" xml:space="preserve">
         <value>API Error</value>
-    </data>
-    <data name="ApiAuthenticationFailed" xml:space="preserve">
+  </data>
+  <data name="ApiAuthenticationFailed" xml:space="preserve">
         <value>API Authentication Failed</value>
-    </data>
-    <data name="DashboardStarted" xml:space="preserve">
+  </data>
+  <data name="DashboardStarted" xml:space="preserve">
         <value>PowerShell App Started</value>
-    </data>
-    <data name="DashboardStopped" xml:space="preserve">
+  </data>
+  <data name="DashboardStopped" xml:space="preserve">
         <value>PowerShell App Stopped</value>
-    </data>
-    <data name="JobFailed" xml:space="preserve">
+  </data>
+  <data name="JobFailed" xml:space="preserve">
         <value>Job Failed</value>
-    </data>
-    <data name="JobStarted" xml:space="preserve">
+  </data>
+  <data name="JobStarted" xml:space="preserve">
         <value>Job Started</value>
-    </data>
-    <data name="JobCompleted" xml:space="preserve">
+  </data>
+  <data name="JobCompleted" xml:space="preserve">
         <value>Job Completed</value>
-    </data>
-    <data name="JobCanceled" xml:space="preserve">
+  </data>
+  <data name="JobCanceled" xml:space="preserve">
         <value>Job Canceled</value>
-    </data>
-    <data name="JobTimedOut" xml:space="preserve">
+  </data>
+  <data name="JobTimedOut" xml:space="preserve">
         <value>Job Timed Out</value>
-    </data>
-    <data name="Job Failed" xml:space="preserve">
+  </data>
+  <data name="Job Failed" xml:space="preserve">
         <value>Job Failed</value>
-    </data>
-    <data name="PasteLicense" xml:space="preserve">
+  </data>
+  <data name="PasteLicense" xml:space="preserve">
         <value>Paste License</value>
-    </data>
-    <data name="LicenseExpired" xml:space="preserve">
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
         <value>License Expired</value>
-    </data>
-    <data name="LicenseExpiring" xml:space="preserve">
+  </data>
+  <data name="LicenseExpiring" xml:space="preserve">
         <value>License Expiring</value>
-    </data>
-    <data name="LoginPageTheme" xml:space="preserve">
+  </data>
+  <data name="LoginPageTheme" xml:space="preserve">
         <value>Login Page Theme</value>
-    </data>
-    <data name="ExpiringLicenseInfo" xml:space="preserve">
+  </data>
+  <data name="ExpiringLicenseInfo" xml:space="preserve">
         <value>A license is expiring soon.</value>
-    </data>
-    <data name="ServerStarted" xml:space="preserve">
+  </data>
+  <data name="ServerStarted" xml:space="preserve">
         <value>Server Started</value>
-    </data>
-    <data name="ServerStopped" xml:space="preserve">
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
         <value>Server Stopped</value>
-    </data>
-    <data name="UserLogin" xml:space="preserve">
+  </data>
+  <data name="UserLogin" xml:space="preserve">
         <value>User Login</value>
-    </data>
-    <data name="RevokedAppTokenUsage" xml:space="preserve">
+  </data>
+  <data name="RevokedAppTokenUsage" xml:space="preserve">
         <value>Revoked App Token Usage</value>
-    </data>
-    <data name="HealthCheckFailed" xml:space="preserve">
+  </data>
+  <data name="HealthCheckFailed" xml:space="preserve">
         <value>Health Check Failed</value>
-    </data>
-    <data name="DashboardSessionExpired" xml:space="preserve">
+  </data>
+  <data name="DashboardSessionExpired" xml:space="preserve">
         <value>Dashboard Session Expired</value>
-    </data>
-    <data name="JobFeedbackRequested" xml:space="preserve">
+  </data>
+  <data name="JobFeedbackRequested" xml:space="preserve">
         <value>Job Feedback Requested</value>
-    </data>
-    <data name="NewUserLogin" xml:space="preserve">
+  </data>
+  <data name="NewUserLogin" xml:space="preserve">
         <value>New User Login</value>
-    </data>
-    <data name="BrandingDescription" xml:space="preserve">
+  </data>
+  <data name="BrandingDescription" xml:space="preserve">
         <value>Customize the text and colors of PowerShell Universal.</value>
-    </data>
-    <data name="AdminConsoleTitle" xml:space="preserve">
+  </data>
+  <data name="AdminConsoleTitle" xml:space="preserve">
         <value>Admin Console Title</value>
-    </data>
-    <data name="Copyright" xml:space="preserve">
+  </data>
+  <data name="Copyright" xml:space="preserve">
         <value>Copyright</value>
-    </data>
-    <data name="LoginPageTitle" xml:space="preserve">
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
         <value>Login Page Title</value>
-    </data>
-    <data name="LoginPageText" xml:space="preserve">
+  </data>
+  <data name="LoginPageText" xml:space="preserve">
         <value>Login Page Text</value>
-    </data>
-    <data name="LoginPageDescription" xml:space="preserve">
+  </data>
+  <data name="LoginPageDescription" xml:space="preserve">
         <value>Login Page Description</value>
-    </data>
-    <data name="NotAuthorizedTitle" xml:space="preserve">
+  </data>
+  <data name="NotAuthorizedTitle" xml:space="preserve">
         <value>Not Authorized Title</value>
-    </data>
-    <data name="LoggedOut" xml:space="preserve">
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
         <value>Logged Out</value>
-    </data>
-    <data name="LoggedOutDescription" xml:space="preserve">
+  </data>
+  <data name="LoggedOutDescription" xml:space="preserve">
         <value>You have been logged out. Click login to sign in again.</value>
-    </data>
-    <data name="HeaderColor" xml:space="preserve">
+  </data>
+  <data name="HeaderColor" xml:space="preserve">
         <value>Header Color</value>
-    </data>
-    <data name="PrimaryColor" xml:space="preserve">
+  </data>
+  <data name="PrimaryColor" xml:space="preserve">
         <value>Primary Color</value>
-    </data>
-    <data name="PrimaryFontColor" xml:space="preserve">
+  </data>
+  <data name="PrimaryFontColor" xml:space="preserve">
         <value>Primary Font Color</value>
-    </data>
-    <data name="SecondaryColor" xml:space="preserve">
+  </data>
+  <data name="SecondaryColor" xml:space="preserve">
         <value>Secondary Color</value>
-    </data>
-    <data name="HeaderFontColor" xml:space="preserve">
+  </data>
+  <data name="HeaderFontColor" xml:space="preserve">
         <value>Header Font Color</value>
-    </data>
-    <data name="SecondaryFontColor" xml:space="preserve">
+  </data>
+  <data name="SecondaryFontColor" xml:space="preserve">
         <value>Secondary Font Color</value>
-    </data>
-    <data name="AppBarLogo" xml:space="preserve">
+  </data>
+  <data name="AppBarLogo" xml:space="preserve">
         <value>App Bar Logo</value>
-    </data>
-    <data name="FavIcon" xml:space="preserve">
+  </data>
+  <data name="FavIcon" xml:space="preserve">
         <value>Favicon</value>
-    </data>
-    <data name="LoginPageImage" xml:space="preserve">
+  </data>
+  <data name="LoginPageImage" xml:space="preserve">
         <value>Login Page Image</value>
-    </data>
-    <data name="PersistenceSettings" xml:space="preserve">
+  </data>
+  <data name="PersistenceSettings" xml:space="preserve">
         <value>Persistence Settings</value>
-    </data>
-    <data name="PersistenceSettingsDescription" xml:space="preserve">
+  </data>
+  <data name="PersistenceSettingsDescription" xml:space="preserve">
         <value>Configure which configuration files are written to the file system.</value>
-    </data>
-    <data name="PersistenceSetting" xml:space="preserve">
+  </data>
+  <data name="PersistenceSetting" xml:space="preserve">
         <value>Persistence Setting</value>
-    </data>
-    <data name="FileSystem" xml:space="preserve">
+  </data>
+  <data name="FileSystem" xml:space="preserve">
         <value>File System</value>
-    </data>
-    <data name="FormAuthentication" xml:space="preserve">
+  </data>
+  <data name="FormAuthentication" xml:space="preserve">
         <value>Form Authentication</value>
-    </data>
-    <data name="FormAuthenticationDescription" xml:space="preserve">
+  </data>
+  <data name="FormAuthenticationDescription" xml:space="preserve">
         <value>Login users with a custom login script.</value>
-    </data>
-    <data name="FontColor" xml:space="preserve">
+  </data>
+  <data name="FontColor" xml:space="preserve">
         <value>Font Color</value>
-    </data>
-    <data name="FileSystemAndDatabase" xml:space="preserve">
+  </data>
+  <data name="FileSystemAndDatabase" xml:space="preserve">
         <value>File System and Database</value>
-    </data>
-    <data name="DatabaseOnly" xml:space="preserve">
+  </data>
+  <data name="DatabaseOnly" xml:space="preserve">
         <value>Database Only</value>
-    </data>
-    <data name="TranslationsDescription" xml:space="preserve">
+  </data>
+  <data name="TranslationsDescription" xml:space="preserve">
         <value>Add translated strings for use with the translation provider.</value>
-    </data>
-    <data name="StringCount" xml:space="preserve">
+  </data>
+  <data name="StringCount" xml:space="preserve">
         <value>String Count</value>
-    </data>
-    <data name="LanguageId" xml:space="preserve">
+  </data>
+  <data name="LanguageId" xml:space="preserve">
         <value>Language ID</value>
-    </data>
-    <data name="ReadOnly" xml:space="preserve">
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
         <value>Read Only</value>
-    </data>
-    <data name="ChildJobs" xml:space="preserve">
+  </data>
+  <data name="ChildJobs" xml:space="preserve">
         <value>Child Jobs</value>
-    </data>
-    <data name="KeepHistory" xml:space="preserve">
+  </data>
+  <data name="KeepHistory" xml:space="preserve">
         <value>Keep History</value>
-    </data>
-    <data name="HealthChecksDescription" xml:space="preserve">
+  </data>
+  <data name="HealthChecksDescription" xml:space="preserve">
         <value>Health checks for PowerShell Universal.</value>
-    </data>
-    <data name="PassingHealthChecks" xml:space="preserve">
+  </data>
+  <data name="PassingHealthChecks" xml:space="preserve">
         <value>Passing health checks</value>
-    </data>
-    <data name="HealthChecksWithErrors" xml:space="preserve">
+  </data>
+  <data name="HealthChecksWithErrors" xml:space="preserve">
         <value>Health checks with errors</value>
-    </data>
-    <data name="RepositoryVersion" xml:space="preserve">
+  </data>
+  <data name="RepositoryVersion" xml:space="preserve">
         <value>Repository Version</value>
-    </data>
-    <data name="CheckForModuleUpdates" xml:space="preserve">
+  </data>
+  <data name="CheckForModuleUpdates" xml:space="preserve">
         <value>Check for module updates</value>
-    </data>
-    <data name="CheckForModuleUpdatesDescription" xml:space="preserve">
+  </data>
+  <data name="CheckForModuleUpdatesDescription" xml:space="preserve">
         <value>Checks the module repository to see if there are updated versions of modules.</value>
-    </data>
-    <data name="TerminalsDescription" xml:space="preserve">
+  </data>
+  <data name="TerminalsDescription" xml:space="preserve">
         <value>PowerShell terminals in the browser.</value>
-    </data>
-    <data name="ComputerGroups" xml:space="preserve">
+  </data>
+  <data name="ComputerGroups" xml:space="preserve">
         <value>Computer Groups</value>
-    </data>
-    <data name="ComputerGroupDescription" xml:space="preserve">
+  </data>
+  <data name="ComputerGroupDescription" xml:space="preserve">
         <value>Groups of computers to assign resources to.</value>
-    </data>
-    <data name="TerminalInstances" xml:space="preserve">
+  </data>
+  <data name="TerminalInstances" xml:space="preserve">
         <value>Terminal Instances</value>
-    </data>
-    <data name="TerminalInstancesDescription" xml:space="preserve">
+  </data>
+  <data name="TerminalInstancesDescription" xml:space="preserve">
         <value>Active and historical instances of a terminals.</value>
-    </data>
-    <data name="StartTime" xml:space="preserve">
+  </data>
+  <data name="StartTime" xml:space="preserve">
         <value>Start Time</value>
-    </data>
-    <data name="IdleTime" xml:space="preserve">
+  </data>
+  <data name="IdleTime" xml:space="preserve">
         <value>Idle Time</value>
-    </data>
-    <data name="ViewHistory" xml:space="preserve">
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
         <value>View History</value>
-    </data>
-    <data name="OpenTerminal" xml:space="preserve">
+  </data>
+  <data name="OpenTerminal" xml:space="preserve">
         <value>Open Terminal</value>
-    </data>
-    <data name="TerminalHistory" xml:space="preserve">
+  </data>
+  <data name="TerminalHistory" xml:space="preserve">
         <value>Terminal History</value>
-    </data>
-    <data name="StopTerminal" xml:space="preserve">
+  </data>
+  <data name="StopTerminal" xml:space="preserve">
         <value>Stop Terminal</value>
-    </data>
-    <data name="BlazorApps" xml:space="preserve">
+  </data>
+  <data name="BlazorApps" xml:space="preserve">
         <value>Blazor Apps</value>
-    </data>
-    <data name="ConcurrentJobs" xml:space="preserve">
+  </data>
+  <data name="ConcurrentJobs" xml:space="preserve">
         <value>Concurrent Jobs</value>
-    </data>
-    <data name="StoreInDatabase" xml:space="preserve">
+  </data>
+  <data name="StoreInDatabase" xml:space="preserve">
         <value>Store In Database</value>
-    </data>
-    <data name="QueryString" xml:space="preserve">
+  </data>
+  <data name="QueryString" xml:space="preserve">
         <value>Query String</value>
-    </data>
-    <data name="ApplicationToken" xml:space="preserve">
+  </data>
+  <data name="ApplicationToken" xml:space="preserve">
         <value>Application Token</value>
-    </data>
-    <data name="30Days" xml:space="preserve">
+  </data>
+  <data name="30Days" xml:space="preserve">
         <value>30 Days</value>
-    </data>
-    <data name="90Days" xml:space="preserve">
+  </data>
+  <data name="90Days" xml:space="preserve">
         <value>90 Days</value>
-    </data>
-    <data name="60Days" xml:space="preserve">
+  </data>
+  <data name="60Days" xml:space="preserve">
         <value>60 Days</value>
-    </data>
-    <data name="1Year" xml:space="preserve">
+  </data>
+  <data name="1Year" xml:space="preserve">
         <value>1 Year</value>
-    </data>
-    <data name="Never" xml:space="preserve">
+  </data>
+  <data name="Never" xml:space="preserve">
         <value>Never</value>
-    </data>
-    <data name="NameHelp" xml:space="preserve">
+  </data>
+  <data name="NameHelp" xml:space="preserve">
         <value>A friendly name for this resource. </value>
-    </data>
-    <data name="DescriptionHelp" xml:space="preserve">
+  </data>
+  <data name="DescriptionHelp" xml:space="preserve">
         <value>A description of this resource.</value>
-    </data>
-    <data name="EndpointUrlHelp" xml:space="preserve">
+  </data>
+  <data name="EndpointUrlHelp" xml:space="preserve">
         <value>The URL for this endpoint. It must be unique.</value>
-    </data>
-    <data name="AuthenticationHelp" xml:space="preserve">
+  </data>
+  <data name="AuthenticationHelp" xml:space="preserve">
         <value>Whether authentication is required to access this resource.</value>
-    </data>
-    <data name="RoleHelp" xml:space="preserve">
+  </data>
+  <data name="RoleHelp" xml:space="preserve">
         <value>The roles that have access to this resource.</value>
-    </data>
-    <data name="MethodHelp" xml:space="preserve">
+  </data>
+  <data name="MethodHelp" xml:space="preserve">
         <value>The HTTP method(s) used to access this endpoint.</value>
-    </data>
-    <data name="EndpointPathHelp" xml:space="preserve">
+  </data>
+  <data name="EndpointPathHelp" xml:space="preserve">
         <value>The file path of a PS1 file to store the implementation of this endpoint in. In not specified, it will be stored in endpoints.ps1.</value>
-    </data>
-    <data name="EndpointDocumentationHelp" xml:space="preserve">
+  </data>
+  <data name="EndpointDocumentationHelp" xml:space="preserve">
         <value>The OpenAPI document to include this endpoint in.</value>
-    </data>
-    <data name="EnvironmentHelp" xml:space="preserve">
+  </data>
+  <data name="EnvironmentHelp" xml:space="preserve">
         <value>The envrionment that this resources run in. If not specified, it will use the default environment found in settings.</value>
-    </data>
-    <data name="RegExHelp" xml:space="preserve">
+  </data>
+  <data name="RegExHelp" xml:space="preserve">
         <value>If enabled, the URL is treated as a regular expression.</value>
-    </data>
-    <data name="EndpointTimeoutHelp" xml:space="preserve">
+  </data>
+  <data name="EndpointTimeoutHelp" xml:space="preserve">
         <value>The number of seconds before this endpoint times out. If not specified, there is no timeout. </value>
-    </data>
-    <data name="TagsHelp" xml:space="preserve">
+  </data>
+  <data name="TagsHelp" xml:space="preserve">
         <value>Tags applied to this resource.</value>
-    </data>
-    <data name="PowerShellAppUrlHelp" xml:space="preserve">
+  </data>
+  <data name="PowerShellAppUrlHelp" xml:space="preserve">
         <value>The URL to access this app. This must be unique.</value>
-    </data>
-    <data name="CredentialHelp" xml:space="preserve">
+  </data>
+  <data name="CredentialHelp" xml:space="preserve">
         <value>The user account to run this resource as. This is not supported with the integrated environment.</value>
-    </data>
-    <data name="ComputerGroupHelp" xml:space="preserve">
+  </data>
+  <data name="ComputerGroupHelp" xml:space="preserve">
         <value>The computer group to run this resource on. If not specified, it will run on all computers.</value>
-    </data>
-    <data name="DisableAutoStartHelp" xml:space="preserve">
+  </data>
+  <data name="DisableAutoStartHelp" xml:space="preserve">
         <value>Whether this app starts when the server starts.</value>
-    </data>
-    <data name="DisableErrorOnToastHelp" xml:space="preserve">
+  </data>
+  <data name="DisableErrorOnToastHelp" xml:space="preserve">
         <value>Whether an toast is shown in the app when a PowerShell error occrus.</value>
-    </data>
-    <data name="DisableInteractiveHostHelp" xml:space="preserve">
+  </data>
+  <data name="DisableInteractiveHostHelp" xml:space="preserve">
         <value>Whether commands like Read-Host and Write-Progress cause interactive features in an app.</value>
-    </data>
-    <data name="FaviconHelp" xml:space="preserve">
+  </data>
+  <data name="FaviconHelp" xml:space="preserve">
         <value>The icon to display in the browser tab.</value>
-    </data>
-    <data name="IdleTimeoutHelp" xml:space="preserve">
+  </data>
+  <data name="IdleTimeoutHelp" xml:space="preserve">
         <value>The number of minutes before a session becomes idle.</value>
-    </data>
-    <data name="AppMaintenanceModeHelp" xml:space="preserve">
+  </data>
+  <data name="AppMaintenanceModeHelp" xml:space="preserve">
         <value>When enabled, only administrators can access the app.</value>
-    </data>
-    <data name="SessionTimeoutHelp" xml:space="preserve">
+  </data>
+  <data name="SessionTimeoutHelp" xml:space="preserve">
         <value>The number of minutes before the session is timed out.</value>
-    </data>
-    <data name="BlazorAppUrlHelp" xml:space="preserve">
+  </data>
+  <data name="BlazorAppUrlHelp" xml:space="preserve">
         <value>The URL used to access this app. This must be unique.</value>
-    </data>
-    <data name="ScheduleScriptHelp" xml:space="preserve">
+  </data>
+  <data name="ScheduleScriptHelp" xml:space="preserve">
         <value>The script executed by this schedule.</value>
-    </data>
-    <data name="ScheduleDelayHelp" xml:space="preserve">
+  </data>
+  <data name="ScheduleDelayHelp" xml:space="preserve">
         <value>The number of seconds to delay running this schedule.</value>
-    </data>
-    <data name="ScheduleTimeoutHelp" xml:space="preserve">
+  </data>
+  <data name="ScheduleTimeoutHelp" xml:space="preserve">
         <value>The number of minutes before the scheduled script times out.</value>
-    </data>
-    <data name="SchedulePausedHelp" xml:space="preserve">
+  </data>
+  <data name="SchedulePausedHelp" xml:space="preserve">
         <value>Whether this schedule is paused. When paused, it will not run.</value>
-    </data>
-    <data name="RandomDelay" xml:space="preserve">
+  </data>
+  <data name="RandomDelay" xml:space="preserve">
         <value>Random Delay</value>
-    </data>
-    <data name="RandomDelayHelp" xml:space="preserve">
+  </data>
+  <data name="RandomDelayHelp" xml:space="preserve">
         <value>When checked, the schedule will delay between 0 and 60 seconds before starting. </value>
-    </data>
-    <data name="RunAsHelp" xml:space="preserve">
+  </data>
+  <data name="RunAsHelp" xml:space="preserve">
         <value>The user credential to run as.</value>
-    </data>
-    <data name="RunAs" xml:space="preserve">
+  </data>
+  <data name="RunAs" xml:space="preserve">
         <value>Run As</value>
-    </data>
-    <data name="RunOnHelp" xml:space="preserve">
+  </data>
+  <data name="RunOnHelp" xml:space="preserve">
         <value>The computer or computer group to run the job on.</value>
-    </data>
-    <data name="RunInHelp" xml:space="preserve">
+  </data>
+  <data name="RunInHelp" xml:space="preserve">
         <value>The environment to run in.</value>
-    </data>
-    <data name="Cron" xml:space="preserve">
+  </data>
+  <data name="Cron" xml:space="preserve">
         <value>CRON</value>
-    </data>
-    <data name="CronHelp" xml:space="preserve">
+  </data>
+  <data name="CronHelp" xml:space="preserve">
         <value>A CRON expression for this schedule.</value>
-    </data>
-    <data name="Telemetry" xml:space="preserve">
+  </data>
+  <data name="Telemetry" xml:space="preserve">
         <value>Telemetry</value>
-    </data>
-    <data name="StartTimeHelp" xml:space="preserve">
+  </data>
+  <data name="StartTimeHelp" xml:space="preserve">
         <value>The date and time to start this job.</value>
-    </data>
-    <data name="SimpleScheduleHelp" xml:space="preserve">
+  </data>
+  <data name="SimpleScheduleHelp" xml:space="preserve">
         <value>Commonly used schedules.</value>
-    </data>
-    <data name="KeepHistoryHelp" xml:space="preserve">
+  </data>
+  <data name="KeepHistoryHelp" xml:space="preserve">
         <value>Stores all the input and output from the terminal usage.</value>
-    </data>
-    <data name="TerminalIdleTimeoutHelp" xml:space="preserve">
+  </data>
+  <data name="TerminalIdleTimeoutHelp" xml:space="preserve">
         <value>The number of minutes before idle terminals are terminated.</value>
-    </data>
-    <data name="TriggerScriptHelp" xml:space="preserve">
+  </data>
+  <data name="TriggerScriptHelp" xml:space="preserve">
         <value>The script that is run when this event type is triggered.</value>
-    </data>
-    <data name="EventTypeHelp" xml:space="preserve">
+  </data>
+  <data name="EventTypeHelp" xml:space="preserve">
         <value>The type of event within PowerShell Universal that causes the trigger to run.</value>
-    </data>
-    <data name="TriggerAppHelp" xml:space="preserve">
+  </data>
+  <data name="TriggerAppHelp" xml:space="preserve">
         <value>The app that this trigger cause the script to run.</value>
-    </data>
-    <data name="TriggerScriptScriptHelp" xml:space="preserve">
+  </data>
+  <data name="TriggerScriptScriptHelp" xml:space="preserve">
         <value>The script that causes this trigger to run.</value>
-    </data>
-    <data name="DelaySecondsHelp" xml:space="preserve">
+  </data>
+  <data name="DelaySecondsHelp" xml:space="preserve">
         <value>The number of seconds to wait before running this trigger.</value>
-    </data>
-    <data name="ComputerTagsHelp" xml:space="preserve">
+  </data>
+  <data name="ComputerTagsHelp" xml:space="preserve">
         <value>Computers that have the selected tags will be part of this computer group.</value>
-    </data>
-    <data name="PublishedFoldersPathHelp" xml:space="preserve">
+  </data>
+  <data name="PublishedFoldersPathHelp" xml:space="preserve">
         <value>The local file path to serve files from. If this path is relative, it is relative to the repository directory.</value>
-    </data>
-    <data name="RequestPathHelp" xml:space="preserve">
+  </data>
+  <data name="RequestPathHelp" xml:space="preserve">
         <value>The relative URL to access files in the local folder.</value>
-    </data>
-    <data name="SecretTypeHelp" xml:space="preserve">
+  </data>
+  <data name="SecretTypeHelp" xml:space="preserve">
         <value>The data type for this secret.</value>
-    </data>
-    <data name="SecretValueHelp" xml:space="preserve">
+  </data>
+  <data name="SecretValueHelp" xml:space="preserve">
         <value>The value of this secret.</value>
-    </data>
-    <data name="UserNameHelp" xml:space="preserve">
-        <value/>
-    </data>
-    <data name="VaultsHelp" xml:space="preserve">
+  </data>
+  <data name="UserNameHelp" xml:space="preserve">
+        <value />
+  </data>
+  <data name="VaultsHelp" xml:space="preserve">
         <value>The secret vault to store the secret within.</value>
-    </data>
-    <data name="DisableRunAsSupport" xml:space="preserve">
+  </data>
+  <data name="DisableRunAsSupport" xml:space="preserve">
         <value>Disable Run As Support</value>
-    </data>
-    <data name="DisableRunAsSupportHelp" xml:space="preserve">
+  </data>
+  <data name="DisableRunAsSupportHelp" xml:space="preserve">
         <value>Prevents the PSCredential from being used for elevating jobs. </value>
-    </data>
-    <data name="LanguageIDHelp" xml:space="preserve">
+  </data>
+  <data name="LanguageIDHelp" xml:space="preserve">
         <value>The language tag for this translation. For example: en-US</value>
-    </data>
-    <data name="VariableScopeHelp" xml:space="preserve">
+  </data>
+  <data name="VariableScopeHelp" xml:space="preserve">
         <value>Global scope variables are created when resources are started like APIs and apps. Script scope variables are read at runtime.</value>
-    </data>
-    <data name="StoreInDatabaseHelp" xml:space="preserve">
+  </data>
+  <data name="StoreInDatabaseHelp" xml:space="preserve">
         <value>The variable value is stored in the database rather than variables.ps1</value>
-    </data>
-    <data name="VariableTypeHelp" xml:space="preserve">
+  </data>
+  <data name="VariableTypeHelp" xml:space="preserve">
         <value>The data type of this variable.</value>
-    </data>
-    <data name="LocalAccountHelp" xml:space="preserve">
+  </data>
+  <data name="LocalAccountHelp" xml:space="preserve">
         <value>Local accounts are stored with their credentials in the database.</value>
-    </data>
-    <data name="ClaimTypeHelp" xml:space="preserve">
+  </data>
+  <data name="ClaimTypeHelp" xml:space="preserve">
         <value>Users matching the claim and value type will receive this role.</value>
-    </data>
-    <data name="IdentityHelp" xml:space="preserve">
+  </data>
+  <data name="IdentityHelp" xml:space="preserve">
         <value>The identity of this app token.</value>
-    </data>
-    <data name="AppTokenRoleHelp" xml:space="preserve">
+  </data>
+  <data name="AppTokenRoleHelp" xml:space="preserve">
         <value>The roles assigned to this app token.</value>
-    </data>
-    <data name="ExpirationHelp" xml:space="preserve">
+  </data>
+  <data name="ExpirationHelp" xml:space="preserve">
         <value>The expiration time of this app token.</value>
-    </data>
-    <data name="RolesHelp" xml:space="preserve">
+  </data>
+  <data name="RolesHelp" xml:space="preserve">
         <value>Roles that can access this resource.</value>
-    </data>
-    <data name="IdentityRoleHelp" xml:space="preserve">
+  </data>
+  <data name="IdentityRoleHelp" xml:space="preserve">
         <value>Roles assigned to this identity. If not defined, roles will be applied by policy.</value>
-    </data>
-    <data name="EnvironmentPathHelp" xml:space="preserve">
+  </data>
+  <data name="EnvironmentPathHelp" xml:space="preserve">
         <value>The absolute or relative path to an executable to launch for this environment. For example: pwsh.exe</value>
-    </data>
-    <data name="EnvironmentArgsHelp" xml:space="preserve">
+  </data>
+  <data name="EnvironmentArgsHelp" xml:space="preserve">
         <value>Arguments to pass to the executable when starting this environment.</value>
-    </data>
-    <data name="MinimalHelp" xml:space="preserve">
+  </data>
+  <data name="MinimalHelp" xml:space="preserve">
         <value>Minimal environments do not load PowerShell Universal assemblies and can support other languages. They are only support with jobs.</value>
-    </data>
-    <data name="DisableImplicitWindowsCompatibilityHelp" xml:space="preserve">
+  </data>
+  <data name="DisableImplicitWindowsCompatibilityHelp" xml:space="preserve">
         <value>Disables implicit Windows compatbility in PowerShell 7.</value>
-    </data>
-    <data name="MaxRunspacesHelp" xml:space="preserve">
+  </data>
+  <data name="MaxRunspacesHelp" xml:space="preserve">
         <value>The maximum number of runspaces to start in a multi-runspace environment like PowerShell Apps and APIs.</value>
-    </data>
-    <data name="MaxVirutalMemoryHelp" xml:space="preserve">
+  </data>
+  <data name="MaxVirutalMemoryHelp" xml:space="preserve">
         <value>The maximum virtual memory an environment can use before it is forcefully terminated.</value>
-    </data>
-    <data name="PersistentRunspaceHelp" xml:space="preserve">
+  </data>
+  <data name="PersistentRunspaceHelp" xml:space="preserve">
         <value>Prevents runspaces from resetting state between invocations. This setting only affects long running features like Apps and APIs. </value>
-    </data>
-    <data name="CustomModulesDescription" xml:space="preserve">
+  </data>
+  <data name="CustomModulesDescription" xml:space="preserve">
         <value>Repository modules are stored in the PowerShell Universal repository. These modules are available in all environments.</value>
-    </data>
-    <data name="CustomModules" xml:space="preserve">
+  </data>
+  <data name="CustomModules" xml:space="preserve">
         <value>Repository Modules</value>
-    </data>
-    <data name="VersionHelp" xml:space="preserve">
+  </data>
+  <data name="VersionHelp" xml:space="preserve">
         <value>The version of this module.</value>
-    </data>
-    <data name="DefaultLoginWarning" xml:space="preserve">
+  </data>
+  <data name="DefaultLoginWarning" xml:space="preserve">
         <value>You have not configured authentication or authorization. The default user name is 'admin' and with a password of 'admin'. We recommend changing your password.</value>
-    </data>
-    <data name="DemoModeLoginInfo" xml:space="preserve">
+  </data>
+  <data name="DemoModeLoginInfo" xml:space="preserve">
         <value>This instance is running in demo mode. You can login with any user name or password.</value>
-    </data>
-    <data name="ShowTimestamp" xml:space="preserve">
+  </data>
+  <data name="ShowTimestamp" xml:space="preserve">
         <value>Show Timestamp</value>
-    </data>
-    <data name="ShowStreams" xml:space="preserve">
+  </data>
+  <data name="ShowStreams" xml:space="preserve">
         <value>Show Streams</value>
-    </data>
-    <data name="MyIdentity" xml:space="preserve">
+  </data>
+  <data name="MyIdentity" xml:space="preserve">
         <value>My Identity</value>
-    </data>
-    <data name="MyIdentityDescription" xml:space="preserve">
+  </data>
+  <data name="MyIdentityDescription" xml:space="preserve">
         <value>Information about your identity, roles and permissions.</value>
-    </data>
-    <data name="AuthenticationMethod" xml:space="preserve">
+  </data>
+  <data name="AuthenticationMethod" xml:space="preserve">
         <value>Authentication Method</value>
-    </data>
-    <data name="GitCommit" xml:space="preserve">
+  </data>
+  <data name="GitCommit" xml:space="preserve">
         <value>Git Commit</value>
-    </data>
-    <data name="CommitMessage" xml:space="preserve">
+  </data>
+  <data name="CommitMessage" xml:space="preserve">
         <value>Commit Message</value>
-    </data>
-    <data name="Changes" xml:space="preserve">
+  </data>
+  <data name="Changes" xml:space="preserve">
         <value>Changes</value>
-    </data>
-    <data name="Modified" xml:space="preserve">
+  </data>
+  <data name="Modified" xml:space="preserve">
         <value>Modified</value>
-    </data>
-    <data name="Deleted" xml:space="preserve">
+  </data>
+  <data name="Deleted" xml:space="preserve">
         <value>Deleted</value>
-    </data>
-    <data name="Added" xml:space="preserve">
+  </data>
+  <data name="Added" xml:space="preserve">
         <value>Added</value>
-    </data>
-    <data name="NoChanges" xml:space="preserve">
+  </data>
+  <data name="NoChanges" xml:space="preserve">
         <value>No Changes</value>
-    </data>
-    <data name="NoChangesDescription" xml:space="preserve">
+  </data>
+  <data name="NoChangesDescription" xml:space="preserve">
         <value>There are no changes but the platform is set to edit mode. PowerShell Universal will not push and pull from git when an edit is in progress.</value>
-    </data>
-    <data name="CancelEdit" xml:space="preserve">
+  </data>
+  <data name="CancelEdit" xml:space="preserve">
         <value>Cancel Edit</value>
-    </data>
-    <data name="EditNotInProgress" xml:space="preserve">
+  </data>
+  <data name="EditNotInProgress" xml:space="preserve">
         <value>Edit not in progress</value>
-    </data>
-    <data name="EditNotInProgressDescription" xml:space="preserve">
+  </data>
+  <data name="EditNotInProgressDescription" xml:space="preserve">
         <value>Click below to start a new edit. PowerShell Universal will not push and pull from git when an edit is in progress.</value>
-    </data>
-    <data name="GitCommitDescription" xml:space="preserve">
+  </data>
+  <data name="GitCommitDescription" xml:space="preserve">
         <value>These are changes that are currently present on this node that have not been pushed to the remote.</value>
-    </data>
-    <data name="HideRunLater" xml:space="preserve">
+  </data>
+  <data name="HideRunLater" xml:space="preserve">
         <value>Hide Run Later</value>
-    </data>
-    <data name="HideRunLaterDescription" xml:space="preserve">
+  </data>
+  <data name="HideRunLaterDescription" xml:space="preserve">
         <value>Hides the run later option when running a script.</value>
-    </data>
-    <data name="QuickRunScript" xml:space="preserve">
+  </data>
+  <data name="QuickRunScript" xml:space="preserve">
         <value>Quick Run</value>
-    </data>
-    <data name="QuickRunDisabled" xml:space="preserve">
+  </data>
+  <data name="QuickRunDisabled" xml:space="preserve">
         <value>This script has mandatory parameters and cannot be quick run.</value>
-    </data>
-    <data name="DiscoverEnvironments" xml:space="preserve">
+  </data>
+  <data name="DiscoverEnvironments" xml:space="preserve">
         <value>Discover Environments</value>
-    </data>
-    <data name="DiscoverEnvironmentsDescription" xml:space="preserve">
+  </data>
+  <data name="DiscoverEnvironmentsDescription" xml:space="preserve">
         <value>Discovers environments that are installed on this machine.</value>
-    </data>
-    <data name="GenerateDeveloperLicense" xml:space="preserve">
+  </data>
+  <data name="GenerateDeveloperLicense" xml:space="preserve">
         <value>Generate Developer License</value>
-    </data>
-    <data name="PortalScriptError" xml:space="preserve">
+  </data>
+  <data name="PortalScriptError" xml:space="preserve">
         <value>Error executing script.</value>
-    </data>
-    <data name="PortalScriptSuccess" xml:space="preserve">
+  </data>
+  <data name="PortalScriptSuccess" xml:space="preserve">
         <value>Successfully ran script.</value>
-    </data>
-    <data name="PortalOutputType" xml:space="preserve">
+  </data>
+  <data name="PortalOutputType" xml:space="preserve">
         <value>Portal Output Type</value>
-    </data>
-    <data name="PortalOutputTypeHelp" xml:space="preserve">
+  </data>
+  <data name="PortalOutputTypeHelp" xml:space="preserve">
         <value>The way to display the output of this script in the portal.</value>
-    </data>
-    <data name="TimeOut" xml:space="preserve">
+  </data>
+  <data name="TimeOut" xml:space="preserve">
         <value>Time Out</value>
-    </data>
-    <data name="Execution" xml:space="preserve">
+  </data>
+  <data name="Execution" xml:space="preserve">
         <value>Execution</value>
-    </data>
-    <data name="PortalNoServices" xml:space="preserve">
+  </data>
+  <data name="PortalNoServices" xml:space="preserve">
         <value>No services have been applied to your role. Contact your administrator for more information.</value>
-    </data>
-    <data name="DisableErrorToastHelp" xml:space="preserve">
+  </data>
+  <data name="DisableErrorToastHelp" xml:space="preserve">
         <value>Disables the error toast message that is displayed when PowerShell writes to the error stream.</value>
-    </data>
-    <data name="ApiBaseFolder" xml:space="preserve">
+  </data>
+  <data name="ApiBaseFolder" xml:space="preserve">
         <value>API Base Folder</value>
-    </data>
-    <data name="ApiBaseFolderDescription" xml:space="preserve">
+  </data>
+  <data name="ApiBaseFolderDescription" xml:space="preserve">
         <value>The folder, relative to the repository path, to store endpoint files.</value>
-    </data>
-    <data name="LoggingTarget" xml:space="preserve">
+  </data>
+  <data name="LoggingTarget" xml:space="preserve">
         <value>Logging Target</value>
-    </data>
-    <data name="LoggingTargets" xml:space="preserve">
+  </data>
+  <data name="LoggingTargets" xml:space="preserve">
         <value>Logging Targets</value>
-    </data>
-    <data name="LoggingTargetsDescription" xml:space="preserve">
+  </data>
+  <data name="LoggingTargetsDescription" xml:space="preserve">
         <value>Logging targets control where, when and how logging takes place. </value>
-    </data>
-    <data name="LoggingType" xml:space="preserve">
+  </data>
+  <data name="LoggingType" xml:space="preserve">
         <value>Logging Type</value>
-    </data>
-    <data name="LoggingTargetTypeHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingTargetTypeHelp" xml:space="preserve">
         <value>The type of logging to produce.</value>
-    </data>
-    <data name="MinimumLevel" xml:space="preserve">
+  </data>
+  <data name="MinimumLevel" xml:space="preserve">
         <value>Minimum Level</value>
-    </data>
-    <data name="LoggingMinimumLevelHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingMinimumLevelHelp" xml:space="preserve">
         <value>The minimum log level that this target will log.</value>
-    </data>
-    <data name="Scope" xml:space="preserve">
+  </data>
+  <data name="Scope" xml:space="preserve">
         <value>Scope</value>
-    </data>
-    <data name="LoggingScopeHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingScopeHelp" xml:space="preserve">
         <value>User scope logs scripts created by users and system scope is logging produced by the platform.</value>
-    </data>
-    <data name="Feature" xml:space="preserve">
+  </data>
+  <data name="Feature" xml:space="preserve">
         <value>Feature</value>
-    </data>
-    <data name="LoggingFeatureHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingFeatureHelp" xml:space="preserve">
         <value>The feature group that this logging target will receive. </value>
-    </data>
-    <data name="Resource" xml:space="preserve">
+  </data>
+  <data name="Resource" xml:space="preserve">
         <value>Resource</value>
-    </data>
-    <data name="LoggingResourceHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingResourceHelp" xml:space="preserve">
         <value>A specific resource identifier (e.g. ID or path), this logging target will produce for.</value>
-    </data>
-    <data name="FilePath" xml:space="preserve">
+  </data>
+  <data name="FilePath" xml:space="preserve">
         <value>File Path</value>
-    </data>
-    <data name="LoggingFilePathHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingFilePathHelp" xml:space="preserve">
         <value>The file path to log to. Environment variables are supported.</value>
-    </data>
-    <data name="Format" xml:space="preserve">
+  </data>
+  <data name="Format" xml:space="preserve">
         <value>Format</value>
-    </data>
-    <data name="LoggingFileFormatHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingFileFormatHelp" xml:space="preserve">
         <value>The log message format. See Serilog documentation for more information.</value>
-    </data>
-    <data name="RetentionPeriod" xml:space="preserve">
+  </data>
+  <data name="RetentionPeriod" xml:space="preserve">
         <value>Retention Period</value>
-    </data>
-    <data name="LoggingFileRetentionPeriodHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingFileRetentionPeriodHelp" xml:space="preserve">
         <value>The number of days to keep log files for.</value>
-    </data>
-    <data name="LoggingScriptBlockHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingScriptBlockHelp" xml:space="preserve">
         <value>A PowerShell script block to call when log messages are generated.</value>
-    </data>
-    <data name="PowerShellLoggingWarning" xml:space="preserve">
+  </data>
+  <data name="PowerShellLoggingWarning" xml:space="preserve">
         <value>PowerShell logging can have performance implications.</value>
-    </data>
-    <data name="ConnectionString" xml:space="preserve">
+  </data>
+  <data name="ConnectionString" xml:space="preserve">
         <value>Connection String</value>
-    </data>
-    <data name="LoggingConnectionStringHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingConnectionStringHelp" xml:space="preserve">
         <value>A connection string of a database to log to. If not specified, the default will be used.</value>
-    </data>
-    <data name="Host" xml:space="preserve">
+  </data>
+  <data name="Host" xml:space="preserve">
         <value>Host</value>
-    </data>
-    <data name="Port" xml:space="preserve">
+  </data>
+  <data name="Port" xml:space="preserve">
         <value>Port</value>
-    </data>
-    <data name="LoggingHostHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingHostHelp" xml:space="preserve">
         <value>The hostname of the server to log to.</value>
-    </data>
-    <data name="LoggingPortHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingPortHelp" xml:space="preserve">
         <value>The port of the service to log to.</value>
-    </data>
-    <data name="LoggingUrlHelp" xml:space="preserve">
+  </data>
+  <data name="LoggingUrlHelp" xml:space="preserve">
         <value>The URL to send log messages to.</value>
-    </data>
-    <data name="LogFiles" xml:space="preserve">
+  </data>
+  <data name="LogFiles" xml:space="preserve">
         <value>Log Files</value>
-    </data>
-    <data name="LogFilesDescription" xml:space="preserve">
+  </data>
+  <data name="LogFilesDescription" xml:space="preserve">
         <value>Log files that are present on this PowerShell Universal node.</value>
-    </data>
-    <data name="CreateResourceCommand" xml:space="preserve">
+  </data>
+  <data name="CreateResourceCommand" xml:space="preserve">
         <value>Create {0} from Command</value>
-    </data>
-    <data name="ClearHealthChecks" xml:space="preserve">
+  </data>
+  <data name="ClearHealthChecks" xml:space="preserve">
         <value>Clear Health Checks</value>
-    </data>
-    <data name="HealthChecksStarted" xml:space="preserve">
+  </data>
+  <data name="HealthChecksStarted" xml:space="preserve">
         <value>Health Checks Started</value>
-    </data>
-    <data name="LoadMore" xml:space="preserve">
+  </data>
+  <data name="LoadMore" xml:space="preserve">
         <value>Load More</value>
-    </data>
-    <data name="AvailableInBranches" xml:space="preserve">
+  </data>
+  <data name="AvailableInBranches" xml:space="preserve">
         <value>Available In Branches</value>
-    </data>
-    <data name="All" xml:space="preserve">
+  </data>
+  <data name="All" xml:space="preserve">
         <value>All</value>
-    </data>
-    <data name="AvailableInBranchesHelp" xml:space="preserve">
+  </data>
+  <data name="AvailableInBranchesHelp" xml:space="preserve">
         <value>The branches that this resource is available in. If not specified, this resource is available in all branches. </value>
-    </data>
-    <data name="UserSettings" xml:space="preserve">
+  </data>
+  <data name="UserSettings" xml:space="preserve">
         <value>User Settings</value>
-    </data>
-    <data name="UserSettingsDescription" xml:space="preserve">
+  </data>
+  <data name="UserSettingsDescription" xml:space="preserve">
         <value>User configuration Settings.</value>
-    </data>
-    <data name="MySettings" xml:space="preserve">
+  </data>
+  <data name="MySettings" xml:space="preserve">
         <value>My Settings</value>
-    </data>
-    <data name="IncludePrerelease" xml:space="preserve">
+  </data>
+  <data name="IncludePrerelease" xml:space="preserve">
         <value>Include Prerelease</value>
-    </data>
-    <data name="DefaultRoute" xml:space="preserve">
+  </data>
+  <data name="DefaultRoute" xml:space="preserve">
         <value>Default Route</value>
-    </data>
-    <data name="DefaultRouteHelp" xml:space="preserve">
+  </data>
+  <data name="DefaultRouteHelp" xml:space="preserve">
         <value>The route that users in this role will be redirected after login.</value>
-    </data>
-    <data name="DisplayInPortal" xml:space="preserve">
+  </data>
+  <data name="DisplayInPortal" xml:space="preserve">
         <value>Display In Portal</value>
-    </data>
-    <data name="DisplayInPortalHelp" xml:space="preserve">
+  </data>
+  <data name="DisplayInPortalHelp" xml:space="preserve">
         <value>Adds a link to this tag in the portal. The portal will then display the tagged resources.</value>
-    </data>
-    <data name="LicensesDescription" xml:space="preserve">
+  </data>
+  <data name="LicensesDescription" xml:space="preserve">
         <value>Licenses for enabling enterprise features in PowerShell Universal.</value>
-    </data>
-    <data name="ManuallyStarted" xml:space="preserve">
+  </data>
+  <data name="ManuallyStarted" xml:space="preserve">
         <value>Manually Started</value>
-    </data>
-    <data name="RerunScript" xml:space="preserve">
+  </data>
+  <data name="RerunScript" xml:space="preserve">
         <value>Rerun Job</value>
-    </data>
-    <data name="NotificationLevel" xml:space="preserve">
+  </data>
+  <data name="NotificationLevel" xml:space="preserve">
         <value>Notification Level</value>
-    </data>
-    <data name="NotificationLevelDescription" xml:space="preserve">
+  </data>
+  <data name="NotificationLevelDescription" xml:space="preserve">
         <value>Notifications at this level and above will be generated.</value>
-    </data>
-    <data name="SendToSupport" xml:space="preserve">
+  </data>
+  <data name="SendToSupport" xml:space="preserve">
         <value>Send to Support</value>
-    </data>
-    <data name="NoChangesSelected" xml:space="preserve">
+  </data>
+  <data name="NoChangesSelected" xml:space="preserve">
         <value>No changes have been selected.</value>
-    </data>
-    <data name="CommitMessageRequired" xml:space="preserve">
+  </data>
+  <data name="CommitMessageRequired" xml:space="preserve">
         <value>Commit message is required.</value>
-    </data>
-    <data name="PipelineOutput" xml:space="preserve">
+  </data>
+  <data name="PipelineOutput" xml:space="preserve">
         <value>Pipeline Output</value>
-    </data>
-    <data name="HealthChecksWithWarnings" xml:space="preserve">
+  </data>
+  <data name="HealthChecksWithWarnings" xml:space="preserve">
         <value>Health checks with warnings</value>
-    </data>
-    <data name="ModuleVariables" xml:space="preserve">
+  </data>
+  <data name="ModuleVariables" xml:space="preserve">
         <value>Module Variables</value>
-    </data>
-    <data name="DebuggerEnvironment" xml:space="preserve">
+  </data>
+  <data name="DebuggerEnvironment" xml:space="preserve">
         <value>Debugger Environment</value>
-    </data>
-    <data name="DebuggerEnvironmentDescription" xml:space="preserve">
+  </data>
+  <data name="DebuggerEnvironmentDescription" xml:space="preserve">
         <value>The environment used to host the PowerShell debugger. Cannot be the integrated environment.</value>
-    </data>
-    <data name="DiscardCommitConfirm" xml:space="preserve">
+  </data>
+  <data name="DiscardCommitConfirm" xml:space="preserve">
         <value>Are you sure you want to discard these changes?</value>
-    </data>
-    <data name="LicensedUntil" xml:space="preserve">
+  </data>
+  <data name="LicensedUntil" xml:space="preserve">
         <value>Licensed Until:</value>
-    </data>
-    <data name="ViewPortal" xml:space="preserve">
+  </data>
+  <data name="ViewPortal" xml:space="preserve">
         <value>View Portal</value>
-    </data>
-    <data name="PortalWidgets" xml:space="preserve">
+  </data>
+  <data name="PortalWidgets" xml:space="preserve">
         <value>Portal Widgets</value>
-    </data>
-    <data name="PortalWidgetsDescription" xml:space="preserve">
+  </data>
+  <data name="PortalWidgetsDescription" xml:space="preserve">
         <value>Widgets that can be added to the portal pages to provide tools to end users.</value>
-    </data>
-    <data name="PortalWidget" xml:space="preserve">
+  </data>
+  <data name="PortalWidget" xml:space="preserve">
         <value>Portal Widget</value>
-    </data>
-    <data name="Preview" xml:space="preserve">
+  </data>
+  <data name="Preview" xml:space="preserve">
         <value>Preview</value>
-    </data>
-    <data name="PortalPages" xml:space="preserve">
+  </data>
+  <data name="PortalPages" xml:space="preserve">
         <value>Portal Pages</value>
-    </data>
-    <data name="PortalPagesDescription" xml:space="preserve">
+  </data>
+  <data name="PortalPagesDescription" xml:space="preserve">
         <value>Portal pages consist of a collection of widgets that you can present to your end users and assign via roles.</value>
-    </data>
-    <data name="PortalPage" xml:space="preserve">
+  </data>
+  <data name="PortalPage" xml:space="preserve">
         <value>Portal Page</value>
-    </data>
-    <data name="WidgetWidthHelp" xml:space="preserve">
+  </data>
+  <data name="WidgetWidthHelp" xml:space="preserve">
         <value>The number of columns this widget will take up. This is between 1 and 24.</value>
-    </data>
-    <data name="WidgetHeightHelp" xml:space="preserve">
+  </data>
+  <data name="WidgetHeightHelp" xml:space="preserve">
         <value>The number of pixels high this widget will be. Setting to 0 will cause the widget to automatically set its height based on the content.</value>
-    </data>
-    <data name="WidgetDimensionInfo" xml:space="preserve">
+  </data>
+  <data name="WidgetDimensionInfo" xml:space="preserve">
         <value>Widget dimenions are temporary in the widget editor. When placing widgets on a Page, they are persistent.</value>
-    </data>
-    <data name="PermissionDescription" xml:space="preserve">
+  </data>
+  <data name="PermissionDescription" xml:space="preserve">
         <value>Provide granular permissions to identities.</value>
-    </data>
-    <data name="BuiltInRoleDescription" xml:space="preserve">
+  </data>
+  <data name="BuiltInRoleDescription" xml:space="preserve">
         <value>This is a built-in role and cannot be modified.</value>
-    </data>
-    <data name="DisplayBuiltInRoles" xml:space="preserve">
+  </data>
+  <data name="DisplayBuiltInRoles" xml:space="preserve">
         <value>Display Built-In Roles</value>
-    </data>
-    <data name="ResetExpiredPasswordDescription" xml:space="preserve">
+  </data>
+  <data name="ResetExpiredPasswordDescription" xml:space="preserve">
         <value>Your password has expired. Please set a new password.</value>
-    </data>
-    <data name="NewPassword" xml:space="preserve">
+  </data>
+  <data name="NewPassword" xml:space="preserve">
         <value>New Password</value>
-    </data>
-    <data name="ValidateNewPassword" xml:space="preserve">
+  </data>
+  <data name="ValidateNewPassword" xml:space="preserve">
         <value>Validate New Password</value>
-    </data>
-    <data name="ModuleResourceDescription" xml:space="preserve">
+  </data>
+  <data name="ModuleResourceDescription" xml:space="preserve">
         <value>This resource was contributed by the {0} module and is readonly.</value>
-    </data>
-    <data name="ModuleAlreadyImported" xml:space="preserve">
+  </data>
+  <data name="ModuleAlreadyImported" xml:space="preserve">
         <value>This module has already been imported into this environment.</value>
-    </data>
-    <data name="ConfirmDeleteWidget" xml:space="preserve">
+  </data>
+  <data name="ConfirmDeleteWidget" xml:space="preserve">
         <value>Are you sure you want to delete this Widget?</value>
-    </data>
-    <data name="GitTwoWayDescription" xml:space="preserve">
+  </data>
+  <data name="GitTwoWayDescription" xml:space="preserve">
         <value>PowerShell Universal is pushing and pulling changes from git.</value>
-    </data>
-    <data name="GitOneWayDescription" xml:space="preserve">
+  </data>
+  <data name="GitOneWayDescription" xml:space="preserve">
         <value>PowerShell Universal is running in read-only mode and pulling changes from git.</value>
-    </data>
-    <data name="GitPushOnlyDescription" xml:space="preserve">
+  </data>
+  <data name="GitPushOnlyDescription" xml:space="preserve">
         <value>PowerShell Universal is pushing changes but will not pull changes.</value>
-    </data>
-    <data name="GitSyncRunning" xml:space="preserve">
+  </data>
+  <data name="GitSyncRunning" xml:space="preserve">
         <value>Git sync is currently running</value>
-    </data>
-    <data name="SyncNow" xml:space="preserve">
+  </data>
+  <data name="SyncNow" xml:space="preserve">
         <value>Synchronize Now</value>
-    </data>
-    <data name="GitSettingsReadonly" xml:space="preserve">
+  </data>
+  <data name="GitSettingsReadonly" xml:space="preserve">
         <value>Git is configured via application settings and readonly in the admin console.</value>
-    </data>
-    <data name="PauseGitSync" xml:space="preserve">
+  </data>
+  <data name="PauseGitSync" xml:space="preserve">
         <value>Pause git sync</value>
-    </data>
-    <data name="BranchHelp" xml:space="preserve">
+  </data>
+  <data name="BranchHelp" xml:space="preserve">
         <value>The name of the git branch to commit changes to.</value>
-    </data>
-    <data name="RemoteHelp" xml:space="preserve">
+  </data>
+  <data name="RemoteHelp" xml:space="preserve">
         <value>If specified, Git Sync will push and\or pull from this git remote.</value>
-    </data>
-    <data name="SyncBehavior" xml:space="preserve">
+  </data>
+  <data name="SyncBehavior" xml:space="preserve">
         <value>Sync Behavior</value>
-    </data>
-    <data name="SyncBehaviorHelp" xml:space="preserve">
+  </data>
+  <data name="SyncBehaviorHelp" xml:space="preserve">
         <value>Defines what direction git sync will push or pull commits.</value>
-    </data>
-    <data name="GitUserNameHelp" xml:space="preserve">
+  </data>
+  <data name="GitUserNameHelp" xml:space="preserve">
         <value>The username required to login to the git remote.</value>
-    </data>
-    <data name="GitPasswordHelp" xml:space="preserve">
+  </data>
+  <data name="GitPasswordHelp" xml:space="preserve">
         <value>The password or token used to access the git remote.</value>
-    </data>
-    <data name="EditMode" xml:space="preserve">
+  </data>
+  <data name="EditMode" xml:space="preserve">
         <value>Edit Mode</value>
-    </data>
-    <data name="EditModeHelp" xml:space="preserve">
+  </data>
+  <data name="EditModeHelp" xml:space="preserve">
         <value>Defines how edits are performed when git sync is enabled.</value>
-    </data>
-    <data name="ExternalGitClient" xml:space="preserve">
+  </data>
+  <data name="ExternalGitClient" xml:space="preserve">
         <value>External Git Client</value>
-    </data>
-    <data name="ExternalGitClientHelp" xml:space="preserve">
+  </data>
+  <data name="ExternalGitClientHelp" xml:space="preserve">
         <value>Git sync will run the command line git executable rather than the integrated binaries.</value>
-    </data>
-    <data name="InvalidGitRemote" xml:space="preserve">
+  </data>
+  <data name="InvalidGitRemote" xml:space="preserve">
         <value>Remote must be a valid URL.</value>
-    </data>
-    <data name="CustomModuleExtension" xml:space="preserve">
+  </data>
+  <data name="CustomModuleExtension" xml:space="preserve">
         <value>This module provides additional resources to PowerShell Universal.</value>
-    </data>
-    <data name="ResourceType" xml:space="preserve">
+  </data>
+  <data name="ResourceType" xml:space="preserve">
         <value>Resource Type</value>
-    </data>
-    <data name="PasswordsNotComplexEnough" xml:space="preserve">
+  </data>
+  <data name="PasswordsNotComplexEnough" xml:space="preserve">
         <value>Password does not meet complexity standards. Password needs to include a number, symbol, letter and have a length of at least 12 characters.</value>
-    </data>
-    <data name="AddWidget" xml:space="preserve">
+  </data>
+  <data name="AddWidget" xml:space="preserve">
         <value>Add Widget</value>
-    </data>
-    <data name="WidgetDescription" xml:space="preserve">
+  </data>
+  <data name="WidgetDescription" xml:space="preserve">
         <value>Widgets are built-in or custom UI elements that you can configure and position on your page.</value>
-    </data>
-    <data name="FirstRun" xml:space="preserve">
+  </data>
+  <data name="FirstRun" xml:space="preserve">
         <value>First Run Setup</value>
-    </data>
-    <data name="FirstRunDescription" xml:space="preserve">
+  </data>
+  <data name="FirstRunDescription" xml:space="preserve">
         <value>Setup basic PowerShell Universal options. These options can always be changed later.</value>
-    </data>
-    <data name="InvalidCredentials" xml:space="preserve">
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
         <value>Bad user name or password.</value>
-    </data>
-    <data name="Condition" xml:space="preserve">
+  </data>
+  <data name="Condition" xml:space="preserve">
         <value>Condition</value>
-    </data>
-    <data name="ConditionHelp" xml:space="preserve">
+  </data>
+  <data name="ConditionHelp" xml:space="preserve">
         <value>A PowerShell script block that runs to determine whether this schedule should run.</value>
-    </data>
-    <data name="PortalResources" xml:space="preserve">
+  </data>
+  <data name="PortalResources" xml:space="preserve">
         <value>Portal Resources</value>
-    </data>
-    <data name="PortalResourcesDescription" xml:space="preserve">
+  </data>
+  <data name="PortalResourcesDescription" xml:space="preserve">
         <value>A list of the resources shown on the portal.</value>
-    </data>
-    <data name="ActionPreferences" xml:space="preserve">
+  </data>
+  <data name="ActionPreferences" xml:space="preserve">
         <value>Action Preferences</value>
-    </data>
-    <data name="PermissionHelp" xml:space="preserve">
+  </data>
+  <data name="PermissionHelp" xml:space="preserve">
         <value>Permission expression to grant to the identity.</value>
-    </data>
-    <data name="ParentJob" xml:space="preserve">
+  </data>
+  <data name="ParentJob" xml:space="preserve">
         <value>Parent Job</value>
-    </data>
-    <data name="SaveGit" xml:space="preserve">
+  </data>
+  <data name="SaveGit" xml:space="preserve">
         <value>Save ({0})</value>
-    </data>
-    <data name="DiscardingChanges" xml:space="preserve">
+  </data>
+  <data name="DiscardingChanges" xml:space="preserve">
         <value>Discarding Changes</value>
-    </data>
-    <data name="ArchiveAll" xml:space="preserve">
+  </data>
+  <data name="ArchiveAll" xml:space="preserve">
         <value>Archive All</value>
-    </data>
-    <data name="ArchivingJobs" xml:space="preserve">
+  </data>
+  <data name="ArchivingJobs" xml:space="preserve">
         <value>Archiving jobs...</value>
-    </data>
-    <data name="MaximumTokenLifetime" xml:space="preserve">
+  </data>
+  <data name="MaximumTokenLifetime" xml:space="preserve">
         <value>Maximum Token Lifetime</value>
-    </data>
-    <data name="MaximumTokenLifetimeDescription" xml:space="preserve">
+  </data>
+  <data name="MaximumTokenLifetimeDescription" xml:space="preserve">
         <value>The maximum number of takes an app token can be granted for. </value>
-    </data>
-    <data name="PermissionResource" xml:space="preserve">
+  </data>
+  <data name="PermissionResource" xml:space="preserve">
         <value>Resource</value>
-    </data>
-    <data name="PermissionResourceHelp" xml:space="preserve">
+  </data>
+  <data name="PermissionResourceHelp" xml:space="preserve">
         <value>The resource type or group of resources to apply this permission to.</value>
-    </data>
-    <data name="PermissionAccess" xml:space="preserve">
+  </data>
+  <data name="PermissionAccess" xml:space="preserve">
         <value>Access</value>
-    </data>
-    <data name="PermissionAccessHelp" xml:space="preserve">
+  </data>
+  <data name="PermissionAccessHelp" xml:space="preserve">
         <value>The type of access to grant.</value>
-    </data>
-    <data name="ProcessId" xml:space="preserve">
+  </data>
+  <data name="ProcessId" xml:space="preserve">
         <value>Process ID</value>
-    </data>
-    <data name="TerminalHistoryDescription" xml:space="preserve">
+  </data>
+  <data name="TerminalHistoryDescription" xml:space="preserve">
         <value>History of commands run in this terminal instance.</value>
-    </data>
-    <data name="DownloadLibrary" xml:space="preserve">
+  </data>
+  <data name="DownloadLibrary" xml:space="preserve">
         <value>Download Gallery</value>
-    </data>
-    <data name="UpdateLibrary" xml:space="preserve">
+  </data>
+  <data name="UpdateLibrary" xml:space="preserve">
         <value>Update Gallery</value>
-    </data>
-    <data name="LibraryDownloaded" xml:space="preserve">
+  </data>
+  <data name="LibraryDownloaded" xml:space="preserve">
         <value>Gallery Downloaded!</value>
-    </data>
-    <data name="LibraryVersion" xml:space="preserve">
+  </data>
+  <data name="LibraryVersion" xml:space="preserve">
         <value>Gallery Version</value>
-    </data>
-    <data name="UploadFailed" xml:space="preserve">
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
         <value>Upload failed</value>
-    </data>
-    <data name="LiveDocumentation" xml:space="preserve">
+  </data>
+  <data name="LiveDocumentation" xml:space="preserve">
         <value>Live Documentation</value>
-    </data>
-    <data name="AdditionalInformation" xml:space="preserve">
+  </data>
+  <data name="AdditionalInformation" xml:space="preserve">
         <value>Additional Information</value>
-    </data>
-    <data name="NoData" xml:space="preserve">
+  </data>
+  <data name="NoData" xml:space="preserve">
         <value>No Data</value>
-    </data>
-    <data name="MaxVirtualMemory" xml:space="preserve">
+  </data>
+  <data name="MaxVirtualMemory" xml:space="preserve">
         <value>Maximum Virtual Memory</value>
-    </data>
-    <data name="MaxRunspaces" xml:space="preserve">
+  </data>
+  <data name="MaxRunspaces" xml:space="preserve">
         <value>Maximum Runspace Count</value>
-    </data>
-    <data name="PersistentRunspaces" xml:space="preserve">
+  </data>
+  <data name="PersistentRunspaces" xml:space="preserve">
         <value>Persistent Runspaces</value>
-    </data>
-    <data name="DisableImplicitWindowsCompatibility" xml:space="preserve">
+  </data>
+  <data name="DisableImplicitWindowsCompatibility" xml:space="preserve">
         <value>Disable Implicit Windows Compatibility</value>
-    </data>
-    <data name="ModulesToImport" xml:space="preserve">
+  </data>
+  <data name="ModulesToImport" xml:space="preserve">
         <value>Modules to Import</value>
-    </data>
-    <data name="ModulesToImportHelp" xml:space="preserve">
+  </data>
+  <data name="ModulesToImportHelp" xml:space="preserve">
         <value>The modules to import when creating runspaces in this environment.</value>
-    </data>
-    <data name="EnvironmentVariablesHelp" xml:space="preserve">
+  </data>
+  <data name="EnvironmentVariablesHelp" xml:space="preserve">
         <value>Variables to define in the environment.</value>
-    </data>
-    <data name="PSModulePathHelp" xml:space="preserve">
+  </data>
+  <data name="PSModulePathHelp" xml:space="preserve">
         <value>Additional PSModulePath folders to add to the environment.</value>
-    </data>
-    <data name="SelectAll" xml:space="preserve">
+  </data>
+  <data name="SelectAll" xml:space="preserve">
         <value>Select All</value>
-    </data>
-    <data name="LicenseRequired" xml:space="preserve">
+  </data>
+  <data name="LicenseRequired" xml:space="preserve">
         <value>A license is required to use this feature.</value>
-    </data>
-    <data name="TimeZone" xml:space="preserve">
+  </data>
+  <data name="TimeZone" xml:space="preserve">
         <value>Time Zone</value>
-    </data>
-    <data name="TimeZoneHelp" xml:space="preserve">
+  </data>
+  <data name="TimeZoneHelp" xml:space="preserve">
         <value>The time zone the schedule will run in.</value>
-    </data>
-    <data name="TriggerSchedule" xml:space="preserve">
+  </data>
+  <data name="TriggerSchedule" xml:space="preserve">
         <value>Trigger Schedule</value>
-    </data>
-    <data name="ScheduleTriggered" xml:space="preserve">
+  </data>
+  <data name="ScheduleTriggered" xml:space="preserve">
         <value>Schedule has been triggered.</value>
-    </data>
-    <data name="HideUserName" xml:space="preserve">
+  </data>
+  <data name="HideUserName" xml:space="preserve">
         <value>Hide User Name</value>
-    </data>
-    <data name="DefaultHomePage" xml:space="preserve">
+  </data>
+  <data name="DefaultHomePage" xml:space="preserve">
         <value>Default Home Page</value>
-    </data>
-    <data name="AppPage" xml:space="preserve">
+  </data>
+  <data name="AppPage" xml:space="preserve">
         <value>App Page</value>
-    </data>
-    <data name="ClearCachedClaims" xml:space="preserve">
+  </data>
+  <data name="ClearCachedClaims" xml:space="preserve">
         <value>Clear Cached Claims</value>
-    </data>
-    <data name="CachedClaimsCleared" xml:space="preserve">
+  </data>
+  <data name="CachedClaimsCleared" xml:space="preserve">
         <value>Cached claims cleared.</value>
-    </data>
-    <data name="GitSyncInterval" xml:space="preserve">
+  </data>
+  <data name="GitSyncInterval" xml:space="preserve">
         <value>Sync Interval</value>
-    </data>
-    <data name="GitSyncIntervalHelp" xml:space="preserve">
+  </data>
+  <data name="GitSyncIntervalHelp" xml:space="preserve">
         <value>How frequently, in minutes, the git sync will run.</value>
-    </data>
-    <data name="ViewClaimInformation" xml:space="preserve">
+  </data>
+  <data name="ViewClaimInformation" xml:space="preserve">
         <value>View Claim Information</value>
-    </data>
-    <data name="PersistentRunspace" xml:space="preserve">
-        <value/>
-    </data>
-    <data name="UploadLicense" xml:space="preserve">
+  </data>
+  <data name="PersistentRunspace" xml:space="preserve">
+        <value />
+  </data>
+  <data name="UploadLicense" xml:space="preserve">
         <value>Upload License from File</value>
-    </data>
-    <data name="GoBack" xml:space="preserve">
+  </data>
+  <data name="GoBack" xml:space="preserve">
         <value>Your work is unsaved. Are you sure you want to leave this page?</value>
-    </data>
-    <data name="StartupScripts" xml:space="preserve">
+  </data>
+  <data name="StartupScripts" xml:space="preserve">
         <value>Startup Scripts</value>
-    </data>
-    <data name="StartupScriptsHelp" xml:space="preserve">
+  </data>
+  <data name="StartupScriptsHelp" xml:space="preserve">
         <value>Scripts that are run when runspaces are created.</value>
-    </data>
-    <data name="ProcessStartupScript" xml:space="preserve">
+  </data>
+  <data name="ProcessStartupScript" xml:space="preserve">
         <value>Process Startup Script</value>
-    </data>
-    <data name="ProcessStartupScriptHelp" xml:space="preserve">
+  </data>
+  <data name="ProcessStartupScriptHelp" xml:space="preserve">
         <value>A script that runs when the environment is process is started.</value>
-    </data>
-    <data name="UpdateAvailable" xml:space="preserve">
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
         <value>New Version Available - {0}</value>
-    </data>
-    <data name="PasswordReset" xml:space="preserve">
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
         <value>Password reset</value>
-    </data>
-    <data name="MissingSecret" xml:space="preserve">
+  </data>
+  <data name="MissingSecret" xml:space="preserve">
         <value>The value of this secret does not exist in the vault.</value>
-    </data>
-    <data name="NewTokenMessageEnhancedSecurity" xml:space="preserve">
+  </data>
+  <data name="NewTokenMessageEnhancedSecurity" xml:space="preserve">
         <value>Enhanced token security is enabled. This token will not be shown again.</value>
-    </data>
-    <data name="NewTokenMessage" xml:space="preserve">
+  </data>
+  <data name="NewTokenMessage" xml:space="preserve">
         <value>Below is the new app token. You can also copy an app token with the copy button in the table below.</value>
-    </data>
-    <data name="ConfigurationError" xml:space="preserve">
+  </data>
+  <data name="ConfigurationError" xml:space="preserve">
         <value>Configuration Error</value>
-    </data>
-    <data name="ConfigurationErrorDescription" xml:space="preserve">
+  </data>
+  <data name="ConfigurationErrorDescription" xml:space="preserve">
         <value>There are configuration errors with PowerShell Universal that may cause unexpected behavior.</value>
-    </data>
-    <data name="ConfigurationErrors" xml:space="preserve">
+  </data>
+  <data name="ConfigurationErrors" xml:space="preserve">
         <value>Configuration Errors</value>
-    </data>
-    <data name="ConfigurationErrorsDescription" xml:space="preserve">
+  </data>
+  <data name="ConfigurationErrorsDescription" xml:space="preserve">
         <value>Configuration errors in your environment can cause unexpected behavior.</value>
-    </data>
-    <data name="ResetSettings" xml:space="preserve">
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
         <value>Reset Settings</value>
-    </data>
-    <data name="StartedGitSync" xml:space="preserve">
+  </data>
+  <data name="StartedGitSync" xml:space="preserve">
         <value>Git sync completed.</value>
-    </data>
-    <data name="RolePermissions" xml:space="preserve">
+  </data>
+  <data name="RolePermissions" xml:space="preserve">
         <value>Permissions</value>
-    </data>
-    <data name="RolePermissionsHelp" xml:space="preserve">
+  </data>
+  <data name="RolePermissionsHelp" xml:space="preserve">
         <value>Permissions granted to users of this role.</value>
-    </data>
-    <data name="DevelopmentLicenseInfo" xml:space="preserve">
+  </data>
+  <data name="DevelopmentLicenseInfo" xml:space="preserve">
         <value>This PowerShell Universal instance is licensed for development purposes and not for use in production.</value>
-    </data>
-    <data name="LicensedInfo" xml:space="preserve">
+  </data>
+  <data name="LicensedInfo" xml:space="preserve">
         <value>This PowerShell Universal instance is licensed for production use.</value>
-    </data>
-    <data name="UnlicensedInfo" xml:space="preserve">
+  </data>
+  <data name="UnlicensedInfo" xml:space="preserve">
         <value>This PowerShell Universal instance is unlicensed and some features are not available.</value>
-    </data>
-    <data name="AverageExecutionTime" xml:space="preserve">
+  </data>
+  <data name="AverageExecutionTime" xml:space="preserve">
         <value>Average Execution Time (ms)</value>
-    </data>
-    <data name="RefreshConfiguration" xml:space="preserve">
+  </data>
+  <data name="RefreshConfiguration" xml:space="preserve">
         <value>Reload Configuration Files</value>
-    </data>
-    <data name="ConfigurationRefreshing" xml:space="preserve">
+  </data>
+  <data name="ConfigurationRefreshing" xml:space="preserve">
         <value>Configuration files are being reloaded...</value>
-    </data>
-    <data name="SupportToolWarning" xml:space="preserve">
+  </data>
+  <data name="SupportToolWarning" xml:space="preserve">
         <value>This tool should only be used as directed by Ironman Software support.</value>
-    </data>
-    <data name="MergeConflict" xml:space="preserve">
+  </data>
+  <data name="MergeConflict" xml:space="preserve">
         <value>Merge Conflict</value>
-    </data>
-    <data name="SetSecretValue" xml:space="preserve">
+  </data>
+  <data name="SetSecretValue" xml:space="preserve">
         <value>Set Secret Value</value>
-    </data>
-    <data name="AutoDeploy" xml:space="preserve">
+  </data>
+  <data name="AutoDeploy" xml:space="preserve">
         <value>Auto Deploy</value>
-    </data>
-    <data name="AutoDeployHelp" xml:space="preserve">
+  </data>
+  <data name="AutoDeployHelp" xml:space="preserve">
         <value>Deploys changes to an app when saved or updated in git\file system.</value>
-    </data>
-    <data name="TelemetryDescription" xml:space="preserve">
+  </data>
+  <data name="TelemetryDescription" xml:space="preserve">
         <value>Send anonymous telemetry data to Ironman Software.</value>
-    </data>
-    <data name="ReportBug" xml:space="preserve">
+  </data>
+  <data name="ReportBug" xml:space="preserve">
         <value>Report Bug</value>
-    </data>
-    <data name="MaintenanceModeHelp" xml:space="preserve">
+  </data>
+  <data name="MaintenanceModeHelp" xml:space="preserve">
         <value>Computers in maintenance mode will not run jobs.</value>
-    </data>
-    <data name="ComputerReadOnlyHelp" xml:space="preserve">
+  </data>
+  <data name="ComputerReadOnlyHelp" xml:space="preserve">
         <value>Read only computers do not allow changes in the admin console.</value>
-    </data>
-    <data name="RemoteUserName" xml:space="preserve">
+  </data>
+  <data name="RemoteUserName" xml:space="preserve">
         <value>Remote User Name</value>
-    </data>
-    <data name="EndTime" xml:space="preserve">
+  </data>
+  <data name="EndTime" xml:space="preserve">
         <value>End Time</value>
-    </data>
-    <data name="CreatedTime" xml:space="preserve">
+  </data>
+  <data name="CreatedTime" xml:space="preserve">
         <value>Created Time</value>
-    </data>
-    <data name="ElapsedTime" xml:space="preserve">
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
         <value>Elapsed Time</value>
-    </data>
-    <data name="SetLogLevel" xml:space="preserve">
+  </data>
+  <data name="SetLogLevel" xml:space="preserve">
         <value>Set System Log Level</value>
-    </data>
-    <data name="LogLevelUpdated" xml:space="preserve">
+  </data>
+  <data name="LogLevelUpdated" xml:space="preserve">
         <value>System Log Level Updated</value>
-    </data>
-    <data name="ResetBrandingWarning" xml:space="preserve">
+  </data>
+  <data name="ResetBrandingWarning" xml:space="preserve">
         <value>Are you sure you want to reset the branding settings?</value>
-    </data>
-    <data name="ShowHelp" xml:space="preserve">
+  </data>
+  <data name="ShowHelp" xml:space="preserve">
         <value>Show Help</value>
-    </data>
-    <data name="PersistCacheDescription" xml:space="preserve">
+  </data>
+  <data name="PersistCacheDescription" xml:space="preserve">
         <value>This cache item is stored in the database and available to all computers.</value>
-    </data>
-    <data name="NonPersistCacheDescription" xml:space="preserve">
+  </data>
+  <data name="NonPersistCacheDescription" xml:space="preserve">
         <value>This cache item is stored in memory and only available on this computer. It will not survive restarts of the service.</value>
-    </data>
-    <data name="MemoryWorkingSet" xml:space="preserve">
+  </data>
+  <data name="MemoryWorkingSet" xml:space="preserve">
         <value>Working Set</value>
-    </data>
-    <data name="VirtualMemory" xml:space="preserve">
+  </data>
+  <data name="VirtualMemory" xml:space="preserve">
         <value>Virtual Memory</value>
-    </data>
-    <data name="Suggestions" xml:space="preserve">
+  </data>
+  <data name="Suggestions" xml:space="preserve">
         <value>Suggestions</value>
-    </data>
-    <data name="DisableAnalyzer" xml:space="preserve">
+  </data>
+  <data name="DisableAnalyzer" xml:space="preserve">
         <value>Disable PSScriptAnalyzer</value>
-    </data>
-    <data name="ShowLineNumbers" xml:space="preserve">
+  </data>
+  <data name="ShowLineNumbers" xml:space="preserve">
         <value>Show Line Numbers</value>
-    </data>
-    <data name="ShowMinimap" xml:space="preserve">
+  </data>
+  <data name="ShowMinimap" xml:space="preserve">
         <value>Show Minimap</value>
-    </data>
-    <data name="ShowWhitespace" xml:space="preserve">
+  </data>
+  <data name="ShowWhitespace" xml:space="preserve">
         <value>Show Whitespace</value>
-    </data>
-    <data name="EditorSettingsSaved" xml:space="preserve">
+  </data>
+  <data name="EditorSettingsSaved" xml:space="preserve">
         <value>Saved. Reload the page to see changes.</value>
-    </data>
-    <data name="PortalRolesHelp" xml:space="preserve">
+  </data>
+  <data name="PortalRolesHelp" xml:space="preserve">
         <value>Roles that have access to the portal. If no roles are specified, all roles have access.</value>
-    </data>
-    <data name="InvalidLoginConfiguration" xml:space="preserve">
+  </data>
+  <data name="InvalidLoginConfiguration" xml:space="preserve">
         <value>Authentication configuration is invalid. Please contact your administrator.</value>
-    </data>
-    <data name="OnlineLicenseHelp" xml:space="preserve">
+  </data>
+  <data name="OnlineLicenseHelp" xml:space="preserve">
         <value>This license checks the subscription status online and requires an internet connection.</value>
-    </data>
-    <data name="OfflineLicenseHelp" xml:space="preserve">
+  </data>
+  <data name="OfflineLicenseHelp" xml:space="preserve">
         <value>This license does not require an internet connection but will need to be updated when the subscription renews.</value>
-    </data>
-    <data name="ContactName" xml:space="preserve">
+  </data>
+  <data name="ContactName" xml:space="preserve">
         <value>Contact Name</value>
-    </data>
-    <data name="ContactEmail" xml:space="preserve">
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
         <value>Contact Email</value>
-    </data>
-    <data name="OpenApiVersionHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiVersionHelp" xml:space="preserve">
         <value>The version of this API documentation.</value>
-    </data>
-    <data name="OpenApiContactNameHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiContactNameHelp" xml:space="preserve">
         <value>The contact name for this API documentation.</value>
-    </data>
-    <data name="OpenApiContactEmailHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiContactEmailHelp" xml:space="preserve">
         <value>The contact email for this API documentation.</value>
-    </data>
-    <data name="OpenApiContactUrlHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiContactUrlHelp" xml:space="preserve">
         <value>The contact URL for this API documentation.</value>
-    </data>
-    <data name="ContactURL" xml:space="preserve">
+  </data>
+  <data name="ContactURL" xml:space="preserve">
         <value>Contact URL</value>
-    </data>
-    <data name="LicenseName" xml:space="preserve">
+  </data>
+  <data name="LicenseName" xml:space="preserve">
         <value>License Name</value>
-    </data>
-    <data name="OpenApiLicenseNameHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiLicenseNameHelp" xml:space="preserve">
         <value>The name of the license for this API documentation.</value>
-    </data>
-    <data name="LicenseUrl" xml:space="preserve">
+  </data>
+  <data name="LicenseUrl" xml:space="preserve">
         <value>License URL</value>
-    </data>
-    <data name="OpenApiLicenseUrlHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiLicenseUrlHelp" xml:space="preserve">
         <value>The URL of the license for this API documentation.</value>
-    </data>
-    <data name="TermsOfServiceUrl" xml:space="preserve">
+  </data>
+  <data name="TermsOfServiceUrl" xml:space="preserve">
         <value>Terms of Service URL</value>
-    </data>
-    <data name="OpenApiTermsOfServiceUrlHelp" xml:space="preserve">
+  </data>
+  <data name="OpenApiTermsOfServiceUrlHelp" xml:space="preserve">
         <value>The URL to the terms of service for this API documentation.</value>
-    </data>
-    <data name="DarkAppBarLogo" xml:space="preserve">
+  </data>
+  <data name="DarkAppBarLogo" xml:space="preserve">
         <value>Dark App Bar Logo</value>
-    </data>
-    <data name="DefaultTokenLifetimeDescription" xml:space="preserve">
+  </data>
+  <data name="DefaultTokenLifetimeDescription" xml:space="preserve">
         <value>The default number of days an app token is valid for.</value>
-    </data>
-    <data name="DefaultTokenLifetime" xml:space="preserve">
+  </data>
+  <data name="DefaultTokenLifetime" xml:space="preserve">
         <value>Default Token Lifetime</value>
-    </data>
-    <data name="RefreshFile" xml:space="preserve">
+  </data>
+  <data name="RefreshFile" xml:space="preserve">
         <value>Reload {0}</value>
-    </data>
-    <data name="Unauthorized" xml:space="preserve">
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
         <value>Unauthorized</value>
-    </data>
-    <data name="UnauthorizedHelp" xml:space="preserve">
+  </data>
+  <data name="UnauthorizedHelp" xml:space="preserve">
         <value>Sorry, you are not authorized to access this page.</value>
-    </data>
-    <data name="NestedRoles" xml:space="preserve">
+  </data>
+  <data name="NestedRoles" xml:space="preserve">
         <value>Nested Roles</value>
-    </data>
-    <data name="NestedRolesHelp" xml:space="preserve">
+  </data>
+  <data name="NestedRolesHelp" xml:space="preserve">
         <value>Additional roles granted to the user when this role is granted.</value>
-    </data>
-    <data name="UntilCanceled" xml:space="preserve">
+  </data>
+  <data name="UntilCanceled" xml:space="preserve">
         <value>Until subscription canceled</value>
-    </data>
-    <data name="ImportSecrets" xml:space="preserve">
+  </data>
+  <data name="ImportSecrets" xml:space="preserve">
         <value>Import Secrets</value>
-    </data>
-    <data name="SecretAlreadyExists" xml:space="preserve">
+  </data>
+  <data name="SecretAlreadyExists" xml:space="preserve">
         <value>Variable already exists. Delete the variable to import this secret.</value>
-    </data>
-    <data name="SecretImported" xml:space="preserve">
+  </data>
+  <data name="SecretImported" xml:space="preserve">
         <value>Secret Imported</value>
-    </data>
-    <data name="Import" xml:space="preserve">
+  </data>
+  <data name="Import" xml:space="preserve">
         <value>Import</value>
-    </data>
-    <data name="PinnedDescription" xml:space="preserve">
+  </data>
+  <data name="PinnedDescription" xml:space="preserve">
         <value>This deployment is currently applied and PowerShell Universal read only.</value>
-    </data>
-    <data name="Deployments" xml:space="preserve">
+  </data>
+  <data name="Deployments" xml:space="preserve">
         <value>Deployments</value>
-    </data>
-    <data name="DeploymentsDescription" xml:space="preserve">
+  </data>
+  <data name="DeploymentsDescription" xml:space="preserve">
         <value>Manage and deploy immutable PowerShell Universal configurations.</value>
-    </data>
-    <data name="ClearPinnedDeployment" xml:space="preserve">
+  </data>
+  <data name="ClearPinnedDeployment" xml:space="preserve">
         <value>Clear Pinned Deployment</value>
-    </data>
-    <data name="ClearPinnedDeploymentWarning" xml:space="preserve">
+  </data>
+  <data name="ClearPinnedDeploymentWarning" xml:space="preserve">
         <value>Unpins the current deployment and allows users to edit the configuration. Are you sure?</value>
-    </data>
-    <data name="DeploymentWarning" xml:space="preserve">
+  </data>
+  <data name="DeploymentWarning" xml:space="preserve">
         <value>Applying this deployment will remove any changes you have made to this PowerShell Universal instance and will apply the configuration in the deployment.</value>
-    </data>
-    <data name="DeploymentPinHelp" xml:space="preserve">
+  </data>
+  <data name="DeploymentPinHelp" xml:space="preserve">
         <value>Pins this deployment. This will make PowerShell Universal is read only.</value>
-    </data>
-    <data name="DeploymentNameHelp" xml:space="preserve">
+  </data>
+  <data name="DeploymentNameHelp" xml:space="preserve">
         <value>A useful name for this deployment such as production or development. Also used when publishing the deployment as a module.</value>
-    </data>
-    <data name="DeploymentVersionHelp" xml:space="preserve">
+  </data>
+  <data name="DeploymentVersionHelp" xml:space="preserve">
         <value>A semantic version for this deployment.</value>
-    </data>
-    <data name="DeploymentDescriptionHelp" xml:space="preserve">
+  </data>
+  <data name="DeploymentDescriptionHelp" xml:space="preserve">
         <value>A description of this deployment.</value>
-    </data>
-    <data name="PinnedDeploymentDescription" xml:space="preserve">
+  </data>
+  <data name="PinnedDeploymentDescription" xml:space="preserve">
         <value>The currently applied deployment and version. PowerShell Universal is read only.</value>
-    </data>
-    <data name="MaxJobMemory" xml:space="preserve">
+  </data>
+  <data name="MaxJobMemory" xml:space="preserve">
         <value>Maximum Job Memory</value>
-    </data>
-    <data name="MaxJobMemoryDescription" xml:space="preserve">
+  </data>
+  <data name="MaxJobMemoryDescription" xml:space="preserve">
         <value>The maximum job memory, in megabytes that a job process can use before being terminated. 0 means no limit.</value>
-    </data>
-    <data name="RevokeTokenConfirm" xml:space="preserve">
+  </data>
+  <data name="RevokeTokenConfirm" xml:space="preserve">
         <value>Are you sure you want to revoke this token? Users of the token will no longer be able to access resources with it.</value>
-    </data>
-    <data name="PortalTitle" xml:space="preserve">
+  </data>
+  <data name="PortalTitle" xml:space="preserve">
         <value>Portal Title</value>
-    </data>
-    <data name="AdminPasswordComplexityWarning" xml:space="preserve">
+  </data>
+  <data name="AdminPasswordComplexityWarning" xml:space="preserve">
         <value>The password does not meet the minimum requirements. Although allowed for the default admin account, we recommend a more complex password. You can always change your password later.</value>
-    </data>
-    <data name="HighSecurityDescription" xml:space="preserve">
+  </data>
+  <data name="HighSecurityDescription" xml:space="preserve">
         <value>Enables all optional security settings. Disables integrated module mode to prevent calling internal PowerShell Universal commands without security. Good for teams looking to tightly control all changes to PowerShell Universal.</value>
-    </data>
-    <data name="MediumSecurityDescription" xml:space="preserve">
+  </data>
+  <data name="MediumSecurityDescription" xml:space="preserve">
         <value>Enables optional security settings as well as integrated module mode. Good for teams looking for control over permissions when calling scripts internally in PowerShell Universal, with the option to call internal commands without security.</value>
-    </data>
-    <data name="LowSecurityDescription" xml:space="preserve">
+  </data>
+  <data name="LowSecurityDescription" xml:space="preserve">
         <value>Simplest configuration with the least amount of security configurations. Good for single users or small teams without the need for complex security.</value>
-    </data>
-    <data name="SecureModuleMode" xml:space="preserve">
+  </data>
+  <data name="SecureModuleMode" xml:space="preserve">
         <value>Credentials are required for calling the PowerShell Universal module remotely against this system.</value>
-    </data>
-    <data name="EnhancedTokenSecurity" xml:space="preserve">
+  </data>
+  <data name="EnhancedTokenSecurity" xml:space="preserve">
         <value>Tokens can only be viewed once created and are stored in the database as a hash.</value>
-    </data>
-    <data name="IntegratedModuleMode" xml:space="preserve">
+  </data>
+  <data name="IntegratedModuleMode" xml:space="preserve">
         <value>No security is applied when calling the Universal PowerShell module within PowerShell Universal. Integrated mode uses the backchannel for communication.</value>
-    </data>
-    <data name="UsernameAndPasswordRequired" xml:space="preserve">
+  </data>
+  <data name="UsernameAndPasswordRequired" xml:space="preserve">
         <value>User name and password are required.</value>
-    </data>
-    <data name="ExcludeScripts" xml:space="preserve">
+  </data>
+  <data name="ExcludeScripts" xml:space="preserve">
         <value>Exclude Scripts</value>
-    </data>
-    <data name="SessionsDescription" xml:space="preserve">
+  </data>
+  <data name="SessionsDescription" xml:space="preserve">
         <value>Current and historical user sessions.</value>
-    </data>
-    <data name="ConnectedTime" xml:space="preserve">
+  </data>
+  <data name="ConnectedTime" xml:space="preserve">
         <value>Connected Time</value>
-    </data>
-    <data name="DisconnectedTime" xml:space="preserve">
+  </data>
+  <data name="DisconnectedTime" xml:space="preserve">
         <value>Disconnected Time</value>
-    </data>
-    <data name="UserAgent" xml:space="preserve">
+  </data>
+  <data name="UserAgent" xml:space="preserve">
         <value>Browser User Agent</value>
-    </data>
-    <data name="IPAddress" xml:space="preserve">
+  </data>
+  <data name="IPAddress" xml:space="preserve">
         <value>IP Address</value>
-    </data>
-    <data name="CurrentlyConnected" xml:space="preserve">
+  </data>
+  <data name="CurrentlyConnected" xml:space="preserve">
         <value>Currently Connected</value>
-    </data>
-    <data name="Verb" xml:space="preserve">
+  </data>
+  <data name="Verb" xml:space="preserve">
         <value>Verb</value>
-    </data>
-    <data name="VerbHelp" xml:space="preserve">
+  </data>
+  <data name="VerbHelp" xml:space="preserve">
         <value>Only valid on Windows. The verb used when starting this environment's process.</value>
-    </data>
-    <data name="Priority" xml:space="preserve">
+  </data>
+  <data name="Priority" xml:space="preserve">
         <value>Priority</value>
-    </data>
-    <data name="RolePriorityHelp" xml:space="preserve">
+  </data>
+  <data name="RolePriorityHelp" xml:space="preserve">
         <value>Determines which route will be selected to redirect. The role with the highest priority will define the route.</value>
-    </data>
-    <data name="ViewAdminTerminal" xml:space="preserve">
+  </data>
+  <data name="ViewAdminTerminal" xml:space="preserve">
         <value>View Admin Terminal</value>
-    </data>
-    <data name="SuccessRate" xml:space="preserve">
+  </data>
+  <data name="SuccessRate" xml:space="preserve">
         <value>Success Rate</value>
-    </data>
-    <data name="CreateBranch" xml:space="preserve">
+  </data>
+  <data name="CreateBranch" xml:space="preserve">
         <value>Create Branch</value>
-    </data>
+  </data>
+  <data name="EnvironmentTypeHelp" xml:space="preserve">
+    <value>The type of environment that this configuration will use.</value>
+  </data>
+  <data name="ImportWindowsGroups" xml:space="preserve">
+    <value>Import Windows Groups</value>
+  </data>
 </root>
