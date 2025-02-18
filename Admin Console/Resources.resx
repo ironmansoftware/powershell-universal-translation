@@ -2400,4 +2400,7 @@
   <data name="ImportWindowsGroups" xml:space="preserve">
     <value>Import Windows Groups</value>
   </data>
+  <data name="RequestSelected" xml:space="preserve">
+    <value>Request Selected</value>
+  </data>
 </root>
