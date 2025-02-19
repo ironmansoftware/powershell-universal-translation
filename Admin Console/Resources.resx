@@ -2409,4 +2409,10 @@
   <data name="DisableFirstRun" xml:space="preserve">
     <value>Disable First Run Wizard</value>
   </data>
+  <data name="EventHubDisconnected" xml:space="preserve">
+    <value>Event Hub Disconnected</value>
+  </data>
+  <data name="EventHubConnected" xml:space="preserve">
+    <value>Event Hub Connected</value>
+  </data>
 </root>
