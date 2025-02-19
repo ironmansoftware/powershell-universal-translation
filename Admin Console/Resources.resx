@@ -2403,4 +2403,10 @@
   <data name="RequestSelected" xml:space="preserve">
     <value>Request Selected</value>
   </data>
+  <data name="DisableFirstRunHelp" xml:space="preserve">
+    <value>Disables the first run wizard, even if an admin account is not defined.</value>
+  </data>
+  <data name="DisableFirstRun" xml:space="preserve">
+    <value>Disable First Run Wizard</value>
+  </data>
 </root>
