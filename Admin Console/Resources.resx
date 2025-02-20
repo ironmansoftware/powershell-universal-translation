@@ -2415,4 +2415,7 @@
   <data name="EventHubConnected" xml:space="preserve">
     <value>Event Hub Connected</value>
   </data>
+  <data name="EndpointDisabledHelp" xml:space="preserve">
+    <value>Disable this endpoint. It will return a 404 HTTP result.</value>
+  </data>
 </root>
