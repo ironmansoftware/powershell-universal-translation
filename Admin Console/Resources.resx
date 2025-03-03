@@ -2418,4 +2418,16 @@
   <data name="EndpointDisabledHelp" xml:space="preserve">
     <value>Disable this endpoint. It will return a 404 HTTP result.</value>
   </data>
+  <data name="PasswordNotRequiredHelp" xml:space="preserve">
+    <value>Password is not required for this credential variable.</value>
+  </data>
+  <data name="PasswordNotRequired" xml:space="preserve">
+    <value>Password Not Required</value>
+  </data>
+  <data name="VaultHelp" xml:space="preserve">
+    <value>The vault to store this secret in.</value>
+  </data>
+  <data name="DispatchQueue" xml:space="preserve">
+    <value>Dispatch Queue</value>
+  </data>
 </root>
