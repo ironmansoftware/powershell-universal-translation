@@ -2430,4 +2430,25 @@
   <data name="DispatchQueue" xml:space="preserve">
     <value>Dispatch Queue</value>
   </data>
+  <data name="DisableManualInvocationHelp" xml:space="preserve">
+    <value>Prevents users from running this script manually.</value>
+  </data>
+  <data name="WorkingDirectoryHelp" xml:space="preserve">
+    <value>The working directory for this script. Defaults to the repository directory.</value>
+  </data>
+  <data name="MaxHistoryHelp" xml:space="preserve">
+    <value>The maximum number of jobs to keep in history for this script.</value>
+  </data>
+  <data name="DiscardPipelineHelp" xml:space="preserve">
+    <value>Discard the script's pipeline output. Improves performance and reduces database size.</value>
+  </data>
+  <data name="RetryLimitHelp" xml:space="preserve">
+    <value>The number of retries the server will attempt when this script fails.</value>
+  </data>
+  <data name="TimeOutHelp" xml:space="preserve">
+    <value>The number of seconds before the server will cancel this script and assume it has timed out.</value>
+  </data>
+  <data name="ConcurrentJobsHelp" xml:space="preserve">
+    <value>The number of instances of this script that can run at once.</value>
+  </data>
 </root>
