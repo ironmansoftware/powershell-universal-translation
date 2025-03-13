@@ -2451,4 +2451,7 @@
   <data name="ConcurrentJobsHelp" xml:space="preserve">
     <value>The number of instances of this script that can run at once.</value>
   </data>
+  <data name="Translate" xml:space="preserve">
+    <value>Translate</value>
+  </data>
 </root>
