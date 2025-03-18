@@ -2454,4 +2454,16 @@
   <data name="Translate" xml:space="preserve">
     <value>Translate</value>
   </data>
+  <data name="FormNativeLogin" xml:space="preserve">
+    <value>Native Login</value>
+  </data>
+  <data name="FormNativeDomainHelp" xml:space="preserve">
+    <value>Domain to log users into. If left blank, users can specify the domain, or the default domain will be used.</value>
+  </data>
+  <data name="FormNativeDomain" xml:space="preserve">
+    <value>Login Domain</value>
+  </data>
+  <data name="FormNativeLoginHelp" xml:space="preserve">
+    <value>Allow users to login with Windows or Domain credentials. </value>
+  </data>
 </root>

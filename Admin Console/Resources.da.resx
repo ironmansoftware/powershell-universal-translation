@@ -2428,4 +2428,73 @@
   <data name="MemoryWorkingSet" xml:space="preserve">
     <value>Arbejdssæt</value>
   </data>
+  <data name="EndpointDisabledHelp" xml:space="preserve">
+    <value>Deaktiver dette slutpunkt. Det vil returnere et 404 HTTP-resultat.</value>
+  </data>
+  <data name="PasswordNotRequiredHelp" xml:space="preserve">
+    <value>Adgangskode er ikke påkrævet for denne legitimationsvariabel.</value>
+  </data>
+  <data name="PasswordNotRequired" xml:space="preserve">
+    <value>Adgangskode ikke påkrævet</value>
+  </data>
+  <data name="VaultHelp" xml:space="preserve">
+    <value>Hvælvingen til at opbevare denne hemmelighed i.</value>
+  </data>
+  <data name="DispatchQueue" xml:space="preserve">
+    <value>Forsendelseskø</value>
+  </data>
+  <data name="EventHubDisconnected" xml:space="preserve">
+    <value>Event Hub afbrudt</value>
+  </data>
+  <data name="DisableManualInvocationHelp" xml:space="preserve">
+    <value>Forhindrer brugere i at køre dette script manuelt.</value>
+  </data>
+  <data name="WorkingDirectoryHelp" xml:space="preserve">
+    <value>Arbejdsmappen for dette script. Lagermappen er som standard.</value>
+  </data>
+  <data name="MaxHistoryHelp" xml:space="preserve">
+    <value>Det maksimale antal job, der skal gemmes i historikken for dette script.</value>
+  </data>
+  <data name="DiscardPipelineHelp" xml:space="preserve">
+    <value>Kassér scriptets pipeline output. Forbedrer ydeevnen og reducerer databasestørrelsen.</value>
+  </data>
+  <data name="RetryLimitHelp" xml:space="preserve">
+    <value>Antallet af nye forsøg, som serveren vil forsøge, når dette script mislykkes.</value>
+  </data>
+  <data name="TimeOutHelp" xml:space="preserve">
+    <value>Antallet af sekunder, før serveren annullerer dette script og antager, at det har fået timeout.</value>
+  </data>
+  <data name="ConcurrentJobsHelp" xml:space="preserve">
+    <value>Antallet af forekomster af dette script, der kan køre på én gang.</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>Oversætte</value>
+  </data>
+  <data name="DisableFirstRunHelp" xml:space="preserve">
+    <value>Deaktiverer guiden til første kørsel, selvom der ikke er defineret en administratorkonto.</value>
+  </data>
+  <data name="FormNativeLogin" xml:space="preserve">
+    <value>Indbygget login</value>
+  </data>
+  <data name="FormNativeDomain" xml:space="preserve">
+    <value>Log ind Domæne</value>
+  </data>
+  <data name="ImportWindowsGroups" xml:space="preserve">
+    <value>Importere Windows-grupper</value>
+  </data>
+  <data name="FormNativeLoginHelp" xml:space="preserve">
+    <value>Tillad brugere at logge ind med Windows- eller domænelegitimationsoplysninger. </value>
+  </data>
+  <data name="DisableFirstRun" xml:space="preserve">
+    <value>Deaktiver guiden Deaktiver første kørsel</value>
+  </data>
+  <data name="FormNativeDomainHelp" xml:space="preserve">
+    <value>Domæne at logge brugere ind på. Hvis det ikke er tomt, kan brugerne angive domænet, eller standarddomænet vil blive brugt.</value>
+  </data>
+  <data name="RequestSelected" xml:space="preserve">
+    <value>Anmodning valgt</value>
+  </data>
+  <data name="EventHubConnected" xml:space="preserve">
+    <value>Event Hub tilsluttet</value>
+  </data>
 </root>
