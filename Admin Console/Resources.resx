@@ -2466,4 +2466,10 @@
   <data name="FormNativeLoginHelp" xml:space="preserve">
     <value>Allow users to login with Windows or Domain credentials. </value>
   </data>
+  <data name="UseTokenLifetime" xml:space="preserve">
+    <value>Use Token Lifetime</value>
+  </data>
+  <data name="CorrelationCookieSameSite" xml:space="preserve">
+    <value>Correlation Cookie Same Site</value>
+  </data>
 </root>
