@@ -1255,7 +1255,7 @@
         <value>The HTTP method(s) used to access this endpoint.</value>
   </data>
   <data name="EndpointPathHelp" xml:space="preserve">
-        <value>The file path of a PS1 file to store the implementation of this endpoint in. In not specified, it will be stored in endpoints.ps1.</value>
+        <value>The file path of a PS1 file to store the implementation of this endpoint in. If not specified, it will be stored in endpoints.ps1.</value>
   </data>
   <data name="EndpointDocumentationHelp" xml:space="preserve">
         <value>The OpenAPI document to include this endpoint in.</value>
