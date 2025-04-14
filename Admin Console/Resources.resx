@@ -2496,4 +2496,13 @@
   <data name="PortalOpenInNewWindow" xml:space="preserve">
     <value>Open In New Window</value>
   </data>
+  <data name="RemoteComputer" xml:space="preserve">
+    <value>Remote Computer</value>
+  </data>
+  <data name="ConnectionId" xml:space="preserve">
+    <value>Connection ID</value>
+  </data>
+  <data name="RemoteIPAddress" xml:space="preserve">
+    <value>Remote IP Address</value>
+  </data>
 </root>
