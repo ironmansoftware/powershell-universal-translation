@@ -2478,4 +2478,16 @@
   <data name="GitSync" xml:space="preserve">
     <value>Git Sync</value>
   </data>
+  <data name="CriticalHelp" xml:space="preserve">
+    <value>When this app is stopped, the load balancer status endpoint will return a 500 status code.</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>Critical</value>
+  </data>
+  <data name="LoginPageLayout" xml:space="preserve">
+    <value>Login Page Layout</value>
+  </data>
+  <data name="LoginPageCssStylesheet" xml:space="preserve">
+    <value>Login Page CSS Stylesheet</value>
+  </data>
 </root>
