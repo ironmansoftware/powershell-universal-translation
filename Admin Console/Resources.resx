@@ -2475,4 +2475,7 @@
   <data name="ComputerOffline" xml:space="preserve">
     <value>Computer Offline</value>
   </data>
+  <data name="GitSync" xml:space="preserve">
+    <value>Git Sync</value>
+  </data>
 </root>
