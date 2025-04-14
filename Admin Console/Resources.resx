@@ -2472,4 +2472,37 @@
   <data name="CorrelationCookieSameSite" xml:space="preserve">
     <value>Correlation Cookie Same Site</value>
   </data>
+  <data name="ComputerOffline" xml:space="preserve">
+    <value>Computer Offline</value>
+  </data>
+  <data name="GitSync" xml:space="preserve">
+    <value>Git Sync</value>
+  </data>
+  <data name="CriticalHelp" xml:space="preserve">
+    <value>When this app is stopped, the load balancer status endpoint will return a 500 status code.</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>Critical</value>
+  </data>
+  <data name="LoginPageLayout" xml:space="preserve">
+    <value>Login Page Layout</value>
+  </data>
+  <data name="LoginPageCssStylesheet" xml:space="preserve">
+    <value>Login Page CSS Stylesheet</value>
+  </data>
+  <data name="PortalOpenInNewWindowHelp" xml:space="preserve">
+    <value>Open this resource in a new window.</value>
+  </data>
+  <data name="PortalOpenInNewWindow" xml:space="preserve">
+    <value>Open In New Window</value>
+  </data>
+  <data name="RemoteComputer" xml:space="preserve">
+    <value>Remote Computer</value>
+  </data>
+  <data name="ConnectionId" xml:space="preserve">
+    <value>Connection ID</value>
+  </data>
+  <data name="RemoteIPAddress" xml:space="preserve">
+    <value>Remote IP Address</value>
+  </data>
 </root>
