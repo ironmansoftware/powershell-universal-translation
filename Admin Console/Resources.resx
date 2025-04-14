@@ -2472,4 +2472,7 @@
   <data name="CorrelationCookieSameSite" xml:space="preserve">
     <value>Correlation Cookie Same Site</value>
   </data>
+  <data name="ComputerOffline" xml:space="preserve">
+    <value>Computer Offline</value>
+  </data>
 </root>
