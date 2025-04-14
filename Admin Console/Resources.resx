@@ -2490,4 +2490,10 @@
   <data name="LoginPageCssStylesheet" xml:space="preserve">
     <value>Login Page CSS Stylesheet</value>
   </data>
+  <data name="PortalOpenInNewWindowHelp" xml:space="preserve">
+    <value>Open this resource in a new window.</value>
+  </data>
+  <data name="PortalOpenInNewWindow" xml:space="preserve">
+    <value>Open In New Window</value>
+  </data>
 </root>
