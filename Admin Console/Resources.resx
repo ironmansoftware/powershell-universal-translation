@@ -2535,4 +2535,7 @@
   <data name="PortalLeaveForm" xml:space="preserve">
     <value>Leave Form</value>
   </data>
+  <data name="HideNavigation" xml:space="preserve">
+    <value>Hide Navigation</value>
+  </data>
 </root>
