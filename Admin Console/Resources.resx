@@ -2538,4 +2538,10 @@
   <data name="HideNavigation" xml:space="preserve">
     <value>Hide Navigation</value>
   </data>
+  <data name="GitConflictDescription" xml:space="preserve">
+    <value>There is a conflict between the local and remote repository. Resolve the conflict before committing.</value>
+  </data>
+  <data name="GitConflict" xml:space="preserve">
+    <value>Git Conflict</value>
+  </data>
 </root>
