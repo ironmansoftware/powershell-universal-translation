@@ -2505,4 +2505,43 @@
   <data name="RemoteIPAddress" xml:space="preserve">
     <value>Remote IP Address</value>
   </data>
+  <data name="DisplayForm" xml:space="preserve">
+    <value>Display Form</value>
+  </data>
+  <data name="PortalBehavior" xml:space="preserve">
+    <value>Portal Behavior</value>
+  </data>
+  <data name="PortalBehaviorHelp" xml:space="preserve">
+    <value>Defines how this script behaves when added to the portal.</value>
+  </data>
+  <data name="PortalLeaveFormHelp" xml:space="preserve">
+    <value>Leave the form for the script on the page after the script is run.</value>
+  </data>
+  <data name="PortalDisplayOutputOnExecute" xml:space="preserve">
+    <value>Display Output During Execution</value>
+  </data>
+  <data name="PortalDisplayOutputOnExecuteHelp" xml:space="preserve">
+    <value>Displays the output from the script as the script is executing.</value>
+  </data>
+  <data name="RunOnLoad" xml:space="preserve">
+    <value>Run On Load</value>
+  </data>
+  <data name="LastRun" xml:space="preserve">
+    <value>Last Run</value>
+  </data>
+  <data name="LastRunForUser" xml:space="preserve">
+    <value>Last Run for User</value>
+  </data>
+  <data name="PortalLeaveForm" xml:space="preserve">
+    <value>Leave Form</value>
+  </data>
+  <data name="HideNavigation" xml:space="preserve">
+    <value>Hide Navigation</value>
+  </data>
+  <data name="GitConflictDescription" xml:space="preserve">
+    <value>There is a conflict between the local and remote repository. Resolve the conflict before committing.</value>
+  </data>
+  <data name="GitConflict" xml:space="preserve">
+    <value>Git Conflict</value>
+  </data>
 </root>
