@@ -2544,4 +2544,7 @@
   <data name="GitConflict" xml:space="preserve">
     <value>Git Conflict</value>
   </data>
+  <data name="CommittingChanges" xml:space="preserve">
+    <value>Committing Changes</value>
+  </data>
 </root>
