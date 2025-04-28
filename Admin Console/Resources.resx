@@ -2553,4 +2553,13 @@
   <data name="PublishedFolder" xml:space="preserve">
     <value>Published Folder</value>
   </data>
+  <data name="LoginPageFontColor" xml:space="preserve">
+    <value>Login Page Font Color</value>
+  </data>
+  <data name="LoginPageBackgroundColor" xml:space="preserve">
+    <value>Login Page Background Color</value>
+  </data>
+  <data name="LoginPageImageSize" xml:space="preserve">
+    <value>Login Page Image Size</value>
+  </data>
 </root>
