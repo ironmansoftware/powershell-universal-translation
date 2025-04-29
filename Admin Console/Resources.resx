@@ -2104,7 +2104,7 @@
         <value>This PowerShell Universal instance is unlicensed and some features are not available.</value>
   </data>
   <data name="AverageExecutionTime" xml:space="preserve">
-        <value>Average Execution Time (ms)</value>
+        <value>Average Execution Time</value>
   </data>
   <data name="RefreshConfiguration" xml:space="preserve">
         <value>Reload Configuration Files</value>
@@ -2543,5 +2543,23 @@
   </data>
   <data name="GitConflict" xml:space="preserve">
     <value>Git Conflict</value>
+  </data>
+  <data name="CommittingChanges" xml:space="preserve">
+    <value>Committing Changes</value>
+  </data>
+  <data name="SecretRoleWarning" xml:space="preserve">
+    <value>Assigning roles to a secret will prevent it from being accessible in scheduled scripts.</value>
+  </data>
+  <data name="PublishedFolder" xml:space="preserve">
+    <value>Published Folder</value>
+  </data>
+  <data name="LoginPageFontColor" xml:space="preserve">
+    <value>Login Page Font Color</value>
+  </data>
+  <data name="LoginPageBackgroundColor" xml:space="preserve">
+    <value>Login Page Background Color</value>
+  </data>
+  <data name="LoginPageImageSize" xml:space="preserve">
+    <value>Login Page Image Size</value>
   </data>
 </root>
