@@ -654,4 +654,19 @@
   <data name="RunAllTests" xml:space="preserve">
     <value>Exécuter tous les tests</value>
   </data>
+  <data name="TestResults" xml:space="preserve">
+    <value>Résultats du test</value>
+  </data>
+  <data name="TestFiles" xml:space="preserve">
+    <value>Tester Fichiers</value>
+  </data>
+  <data name="RemoteUserName" xml:space="preserve">
+    <value>Nom d'utilisateur télécommandé</value>
+  </data>
+  <data name="MaintenanceModeHelp" xml:space="preserve">
+    <value>Les ordinateurs en mode maintenance n'exécutera pas les tâches.</value>
+  </data>
+  <data name="ComputerReadOnlyHelp" xml:space="preserve">
+    <value>Les ordinateurs en lecture seule ne permettent pas de modifications dans la console administrative.</value>
+  </data>
 </root>
