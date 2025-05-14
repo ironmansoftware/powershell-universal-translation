@@ -76,7 +76,7 @@
         <value>Statut</value>
   </data>
   <data name="Tag" xml:space="preserve">
-        <value>Jour</value>
+        <value>Etiquette</value>
   </data>
   <data name="Tags" xml:space="preserve">
         <value>Étiquettes</value>
@@ -653,5 +653,449 @@
   </data>
   <data name="RunAllTests" xml:space="preserve">
     <value>Exécuter tous les tests</value>
+  </data>
+  <data name="TestResults" xml:space="preserve">
+    <value>Résultats du test</value>
+  </data>
+  <data name="TestFiles" xml:space="preserve">
+    <value>Tester Fichiers</value>
+  </data>
+  <data name="RemoteUserName" xml:space="preserve">
+    <value>Nom d'utilisateur télécommandé</value>
+  </data>
+  <data name="MaintenanceModeHelp" xml:space="preserve">
+    <value>Les ordinateurs en mode maintenance n'exécutera pas les tâches.</value>
+  </data>
+  <data name="ComputerReadOnlyHelp" xml:space="preserve">
+    <value>Les ordinateurs en lecture seule ne permettent pas de modifications dans la console administrative.</value>
+  </data>
+  <data name="PasswordNotRequired" xml:space="preserve">
+    <value>Mot de passe non obligatoire</value>
+  </data>
+  <data name="DisableImplicitWindowsCompatibilityHelp" xml:space="preserve">
+    <value>Désactive la compatibilité implicite en PowerShell 7.</value>
+  </data>
+  <data name="LoginPageCssStylesheet" xml:space="preserve">
+    <value>Feuille de style CSS de la page d'accueil</value>
+  </data>
+  <data name="NotAuthorizedTitle" xml:space="preserve">
+    <value>Titre non autorisé</value>
+  </data>
+  <data name="AuthenticationHelp" xml:space="preserve">
+    <value>S'il faut avoir l'authentification pour accéder à cette ressource.</value>
+  </data>
+  <data name="RepositoryVersion" xml:space="preserve">
+    <value>Version du dépôt</value>
+  </data>
+  <data name="HealthChecksDescription" xml:space="preserve">
+    <value>Vérifications de santé pour PowerShell Universal.</value>
+  </data>
+  <data name="30Days" xml:space="preserve">
+    <value>30 jours</value>
+  </data>
+  <data name="ComputerGroups" xml:space="preserve">
+    <value>Groupes d'ordinateurs</value>
+  </data>
+  <data name="EndpointPathHelp" xml:space="preserve">
+    <value>Le chemin d'accès d'un fichier PS1 dans lequel stocker l'implémentation de ce point de terminaison. Si non spécifié, ce sera endpoints.ps1.</value>
+  </data>
+  <data name="TerminalHistory" xml:space="preserve">
+    <value>Historique du terminal</value>
+  </data>
+  <data name="SchedulePausedHelp" xml:space="preserve">
+    <value>Si ce programme est mis en pause. Quand mis en pause, il ne s'exécute pas.</value>
+  </data>
+  <data name="EndpointTimeoutHelp" xml:space="preserve">
+    <value>Le nombre de secondes avant que ce point de terminaison s'expire. Si non spécifié, il ne s'expire pas. </value>
+  </data>
+  <data name="CredentialHelp" xml:space="preserve">
+    <value>Le compte d'utilisateur avec lequel exécuter cette ressource. L'environnement intégré ne soutient pas ceci.</value>
+  </data>
+  <data name="DisableInteractiveHostHelp" xml:space="preserve">
+    <value>Si les commandes comme Read-Host et Write-Progress cause des fonctions interactives dans une appli.</value>
+  </data>
+  <data name="BlazorAppUrlHelp" xml:space="preserve">
+    <value>Le URL pour accéder à cette appli. Ceci doit être unique.</value>
+  </data>
+  <data name="PortalBehavior" xml:space="preserve">
+    <value>Comportement du portail</value>
+  </data>
+  <data name="LastRun" xml:space="preserve">
+    <value>Exécuté en dermier</value>
+  </data>
+  <data name="Translate" xml:space="preserve">
+    <value>Traduire</value>
+  </data>
+  <data name="LoadMetaData" xml:space="preserve">
+    <value>Charger les metadonnées</value>
+  </data>
+  <data name="TestCases" xml:space="preserve">
+    <value>Cas de test</value>
+  </data>
+  <data name="MetadataAddress" xml:space="preserve">
+    <value>Adresse des métadonnées</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="SecurityEnvironment" xml:space="preserve">
+    <value>Environnement de sécurité</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Exécuter le script</value>
+  </data>
+  <data name="UserSessions" xml:space="preserve">
+    <value>Session d'utilisateur</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Mis à jour</value>
+  </data>
+  <data name="TimeOfDay" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="ScriptStarted" xml:space="preserve">
+    <value>Script commencé</value>
+  </data>
+  <data name="JobStarted" xml:space="preserve">
+    <value>Tâche commencée</value>
+  </data>
+  <data name="JobCanceled" xml:space="preserve">
+    <value>Tâche annulée</value>
+  </data>
+  <data name="Job Failed" xml:space="preserve">
+    <value>Tâche échouée</value>
+  </data>
+  <data name="SpecificMonth" xml:space="preserve">
+    <value>Sur des mois spécifiques de l'an</value>
+  </data>
+  <data name="LoginPageTheme" xml:space="preserve">
+    <value>Thème de la page d'accueil</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Se déconnecté.e</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value>Titre de la page d'ouverture de session</value>
+  </data>
+  <data name="LoginPageText" xml:space="preserve">
+    <value>Texte de la page d'ouverture de session</value>
+  </data>
+  <data name="LoginPageDescription" xml:space="preserve">
+    <value>Description de la page d'ouverture de session</value>
+  </data>
+  <data name="PrimaryColor" xml:space="preserve">
+    <value>Couleur principale</value>
+  </data>
+  <data name="LoggedOutDescription" xml:space="preserve">
+    <value>Vous avez été déconnecté.e. Cliquer Se Connecter pour redemarrer.</value>
+  </data>
+  <data name="HeaderColor" xml:space="preserve">
+    <value>Couleur de l'en-tête</value>
+  </data>
+  <data name="PrimaryFontColor" xml:space="preserve">
+    <value>Couleur principale de la police</value>
+  </data>
+  <data name="SecondaryColor" xml:space="preserve">
+    <value>Couleur secondaire</value>
+  </data>
+  <data name="HeaderFontColor" xml:space="preserve">
+    <value>Couleur de la police de l'en-tête</value>
+  </data>
+  <data name="SecondaryFontColor" xml:space="preserve">
+    <value>Couleur secondaire de la police</value>
+  </data>
+  <data name="AppBarLogo" xml:space="preserve">
+    <value>Logo de la barre d'appli</value>
+  </data>
+  <data name="FavIcon" xml:space="preserve">
+    <value>Icône du favori</value>
+  </data>
+  <data name="LoginPageImage" xml:space="preserve">
+    <value>Image de la page d'ouverture de session</value>
+  </data>
+  <data name="PersistenceSettings" xml:space="preserve">
+    <value>Paramètres de persistence</value>
+  </data>
+  <data name="PersistenceSettingsDescription" xml:space="preserve">
+    <value>Configurer quels dossiers de configuration enregistrent au système de dossiers.</value>
+  </data>
+  <data name="PersistenceSetting" xml:space="preserve">
+    <value>Paramètre de persistence</value>
+  </data>
+  <data name="FileSystem" xml:space="preserve">
+    <value>Système de fichiers</value>
+  </data>
+  <data name="FormAuthentication" xml:space="preserve">
+    <value>Formulaire d'authentification</value>
+  </data>
+  <data name="FormAuthenticationDescription" xml:space="preserve">
+    <value>Connecter les utilisateurs avec un script de connexion customisé.</value>
+  </data>
+  <data name="TranslationsDescription" xml:space="preserve">
+    <value>Ajouter des chaînes à utiliser avec le fournisseur de la traduction.</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Couleur de la police</value>
+  </data>
+  <data name="FileSystemAndDatabase" xml:space="preserve">
+    <value>Système de fichiers et base de données</value>
+  </data>
+  <data name="DatabaseOnly" xml:space="preserve">
+    <value>Base de données seule</value>
+  </data>
+  <data name="StringCount" xml:space="preserve">
+    <value>Compte des chaînes</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>identifiant de la langue</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Lecture seule</value>
+  </data>
+  <data name="ChildJobs" xml:space="preserve">
+    <value>Tâches enfants</value>
+  </data>
+  <data name="KeepHistory" xml:space="preserve">
+    <value>Garder l'historique</value>
+  </data>
+  <data name="PassingHealthChecks" xml:space="preserve">
+    <value>Vérifications de santé réussites</value>
+  </data>
+  <data name="HealthChecksWithErrors" xml:space="preserve">
+    <value>Vérifications de santé avec erreurs</value>
+  </data>
+  <data name="CheckForModuleUpdates" xml:space="preserve">
+    <value>Vérifier des mises à jour du module</value>
+  </data>
+  <data name="CheckForModuleUpdatesDescription" xml:space="preserve">
+    <value>Vérifie le dépôt du module pour voir s'il y a des versions mises à jour des modules.</value>
+  </data>
+  <data name="TerminalsDescription" xml:space="preserve">
+    <value>Terminaux PowerShell dans le navigateur.</value>
+  </data>
+  <data name="ComputerGroupDescription" xml:space="preserve">
+    <value>Groupes d'ordinateurs auxquels attribuer des ressources.</value>
+  </data>
+  <data name="TerminalInstances" xml:space="preserve">
+    <value>Les instances des terminaux</value>
+  </data>
+  <data name="EndpointDocumentationHelp" xml:space="preserve">
+    <value>Le document OpenAPI dans lequel inclure ce point de terminaison.</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>Historique de vues</value>
+  </data>
+  <data name="StoreInDatabase" xml:space="preserve">
+    <value>Stocker dans la base de donnéees</value>
+  </data>
+  <data name="StopTerminal" xml:space="preserve">
+    <value>Arrêter le terminal</value>
+  </data>
+  <data name="TerminalInstancesDescription" xml:space="preserve">
+    <value>Instances actives et historiques d'un terminal.</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Moment de démarrage</value>
+  </data>
+  <data name="IdleTime" xml:space="preserve">
+    <value>Période d'inactivité</value>
+  </data>
+  <data name="OpenTerminal" xml:space="preserve">
+    <value>Terminal ouvert</value>
+  </data>
+  <data name="BlazorApps" xml:space="preserve">
+    <value>Applis Blazor</value>
+  </data>
+  <data name="ConcurrentJobs" xml:space="preserve">
+    <value>Tâches simultanées</value>
+  </data>
+  <data name="QueryString" xml:space="preserve">
+    <value>Chaîne de requête</value>
+  </data>
+  <data name="ApplicationToken" xml:space="preserve">
+    <value>Jeton d'application</value>
+  </data>
+  <data name="90Days" xml:space="preserve">
+    <value>90 jours</value>
+  </data>
+  <data name="60Days" xml:space="preserve">
+    <value>60 jours</value>
+  </data>
+  <data name="1Year" xml:space="preserve">
+    <value>1 an</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Jamais</value>
+  </data>
+  <data name="NameHelp" xml:space="preserve">
+    <value>Un nom facile à utiliser pour cette ressource. </value>
+  </data>
+  <data name="DescriptionHelp" xml:space="preserve">
+    <value>Une description de cette ressource.</value>
+  </data>
+  <data name="EndpointUrlHelp" xml:space="preserve">
+    <value>Le URL pour ce point de terminaison. Cela doit être unique.</value>
+  </data>
+  <data name="RoleHelp" xml:space="preserve">
+    <value>Les rôles qui ont accès à cette ressource.</value>
+  </data>
+  <data name="MethodHelp" xml:space="preserve">
+    <value>Le(s) mode(s) utilisé(s) pour accéder à ce point de terminaison.</value>
+  </data>
+  <data name="EnvironmentHelp" xml:space="preserve">
+    <value>L'environnement dans lequel ces ressources s'exécutent. Si non spécifié, le système utilise l'environnement par défaut qui se trouvent dans les paramètres.</value>
+  </data>
+  <data name="RegExHelp" xml:space="preserve">
+    <value>Si activé, le URL est traité comme une expression régulière.</value>
+  </data>
+  <data name="StartTimeHelp" xml:space="preserve">
+    <value>La date et l'heure à laquelle commencer cette tâche.</value>
+  </data>
+  <data name="RunAs" xml:space="preserve">
+    <value>Exécuter en tant que</value>
+  </data>
+  <data name="TagsHelp" xml:space="preserve">
+    <value>Etiquettes attribuées à cette ressource.</value>
+  </data>
+  <data name="PowerShellAppUrlHelp" xml:space="preserve">
+    <value>Le URL pour accéder à cette appli. Cela doit être unique.</value>
+  </data>
+  <data name="ComputerGroupHelp" xml:space="preserve">
+    <value>Le groupe d'ordinateurs sur lequel exécuter cette ressource. Si non spécifié, elle s'exécutera sur tous les ordinateurs.</value>
+  </data>
+  <data name="DisableAutoStartHelp" xml:space="preserve">
+    <value>Si cette appli démarre quand le serveur démarre.</value>
+  </data>
+  <data name="DisableErrorOnToastHelp" xml:space="preserve">
+    <value>Si une bulle de notification apparaît dans l'appli quand une erreur PowerShell se produit.</value>
+  </data>
+  <data name="FaviconHelp" xml:space="preserve">
+    <value>L'icône à montrer dans l'onglet du navigateur.</value>
+  </data>
+  <data name="IdleTimeoutHelp" xml:space="preserve">
+    <value>Le nombre de minutes avant lequel une session devient inactive.</value>
+  </data>
+  <data name="AppMaintenanceModeHelp" xml:space="preserve">
+    <value>Quand activé, seulement les administrateurs peuvent accéder à l'appli.</value>
+  </data>
+  <data name="SessionTimeoutHelp" xml:space="preserve">
+    <value>Le nombre de minutes avant lequel la session expire.</value>
+  </data>
+  <data name="ScheduleScriptHelp" xml:space="preserve">
+    <value>Le script que ce programme exécute.</value>
+  </data>
+  <data name="ScheduleDelayHelp" xml:space="preserve">
+    <value>Le nombre de secondes à différer l'exécution de ce programme.</value>
+  </data>
+  <data name="ScheduleTimeoutHelp" xml:space="preserve">
+    <value>Le nombre de minutes avant lequel le script programmé expire.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Supprimé.e</value>
+  </data>
+  <data name="RolesHelp" xml:space="preserve">
+    <value>Rôles qui peuvent accéder à cette ressource</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Modifié.e</value>
+  </data>
+  <data name="DiscoverEnvironments" xml:space="preserve">
+    <value>Découvrir les environnements</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ressource</value>
+  </data>
+  <data name="LogFilesDescription" xml:space="preserve">
+    <value>Dossiers historiques présents sur cette node PowerShell Universal.</value>
+  </data>
+  <data name="MySettings" xml:space="preserve">
+    <value>Mes paramètres</value>
+  </data>
+  <data name="ManuallyStarted" xml:space="preserve">
+    <value>Commencé manuellement</value>
+  </data>
+  <data name="ValidateNewPassword" xml:space="preserve">
+    <value>Valider nouveau mot de passe</value>
+  </data>
+  <data name="SyncNow" xml:space="preserve">
+    <value>Synchroniser Maintenant</value>
+  </data>
+  <data name="SyncBehavior" xml:space="preserve">
+    <value>Synchroniser l' appartenance</value>
+  </data>
+  <data name="EditMode" xml:space="preserve">
+    <value>Mode Éditer</value>
+  </data>
+  <data name="ResourceType" xml:space="preserve">
+    <value>Type de ressource</value>
+  </data>
+  <data name="PortalResourcesDescription" xml:space="preserve">
+    <value>Une liste des ressources montrées sur le portail</value>
+  </data>
+  <data name="SaveGit" xml:space="preserve">
+    <value>Sauvegarder ({0})</value>
+  </data>
+  <data name="PermissionResource" xml:space="preserve">
+    <value>Ressource</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>Aucune données</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="DefaultHomePage" xml:space="preserve">
+    <value>Page d'accueil par défaut</value>
+  </data>
+  <data name="StartupScripts" xml:space="preserve">
+    <value>Scripts de Démarrage</value>
+  </data>
+  <data name="SupportToolWarning" xml:space="preserve">
+    <value>Utilisez cet outil seulement comme indiqué par l'équipe Ironman Software.</value>
+  </data>
+  <data name="ShowHelp" xml:space="preserve">
+    <value>Montrer l'aide</value>
+  </data>
+  <data name="LogLevelUpdated" xml:space="preserve">
+    <value>Niveau de l'historique du système mis à jour</value>
+  </data>
+  <data name="DisableAnalyzer" xml:space="preserve">
+    <value>Désactive PSScriptAnalyzer</value>
+  </data>
+  <data name="LicenseUrl" xml:space="preserve">
+    <value>URL de licence</value>
+  </data>
+  <data name="LicenseName" xml:space="preserve">
+    <value>Nom de licence</value>
+  </data>
+  <data name="Suggestions" xml:space="preserve">
+    <value>Suggestions</value>
+  </data>
+  <data name="ShowMinimap" xml:space="preserve">
+    <value>Montrer la mini-carte</value>
+  </data>
+  <data name="OpenApiLicenseNameHelp" xml:space="preserve">
+    <value>Le nom de la licence pour cette documentation API.</value>
+  </data>
+  <data name="IPAddress" xml:space="preserve">
+    <value>adresse IP</value>
+  </data>
+  <data name="SuccessRate" xml:space="preserve">
+    <value>Taux de succès</value>
+  </data>
+  <data name="PublishedFolder" xml:space="preserve">
+    <value>Dossier publié</value>
+  </data>
+  <data name="LoginPageFontColor" xml:space="preserve">
+    <value>Couleur de la police de la page d'accueil</value>
+  </data>
+  <data name="LoginPageBackgroundColor" xml:space="preserve">
+    <value>Couleur du fond de la page d'accueil</value>
+  </data>
+  <data name="LoginPageImageSize" xml:space="preserve">
+    <value>Taille de l'image de la page d'accueil</value>
+  </data>
+  <data name="LoginPageLayout" xml:space="preserve">
+    <value>Mise en page de la page d'accueil</value>
   </data>
 </root>
