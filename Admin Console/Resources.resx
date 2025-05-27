@@ -2562,4 +2562,22 @@
   <data name="LoginPageImageSize" xml:space="preserve">
     <value>Login Page Image Size</value>
   </data>
+  <data name="RecycleSchedule" xml:space="preserve">
+    <value>Recycle Schedule</value>
+  </data>
+  <data name="RecycleScheduleHelp" xml:space="preserve">
+    <value>A CRON expression used to control how frequently resources in this environment are restarted. If blank, environment recycling will not occur.</value>
+  </data>
+  <data name="DisableDatabaseVault" xml:space="preserve">
+    <value>Disable Database Vault</value>
+  </data>
+  <data name="DisableDatabaseVaultDescription" xml:space="preserve">
+    <value>Disables the database vault for secret variables.</value>
+  </data>
+  <data name="FetchRemoteBranches" xml:space="preserve">
+    <value>Fetch Remote Branches</value>
+  </data>
+  <data name="ConflictsStillExist" xml:space="preserve">
+    <value>Conflicts still exist. Resolve all conflicts before committing.</value>
+  </data>
 </root>
