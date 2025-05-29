@@ -2580,4 +2580,10 @@
   <data name="ConflictsStillExist" xml:space="preserve">
     <value>Conflicts still exist. Resolve all conflicts before committing.</value>
   </data>
+  <data name="SshKeyDescription" xml:space="preserve">
+    <value>Manage SSH keys for use with Git authentication.</value>
+  </data>
+  <data name="SshKey" xml:space="preserve">
+    <value>SSH Key</value>
+  </data>
 </root>
