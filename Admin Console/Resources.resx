@@ -2586,4 +2586,13 @@
   <data name="SshKey" xml:space="preserve">
     <value>SSH Key</value>
   </data>
+  <data name="ImportScripts" xml:space="preserve">
+    <value>Import Scripts</value>
+  </data>
+  <data name="ImportScript" xml:space="preserve">
+    <value>Import Script</value>
+  </data>
+  <data name="UploadScript" xml:space="preserve">
+    <value>Upload Script</value>
+  </data>
 </root>
