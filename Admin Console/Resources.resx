@@ -2595,4 +2595,10 @@
   <data name="UploadScript" xml:space="preserve">
     <value>Upload Script</value>
   </data>
+  <data name="EditVsCode" xml:space="preserve">
+    <value>Edit in VS Code</value>
+  </data>
+  <data name="EditVsCodeInsiders" xml:space="preserve">
+    <value>Edit in VS Code Insiders</value>
+  </data>
 </root>
