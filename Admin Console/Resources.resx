@@ -2601,4 +2601,16 @@
   <data name="EditVsCodeInsiders" xml:space="preserve">
     <value>Edit in VS Code Insiders</value>
   </data>
+  <data name="PasswordExpirationDaysDescription" xml:space="preserve">
+    <value>The number of days before a local account's password expires.</value>
+  </data>
+  <data name="PasswordLength" xml:space="preserve">
+    <value>Password Length</value>
+  </data>
+  <data name="PasswordExpirationDays" xml:space="preserve">
+    <value>Password Expiration Days</value>
+  </data>
+  <data name="PasswordLengthDescription" xml:space="preserve">
+    <value>The number of characters required for a local account password.</value>
+  </data>
 </root>
