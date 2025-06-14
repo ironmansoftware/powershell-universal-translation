@@ -2613,4 +2613,7 @@
   <data name="PasswordLengthDescription" xml:space="preserve">
     <value>The number of characters required for a local account password.</value>
   </data>
+  <data name="ClearSelectedNotifications" xml:space="preserve">
+    <value>Clear Selected Notifications</value>
+  </data>
 </root>
