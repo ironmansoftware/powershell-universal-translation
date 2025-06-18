@@ -370,4 +370,124 @@
   <data name="HideAutomationFeatures" xml:space="preserve">
     <value>Приховати Функції Автоматизації</value>
   </data>
+  <data name="DefaultDarkThemeDescription" xml:space="preserve">
+    <value>Тема за замовчуванням для нових користувачів.</value>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>Автоматизація</value>
+  </data>
+  <data name="ConcurrentJobLimit" xml:space="preserve">
+    <value>Ліміт Одночасних Завдань</value>
+  </data>
+  <data name="HideEnvironment" xml:space="preserve">
+    <value>Приховати Оточення</value>
+  </data>
+  <data name="HideRunAs" xml:space="preserve">
+    <value>Приховати Запуск від Імені</value>
+  </data>
+  <data name="PreformattedJobOutputDescription" xml:space="preserve">
+    <value>Попередньо відформатований вивід завдання під час його виконання. Покращує продуктивність, але не дозволяє приховувати позначки часу.</value>
+  </data>
+  <data name="DefaultAppsTheme" xml:space="preserve">
+    <value>Тема Додатку за Замовченням</value>
+  </data>
+  <data name="DefaultAppsThemeDescription" xml:space="preserve">
+    <value>Тема за замовченням для додатків, якщо тема не встановлена. </value>
+  </data>
+  <data name="Branding" xml:space="preserve">
+    <value>Брендування</value>
+  </data>
+  <data name="LoadingPageTitle" xml:space="preserve">
+    <value>Заголовок Сторінки Завантаження</value>
+  </data>
+  <data name="LoadingPageTitleDescription" xml:space="preserve">
+    <value>Заголовок, що відображається коли PowerShell Universal завантажується.</value>
+  </data>
+  <data name="LoadingPageDescription" xml:space="preserve">
+    <value>Опис Сторінки Завантаження</value>
+  </data>
+  <data name="LoadingPageDescriptionDescription" xml:space="preserve">
+    <value>Опис, що відображається коли PowerShell Universal завантажується. </value>
+  </data>
+  <data name="PageNotFoundTitle" xml:space="preserve">
+    <value>Заголовок Сторінки "Не знайдено"</value>
+  </data>
+  <data name="PageNotFoundTitleDescription" xml:space="preserve">
+    <value>Заголовок, що відображається, якщо сторінка не знайдена.</value>
+  </data>
+  <data name="PageNotFoundDescription" xml:space="preserve">
+    <value>Опис Сторінки "Не Знайдено"</value>
+  </data>
+  <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися якщо сторінка не знайдена.</value>
+  </data>
+  <data name="NotAuthorizedDescription" xml:space="preserve">
+    <value>Опис "Не Авторизовано"</value>
+  </data>
+  <data name="AppNotRunningDescription" xml:space="preserve">
+    <value>Опис "Додаток Не Виконується"</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Дані</value>
+  </data>
+  <data name="ScriptBaseFolderDescription" xml:space="preserve">
+    <value>Тека у репозиторії для зберігання скриптів. Зміна цього налаштування потребує перезавантаження сервісу PowerShell Universal.</value>
+  </data>
+  <data name="DataRetention" xml:space="preserve">
+    <value>Зберігання Даних</value>
+  </data>
+  <data name="DatabaseLogRetentionDescription" xml:space="preserve">
+    <value>Скільки днів зберігати журнали у базі даних.</value>
+  </data>
+  <data name="DataGroomInterval" xml:space="preserve">
+    <value>Інтервал Очищення Даних</value>
+  </data>
+  <data name="JobHandshakeTimeout" xml:space="preserve">
+    <value>Тайм-аут Встановлення Зв'язку із Завданням</value>
+  </data>
+  <data name="Hide Environment" xml:space="preserve">
+    <value>Приховує вибір середовища під час запуску або планування завдань.</value>
+  </data>
+  <data name="ConcurrentJobLimitDescription" xml:space="preserve">
+    <value>Максимальна кількість завдань, що можуть виконуються одночасно.</value>
+  </data>
+  <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
+    <value>Кількість секунд очікування початку завдання.</value>
+  </data>
+  <data name="PreformattedJobOutput" xml:space="preserve">
+    <value>Попередньо Відформатований Вивід Завдання</value>
+  </data>
+  <data name="HideRunOn" xml:space="preserve">
+    <value>Приховати Запуск На</value>
+  </data>
+  <data name="HideRunAsDescription" xml:space="preserve">
+    <value>Приховує вибір "запустити від імені" під час виконання або планування завдань.</value>
+  </data>
+  <data name="HideRunOnDescription" xml:space="preserve">
+    <value>Приховує вибір "запустити на" під час виконання або планування завдань.</value>
+  </data>
+  <data name="DataGroomIntervalDescription" xml:space="preserve">
+    <value>З якою частотою, у хвилинах, дані будуть очищатися з PowerShell Universal.</value>
+  </data>
+  <data name="APIEnvironment" xml:space="preserve">
+    <value>API Оточення</value>
+  </data>
+  <data name="ScriptBaseFolder" xml:space="preserve">
+    <value>Базова Тека Скриптів</value>
+  </data>
+  <data name="DataRetentionDescription" xml:space="preserve">
+    <value>Скільки днів зберігати такі дані, як завдання, історія терміналу та сесії користувачів.</value>
+  </data>
+  <data name="DatabaseLogRetention" xml:space="preserve">
+    <value>Зберігання Журналу Базі Даних</value>
+  </data>
+  <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися коли користувач не авторизований для перегляду сторінки.</value>
+  </data>
+  <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися користувачу при спробі подивитися додаток, що не виконується.</value>
+  </data>
+  <data name="RepositoryPath" xml:space="preserve">
+    <value>Шлях до Репозиторію</value>
+  </data>
 </root>
