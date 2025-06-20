@@ -490,4 +490,88 @@
   <data name="RepositoryPath" xml:space="preserve">
     <value>Шлях до Репозиторію</value>
   </data>
+  <data name="DefaultEnvironment" xml:space="preserve">
+    <value>Оточення За Замовченням</value>
+  </data>
+  <data name="SecurityEnvironment" xml:space="preserve">
+    <value>Безпекове середовище</value>
+  </data>
+  <data name="DontLoadRunAsProfiles" xml:space="preserve">
+    <value>Не Завантажувати Профіль "Виконати Від Імені"</value>
+  </data>
+  <data name="Platform" xml:space="preserve">
+    <value>Платформа</value>
+  </data>
+  <data name="ContentSecurityPolicy" xml:space="preserve">
+    <value>Політика Безпеки Контенту</value>
+  </data>
+  <data name="DisableAutoReload" xml:space="preserve">
+    <value>Вимкнути Автоматичне Перезавантаження</value>
+  </data>
+  <data name="DisableAutoReloadDescription" xml:space="preserve">
+    <value>Вимикає спостерігач файлової системи, що використовується для завантаження файлів з диска у PowerShell Universal.</value>
+  </data>
+  <data name="DisableFormatOnSave" xml:space="preserve">
+    <value>Вимкнути "Форматування при Збереженні"</value>
+  </data>
+  <data name="EnhancedAppTokenSecurity" xml:space="preserve">
+    <value>Покращена Безпека Токенів Додатків</value>
+  </data>
+  <data name="LimitIdentities" xml:space="preserve">
+    <value>Обмеження Ідентифікаторів</value>
+  </data>
+  <data name="DisableUpdateCheck" xml:space="preserve">
+    <value>Вимкнути Перевірку Оновлень</value>
+  </data>
+  <data name="ProxyURL" xml:space="preserve">
+    <value>URL проксі-сервера</value>
+  </data>
+  <data name="ProxyURLDescription" xml:space="preserve">
+    <value>Встановлює URL-адресу проксі-сервера, яка використовуватиметься під час зв'язку із зовнішніми сервісами, такими як git та сервіс оновлення.</value>
+  </data>
+  <data name="ProxyCredential" xml:space="preserve">
+    <value>Облікові дані проксі-сервера</value>
+  </data>
+  <data name="ProxyCredentialDescription" xml:space="preserve">
+    <value>Ім'я змінної, яка має бути PSCredential, що використовується для доступу до проксі-сервера.</value>
+  </data>
+  <data name="FallbackLanguageID" xml:space="preserve">
+    <value>Ідентифікатор резервної мови</value>
+  </data>
+  <data name="FallbackLanguageIDDescription" xml:space="preserve">
+    <value>Мова, до якої слід повернутися, коли для локалізації користувача немає доступної мови.</value>
+  </data>
+  <data name="ConfigurationFileSplatting" xml:space="preserve">
+    <value>Сплатінг файлу конфігурації</value>
+  </data>
+  <data name="ContentSecurityPolicyDescription" xml:space="preserve">
+    <value>Політика безпеки контенту (CSP) – це додатковий рівень безпеки, який допомагає виявляти та усувати певні типи атак, включаючи міжсайтовий скриптинг (XSS) та атаки з використанням ін’єкцій даних.</value>
+  </data>
+  <data name="APIEnvironmentDescription" xml:space="preserve">
+    <value>Оточення за замовченням для використання у API точках входу, що не мають його встановленим. </value>
+  </data>
+  <data name="SecurityEnvironmentDescription" xml:space="preserve">
+    <value>Середовище, що використовується для скриптів з формами автентифікації та політиками авторизації.</value>
+  </data>
+  <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
+    <value>Не завантажує профілі під час запуску зовнішніх середовищ. Стосується лише Windows.</value>
+  </data>
+  <data name="DefaultEnvironmentDescription" xml:space="preserve">
+    <value>Оточення за замовченням для використання коли функція не має його встановленим. </value>
+  </data>
+  <data name="LimitIdentitiesDescription" xml:space="preserve">
+    <value>Забороняє користувачам входити в PowerShell Universal, яких не було додано на сторінку ідентифікаційних даних. </value>
+  </data>
+  <data name="DisableFormatOnSaveDescription" xml:space="preserve">
+    <value>Запобігає запуску Invoke-Formatter PSScriptAnalyzer у скриптах під час збереження у PowerShell Universal.</value>
+  </data>
+  <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
+    <value>Коли цей параметр увімкнено, токени додатків зберігаються в базі даних як хеші, а не як значення токенів. Увімкнення цього параметра анулює всі існуючі токени додатків.</value>
+  </data>
+  <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
+    <value>PowerShell Universal використовуватиме сплатінг під час запису файлів конфігурації.</value>
+  </data>
+  <data name="ModuleDiscoveryFrequency" xml:space="preserve">
+    <value>Частота Виявлення Модулів</value>
+  </data>
 </root>
