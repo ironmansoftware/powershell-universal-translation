@@ -1543,9 +1543,117 @@
     <value>Annuler la modification</value>
   </data>
   <data name="EditNotInProgress" xml:space="preserve">
-    <value>Modification non en cours</value>
+    <value>Modification non commencée</value>
   </data>
   <data name="SimpleSchedule" xml:space="preserve">
     <value>Agenda Simple</value>
+  </data>
+  <data name="EditNotInProgressDescription" xml:space="preserve">
+    <value>Cliquez ci-dessous pour commencer une nouvelle édition. PowerShell Universal ne poussera ni ne tirera de git lorsqu'une édition est en cours.</value>
+  </data>
+  <data name="GitCommitDescription" xml:space="preserve">
+    <value>Ce sont des modifications actuellement présentes sur ce nœud qui n'ont pas été poussées vers le référentiel distant.</value>
+  </data>
+  <data name="HideRunLater" xml:space="preserve">
+    <value>Masquer Exécuter Plus tard</value>
+  </data>
+  <data name="HideRunLaterDescription" xml:space="preserve">
+    <value>Masque l'option "Exécuter plus tard" lors de l'exécution d'un script.</value>
+  </data>
+  <data name="QuickRunScript" xml:space="preserve">
+    <value>Lancement rapide</value>
+  </data>
+  <data name="QuickRunDisabled" xml:space="preserve">
+    <value>Ce script comporte des paramètres obligatoires et ne peut pas être exécuté rapidement.</value>
+  </data>
+  <data name="DiscoverEnvironmentsDescription" xml:space="preserve">
+    <value>Découvre les environnements installés sur cette machine.</value>
+  </data>
+  <data name="GenerateDeveloperLicense" xml:space="preserve">
+    <value>Générer une licence développeur</value>
+  </data>
+  <data name="PortalScriptError" xml:space="preserve">
+    <value>Erreur lors de l'exécution du script.</value>
+  </data>
+  <data name="PortalScriptSuccess" xml:space="preserve">
+    <value>Script exécuté avec succès.</value>
+  </data>
+  <data name="PortalOutputType" xml:space="preserve">
+    <value>Type de sortie du portail</value>
+  </data>
+  <data name="PortalOutputTypeHelp" xml:space="preserve">
+    <value>La méthode pour afficher la sortie de ce script dans le portail.</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Délai d'expiration</value>
+  </data>
+  <data name="Execution" xml:space="preserve">
+    <value>Execution</value>
+  </data>
+  <data name="PortalNoServices" xml:space="preserve">
+    <value>Aucun service n'a été associé à votre rôle. Contactez votre administrateur pour plus d'informations.</value>
+  </data>
+  <data name="DisableErrorToastHelp" xml:space="preserve">
+    <value>Désactive le message d'alerte d'erreur affiché lorsque PowerShell écrit dans le flux d'erreurs.</value>
+  </data>
+  <data name="ApiBaseFolder" xml:space="preserve">
+    <value>Dossier de base de l'API</value>
+  </data>
+  <data name="ApiBaseFolderDescription" xml:space="preserve">
+    <value>Le dossier, par rapport au chemin du dépôt, pour stocker les fichiers de points de terminaison.</value>
+  </data>
+  <data name="LoggingTarget" xml:space="preserve">
+    <value>Cible de journalisation</value>
+  </data>
+  <data name="LoggingTargets" xml:space="preserve">
+    <value>Cibles de journalisation</value>
+  </data>
+  <data name="LoggingTargetsDescription" xml:space="preserve">
+    <value>Les cibles de journalisation contrôlent où, quand et comment la journalisation a lieu. </value>
+  </data>
+  <data name="LoggingType" xml:space="preserve">
+    <value>Type de journalisation</value>
+  </data>
+  <data name="LoggingTargetTypeHelp" xml:space="preserve">
+    <value>Le type de journalisation à produire.</value>
+  </data>
+  <data name="MinimumLevel" xml:space="preserve">
+    <value>Niveau minimum</value>
+  </data>
+  <data name="LoggingMinimumLevelHelp" xml:space="preserve">
+    <value>Le niveau de journalisation minimum que cette cible enregistrera.</value>
+  </data>
+  <data name="Scope" xml:space="preserve">
+    <value>Portée</value>
+  </data>
+  <data name="LoggingScopeHelp" xml:space="preserve">
+    <value>Les journaux de la portée utilisateur enregistrent les scripts créés par les utilisateurs, tandis que la portée du système enregistre la journalisation produite par la plateforme.</value>
+  </data>
+  <data name="Feature" xml:space="preserve">
+    <value>Fonctionnalité</value>
+  </data>
+  <data name="LoggingFeatureHelp" xml:space="preserve">
+    <value>Le groupe de fonctionnalités que cette cible de journalisation recevra. </value>
+  </data>
+  <data name="LoggingResourceHelp" xml:space="preserve">
+    <value>Un identifiant de ressource spécifique (par exemple, ID ou chemin), pour lequel cette cible de journalisation produira des logs.</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Chemin du fichier</value>
+  </data>
+  <data name="LoggingFilePathHelp" xml:space="preserve">
+    <value>Le chemin du fichier pour enregistrer les logs. Les variables d'environnement sont prises en charge.</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Hôte</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="LoggingHostHelp" xml:space="preserve">
+    <value>Le nom d'hôte du serveur vers lequel enregistrer.</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tous</value>
   </data>
 </root>
