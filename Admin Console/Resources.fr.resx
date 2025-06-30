@@ -217,13 +217,13 @@
         <value>Cacher l'environnement</value>
   </data>
   <data name="IdentitiesDescription" xml:space="preserve">
-        <value>Utilisateurs et applications qui se sont connecté à PowerShell Universal</value>
+        <value>Utilisateurs et applications qui se sont connectés à PowerShell Universal.</value>
   </data>
   <data name="EventType" xml:space="preserve">
         <value>type d'évenement</value>
   </data>
   <data name="ErrorInConfigScript" xml:space="preserve">
-        <value>Il y a une erreur dans le script de configuration pour cette ressource</value>
+        <value>Il y a une erreur dans le script de configuration pour cette ressource.</value>
   </data>
   <data name="EveryHour" xml:space="preserve">
         <value>Chaque heure</value>
@@ -235,7 +235,7 @@
         <value>Tous les dix minutes</value>
   </data>
   <data name="ExternalAccountDescription" xml:space="preserve">
-        <value>Comptes externes sont le résultats de connexions aux méthodes d'authentication externe</value>
+        <value>Les comptes externes sont le résultat de connexions à des méthodes d'authentification externes.</value>
   </data>
   <data name="ApiDocumentation" xml:space="preserve">
         <value>Documentation d'interface de programmation d'application</value>
@@ -250,7 +250,7 @@
         <value>Jetons d'application</value>
   </data>
   <data name="ApplicationTokensDescription" xml:space="preserve">
-        <value>Jetons Web JSON utilisés à accéder aux APIs de PowerShell Universal</value>
+        <value>Jetons Web JSON utilisés pour accéder aux API de PowerShell Universal.</value>
   </data>
   <data name="AppNotRunningDescription" xml:space="preserve">
         <value>L'application n'exécute pas la description</value>
@@ -262,7 +262,7 @@
         <value>Méthodes d'authentification</value>
   </data>
   <data name="AuthenticationMethodsDescription" xml:space="preserve">
-        <value>Méthodes d'authentification que les utilisateurs peuvent employer pour se connecter à PowerShell Universal</value>
+        <value>Méthodes d'authentification que les utilisateurs peuvent utiliser pour se connecter à PowerShell Universal.</value>
   </data>
   <data name="Automation" xml:space="preserve">
         <value>Automatisation</value>
@@ -286,10 +286,10 @@
         <value>Le nombre maximum de tâches à exécuter simultanément.</value>
   </data>
   <data name="ConfigurationFileSplatting" xml:space="preserve">
-        <value>Configuration des paramètres de configuration.</value>
+        <value>Répartition de fichier de configuration</value>
   </data>
   <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
-        <value>Le système de configuration PowerShell utilisera du splatting en écrivant les fichiers de configuration</value>
+        <value>Le système de configuration de PowerShell Universal utilisera la répartition lors de l'écriture des fichiers de configuration.</value>
   </data>
   <data name="ContentSecurityPolicy" xml:space="preserve">
         <value>Politique de sécurité du contenu</value>
@@ -376,13 +376,13 @@
         <value>Désactiver le format en sauvegardant</value>
   </data>
   <data name="DisableFormatOnSaveDescription" xml:space="preserve">
-        <value>Empêche PowerShell Universal d'exécuter l'Invoke-Formatter de PSScriptAnalyzer en sauvegardant</value>
+        <value>Empêche PowerShell Universal d'exécuter Invoke-Formatter de PSScriptAnalyzer sur les scripts lors de leur sauvegarde.</value>
   </data>
   <data name="DisableUpdateCheck" xml:space="preserve">
         <value>Désactiver la vérification d'actualisation</value>
   </data>
   <data name="DisableUpdateCheckDescription" xml:space="preserve">
-        <value>Empêche PowerShell Universal de vérifier des actualisations</value>
+        <value>Empêche PowerShell Universal de rechercher les mises à jour.</value>
   </data>
   <data name="DontLoadRunAsProfiles" xml:space="preserve">
         <value>Ne charge pas l'exécution comme profil</value>
@@ -397,7 +397,7 @@
         <value>Quand activés, les jetons d'application sont enregistrés dans la base de données comme hachages plutôt que comme valeurs de jeton. Activer cette fonction invalide tous les jetons d'application existants.</value>
   </data>
   <data name="EnvironmentsDescription" xml:space="preserve">
-        <value>Environnemnets d'exécution pour les fonctions de PowerShell Universal</value>
+        <value>Environnements d'exécution pour les fonctionnalités de PowerShell Universal.</value>
   </data>
   <data name="FallbackLanguageID" xml:space="preserve">
         <value>Identité de langue de repli</value>
@@ -415,16 +415,16 @@
         <value>Encodage de fichier</value>
   </data>
   <data name="FileEncodingDescription" xml:space="preserve">
-        <value>L'encodage de fichier à utiliser en écrivant des fichiers de configuration</value>
+        <value>L'encodage des fichiers à utiliser lors de l'écriture des fichiers de configuration.</value>
   </data>
   <data name="GeneralDescription" xml:space="preserve">
-        <value>Paramètres généraux de PowerShell Universal</value>
+        <value>Paramètres généraux de PowerShell Universal.</value>
   </data>
   <data name="GitDescription" xml:space="preserve">
         <value>Synchronisation Git pour PowerShell Universal</value>
   </data>
   <data name="GitNotConfigured" xml:space="preserve">
-        <value>Synchronisation de git n'est pas configurée</value>
+        <value>La synchronisation Git n'est pas configurée.</value>
   </data>
   <data name="HealthChecks" xml:space="preserve">
         <value>Vérifications de santé</value>
@@ -499,7 +499,7 @@
         <value>Sous license</value>
   </data>
   <data name="LicenseDescription" xml:space="preserve">
-        <value>Licences pour PowerShell Universal</value>
+        <value>Licences pour PowerShell Universal.</value>
   </data>
   <data name="LicenseStatus" xml:space="preserve">
         <value>Statut de licence</value>
@@ -508,7 +508,7 @@
         <value>Texte de licence</value>
   </data>
   <data name="LicenseWarning" xml:space="preserve">
-        <value>Vous avez plus d'ordinateurs que licences. Veuillez d'acheter plus de licences.</value>
+        <value>Vous avez plus d'ordinateurs que licences. Veuillez d'acheter plus de licences. </value>
   </data>
   <data name="LimitIdentities" xml:space="preserve">
         <value>Limiter les identités</value>
@@ -535,13 +535,13 @@
         <value>Compte local</value>
   </data>
   <data name="LocalAccountDescription" xml:space="preserve">
-        <value>Comptes locals sont enregistrés dans la base de données de PowerShell Universal</value>
+        <value>Les comptes locaux sont stockés dans la base de données de PowerShell Universal.</value>
   </data>
   <data name="LocalModulesDescription" xml:space="preserve">
-        <value>Modules qui sont installés dans votre environnements PowerShell</value>
+        <value>Modules installés dans vos environnements PowerShell.</value>
   </data>
   <data name="LoggingDescription" xml:space="preserve">
-        <value>Historique de diagnostique PowerShell Universal</value>
+        <value>Journalisation de diagnostic de PowerShell Universal.</value>
   </data>
   <data name="MaintenanceMode" xml:space="preserve">
         <value>Mode maintenance</value>
@@ -562,7 +562,7 @@
         <value>Mes tâches</value>
   </data>
   <data name="MyJobsDescription" xml:space="preserve">
-        <value>Tâches exécutées par vous</value>
+        <value>Travaux exécutés par vous.</value>
   </data>
   <data name="NotAuthorizedDescription" xml:space="preserve">
         <value>Description Pas authorisé.e</value>
@@ -571,7 +571,7 @@
         <value>La description à montrer quand un utilisateur n'est pas authorisé à accéder à une page.</value>
   </data>
   <data name="NotificationsDescription" xml:space="preserve">
-        <value>Notiifcations produites par PowerShell Universal</value>
+        <value>Notifications générées par PowerShell Universal.</value>
   </data>
   <data name="OpenIDConnect" xml:space="preserve">
         <value>OpenID Connect</value>
@@ -604,7 +604,7 @@
         <value>PowerShell Universal</value>
   </data>
   <data name="PowerShellUniversalModules" xml:space="preserve">
-        <value>Modules disponibles dans le Marché PowerShell Universal qui étendent la plateforme</value>
+        <value>Modules disponibles dans le PowerShell Universal Marketplace qui étendent la plateforme.</value>
   </data>
   <data name="PreformattedJobOutput" xml:space="preserve">
         <value>Données de sortie pré-formatées de la tâche</value>
@@ -631,7 +631,7 @@
         <value>Dossiers publiés</value>
   </data>
   <data name="PublishedFoldersDescription" xml:space="preserve">
-        <value>Partager les fichiers via HTTP de PowerShell Universal</value>
+        <value>Partager des fichiers via HTTP depuis PowerShell Universal.</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
         <value>Date de sortie</value>
@@ -994,7 +994,7 @@
     <value>Supprimé.e</value>
   </data>
   <data name="RolesHelp" xml:space="preserve">
-    <value>Rôles qui peuvent accéder à cette ressource</value>
+    <value>Rôles qui peuvent accéder à cette ressource.</value>
   </data>
   <data name="Modified" xml:space="preserve">
     <value>Modifié.e</value>
@@ -1030,7 +1030,7 @@
     <value>Type de ressource</value>
   </data>
   <data name="PortalResourcesDescription" xml:space="preserve">
-    <value>Une liste des ressources montrées sur le portail</value>
+    <value>Une liste des ressources montrées sur le portail.</value>
   </data>
   <data name="SaveGit" xml:space="preserve">
     <value>Sauvegarder ({0})</value>
@@ -1496,5 +1496,53 @@
   </data>
   <data name="CustomModules" xml:space="preserve">
     <value>Modules du dépôt</value>
+  </data>
+  <data name="VersionHelp" xml:space="preserve">
+    <value>La version de ce module.</value>
+  </data>
+  <data name="DefaultLoginWarning" xml:space="preserve">
+    <value>Vous n'avez pas configuré d'authentification ni d'autorisation. Le nom d'utilisateur par défaut est 'admin' et le mot de passe est 'admin'. Nous vous recommandons de changer votre mot de passe.</value>
+  </data>
+  <data name="DemoModeLoginInfo" xml:space="preserve">
+    <value>Cette instance fonctionne en mode démo. Vous pouvez vous connecter avec n'importe quel nom d'utilisateur ou mot de passe.</value>
+  </data>
+  <data name="ShowTimestamp" xml:space="preserve">
+    <value>Afficher l'horodatage</value>
+  </data>
+  <data name="ShowStreams" xml:space="preserve">
+    <value>Afficher les flux</value>
+  </data>
+  <data name="MyIdentity" xml:space="preserve">
+    <value>Mon identité</value>
+  </data>
+  <data name="MyIdentityDescription" xml:space="preserve">
+    <value>Informations sur votre identité, vos rôles et vos permissions.</value>
+  </data>
+  <data name="AuthenticationMethod" xml:space="preserve">
+    <value>Méthode d'authentification</value>
+  </data>
+  <data name="GitCommit" xml:space="preserve">
+    <value>Commit Git</value>
+  </data>
+  <data name="CommitMessage" xml:space="preserve">
+    <value>Message de commit</value>
+  </data>
+  <data name="Changes" xml:space="preserve">
+    <value>Modifications</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Ajouté</value>
+  </data>
+  <data name="NoChanges" xml:space="preserve">
+    <value>Aucune modification</value>
+  </data>
+  <data name="NoChangesDescription" xml:space="preserve">
+    <value>Il n'y a pas de modifications, mais la plateforme est en mode édition. PowerShell Universal ne poussera ni ne tirera de git pendant qu'une édition est en cours.</value>
+  </data>
+  <data name="CancelEdit" xml:space="preserve">
+    <value>Annuler la modification</value>
+  </data>
+  <data name="EditNotInProgress" xml:space="preserve">
+    <value>Modification non en cours</value>
   </data>
 </root>
