@@ -2616,4 +2616,7 @@
   <data name="ClearSelectedNotifications" xml:space="preserve">
     <value>Clear Selected Notifications</value>
   </data>
+  <data name="IdleTimeoutDescription" xml:space="preserve">
+    <value>You have been logged out due to inactivity. Please log in again.</value>
+  </data>
 </root>
