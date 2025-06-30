@@ -91,7 +91,7 @@
         <value>Mot de passe</value>
   </data>
   <data name="ProductDescription" xml:space="preserve">
-        <value>PowerShell Universal vous permet d'exécuter des tâches, de planifier des scripts, de créer des pages Web et des API, et de contrôler l'accès; le tout sous une seule vitre magnifique.</value>
+        <value>PowerShell Universal vous permet d'exécuter des tâches, de planifier des scripts, de créer des pages Web et des API, et de contrôler l'accès ; le tout sous une seule vitre magnifique.</value>
   </data>
   <data name="LoginDescription" xml:space="preserve">
         <value>Connectez-vous à votre compte</value>
@@ -244,7 +244,7 @@
         <value>Environnement d'interface de programmation d'application</value>
   </data>
   <data name="APIEnvironmentDescription" xml:space="preserve">
-        <value>L'environnement à utiliser par défaut pour les points de terminaisons d'API qui n'en ont pas un déjà déterminé</value>
+        <value>L'environnement par défaut à utiliser pour les points d'extrémité API qui n'en ont pas spécifié un. </value>
   </data>
   <data name="ApplicationTokens" xml:space="preserve">
         <value>Jetons d'application</value>
@@ -256,7 +256,7 @@
         <value>L'application n'exécute pas la description</value>
   </data>
   <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
-        <value>La description à montrer à un utilisateur quand ils tentent de voir une application qui n'exécute pas</value>
+        <value>La description à afficher à un utilisateur quand ils tentent de voir une application qui n'est pas exécutée.</value>
   </data>
   <data name="AuthenticationMethods" xml:space="preserve">
         <value>Méthodes d'authentification</value>
@@ -283,10 +283,10 @@
         <value>Limite de tâches simultanées</value>
   </data>
   <data name="ConcurrentJobLimitDescription" xml:space="preserve">
-        <value>Le numéro maximum de tâches à exécuter simultanément</value>
+        <value>Le nombre maximum de tâches à exécuter simultanément.</value>
   </data>
   <data name="ConfigurationFileSplatting" xml:space="preserve">
-        <value>Splatting du fichier de configuration </value>
+        <value>Configuration des paramètres de configuration.</value>
   </data>
   <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
         <value>Le système de configuration PowerShell utilisera du splatting en écrivant les fichiers de configuration</value>
@@ -295,7 +295,7 @@
         <value>Politique de sécurité du contenu</value>
   </data>
   <data name="ContentSecurityPolicyDescription" xml:space="preserve">
-        <value>La politique de sécurité du contenu est une couche supplémentaire de sécurité qui aide à détecter et mitiguer certains types d'attaques, y compris le scripting à travers les sites et les attaques d'injection de données</value>
+        <value>La politique de sécurité du contenu (Content Security Policy, CSP) est une couche de sécurité supplémentaire qui aide à détecter et à atténuer certains types d'attaques, notamment les scripts inter-sites (XSS) et les injections de données.</value>
   </data>
   <data name="Console" xml:space="preserve">
         <value>Console</value>
@@ -304,13 +304,13 @@
         <value>Logo de la console administrative</value>
   </data>
   <data name="ConsoleLogoDescription" xml:space="preserve">
-        <value>Le logo montré dans le titre de la console administrative</value>
+        <value>Le logo affiché dans le titre de la console admin.</value>
   </data>
   <data name="ConsoleTitle" xml:space="preserve">
         <value>Titre de la console administrative</value>
   </data>
   <data name="ConsoleTitleDescription" xml:space="preserve">
-        <value>Le titre montré dans la console administrative</value>
+        <value>Le titre affiché dans la console admin.</value>
   </data>
   <data name="CurrentlyRunningJobs" xml:space="preserve">
         <value>Tâches en train de s'exécuter</value>
@@ -322,37 +322,37 @@
         <value>Rétention de l'historique de la base de données</value>
   </data>
   <data name="DatabaseLogRetentionDescription" xml:space="preserve">
-        <value>Numéro de jours à garder les historiques enregistrées dans la base de données</value>
+        <value>Le nombre de jours pendant lesquels les logs doivent être conservés dans la base de données.</value>
   </data>
   <data name="DataGroomInterval" xml:space="preserve">
         <value>Intervalle à damer les données</value>
   </data>
   <data name="DataGroomIntervalDescription" xml:space="preserve">
-        <value>Avec quelle fréquence, en minutes, les données sont damées de PowerShell Universal</value>
+        <value>Fréquence, en minutes, à laquelle les données sont nettoyées depuis PowerShell Universal.</value>
   </data>
   <data name="DataRetention" xml:space="preserve">
         <value>Rétention des données</value>
   </data>
   <data name="DataRetentionDescription" xml:space="preserve">
-        <value>Numéro de jours à garder les données telles que les tâches, l'histoire du terminal et les séances d'utilisateur</value>
+        <value>Numéro de jours à garder les données telles que les tâches, l'histoire du terminal et les séances d'utilisateur.</value>
   </data>
   <data name="DefaultAppsTheme" xml:space="preserve">
         <value>Thème défaut de l'application</value>
   </data>
   <data name="DefaultAppsThemeDescription" xml:space="preserve">
-        <value>Le thème à utiliser par défaut pour les applications quand aucun n'est précisé</value>
+        <value>Le thème à utiliser par défaut pour les applications quand aucun n'est précisé. </value>
   </data>
   <data name="DefaultDarkTheme" xml:space="preserve">
         <value>Thème défaut sombre</value>
   </data>
   <data name="DefaultDarkThemeDescription" xml:space="preserve">
-        <value>Le thème défaut pour les nouveaux utilisateurs</value>
+        <value>Le thème par défaut pour les nouveaux utilisateurs.</value>
   </data>
   <data name="DefaultEnvironment" xml:space="preserve">
         <value>Environnement défaut</value>
   </data>
   <data name="DefaultEnvironmentDescription" xml:space="preserve">
-        <value>L'environnement défaut à utiliser quand une fonction n'en a pas précisé</value>
+        <value>L'environnement par défaut à utiliser lorsqu'une fonctionnalité ne possède pas d'environnement configuré. </value>
   </data>
   <data name="DelaySeconds" xml:space="preserve">
         <value>Retard (secondes)</value>
@@ -367,7 +367,7 @@
         <value>Désactiver actualisation automatique</value>
   </data>
   <data name="DisableAutoReloadDescription" xml:space="preserve">
-        <value>Désactive le moniteur du système de fichier utilisé à charger les fichiers du disque en PowerShell Universal</value>
+        <value>Désactive le surveillant du système de fichiers utilisé pour charger des fichiers depuis le disque dans PowerShell Universal.</value>
   </data>
   <data name="Disabled" xml:space="preserve">
         <value>Désactivé</value>
@@ -388,7 +388,7 @@
         <value>Ne charge pas l'exécution comme profil</value>
   </data>
   <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
-        <value>Ne charge pas de profils en démarrant des environnements externes. Ne s'applique qu'à Windows</value>
+        <value>Ne charge pas les profils lors du démarrage des environnements externes. S'applique uniquement à Windows.</value>
   </data>
   <data name="EnhancedAppTokenSecurity" xml:space="preserve">
         <value>Sécurité de jetons d'application supplémentaire</value>
@@ -409,7 +409,7 @@
         <value>Icône préférée</value>
   </data>
   <data name="FavoriteIconDescription" xml:space="preserve">
-        <value>L'icône à montrer dans l'onglet du navigateur</value>
+        <value>L'icône à afficher dans l'onglet du navigateur.</value>
   </data>
   <data name="FileEncoding" xml:space="preserve">
         <value>Encodage de fichier</value>
@@ -475,7 +475,7 @@
         <value>Expiration d'un établissement de liaison de la tâche</value>
   </data>
   <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
-        <value>Le nombre de secondes à s'attendre jusqu'à ce qu'une tâche commence</value>
+        <value>Le nombre de secondes à patienter jusqu'à ce qu'une tâche commence.</value>
   </data>
   <data name="JobRunId" xml:space="preserve">
         <value>Identité d'exécution d'une tâche</value>
@@ -514,19 +514,19 @@
         <value>Limiter les identités</value>
   </data>
   <data name="LimitIdentitiesDescription" xml:space="preserve">
-        <value>Empêche les utilisateurs de se connecter à PowerShell Universal qui n'ont pas été ajoutés à la page d'identités.</value>
+        <value>Empêche les utilisateurs non ajoutés à la page des identités de se connecter à PowerShell Universal. </value>
   </data>
   <data name="LoadingPageDescription" xml:space="preserve">
         <value>En cours de charger la description de la page</value>
   </data>
   <data name="LoadingPageDescriptionDescription" xml:space="preserve">
-        <value>La description à montrer quand PowerShell Universal est en train de charger</value>
+        <value>La description à afficher quand PowerShell Universal est en train de charger. </value>
   </data>
   <data name="LoadingPageTitle" xml:space="preserve">
         <value>En cours de charger le titre de la page</value>
   </data>
   <data name="LoadingPageTitleDescription" xml:space="preserve">
-        <value>Le titre à montrer quand PowerShell Universal charge</value>
+        <value>Le titre à afficher quand PowerShell Universal charge.</value>
   </data>
   <data name="Local" xml:space="preserve">
         <value>Local</value>
@@ -538,10 +538,10 @@
         <value>Comptes locals sont enregistrés dans la base de données de PowerShell Universal</value>
   </data>
   <data name="LocalModulesDescription" xml:space="preserve">
-        <value>Modules qui sont installés dans vos environnements PowerShell</value>
+        <value>Modules qui sont installés dans votre environnements PowerShell</value>
   </data>
   <data name="LoggingDescription" xml:space="preserve">
-        <value>Historique diagnostique de PowerShell Universal</value>
+        <value>Historique de diagnostique PowerShell Universal</value>
   </data>
   <data name="MaintenanceMode" xml:space="preserve">
         <value>Mode maintenance</value>
@@ -610,7 +610,7 @@
         <value>Données de sortie pré-formatées de la tâche</value>
   </data>
   <data name="PreformattedJobOutputDescription" xml:space="preserve">
-        <value>Données de sortie pré-formatées  de la tâche en exécutant une tâche. Améliore la performance mais ne permet pas de cacher les horodatages.</value>
+        <value>Données de sortie préformatées de la tâche executée. Améliore la performance mais ne permet pas de cacher les horodatages.</value>
   </data>
   <data name="ProductTitle" xml:space="preserve">
         <value>PowerShell Universal</value>
@@ -631,7 +631,7 @@
         <value>Dossiers publiés</value>
   </data>
   <data name="PublishedFoldersDescription" xml:space="preserve">
-        <value>Partager les fichiers avec HTTP de PowerShell Universal</value>
+        <value>Partager les fichiers via HTTP de PowerShell Universal</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
         <value>Date de sortie</value>
@@ -1097,5 +1097,404 @@
   </data>
   <data name="LoginPageLayout" xml:space="preserve">
     <value>Mise en page de la page d'accueil</value>
+  </data>
+  <data name="MaxVirtualMemoryHelp" xml:space="preserve">
+    <value>La mémoire virtuelle maximale (en mégaoctets) autorisée pour les processus dans cet environnement avant d'être terminés.</value>
+  </data>
+  <data name="StartupScriptHelp" xml:space="preserve">
+    <value>Scripts qui sont exécutés chaque fois qu'un nouvel espace d'exécution est créé dans cet environnement.</value>
+  </data>
+  <data name="LoadMetaDataDescription" xml:space="preserve">
+    <value>Chargement des métadonnées concernant la configuration SAML2 à partir de l'URL du document de métadonnées.</value>
+  </data>
+  <data name="NotRun" xml:space="preserve">
+    <value>Non exécuté</value>
+  </data>
+  <data name="TotalTests" xml:space="preserve">
+    <value>Total des tests</value>
+  </data>
+  <data name="TestSuites" xml:space="preserve">
+    <value>Suites de tests</value>
+  </data>
+  <data name="TestSuite" xml:space="preserve">
+    <value>Suite de test</value>
+  </data>
+  <data name="TestSuiteDescription" xml:space="preserve">
+    <value>Résultats d'une exécution de test.</value>
+  </data>
+  <data name="ProcessesDescription" xml:space="preserve">
+    <value>Processus qui ont été démarrés directement par le service PowerShell Universal.</value>
+  </data>
+  <data name="SystemIdentityHelp" xml:space="preserve">
+    <value>Ce jeton d'application doit être utilisé par un processus système automatisé et n'est pas associé à un utilisateur.</value>
+  </data>
+  <data name="UserIdentity" xml:space="preserve">
+    <value>Identité de l'utilisateur</value>
+  </data>
+  <data name="SystemIdentity" xml:space="preserve">
+    <value>Identité du système</value>
+  </data>
+  <data name="NameIdFormat" xml:space="preserve">
+    <value>Format de l'ID du nom</value>
+  </data>
+  <data name="NameIdFormatDescription" xml:space="preserve">
+    <value>Le format de l'ID du nom à demander au fournisseur d'identité. Si aucune spécification n'est faite, tout format d'ID du nom peut être utilisé.</value>
+  </data>
+  <data name="PeriodHelp" xml:space="preserve">
+    <value>La période pendant laquelle la validité des décomptes de requêtes est appliquée.</value>
+  </data>
+  <data name="LimitHelp" xml:space="preserve">
+    <value>Le nombre maximum de requêtes autorisées par période.</value>
+  </data>
+  <data name="RateLimitUrlHelp" xml:space="preserve">
+    <value>L'URL sur laquelle appliquer cette limite de débit. Prend en charge les caractères génériques (*).</value>
+  </data>
+  <data name="RateLimitMethodHelp" xml:space="preserve">
+    <value>La méthode HTTP à laquelle appliquer cette limite de débit.</value>
+  </data>
+  <data name="RateLimitsDescription" xml:space="preserve">
+    <value>Limiter le nombre de requêtes aux API sur une période définie.</value>
+  </data>
+  <data name="HomeModule" xml:space="preserve">
+    <value>Commencez avec les modules</value>
+  </data>
+  <data name="HomeModuleDescription" xml:space="preserve">
+    <value>Parcourez la PowerShell Universal Gallery pour découvrir une variété de modules que vous pouvez utiliser pour créer des applications, des API et des scripts d'automatisation. </value>
+  </data>
+  <data name="ViewModules" xml:space="preserve">
+    <value>Parcourir les modules</value>
+  </data>
+  <data name="AccountLicenseKeyHelp" xml:space="preserve">
+    <value>Cette licence est associée à un compte utilisateur ou organisationnel et se renouvelera automatiquement.</value>
+  </data>
+  <data name="RepositoryModules" xml:space="preserve">
+    <value>Modules disponibles dans la galerie PowerShell (dépôts de ressources).</value>
+  </data>
+  <data name="VariablesDescription" xml:space="preserve">
+    <value>Variables définies dans les environnements PowerShell Universal.</value>
+  </data>
+  <data name="UseLogoSize" xml:space="preserve">
+    <value>Utiliser la taille du logo</value>
+  </data>
+  <data name="UseLogoSizeDescription" xml:space="preserve">
+    <value>Utilise le logo de la console d'administration configuré sans le redimensionner.</value>
+  </data>
+  <data name="RepositoryPath" xml:space="preserve">
+    <value>Chemin du dépôt</value>
+  </data>
+  <data name="ScriptBaseFolder" xml:space="preserve">
+    <value>Dossier racine du script</value>
+  </data>
+  <data name="ScriptBaseFolderDescription" xml:space="preserve">
+    <value>Un dossier au sein du dépôt pour stocker les scripts. Modifier ce paramètre nécessite de redémarrer le service PowerShell Universal.</value>
+  </data>
+  <data name="SecurityEnvironmentDescription" xml:space="preserve">
+    <value>L'environnement à utiliser pour les scripts d'authentification via formulaire et les politiques d'autorisation.</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Sélectionnez un fichier pour voir et modifier son contenu.</value>
+  </data>
+  <data name="TagsDescription" xml:space="preserve">
+    <value>Tags pour les ressources de PowerShell Universal.</value>
+  </data>
+  <data name="RolesDescription" xml:space="preserve">
+    <value>Rôles pouvant être attribués aux applications et aux utilisateurs se connectant à PowerShell Universal.</value>
+  </data>
+  <data name="RevocationDate" xml:space="preserve">
+    <value>Date de révocation</value>
+  </data>
+  <data name="ShowRevoked" xml:space="preserve">
+    <value>Afficher les révocations</value>
+  </data>
+  <data name="TriggersDescription" xml:space="preserve">
+    <value>Exécuter des scripts lorsque des événements se produisent dans PowerShell Universal.</value>
+  </data>
+  <data name="TriggerType" xml:space="preserve">
+    <value>Type de déclencheur</value>
+  </data>
+  <data name="TriggerScript" xml:space="preserve">
+    <value>Script de déclenchement</value>
+  </data>
+  <data name="RunIn" xml:space="preserve">
+    <value>Exécuter dans</value>
+  </data>
+  <data name="RunOn" xml:space="preserve">
+    <value>Executer sur</value>
+  </data>
+  <data name="ScheduledJobs" xml:space="preserve">
+    <value>Tâches planifiées</value>
+  </data>
+  <data name="RunningApps" xml:space="preserve">
+    <value>Applications en cours d'exécution</value>
+  </data>
+  <data name="TimeStamp" xml:space="preserve">
+    <value>Horodatage</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Réinitialiser le mot de passe</value>
+  </data>
+  <data name="VerifyPassword" xml:space="preserve">
+    <value>Vérifier le mot de passe</value>
+  </data>
+  <data name="ViewJobs" xml:space="preserve">
+    <value>Voir les jobs</value>
+  </data>
+  <data name="ViewTaggedResources" xml:space="preserve">
+    <value>Voir les ressources taguées</value>
+  </data>
+  <data name="TaggedResourcesDescription" xml:space="preserve">
+    <value>Ressources avec cette étiquette attribuée.</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Créé</value>
+  </data>
+  <data name="LastRead" xml:space="preserve">
+    <value>Dernière lecture</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Expiration</value>
+  </data>
+  <data name="SlidingExpiration" xml:space="preserve">
+    <value>Expiration glissante</value>
+  </data>
+  <data name="AbsoluteExpirationRelativeToNow" xml:space="preserve">
+    <value>Expiration absolue relative à maintenant</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="CacheDescription" xml:space="preserve">
+    <value>Données mises en cache dans PowerShell Universal.</value>
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
+    <value>Fichier téléchargé avec succès !</value>
+  </data>
+  <data name="UploadFailure" xml:space="preserve">
+    <value>Échec du téléchargement du fichier !</value>
+  </data>
+  <data name="ProvidedByModule" xml:space="preserve">
+    <value>Fourni par le module {0}.</value>
+  </data>
+  <data name="LibraryDescription" xml:space="preserve">
+    <value>Modules conçus pour fonctionner avec PowerShell Universal.</value>
+  </data>
+  <data name="ImportFromLibrary" xml:space="preserve">
+    <value>Importer depuis la galerie</value>
+  </data>
+  <data name="Contribute" xml:space="preserve">
+    <value>Contribuer</value>
+  </data>
+  <data name="EditOnGitHub" xml:space="preserve">
+    <value>Modifier sur GitHub</value>
+  </data>
+  <data name="LibraryResources" xml:space="preserve">
+    <value>Modules de la galerie</value>
+  </data>
+  <data name="BlazorDescription" xml:space="preserve">
+    <value>Créer des applications avec Blazor et PowerShell.</value>
+  </data>
+  <data name="RunLater" xml:space="preserve">
+    <value>Executer plus tard</value>
+  </data>
+  <data name="FailedToStartScript" xml:space="preserve">
+    <value>Échec du démarrage du script.</value>
+  </data>
+  <data name="ScriptScheduled" xml:space="preserve">
+    <value>Script planifié</value>
+  </data>
+  <data name="DayOfTheWeek" xml:space="preserve">
+    <value>Jour de la semaine</value>
+  </data>
+  <data name="DayOfTheMonth" xml:space="preserve">
+    <value>Jour du mois</value>
+  </data>
+  <data name="SpecificDay" xml:space="preserve">
+    <value>Certain jours de la semaine</value>
+  </data>
+  <data name="ApiError" xml:space="preserve">
+    <value>Erreur API</value>
+  </data>
+  <data name="ApiAuthenticationFailed" xml:space="preserve">
+    <value>Échec de l'authentification API</value>
+  </data>
+  <data name="DashboardStarted" xml:space="preserve">
+    <value>Application PowerShell démarrée</value>
+  </data>
+  <data name="DashboardStopped" xml:space="preserve">
+    <value>Application PowerShell arrêtée</value>
+  </data>
+  <data name="JobFailed" xml:space="preserve">
+    <value>Travail échoué</value>
+  </data>
+  <data name="JobCompleted" xml:space="preserve">
+    <value>Travail terminé</value>
+  </data>
+  <data name="JobTimedOut" xml:space="preserve">
+    <value>Délai d'expiration du travail atteint</value>
+  </data>
+  <data name="PasteLicense" xml:space="preserve">
+    <value>Coller la licence</value>
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>Licence expirée</value>
+  </data>
+  <data name="LicenseExpiring" xml:space="preserve">
+    <value>Licence expirant</value>
+  </data>
+  <data name="ExpiringLicenseInfo" xml:space="preserve">
+    <value>Une licence expire bientôt.</value>
+  </data>
+  <data name="ServerStarted" xml:space="preserve">
+    <value>Serveur démarré</value>
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
+    <value>Serveur arrêté</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>Connexion utilisateur</value>
+  </data>
+  <data name="RevokedAppTokenUsage" xml:space="preserve">
+    <value>Utilisation du jeton d'application révoquée</value>
+  </data>
+  <data name="HealthCheckFailed" xml:space="preserve">
+    <value>Échec de la vérification de l'état de santé</value>
+  </data>
+  <data name="DashboardSessionExpired" xml:space="preserve">
+    <value>Session du tableau de bord expirée</value>
+  </data>
+  <data name="JobFeedbackRequested" xml:space="preserve">
+    <value>Retour d'information du travail demandé</value>
+  </data>
+  <data name="NewUserLogin" xml:space="preserve">
+    <value>Nouvelle connexion utilisateur</value>
+  </data>
+  <data name="BrandingDescription" xml:space="preserve">
+    <value>Personnalisez le texte et les couleurs de PowerShell Universal.</value>
+  </data>
+  <data name="AdminConsoleTitle" xml:space="preserve">
+    <value>Titre de la console d'administration</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Droits d'auteur</value>
+  </data>
+  <data name="RandomDelay" xml:space="preserve">
+    <value>Délai aléatoire</value>
+  </data>
+  <data name="RandomDelayHelp" xml:space="preserve">
+    <value>Lorsqu'il est activé, le programme sera retardé entre 0 et 60 secondes avant de commencer. </value>
+  </data>
+  <data name="RunAsHelp" xml:space="preserve">
+    <value>Les informations d'identification de l'utilisateur pour exécuter en tant que.</value>
+  </data>
+  <data name="RunOnHelp" xml:space="preserve">
+    <value>L'ordinateur ou le groupe d'ordinateurs sur lequel exécuter le travail.</value>
+  </data>
+  <data name="Cron" xml:space="preserve">
+    <value>CRON</value>
+  </data>
+  <data name="CronHelp" xml:space="preserve">
+    <value>Une expression CRON pour cet horaire.</value>
+  </data>
+  <data name="Telemetry" xml:space="preserve">
+    <value>Télémetrie</value>
+  </data>
+  <data name="SimpleScheduleHelp" xml:space="preserve">
+    <value>Horaires couramment utilisés.</value>
+  </data>
+  <data name="KeepHistoryHelp" xml:space="preserve">
+    <value>Stocke toutes les entrées et sorties de l'utilisation du terminal.</value>
+  </data>
+  <data name="TerminalIdleTimeoutHelp" xml:space="preserve">
+    <value>Le nombre de minutes avant que les terminaux inactifs ne soient terminés.</value>
+  </data>
+  <data name="TriggerScriptHelp" xml:space="preserve">
+    <value>Le script qui s'exécute lorsque ce type d'événement est déclenché.</value>
+  </data>
+  <data name="EventTypeHelp" xml:space="preserve">
+    <value>Le type d'événement dans PowerShell Universal qui déclenche l'exécution du déclencheur.</value>
+  </data>
+  <data name="TriggerAppHelp" xml:space="preserve">
+    <value>L'application qui cause l'exécution du script par ce déclencheur.</value>
+  </data>
+  <data name="TriggerScriptScriptHelp" xml:space="preserve">
+    <value>Le script qui fait que ce déclencheur s'exécute.</value>
+  </data>
+  <data name="ComputerTagsHelp" xml:space="preserve">
+    <value>Les ordinateurs portant les étiquettes sélectionnées feront partie de ce groupe d'ordinateurs.</value>
+  </data>
+  <data name="PublishedFoldersPathHelp" xml:space="preserve">
+    <value>Le chemin de fichier local pour servir les fichiers. Si ce chemin est relatif, il l'est par rapport au répertoire du dépôt.</value>
+  </data>
+  <data name="RequestPathHelp" xml:space="preserve">
+    <value>L'URL relative pour accéder aux fichiers dans le dossier local.</value>
+  </data>
+  <data name="SecretTypeHelp" xml:space="preserve">
+    <value>Le type de données pour ce secret.</value>
+  </data>
+  <data name="SecretValueHelp" xml:space="preserve">
+    <value>La valeur de ce secret.</value>
+  </data>
+  <data name="VaultsHelp" xml:space="preserve">
+    <value>Le coffre-fort secret dans lequel stocker le secret.</value>
+  </data>
+  <data name="DisableRunAsSupport" xml:space="preserve">
+    <value>Désactiver la prise en charge de l'exécution en tant que</value>
+  </data>
+  <data name="DisableRunAsSupportHelp" xml:space="preserve">
+    <value>Empêche l'utilisation du PSCredential pour l'élévation des travaux. </value>
+  </data>
+  <data name="LanguageIDHelp" xml:space="preserve">
+    <value>L'étiquette de langue pour cette traduction. Par exemple : en-US</value>
+  </data>
+  <data name="VariableScopeHelp" xml:space="preserve">
+    <value>Les variables à portée globale sont créées lorsque des ressources telles que des API et des applications sont démarrées. Les variables à portée de script sont lues lors de l'exécution.</value>
+  </data>
+  <data name="StoreInDatabaseHelp" xml:space="preserve">
+    <value>La valeur de la variable est stockée dans la base de données plutôt que dans variables.ps1</value>
+  </data>
+  <data name="VariableTypeHelp" xml:space="preserve">
+    <value>Le type de données de cette variable.</value>
+  </data>
+  <data name="LocalAccountHelp" xml:space="preserve">
+    <value>Les comptes locaux sont stockés avec leurs identifiants dans la base de données.</value>
+  </data>
+  <data name="ClaimTypeHelp" xml:space="preserve">
+    <value>Les utilisateurs correspondant à la revendication et au type de valeur recevront ce rôle.</value>
+  </data>
+  <data name="IdentityHelp" xml:space="preserve">
+    <value>L'identité de ce jeton d'application.</value>
+  </data>
+  <data name="AppTokenRoleHelp" xml:space="preserve">
+    <value>Les rôles attribués à ce jeton d'application.</value>
+  </data>
+  <data name="ExpirationHelp" xml:space="preserve">
+    <value>La date d'expiration de ce jeton d'application.</value>
+  </data>
+  <data name="IdentityRoleHelp" xml:space="preserve">
+    <value>Rôles attribués à cette identité. Si non défini, des rôles seront appliqués par la politique.</value>
+  </data>
+  <data name="EnvironmentPathHelp" xml:space="preserve">
+    <value>Le chemin absolu ou relatif vers un exécutable à lancer pour cet environnement. Par exemple : pwsh.exe</value>
+  </data>
+  <data name="EnvironmentArgsHelp" xml:space="preserve">
+    <value>Arguments à passer à l'exécutable lors du démarrage de cet environnement.</value>
+  </data>
+  <data name="MinimalHelp" xml:space="preserve">
+    <value>Les environnements minimaux ne chargent pas les assemblies de PowerShell Universal et peuvent prendre en charge d'autres langages. Ils sont uniquement pris en charge avec des tâches.</value>
+  </data>
+  <data name="MaxRunspacesHelp" xml:space="preserve">
+    <value>Le nombre maximum d'espaces d'exécution à démarrer dans un environnement à chemins multiples comme PowerShell Apps et APIs.</value>
+  </data>
+  <data name="MaxVirutalMemoryHelp" xml:space="preserve">
+    <value>La mémoire virtuelle maximale qu'un environnement peut utiliser avant d'être brutalement terminé.</value>
+  </data>
+  <data name="PersistentRunspaceHelp" xml:space="preserve">
+    <value>Empêche la réinitialisation de l'état des espaces d'exécution entre les invocations. Ce paramètre n'affecte que les fonctionnalités longue durée telles que les applications et les API. </value>
+  </data>
+  <data name="CustomModulesDescription" xml:space="preserve">
+    <value>Les modules du dépôt sont stockés dans le dépôt PowerShell Universal. Ces modules sont disponibles dans tous les environnements.</value>
+  </data>
+  <data name="CustomModules" xml:space="preserve">
+    <value>Modules du dépôt</value>
   </data>
 </root>
