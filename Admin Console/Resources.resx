@@ -2586,4 +2586,40 @@
   <data name="SshKey" xml:space="preserve">
     <value>SSH Key</value>
   </data>
+  <data name="ImportScripts" xml:space="preserve">
+    <value>Import Scripts</value>
+  </data>
+  <data name="ImportScript" xml:space="preserve">
+    <value>Import Script</value>
+  </data>
+  <data name="UploadScript" xml:space="preserve">
+    <value>Upload Script</value>
+  </data>
+  <data name="EditVsCode" xml:space="preserve">
+    <value>Edit in VS Code</value>
+  </data>
+  <data name="EditVsCodeInsiders" xml:space="preserve">
+    <value>Edit in VS Code Insiders</value>
+  </data>
+  <data name="PasswordExpirationDaysDescription" xml:space="preserve">
+    <value>The number of days before a local account's password expires.</value>
+  </data>
+  <data name="PasswordLength" xml:space="preserve">
+    <value>Password Length</value>
+  </data>
+  <data name="PasswordExpirationDays" xml:space="preserve">
+    <value>Password Expiration Days</value>
+  </data>
+  <data name="PasswordLengthDescription" xml:space="preserve">
+    <value>The number of characters required for a local account password.</value>
+  </data>
+  <data name="ClearSelectedNotifications" xml:space="preserve">
+    <value>Clear Selected Notifications</value>
+  </data>
+  <data name="IdleTimeoutDescription" xml:space="preserve">
+    <value>You have been logged out due to inactivity. Please log in again.</value>
+  </data>
+  <data name="EditModeDescription" xml:space="preserve">
+    <value>Switch between code-first and UI edit modes.</value>
+  </data>
 </root>

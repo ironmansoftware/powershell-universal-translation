@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="MaxVirtualMemoryHelp" xml:space="preserve">
+    <value>Максимальний об'єм віртуальної пам'яті (у мегабайтах), що дозволено використовувати процесу у цьому оточенні до того, як його буде припинено.</value>
+  </data>
+  <data name="StartupScriptHelp" xml:space="preserve">
+    <value>Скрипти, що виконуються щоразу при створенні нового простору виконання у цьому оточенні.</value>
+  </data>
+  <data name="LoadMetaDataDescription" xml:space="preserve">
+    <value>Завантажити метадані SAML2 конфігурації з URL, що містить документ з метаданими.</value>
+  </data>
+  <data name="LoadMetaData" xml:space="preserve">
+    <value>Завантажити метадані</value>
+  </data>
+  <data name="RunTest" xml:space="preserve">
+    <value>Виконати Тест</value>
+  </data>
+  <data name="TestResults" xml:space="preserve">
+    <value>Результати Тесту</value>
+  </data>
+  <data name="TestFiles" xml:space="preserve">
+    <value>Тестові Файли</value>
+  </data>
+  <data name="Tests" xml:space="preserve">
+    <value>Тести</value>
+  </data>
+  <data name="RunAllTests" xml:space="preserve">
+    <value>Виконати Всі Тести</value>
+  </data>
+  <data name="NotRun" xml:space="preserve">
+    <value>Не Виконувався</value>
+  </data>
+  <data name="TotalTests" xml:space="preserve">
+    <value>Всього Тестів</value>
+  </data>
+  <data name="TestCases" xml:space="preserve">
+    <value>Тестові Випадки</value>
+  </data>
+  <data name="TestSuites" xml:space="preserve">
+    <value>Тестові Набори</value>
+  </data>
+  <data name="TestSuite" xml:space="preserve">
+    <value>Тестовий Набір</value>
+  </data>
+  <data name="TestSuiteDescription" xml:space="preserve">
+    <value>Результати виконання тесту.</value>
+  </data>
+  <data name="ProcessesDescription" xml:space="preserve">
+    <value>Процеси, що були запущені безпосередньо сервісом PowerShell Universal.</value>
+  </data>
+  <data name="SystemIdentity" xml:space="preserve">
+    <value>Ідентифікатор Системи</value>
+  </data>
+  <data name="NameIdFormat" xml:space="preserve">
+    <value>Формат Ідентифікатору Імені</value>
+  </data>
+  <data name="LimitHelp" xml:space="preserve">
+    <value>Максимальна кількість запитів за період.</value>
+  </data>
+  <data name="RateLimitMethodHelp" xml:space="preserve">
+    <value>HTTP метод до якого буде застосовано обмеження кількості запитів.</value>
+  </data>
+  <data name="ViewPage" xml:space="preserve">
+    <value>Дивитися Сторінку</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>PowerShell Universal</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Дім</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Завдання</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="JobsDescription" xml:space="preserve">
+    <value>Завдання виконуються в PowerShell Universal.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="ExecutionTime" xml:space="preserve">
+    <value>Час Виконання</value>
+  </data>
+  <data name="EndpointDocumentation" xml:space="preserve">
+    <value>Документація Точок Входу</value>
+  </data>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>Привіт, Світе!</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="Unlicensed" xml:space="preserve">
+    <value>Немає ліцензії</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Увімкнено</value>
+  </data>
+  <data name="AdminConsoleReadOnly" xml:space="preserve">
+    <value>Консоль Адміністратора у режимі Тільки на Читання.</value>
+  </data>
+  <data name="Computers" xml:space="preserve">
+    <value>Комп'ютери</value>
+  </data>
+  <data name="AddTag" xml:space="preserve">
+    <value>Додати Мітку</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+  <data name="Portal" xml:space="preserve">
+    <value>Портал</value>
+  </data>
+  <data name="ApiDocumentation" xml:space="preserve">
+    <value>API Документація</value>
+  </data>
+  <data name="PagesDescription" xml:space="preserve">
+    <value>Динамічний інтерфейс побудований за допомогою PSBlazor</value>
+  </data>
+  <data name="RequestPath" xml:space="preserve">
+    <value>Шлях Запиту</value>
+  </data>
+  <data name="Local" xml:space="preserve">
+    <value>Локальні</value>
+  </data>
+  <data name="PowerShellUniversal" xml:space="preserve">
+    <value>PowerShell Universal</value>
+  </data>
+  <data name="PowerShellUniversalModules" xml:space="preserve">
+    <value>Доступні Модулі у Магазині PowerShell Universal, що розширюють платформу.</value>
+  </data>
+  <data name="LoggingDescription" xml:space="preserve">
+    <value>Діагностичне журналювання PowerShell Universal.</value>
+  </data>
+  <data name="Console" xml:space="preserve">
+    <value>Консоль</value>
+  </data>
+  <data name="ConsoleTitle" xml:space="preserve">
+    <value>Назва Консолі Адміністратора</value>
+  </data>
+  <data name="ConsoleTitleDescription" xml:space="preserve">
+    <value>Заголовок, що відображається в консолі адміністратора.</value>
+  </data>
+  <data name="ConsoleLogo" xml:space="preserve">
+    <value>Логотип Консолі Адміністратора</value>
+  </data>
+  <data name="ConsoleLogoDescription" xml:space="preserve">
+    <value>Логотип, що відображається в заголовку консолі адміністратора.</value>
+  </data>
+  <data name="UseLogoSize" xml:space="preserve">
+    <value>Використовувати Наступній Розмір Логотипу</value>
+  </data>
+  <data name="UseLogoSizeDescription" xml:space="preserve">
+    <value>Використовує налаштований логотип консолі адміністратора без зміни його розміру.</value>
+  </data>
+  <data name="FavoriteIcon" xml:space="preserve">
+    <value>Улюблена Іконка</value>
+  </data>
+  <data name="FavoriteIconDescription" xml:space="preserve">
+    <value>Іконка, що відображатиметься у вкладці браузера.</value>
+  </data>
+  <data name="HideUserInterfaceFeatures" xml:space="preserve">
+    <value>Приховати Функції Інтерфейсу Користувача</value>
+  </data>
+  <data name="HideHomePage" xml:space="preserve">
+    <value>Приховати Домашню Сторінку</value>
+  </data>
+  <data name="DefaultDarkTheme" xml:space="preserve">
+    <value>Темна Тема За Замовчуванням</value>
+  </data>
+  <data name="TestsDescription" xml:space="preserve">
+    <value>Виконати Pester тести и відстежити результати.</value>
+  </data>
+  <data name="SystemIdentityHelp" xml:space="preserve">
+    <value>Цей програмний токен має використовуватися автоматизованим системним процесом і не пов’язуватися з користувачем.</value>
+  </data>
+  <data name="UserIdentity" xml:space="preserve">
+    <value>Ідентифікатор Користувача</value>
+  </data>
+  <data name="NameIdFormatDescription" xml:space="preserve">
+    <value>Формат ідентифікатора імені, який потрібно запитувати у постачальника ідентифікаційних даних. Якщо не вказано, можна використовувати будь-який формат ідентифікатора імені.</value>
+  </data>
+  <data name="PeriodHelp" xml:space="preserve">
+    <value>Період на протязі якого застосовується лічильник запитів.</value>
+  </data>
+  <data name="HomeDescription" xml:space="preserve">
+    <value>Інформація щодо вашого PowerShell Universal оточення.</value>
+  </data>
+  <data name="SystemLoading" xml:space="preserve">
+    <value>PowerShell Universal запускається...</value>
+  </data>
+  <data name="ViewJob" xml:space="preserve">
+    <value>Дивитися Завдання</value>
+  </data>
+  <data name="RateLimitUrlHelp" xml:space="preserve">
+    <value>URL до якого буде застосовано обмеження кількості запитів. Підтримуються шаблони (*).</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Не Знайдено</value>
+  </data>
+  <data name="VaultsDescription" xml:space="preserve">
+    <value>Сховища Секретів налаштовані у PowerShell Secret Management.</value>
+  </data>
+  <data name="DefaultSecurityDescription" xml:space="preserve">
+    <value>Налаштування безпеки за замовчуванням. Використовуйте ці значення якщо будете синхронізуватися з існуючим git репозиторієм. Ви завжди можете змінити ці значення пізніше.</value>
+  </data>
+  <data name="SystemLoadFailed" xml:space="preserve">
+    <value>PowerShell Universal не зміг запуститися. Перевірте журнали для отримання додаткової інформації.</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Завдання</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="Authentication" xml:space="preserve">
+    <value>Автентифікація</value>
+  </data>
+  <data name="SessionTimeout" xml:space="preserve">
+    <value>Тайм-аут Сесії</value>
+  </data>
+  <data name="Licensed" xml:space="preserve">
+    <value>Є ліцензія</value>
+  </data>
+  <data name="EditResource" xml:space="preserve">
+    <value>Редагувати {0}</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="ViewResource" xml:space="preserve">
+    <value>Дивитися {0}</value>
+  </data>
+  <data name="ViewProperties" xml:space="preserve">
+    <value>Дивитися Властивості</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ім'я</value>
+  </data>
+  <data name="CreateResource" xml:space="preserve">
+    <value>Створити {0}</value>
+  </data>
+  <data name="ComputerDescription" xml:space="preserve">
+    <value>Комп'ютери доступні через платформу PowerShell Universal.</value>
+  </data>
+  <data name="Modules" xml:space="preserve">
+    <value>Модулі</value>
+  </data>
+  <data name="EditProperties" xml:space="preserve">
+    <value>Редагувати Властивості</value>
+  </data>
+  <data name="MaintenanceMode" xml:space="preserve">
+    <value>Режим Обслуговування</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Призупинено</value>
+  </data>
+  <data name="GitSyncPausedDescription" xml:space="preserve">
+    <value>Синхронізація git наразі призупинена та не отримує змін.</value>
+  </data>
+  <data name="PublishedFoldersDescription" xml:space="preserve">
+    <value>Обмін файлами через HTTP з PowerShell Universal.</value>
+  </data>
+  <data name="PublishedFolders" xml:space="preserve">
+    <value>Опубліковані Теки</value>
+  </data>
+  <data name="Repositories" xml:space="preserve">
+    <value>Репозиторії</value>
+  </data>
+  <data name="LocalModulesDescription" xml:space="preserve">
+    <value>Модулі, що встановлені у вашому оточенні PowerShell.</value>
+  </data>
+  <data name="GeneralDescription" xml:space="preserve">
+    <value>Основні налаштування PowerShell Universal.</value>
+  </data>
+  <data name="ModulesDescription" xml:space="preserve">
+    <value>Керування модулями PowerShell у вашому середовищі PowerShell Universal</value>
+  </data>
+  <data name="VariablesDescription" xml:space="preserve">
+    <value>Змінні, що визначені у оточенні PowerShell Universal.</value>
+  </data>
+  <data name="ScriptsDescription" xml:space="preserve">
+    <value>PowerShell скрипти, що можна виконувати вручну або за розкладом.</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Надіслати</value>
+  </data>
+  <data name="RepositoryModules" xml:space="preserve">
+    <value>Модулі, доступні в галереях PowerShell (репозиторіях ресурсів).</value>
+  </data>
+  <data name="HideAPIFeatures" xml:space="preserve">
+    <value>Приховати Функції API</value>
+  </data>
+  <data name="HideAutomationFeatures" xml:space="preserve">
+    <value>Приховати Функції Автоматизації</value>
+  </data>
+  <data name="DefaultDarkThemeDescription" xml:space="preserve">
+    <value>Тема за замовчуванням для нових користувачів.</value>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>Автоматизація</value>
+  </data>
+  <data name="ConcurrentJobLimit" xml:space="preserve">
+    <value>Ліміт Одночасних Завдань</value>
+  </data>
+  <data name="HideEnvironment" xml:space="preserve">
+    <value>Приховати Оточення</value>
+  </data>
+  <data name="HideRunAs" xml:space="preserve">
+    <value>Приховати Запуск від Імені</value>
+  </data>
+  <data name="PreformattedJobOutputDescription" xml:space="preserve">
+    <value>Попередньо відформатований вивід завдання під час його виконання. Покращує продуктивність, але не дозволяє приховувати позначки часу.</value>
+  </data>
+  <data name="DefaultAppsTheme" xml:space="preserve">
+    <value>Тема Додатку за Замовченням</value>
+  </data>
+  <data name="DefaultAppsThemeDescription" xml:space="preserve">
+    <value>Тема за замовченням для додатків, якщо тема не встановлена. </value>
+  </data>
+  <data name="Branding" xml:space="preserve">
+    <value>Брендування</value>
+  </data>
+  <data name="LoadingPageTitle" xml:space="preserve">
+    <value>Заголовок Сторінки Завантаження</value>
+  </data>
+  <data name="LoadingPageTitleDescription" xml:space="preserve">
+    <value>Заголовок, що відображається коли PowerShell Universal завантажується.</value>
+  </data>
+  <data name="LoadingPageDescription" xml:space="preserve">
+    <value>Опис Сторінки Завантаження</value>
+  </data>
+  <data name="LoadingPageDescriptionDescription" xml:space="preserve">
+    <value>Опис, що відображається коли PowerShell Universal завантажується. </value>
+  </data>
+  <data name="PageNotFoundTitle" xml:space="preserve">
+    <value>Заголовок Сторінки "Не знайдено"</value>
+  </data>
+  <data name="PageNotFoundTitleDescription" xml:space="preserve">
+    <value>Заголовок, що відображається, якщо сторінка не знайдена.</value>
+  </data>
+  <data name="PageNotFoundDescription" xml:space="preserve">
+    <value>Опис Сторінки "Не Знайдено"</value>
+  </data>
+  <data name="PageNotFoundDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися якщо сторінка не знайдена.</value>
+  </data>
+  <data name="NotAuthorizedDescription" xml:space="preserve">
+    <value>Опис "Не Авторизовано"</value>
+  </data>
+  <data name="AppNotRunningDescription" xml:space="preserve">
+    <value>Опис "Додаток Не Виконується"</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Дані</value>
+  </data>
+  <data name="ScriptBaseFolderDescription" xml:space="preserve">
+    <value>Тека у репозиторії для зберігання скриптів. Зміна цього налаштування потребує перезавантаження сервісу PowerShell Universal.</value>
+  </data>
+  <data name="DataRetention" xml:space="preserve">
+    <value>Зберігання Даних</value>
+  </data>
+  <data name="DatabaseLogRetentionDescription" xml:space="preserve">
+    <value>Скільки днів зберігати журнали у базі даних.</value>
+  </data>
+  <data name="DataGroomInterval" xml:space="preserve">
+    <value>Інтервал Очищення Даних</value>
+  </data>
+  <data name="JobHandshakeTimeout" xml:space="preserve">
+    <value>Тайм-аут Встановлення Зв'язку із Завданням</value>
+  </data>
+  <data name="Hide Environment" xml:space="preserve">
+    <value>Приховує вибір середовища під час запуску або планування завдань.</value>
+  </data>
+  <data name="ConcurrentJobLimitDescription" xml:space="preserve">
+    <value>Максимальна кількість завдань, що можуть виконуються одночасно.</value>
+  </data>
+  <data name="JobHandshakeTimeoutDescription" xml:space="preserve">
+    <value>Кількість секунд очікування початку завдання.</value>
+  </data>
+  <data name="PreformattedJobOutput" xml:space="preserve">
+    <value>Попередньо Відформатований Вивід Завдання</value>
+  </data>
+  <data name="HideRunOn" xml:space="preserve">
+    <value>Приховати Запуск На</value>
+  </data>
+  <data name="HideRunAsDescription" xml:space="preserve">
+    <value>Приховує вибір "запустити від імені" під час виконання або планування завдань.</value>
+  </data>
+  <data name="HideRunOnDescription" xml:space="preserve">
+    <value>Приховує вибір "запустити на" під час виконання або планування завдань.</value>
+  </data>
+  <data name="DataGroomIntervalDescription" xml:space="preserve">
+    <value>З якою частотою, у хвилинах, дані будуть очищатися з PowerShell Universal.</value>
+  </data>
+  <data name="APIEnvironment" xml:space="preserve">
+    <value>API Оточення</value>
+  </data>
+  <data name="ScriptBaseFolder" xml:space="preserve">
+    <value>Базова Тека Скриптів</value>
+  </data>
+  <data name="DataRetentionDescription" xml:space="preserve">
+    <value>Скільки днів зберігати такі дані, як завдання, історія терміналу та сесії користувачів.</value>
+  </data>
+  <data name="DatabaseLogRetention" xml:space="preserve">
+    <value>Зберігання Журналу Базі Даних</value>
+  </data>
+  <data name="NotAuthorizedDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися коли користувач не авторизований для перегляду сторінки.</value>
+  </data>
+  <data name="AppNotRunningDescriptionDescription" xml:space="preserve">
+    <value>Опис, що буде відображатися користувачу при спробі подивитися додаток, що не виконується.</value>
+  </data>
+  <data name="RepositoryPath" xml:space="preserve">
+    <value>Шлях до Репозиторію</value>
+  </data>
+  <data name="DefaultEnvironment" xml:space="preserve">
+    <value>Оточення За Замовченням</value>
+  </data>
+  <data name="SecurityEnvironment" xml:space="preserve">
+    <value>Безпекове середовище</value>
+  </data>
+  <data name="DontLoadRunAsProfiles" xml:space="preserve">
+    <value>Не Завантажувати Профіль "Виконати Від Імені"</value>
+  </data>
+  <data name="Platform" xml:space="preserve">
+    <value>Платформа</value>
+  </data>
+  <data name="ContentSecurityPolicy" xml:space="preserve">
+    <value>Політика Безпеки Контенту</value>
+  </data>
+  <data name="DisableAutoReload" xml:space="preserve">
+    <value>Вимкнути Автоматичне Перезавантаження</value>
+  </data>
+  <data name="DisableAutoReloadDescription" xml:space="preserve">
+    <value>Вимикає спостерігач файлової системи, що використовується для завантаження файлів з диска у PowerShell Universal.</value>
+  </data>
+  <data name="DisableFormatOnSave" xml:space="preserve">
+    <value>Вимкнути "Форматування при Збереженні"</value>
+  </data>
+  <data name="EnhancedAppTokenSecurity" xml:space="preserve">
+    <value>Покращена Безпека Токенів Додатків</value>
+  </data>
+  <data name="LimitIdentities" xml:space="preserve">
+    <value>Обмеження Ідентифікаторів</value>
+  </data>
+  <data name="DisableUpdateCheck" xml:space="preserve">
+    <value>Вимкнути Перевірку Оновлень</value>
+  </data>
+  <data name="ProxyURL" xml:space="preserve">
+    <value>URL проксі-сервера</value>
+  </data>
+  <data name="ProxyURLDescription" xml:space="preserve">
+    <value>Встановлює URL-адресу проксі-сервера, яка використовуватиметься під час зв'язку із зовнішніми сервісами, такими як git та сервіс оновлення.</value>
+  </data>
+  <data name="ProxyCredential" xml:space="preserve">
+    <value>Облікові дані проксі-сервера</value>
+  </data>
+  <data name="ProxyCredentialDescription" xml:space="preserve">
+    <value>Ім'я змінної, яка має бути PSCredential, що використовується для доступу до проксі-сервера.</value>
+  </data>
+  <data name="FallbackLanguageID" xml:space="preserve">
+    <value>Ідентифікатор резервної мови</value>
+  </data>
+  <data name="FallbackLanguageIDDescription" xml:space="preserve">
+    <value>Мова, до якої слід повернутися, коли для локалізації користувача немає доступної мови.</value>
+  </data>
+  <data name="ConfigurationFileSplatting" xml:space="preserve">
+    <value>Сплатінг файлу конфігурації</value>
+  </data>
+  <data name="ContentSecurityPolicyDescription" xml:space="preserve">
+    <value>Політика безпеки контенту (CSP) – це додатковий рівень безпеки, який допомагає виявляти та усувати певні типи атак, включаючи міжсайтовий скриптинг (XSS) та атаки з використанням ін’єкцій даних.</value>
+  </data>
+  <data name="APIEnvironmentDescription" xml:space="preserve">
+    <value>Оточення за замовченням для використання у API точках входу, що не мають його встановленим. </value>
+  </data>
+  <data name="SecurityEnvironmentDescription" xml:space="preserve">
+    <value>Середовище, що використовується для скриптів з формами автентифікації та політиками авторизації.</value>
+  </data>
+  <data name="DontLoadRunAsProfilesDescription" xml:space="preserve">
+    <value>Не завантажує профілі під час запуску зовнішніх середовищ. Стосується лише Windows.</value>
+  </data>
+  <data name="DefaultEnvironmentDescription" xml:space="preserve">
+    <value>Оточення за замовченням для використання коли функція не має його встановленим. </value>
+  </data>
+  <data name="LimitIdentitiesDescription" xml:space="preserve">
+    <value>Забороняє користувачам входити в PowerShell Universal, яких не було додано на сторінку ідентифікаційних даних. </value>
+  </data>
+  <data name="DisableFormatOnSaveDescription" xml:space="preserve">
+    <value>Запобігає запуску Invoke-Formatter PSScriptAnalyzer у скриптах під час збереження у PowerShell Universal.</value>
+  </data>
+  <data name="EnhancedAppTokenSecurityDescription" xml:space="preserve">
+    <value>Коли цей параметр увімкнено, токени додатків зберігаються в базі даних як хеші, а не як значення токенів. Увімкнення цього параметра анулює всі існуючі токени додатків.</value>
+  </data>
+  <data name="ConfigurationFileSplattingDescription" xml:space="preserve">
+    <value>PowerShell Universal використовуватиме сплатінг під час запису файлів конфігурації.</value>
+  </data>
+  <data name="ModuleDiscoveryFrequency" xml:space="preserve">
+    <value>Частота Виявлення Модулів</value>
+  </data>
+</root>
