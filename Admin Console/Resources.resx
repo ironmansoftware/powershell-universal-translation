@@ -2619,4 +2619,7 @@
   <data name="IdleTimeoutDescription" xml:space="preserve">
     <value>You have been logged out due to inactivity. Please log in again.</value>
   </data>
+  <data name="EditModeDescription" xml:space="preserve">
+    <value>Switch between code-first and UI edit modes.</value>
+  </data>
 </root>
