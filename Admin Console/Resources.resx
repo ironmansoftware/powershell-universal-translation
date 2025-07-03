@@ -2622,4 +2622,25 @@
   <data name="EditModeDescription" xml:space="preserve">
     <value>Switch between code-first and UI edit modes.</value>
   </data>
+  <data name="DisableCodeFirst" xml:space="preserve">
+    <value>Disable Code First Editing</value>
+  </data>
+  <data name="DisableCodeFirstDescription" xml:space="preserve">
+    <value>Disables the ability to toggle code first editing in the admin console.</value>
+  </data>
+  <data name="ClientId" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="ClientSecret" xml:space="preserve">
+    <value>Client Secret</value>
+  </data>
+  <data name="ResponseType" xml:space="preserve">
+    <value>Response Type</value>
+  </data>
+  <data name="RequireMfa" xml:space="preserve">
+    <value>Require MFA</value>
+  </data>
+  <data name="GetClaimsFromUserInfoEndpoint" xml:space="preserve">
+    <value>Get Claims from the user info endpoint</value>
+  </data>
 </root>
