@@ -2497,4 +2497,7 @@
   <data name="EventHubConnected" xml:space="preserve">
     <value>Event Hub tilsluttet</value>
   </data>
+  <data name="EveryMonth" xml:space="preserve">
+    <value>Hver monat</value>
+  </data>
 </root>
