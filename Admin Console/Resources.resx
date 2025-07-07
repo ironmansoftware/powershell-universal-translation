@@ -2622,4 +2622,34 @@
   <data name="EditModeDescription" xml:space="preserve">
     <value>Switch between code-first and UI edit modes.</value>
   </data>
+  <data name="DisableCodeFirst" xml:space="preserve">
+    <value>Disable Code First Editing</value>
+  </data>
+  <data name="DisableCodeFirstDescription" xml:space="preserve">
+    <value>Disables the ability to toggle code first editing in the admin console.</value>
+  </data>
+  <data name="ClientId" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="ClientSecret" xml:space="preserve">
+    <value>Client Secret</value>
+  </data>
+  <data name="ResponseType" xml:space="preserve">
+    <value>Response Type</value>
+  </data>
+  <data name="RequireMfa" xml:space="preserve">
+    <value>Require MFA</value>
+  </data>
+  <data name="GetClaimsFromUserInfoEndpoint" xml:space="preserve">
+    <value>Get Claims from the user info endpoint</value>
+  </data>
+  <data name="FirstRunWizardDescription" xml:space="preserve">
+    <value>Welcome to PowerShell Universal! This wizard will configure some basic settings. You can always change these later. First, let's select whether this is a new install or you are cloning the configuration from git.</value>
+  </data>
+  <data name="ConfirmAppPowerAction" xml:space="preserve">
+    <value>Are you sure you want to perform this power action? This app is marked as Critical.</value>
+  </data>
+  <data name="EveryMonth" xml:space="preserve">
+    <value>Every Month</value>
+  </data>
 </root>
