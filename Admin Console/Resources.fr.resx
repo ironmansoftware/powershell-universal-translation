@@ -1656,4 +1656,7 @@
   <data name="All" xml:space="preserve">
     <value>Tous</value>
   </data>
+  <data name="EveryMonth" xml:space="preserve">
+    <value>Chaque mois</value>
+  </data>
 </root>
