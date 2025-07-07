@@ -2643,4 +2643,13 @@
   <data name="GetClaimsFromUserInfoEndpoint" xml:space="preserve">
     <value>Get Claims from the user info endpoint</value>
   </data>
+  <data name="FirstRunWizardDescription" xml:space="preserve">
+    <value>Welcome to PowerShell Universal! This wizard will configure some basic settings. You can always change these later. First, let's select whether this is a new install or you are cloning the configuration from git.</value>
+  </data>
+  <data name="ConfirmAppPowerAction" xml:space="preserve">
+    <value>Are you sure you want to perform this power action? This app is marked as Critical.</value>
+  </data>
+  <data name="EveryMonth" xml:space="preserve">
+    <value>Every Month</value>
+  </data>
 </root>
