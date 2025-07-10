@@ -2652,4 +2652,7 @@
   <data name="EveryMonth" xml:space="preserve">
     <value>Every Month</value>
   </data>
+  <data name="MoreInformation" xml:space="preserve">
+    <value>More Information</value>
+  </data>
 </root>
