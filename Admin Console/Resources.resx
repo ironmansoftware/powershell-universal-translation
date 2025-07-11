@@ -349,7 +349,7 @@
         <value>Git sync is currently paused and not pulling changes.</value>
   </data>
   <data name="EditResource" xml:space="preserve">
-        <value>Edit {0}</value>
+        <value>Edit {0} Properties</value>
   </data>
   <data name="CreateResource" xml:space="preserve">
         <value>Create {0}</value>
@@ -2620,7 +2620,7 @@
     <value>You have been logged out due to inactivity. Please log in again.</value>
   </data>
   <data name="EditModeDescription" xml:space="preserve">
-    <value>Switch between code-first and UI edit modes.</value>
+    <value>Web editing allows changes in the admin console. VS Code editing allows changes to be made on disk within the repository folder.</value>
   </data>
   <data name="DisableCodeFirst" xml:space="preserve">
     <value>Disable Code First Editing</value>
@@ -2654,5 +2654,23 @@
   </data>
   <data name="MoreInformation" xml:space="preserve">
     <value>More Information</value>
+  </data>
+  <data name="ResolveGroupSid" xml:space="preserve">
+    <value>Resolve Group Name from SID</value>
+  </data>
+  <data name="ClaimInformationDescription" xml:space="preserve">
+    <value>Claim information is provided by the identity provider and used to assign roles in PowerShell Universal.</value>
+  </data>
+  <data name="SshKeys" xml:space="preserve">
+    <value>SSH Keys</value>
+  </data>
+  <data name="SshKeysDescription" xml:space="preserve">
+    <value>Create and manage SSH keys used to authenticate with Git.</value>
+  </data>
+  <data name="PermissionDrawerDescription" xml:space="preserve">
+    <value>Manage permissions for this resource.</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
   </data>
 </root>
