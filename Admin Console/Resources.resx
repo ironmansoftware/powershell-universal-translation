@@ -2673,4 +2673,7 @@
   <data name="FullName" xml:space="preserve">
     <value>Full Name</value>
   </data>
+  <data name="RemoteIPv6Address" xml:space="preserve">
+    <value>Remote IPv6 Address</value>
+  </data>
 </root>
