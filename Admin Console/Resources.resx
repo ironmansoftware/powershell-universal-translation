@@ -2676,4 +2676,7 @@
   <data name="RemoteIPv6Address" xml:space="preserve">
     <value>Remote IPv6 Address</value>
   </data>
+  <data name="StatusType" xml:space="preserve">
+    <value>Status Type</value>
+  </data>
 </root>
