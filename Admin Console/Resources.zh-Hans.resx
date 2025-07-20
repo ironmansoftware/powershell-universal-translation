@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Tests" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>日志信息</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>任务列表</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>动作</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Methods" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="Environments" xml:space="preserve">
+    <value>环境</value>
+  </data>
 </root>
