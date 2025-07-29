@@ -2682,4 +2682,7 @@
   <data name="GitOwnerError" xml:space="preserve">
     <value>The current user is not the owner of the local file system directory for this git repository. This can happen if the service account changed since the repository was originally created. Do you want to set the owner to the current user?</value>
   </data>
+  <data name="ShowTests" xml:space="preserve">
+    <value>Show Tests</value>
+  </data>
 </root>
