@@ -2688,4 +2688,7 @@
   <data name="JobCompletedWithError" xml:space="preserve">
     <value>Job completed with errors</value>
   </data>
+  <data name="SyncAllNow" xml:space="preserve">
+    <value>Synchronize All Computers Now</value>
+  </data>
 </root>
