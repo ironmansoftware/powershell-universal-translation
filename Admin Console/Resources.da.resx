@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -2499,5 +2499,119 @@
   </data>
   <data name="EveryMonth" xml:space="preserve">
     <value>Hver monat</value>
+  </data>
+  <data name="SyncAllNow" xml:space="preserve">
+    <value>Synkroniser alle computere nu</value>
+  </data>
+  <data name="UseTokenLifetime" xml:space="preserve">
+    <value>Brug token livstid</value>
+  </data>
+  <data name="CorrelationCookieSameSite" xml:space="preserve">
+    <value>Korrelationscookie samme websted</value>
+  </data>
+  <data name="ComputerOffline" xml:space="preserve">
+    <value>Computer offline</value>
+  </data>
+  <data name="GitSync" xml:space="preserve">
+    <value>Git sync</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>Kritisk</value>
+  </data>
+  <data name="CriticalHelp" xml:space="preserve">
+    <value>Når denne app stoppes, returnerer statusslutpunktet for load balancer en statuskode 500.</value>
+  </data>
+  <data name="LoginPageLayout" xml:space="preserve">
+    <value>Login sidelayout</value>
+  </data>
+  <data name="LoginPageCssStylesheet" xml:space="preserve">
+    <value>CSS-stylark for loginside</value>
+  </data>
+  <data name="PortalOpenInNewWindow" xml:space="preserve">
+    <value>Åbn i nyt vindue</value>
+  </data>
+  <data name="PortalOpenInNewWindowHelp" xml:space="preserve">
+    <value>Åbn denne ressource i et nyt vindue.</value>
+  </data>
+  <data name="RemoteComputer" xml:space="preserve">
+    <value>Fjerncomputer</value>
+  </data>
+  <data name="RemoteIPAddress" xml:space="preserve">
+    <value>Fjern IP-adresse</value>
+  </data>
+  <data name="ConnectionId" xml:space="preserve">
+    <value>Forbindelses-id</value>
+  </data>
+  <data name="PortalBehavior" xml:space="preserve">
+    <value>Portaladfærd</value>
+  </data>
+  <data name="PortalBehaviorHelp" xml:space="preserve">
+    <value>Definerer, hvordan dette script opfører sig, når det tilføjes til portalen.</value>
+  </data>
+  <data name="PortalLeaveForm" xml:space="preserve">
+    <value>Forlad formularen</value>
+  </data>
+  <data name="PortalLeaveFormHelp" xml:space="preserve">
+    <value>Lad formularen til scriptet blive på siden, når scriptet er kørt.</value>
+  </data>
+  <data name="PortalDisplayOutputOnExecute" xml:space="preserve">
+    <value>Vis output under udførelse</value>
+  </data>
+  <data name="PortalDisplayOutputOnExecuteHelp" xml:space="preserve">
+    <value>Viser outputtet fra scriptet, mens scriptet udføres.</value>
+  </data>
+  <data name="DisplayForm" xml:space="preserve">
+    <value>Vis formular</value>
+  </data>
+  <data name="LastRun" xml:space="preserve">
+    <value>Sidste kørsel</value>
+  </data>
+  <data name="LastRunForUser" xml:space="preserve">
+    <value>Sidste kørsel for bruger</value>
+  </data>
+  <data name="RunOnLoad" xml:space="preserve">
+    <value>Kør ved indlæsning</value>
+  </data>
+  <data name="HideNavigation" xml:space="preserve">
+    <value>Skjul navigation</value>
+  </data>
+  <data name="GitConflict" xml:space="preserve">
+    <value>Git konflikt</value>
+  </data>
+  <data name="GitConflictDescription" xml:space="preserve">
+    <value>Der er en konflikt mellem det lokale og eksterne arkiv. Løs konflikten, før du committer.</value>
+  </data>
+  <data name="CommittingChanges" xml:space="preserve">
+    <value>Forpligte ændringer</value>
+  </data>
+  <data name="SecretRoleWarning" xml:space="preserve">
+    <value>Hvis du tildeler roller til en hemmelighed, forhindres den i at være tilgængelig i planlagte scripts.</value>
+  </data>
+  <data name="PublishedFolder" xml:space="preserve">
+    <value>Udgivet Folder</value>
+  </data>
+  <data name="LoginPageFontColor" xml:space="preserve">
+    <value>Skriftfarve på loginsiden</value>
+  </data>
+  <data name="LoginPageBackgroundColor" xml:space="preserve">
+    <value>Login-side baggrundsfarve</value>
+  </data>
+  <data name="LoginPageImageSize" xml:space="preserve">
+    <value>Login side billedstørrelse</value>
+  </data>
+  <data name="RecycleSchedule" xml:space="preserve">
+    <value>Genbrugsskema</value>
+  </data>
+  <data name="RecycleScheduleHelp" xml:space="preserve">
+    <value>Et CRON-udtryk, der bruges til at styre, hvor ofte ressourcer i dette miljø genstartes. Hvis det er tomt, vil miljøgenbrug ikke finde sted.</value>
+  </data>
+  <data name="DisableDatabaseVaultDescription" xml:space="preserve">
+    <value>Deaktiverer databasens hvælving for hemmelige variabler.</value>
+  </data>
+  <data name="DisableDatabaseVault" xml:space="preserve">
+    <value>Deaktiver Database Vault</value>
+  </data>
+  <data name="FetchRemoteBranches" xml:space="preserve">
+    <value>Hent eksterne grene</value>
   </data>
 </root>
