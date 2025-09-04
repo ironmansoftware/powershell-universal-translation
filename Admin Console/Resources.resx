@@ -1387,7 +1387,7 @@
         <value>The value of this secret.</value>
   </data>
   <data name="UserNameHelp" xml:space="preserve">
-        <value></value>
+        <value />
   </data>
   <data name="VaultsHelp" xml:space="preserve">
         <value>The secret vault to store the secret within.</value>
@@ -2035,7 +2035,7 @@
         <value>View Claim Information</value>
   </data>
   <data name="PersistentRunspace" xml:space="preserve">
-        <value></value>
+        <value />
   </data>
   <data name="UploadLicense" xml:space="preserve">
         <value>Upload License from File</value>
@@ -2690,5 +2690,17 @@
   </data>
   <data name="SyncAllNow" xml:space="preserve">
     <value>Synchronize All Computers Now</value>
+  </data>
+  <data name="EditModeDisabledDescription" xml:space="preserve">
+    <value>Edit mode toggling is disabled due to administrative settings.</value>
+  </data>
+  <data name="NotGitOwnerWarning" xml:space="preserve">
+    <value>PowerShell Universal detected that the local repository is not owned by the current user. This can cause issues with git synchronization. Click to fix this issue.</value>
+  </data>
+  <data name="NotGitOwner" xml:space="preserve">
+    <value>Not Git Owner</value>
+  </data>
+  <data name="InstallForAllUsers" xml:space="preserve">
+    <value>Install for All Users</value>
   </data>
 </root>
