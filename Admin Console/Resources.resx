@@ -2703,4 +2703,7 @@
   <data name="InstallForAllUsers" xml:space="preserve">
     <value>Install for All Users</value>
   </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>What's New?</value>
+  </data>
 </root>
