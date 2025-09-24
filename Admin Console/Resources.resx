@@ -2706,4 +2706,7 @@
   <data name="WhatsNew" xml:space="preserve">
     <value>What's New?</value>
   </data>
+  <data name="LogsSentToSupport" xml:space="preserve">
+    <value>Logs sent to support.</value>
+  </data>
 </root>
