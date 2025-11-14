@@ -2715,4 +2715,13 @@
   <data name="CustomExpirationDaysHelp" xml:space="preserve">
     <value>The number of days before this app token expires.</value>
   </data>
+  <data name="ExternalGitCredentialWarning" xml:space="preserve">
+    <value>When using an external git client, the username and password or API token will be provided as part of the URL. Consider using SSH keys instead.</value>
+  </data>
+  <data name="SshKeyHelp" xml:space="preserve">
+    <value>SSH key for authenticating against the remote.</value>
+  </data>
+  <data name="CredentialType" xml:space="preserve">
+    <value>Credential Type</value>
+  </data>
 </root>
