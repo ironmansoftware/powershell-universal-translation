@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MaxVirtualMemoryHelp" xml:space="preserve">
+    <value>A maximális virtuális memória (megabájtban), amelyet a folyamatok ebben a környezetben használhatnak, mielőtt leállnak.</value>
+  </data>
+  <data name="StartupScriptHelp" xml:space="preserve">
+    <value>Azok a szkriptek, amelyek minden alkalommal futnak, amikor új futtatási terület jön létre ebben a környezetben.</value>
+  </data>
+  <data name="LoadMetaDataDescription" xml:space="preserve">
+    <value>A SAML2 konfiguráció metaadatainak betöltése a metaadat-dokumentum URL-címéről.</value>
+  </data>
+  <data name="LoadMetaData" xml:space="preserve">
+    <value>Metaadatok betöltése</value>
+  </data>
+  <data name="RunTest" xml:space="preserve">
+    <value>Teszt futtatása</value>
+  </data>
+  <data name="TestResults" xml:space="preserve">
+    <value>Teszt Eredmények</value>
+  </data>
+  <data name="TestFiles" xml:space="preserve">
+    <value>Teszt állományok</value>
+  </data>
+  <data name="TestsDescription" xml:space="preserve">
+    <value>Pester tesztek végrehajtása és eredmények nyomon követése.</value>
+  </data>
+  <data name="Tests" xml:space="preserve">
+    <value>Tesztek</value>
+  </data>
+  <data name="RunAllTests" xml:space="preserve">
+    <value>Összes teszt futtatása</value>
+  </data>
+  <data name="NotRun" xml:space="preserve">
+    <value>Nem Fut</value>
+  </data>
+  <data name="TotalTests" xml:space="preserve">
+    <value>Összes Teszt</value>
+  </data>
+  <data name="TestCases" xml:space="preserve">
+    <value>Teszt Esetek</value>
+  </data>
+  <data name="TestSuites" xml:space="preserve">
+    <value>Teszt Készletek</value>
+  </data>
+  <data name="TestSuite" xml:space="preserve">
+    <value>Teszt Készlet</value>
+  </data>
+  <data name="TestSuiteDescription" xml:space="preserve">
+    <value>Egy teszt futás eredménye.</value>
+  </data>
+  <data name="ProcessesDescription" xml:space="preserve">
+    <value>A PowerShell Universal szolgáltatás által közvetlenül elindított folyamatok.</value>
+  </data>
+  <data name="SystemIdentityHelp" xml:space="preserve">
+    <value>Ezt az alkalmazás-token-t egy automatizált rendszerfolyamat használja, és nem egy felhasználóhoz kapcsolódik.</value>
+  </data>
+  <data name="UserIdentity" xml:space="preserve">
+    <value>Felhasználói identitás</value>
+  </data>
+  <data name="SystemIdentity" xml:space="preserve">
+    <value>Rendszer identitás</value>
+  </data>
+  <data name="NameIdFormat" xml:space="preserve">
+    <value>Név ID formátum</value>
+  </data>
+  <data name="NameIdFormatDescription" xml:space="preserve">
+    <value>A névazonosító formátum, amelyet a személyazonossági szolgáltatótól kérni kell. Ha nincs megadva, bármilyen névazonosító formátum használható.</value>
+  </data>
+  <data name="PeriodHelp" xml:space="preserve">
+    <value>Az az időszak, amelyre a kérések számlálásra kerülnek..</value>
+  </data>
+  <data name="LimitHelp" xml:space="preserve">
+    <value>A kérések maximális száma az adott időszakban.</value>
+  </data>
+  <data name="RateLimitUrlHelp" xml:space="preserve">
+    <value>Az URL, amelyre ezt a sebességkorlátozást érvényesíteni kell. Támogatja a helyettesítő kifejezéseket (*).</value>
+  </data>
+  <data name="RateLimitMethodHelp" xml:space="preserve">
+    <value>A HTTP-módszer, amelyre ezt a sebességkorlátozást érvényesíteni kell.</value>
+  </data>
+  <data name="RateLimitsDescription" xml:space="preserve">
+    <value>Korlátozza az API-khoz intézett kérések számát egy meghatározott időszak alatt.</value>
+  </data>
+  <data name="HomeModule" xml:space="preserve">
+    <value>Bevezetés a Modulokba</value>
+  </data>
+  <data name="HomeModuleDescription" xml:space="preserve">
+    <value>A PowerShell Universal Galleryben számos olyan modult talál, amelyekkel alkalmazásokat, API-kat és automatizálási parancsfájlokat készíthet. </value>
+  </data>
+  <data name="ViewModules" xml:space="preserve">
+    <value>Modulok böngészése</value>
+  </data>
+  <data name="AccountLicenseKeyHelp" xml:space="preserve">
+    <value>Ez a licenc egy felhasználói vagy szervezeti fiókhoz kapcsolódik, és automatikusan megújul.</value>
+  </data>
+  <data name="AccountLicenseDescription" xml:space="preserve">
+    <value>Adja meg a felhasználó vagy szervezet fióklicencét. Ha rendelkezik licencfájllal, akkor azt a varázsló befejezése után az admin-konzolon adhatja meg.</value>
+  </data>
+  <data name="CallbackPath" xml:space="preserve">
+    <value>Callback útvonal</value>
+  </data>
+  <data name="CallbackPathDescription" xml:space="preserve">
+    <value>Az az útvonal, amelyet a SAML2 azonosítószolgáltató visszairányít a PowerShell Universalhoz.</value>
+  </data>
+  <data name="MetadataAddress" xml:space="preserve">
+    <value>Metaadat cím</value>
+  </data>
+  <data name="MetadataAddressDescription" xml:space="preserve">
+    <value>A SAML2 metaadat dokumentum URL címe.</value>
+  </data>
+  <data name="SigningKey" xml:space="preserve">
+    <value>Aláíró kulcs</value>
+  </data>
+  <data name="SigningKeyDescription" xml:space="preserve">
+    <value>A tanúsítvány aláíró kulcsának elérési útvonala a kiszolgálón.</value>
+  </data>
+  <data name="EntityId" xml:space="preserve">
+    <value>Entitás ID</value>
+  </data>
+  <data name="EntityIdDescription" xml:space="preserve">
+    <value>A SAML entitás azonosítója.</value>
+  </data>
+  <data name="IdentityProviderEntityId" xml:space="preserve">
+    <value>Identitásszolgáltató entitás ID</value>
+  </data>
+  <data name="IdentityProviderEntityIdDescription" xml:space="preserve">
+    <value>A SAML Identitásszolgáltató (IdP) entitás azonosítója</value>
+  </data>
+  <data name="ServiceCertificate" xml:space="preserve">
+    <value>Szolgáltatás tanúsítvány</value>
+  </data>
+  <data name="ServiceCertificateDescription" xml:space="preserve">
+    <value>A kiszolgálói tanúsítvány elérési útvonala a kiszolgálón.</value>
+  </data>
+  <data name="SingleSignOnServiceUrl" xml:space="preserve">
+    <value>Egyszeri bejelentkezés szolgáltatás URL-je</value>
+  </data>
+  <data name="SingleSignOnServiceUrlDescription" xml:space="preserve">
+    <value>Az IdP egyszeri bejelentkezési szolgáltatásának URL-címe.</value>
+  </data>
+  <data name="AllowUnsolicitedAuthnResponse" xml:space="preserve">
+    <value>Kéretlen Authn válaszadás engedélyezése.</value>
+  </data>
+  <data name="AllowUnsolicitedAuthnResponseDescription" xml:space="preserve">
+    <value>Engedélyezi a kéretlen auth-válaszokat az IdP által kezdeményezett hitelesítéshez.</value>
+  </data>
+  <data name="DefaultRunOnDescription" xml:space="preserve">
+    <value>Az alapértelmezett számítógép vagy számítógépcsoport, amelyen a parancsfájlokat futtatni kell, ha nincs kiválasztva.</value>
+  </data>
+  <data name="DefaultRunOn" xml:space="preserve">
+    <value>Alapértelmezett futtatás helye</value>
+  </data>
+  <data name="ListSourceCode" xml:space="preserve">
+    <value>Forráskód listázása</value>
+  </data>
+  <data name="VaultsDescription" xml:space="preserve">
+    <value>A PowerShell Secret Management-ben beállított titkos tárolók.</value>
+  </data>
+  <data name="ViewPage" xml:space="preserve">
+    <value>Oldal megtekintése</value>
+  </data>
+</root>
